@@ -1,0 +1,26 @@
+
+== 机构和国家 (200 samples) ==
+  机构和国家: 10/200
+  机构和国家: 20/200
+  机构和国家: 30/200
+  机构和国家: 40/200
+  机构和国家: 50/200
+  机构和国家: 60/200
+  机构和国家: 70/200
+  机构和国家: 80/200
+  机构和国家: 90/200
+  机构和国家: 100/200
+  机构和国家: 110/200
+  机构和国家: 120/200
+  机构和国家: 130/200
+  机构和国家: 140/200
+  机构和国家: 150/200
+  机构和国家: 160/200
+  机构和国家: 170/200
+  机构和国家: 180/200
+  机构和国家: 190/200
+  机构和国家: 200/200
+
+JSON: reports/shortprompt_current/qwen35_4b_nlu_prod_org_country_shortprompt_current.json
+Markdown: reports/shortprompt_current/qwen35_4b_nlu_prod_org_country_shortprompt_current.md
+CSV: reports/shortprompt_current/qwen35_4b_nlu_prod_org_country_shortprompt_current_details.csv

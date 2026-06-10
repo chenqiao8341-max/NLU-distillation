@@ -1,0 +1,26 @@
+
+== topic和keywords (200 samples) ==
+  topic和keywords: 10/200
+  topic和keywords: 20/200
+  topic和keywords: 30/200
+  topic和keywords: 40/200
+  topic和keywords: 50/200
+  topic和keywords: 60/200
+  topic和keywords: 70/200
+  topic和keywords: 80/200
+  topic和keywords: 90/200
+  topic和keywords: 100/200
+  topic和keywords: 110/200
+  topic和keywords: 120/200
+  topic和keywords: 130/200
+  topic和keywords: 140/200
+  topic和keywords: 150/200
+  topic和keywords: 160/200
+  topic和keywords: 170/200
+  topic和keywords: 180/200
+  topic和keywords: 190/200
+  topic和keywords: 200/200
+
+JSON: reports/shortprompt/qwen35_0_8b_nlu_prod_topic_keywords_shortprompt.json
+Markdown: reports/shortprompt/qwen35_0_8b_nlu_prod_topic_keywords_shortprompt.md
+CSV: reports/shortprompt/qwen35_0_8b_nlu_prod_topic_keywords_shortprompt_details.csv

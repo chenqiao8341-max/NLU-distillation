@@ -1,0 +1,26 @@
+
+== 时间和if值 (200 samples) ==
+  时间和if值: 10/200
+  时间和if值: 20/200
+  时间和if值: 30/200
+  时间和if值: 40/200
+  时间和if值: 50/200
+  时间和if值: 60/200
+  时间和if值: 70/200
+  时间和if值: 80/200
+  时间和if值: 90/200
+  时间和if值: 100/200
+  时间和if值: 110/200
+  时间和if值: 120/200
+  时间和if值: 130/200
+  时间和if值: 140/200
+  时间和if值: 150/200
+  时间和if值: 160/200
+  时间和if值: 170/200
+  时间和if值: 180/200
+  时间和if值: 190/200
+  时间和if值: 200/200
+
+JSON: reports/shortprompt_current/qwen35_0_8b_nlu_prod_time_if_shortprompt_current.json
+Markdown: reports/shortprompt_current/qwen35_0_8b_nlu_prod_time_if_shortprompt_current.md
+CSV: reports/shortprompt_current/qwen35_0_8b_nlu_prod_time_if_shortprompt_current_details.csv

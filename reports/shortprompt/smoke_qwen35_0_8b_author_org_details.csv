@@ -1,0 +1,11 @@
+﻿task_type,query,GT_author_name,GT_author_name英文变体,GT_author_institution,PRED_author_name,PRED_author_name英文变体,PRED_author_institution,raw_output,parsed_output
+作者和机构,同济大学附属第十人民医院王平医生的学术合作者及密切相关的研究作者有哪些？,王平,"<variant>Wang Ping</variant>
+<variant>Ping Wang</variant>
+<variant>Wang P.</variant>
+<variant>P. Wang</variant>
+<variant>Wang, Ping</variant>
+<variant>Ping, Wang</variant>
+<variant>Wang P</variant>
+<variant>Wang-Ping</variant>
+<variant>Ping-Wang</variant>
+<variant>Wang, P.</variant>",同济大学附属第十人民医院,"王平；Wang Ping；Ping Wang；Wang P.；P. Wang；Wang, Ping；Ping, Wang；Wang Ping-Ping；Wang P. P.；Wang, P.；P., Wang",,同济大学附属第十人民医院,"{""data"": {""result"": ""{\""author_name\"":\""王平；Wang Ping；Ping Wang；Wang P.；P. Wang；Wang, Ping；Ping, Wang；Wang Ping-Ping；Wang P. P.；Wang, P.；P., Wang\"",\""author_name英文变体\"":\""\"",\""author_institution\"":\""同济大学附属第十人民医院\""}""}, ""raw_openai"": {""id"": ""chatcmpl-55c71e000e2d4c898c6c3b6ae91329d0"", ""object"": ""chat.completion"", ""created"": 1781061729, ""model"": ""qwen35-0.8b-author-org"", ""choices"": [{""index"": 0, ""message"": {""role"": ""assistant"", ""content"": ""{\""author_name\"":\""王平；Wang Ping；Ping Wang；Wang P.；P. Wang；Wang, Ping；Ping, Wang；Wang Ping-Ping；Wang P. P.；Wang, P.；P., Wang\"",\""author_name英文变体\"":\""\"",\""author_institution\"":\""同济大学附属第十人民医院\""}""}, ""finish_reason"": ""stop""}], ""usage"": {""prompt_tokens"": 112, ""completion_tokens"": 70, ""total_tokens"": 182}}}","{""author_name"": ""王平；Wang Ping；Ping Wang；Wang P.；P. Wang；Wang, Ping；Ping, Wang；Wang Ping-Ping；Wang P. P.；Wang, P.；P., Wang"", ""author_name英文变体"": """", ""author_institution"": ""同济大学附属第十人民医院""}"

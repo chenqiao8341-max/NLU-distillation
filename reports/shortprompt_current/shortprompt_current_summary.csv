@@ -1,0 +1,11 @@
+﻿model,task_type,samples,Average-EM,Average-Partial,Average-F1,Null-accuracy,json
+qwen35-0.8b-author-org,作者和机构,200,0.10843373493975904,0.1646586345381526,0.2794198938385592,0.9512195121951219,qwen35_0_8b_nlu_prod_author_org_shortprompt_current.json
+qwen35-4b-author-org,作者和机构,200,0.5491803278688525,0.8729508196721312,0.83908088562358,0.964769647696477,qwen35_4b_nlu_prod_author_org_shortprompt_current.json
+qwen35-0.8b-data-type,data_type,200,0.8235294117647058,0.8235294117647058,0.8349673202614379,0.98,qwen35_0_8b_nlu_prod_data_type_shortprompt_current.json
+qwen35-4b-data-type,data_type,200,0.71,0.72,0.7216666666666667,1.0,qwen35_4b_nlu_prod_data_type_shortprompt_current.json
+qwen35-0.8b-org-country,机构和国家,200,0.625,0.6458333333333334,0.6435185185185186,0.8533333333333334,qwen35_0_8b_nlu_prod_org_country_shortprompt_current.json
+qwen35-4b-org-country,机构和国家,200,0.6893939393939394,0.7196969696969697,0.7218234981392876,0.8933333333333333,qwen35_4b_nlu_prod_org_country_shortprompt_current.json
+qwen35-0.8b-time-if,时间和if值,200,0.7377049180327869,0.7377049180327869,0.7696721311475411,0.9883381924198251,qwen35_0_8b_nlu_prod_time_if_shortprompt_current.json
+qwen35-4b-time-if,时间和if值,200,0.7983193277310925,0.7983193277310925,0.8226890756302522,0.9927113702623906,qwen35_4b_nlu_prod_time_if_shortprompt_current.json
+qwen35-0.8b-topic-keywords,topic和keywords,200,0.125,0.21474358974358973,0.1991696337850184,0.42105263157894735,qwen35_0_8b_nlu_prod_topic_keywords_shortprompt_current.json
+qwen35-4b-topic-keywords,topic和keywords,200,0.028846153846153848,0.0625,0.04391025641025641,0.9186602870813397,qwen35_4b_nlu_prod_topic_keywords_shortprompt_current.json
