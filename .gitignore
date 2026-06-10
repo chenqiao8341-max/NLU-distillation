@@ -25,6 +25,10 @@ data/raw/
 *.onnx
 *.gguf
 models/**/checkpoints/
+experiments/modernbert_ner/
+experiments/modernbert_globalpointer/
+experiments/modernbert_globalpointer_smoke/
+experiments/modernbert_single_slot/
 experiments/runs/
 experiments/tensorboard/
 experiments/wandb/
