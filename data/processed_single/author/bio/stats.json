@@ -1,0 +1,48 @@
+{
+  "slot": "author",
+  "label": "AUTHOR",
+  "splits": {
+    "train": {
+      "rows": 3176,
+      "positive_rows": 1533,
+      "empty_rows": 1643,
+      "entities": 2716,
+      "missed_spans": 0,
+      "source_counts": {
+        "author_org_train": 3176
+      }
+    },
+    "valid": {
+      "rows": 396,
+      "positive_rows": 208,
+      "empty_rows": 188,
+      "entities": 345,
+      "missed_spans": 0,
+      "source_counts": {
+        "author_org_valid": 396
+      }
+    },
+    "test": {
+      "rows": 200,
+      "positive_rows": 100,
+      "empty_rows": 100,
+      "entities": 148,
+      "missed_spans": 0,
+      "source_counts": {
+        "eval_author_org": 200
+      }
+    },
+    "all": {
+      "rows": 3772,
+      "positive_rows": 1841,
+      "empty_rows": 1931,
+      "entities": 3209,
+      "missed_spans": 0,
+      "source_counts": {
+        "author_org_train": 3176,
+        "author_org_valid": 396,
+        "eval_author_org": 200
+      }
+    }
+  }
+}

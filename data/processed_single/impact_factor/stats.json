@@ -1,0 +1,48 @@
+{
+  "slot": "impact_factor",
+  "label": "IMPACT_FACTOR",
+  "splits": {
+    "train": {
+      "rows": 4000,
+      "positive_rows": 446,
+      "empty_rows": 3554,
+      "entities": 447,
+      "missed_spans": 0,
+      "source_counts": {
+        "time_if_train": 4000
+      }
+    },
+    "valid": {
+      "rows": 500,
+      "positive_rows": 63,
+      "empty_rows": 437,
+      "entities": 63,
+      "missed_spans": 0,
+      "source_counts": {
+        "time_if_valid": 500
+      }
+    },
+    "test": {
+      "rows": 200,
+      "positive_rows": 9,
+      "empty_rows": 191,
+      "entities": 9,
+      "missed_spans": 0,
+      "source_counts": {
+        "eval_time_if": 200
+      }
+    },
+    "all": {
+      "rows": 4700,
+      "positive_rows": 518,
+      "empty_rows": 4182,
+      "entities": 519,
+      "missed_spans": 0,
+      "source_counts": {
+        "eval_time_if": 200,
+        "time_if_train": 4000,
+        "time_if_valid": 500
+      }
+    }
+  }
+}

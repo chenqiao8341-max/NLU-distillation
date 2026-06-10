@@ -1,0 +1,48 @@
+{
+  "slot": "time",
+  "label": "TIME",
+  "splits": {
+    "train": {
+      "rows": 4000,
+      "positive_rows": 2219,
+      "empty_rows": 1781,
+      "entities": 2423,
+      "missed_spans": 20,
+      "source_counts": {
+        "time_if_train": 4000
+      }
+    },
+    "valid": {
+      "rows": 500,
+      "positive_rows": 273,
+      "empty_rows": 227,
+      "entities": 294,
+      "missed_spans": 1,
+      "source_counts": {
+        "time_if_valid": 500
+      }
+    },
+    "test": {
+      "rows": 200,
+      "positive_rows": 78,
+      "empty_rows": 122,
+      "entities": 86,
+      "missed_spans": 0,
+      "source_counts": {
+        "eval_time_if": 200
+      }
+    },
+    "all": {
+      "rows": 4700,
+      "positive_rows": 2570,
+      "empty_rows": 2130,
+      "entities": 2803,
+      "missed_spans": 21,
+      "source_counts": {
+        "eval_time_if": 200,
+        "time_if_train": 4000,
+        "time_if_valid": 500
+      }
+    }
+  }
+}

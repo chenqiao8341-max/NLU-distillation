@@ -254,6 +254,17 @@ def write_report(report_path: Path, payload: dict[str, Any]) -> None:
         "```",
         "",
     ]
+    if payload.get("test_metrics_by_source"):
+        lines.extend(
+            [
+                "## Test Metrics By Source",
+                "",
+                "```json",
+                json.dumps(payload["test_metrics_by_source"], ensure_ascii=False, indent=2),
+                "```",
+                "",
+            ]
+        )
     report_path.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -318,6 +329,10 @@ def run_task(task: str, args: argparse.Namespace) -> dict[str, Any]:
     prediction_output = trainer.predict(test_ds)
     pred_rows, true_rows = decode_prediction_rows(prediction_output.predictions, prediction_output.label_ids, id2label)
     test_metrics = metric_dict(pred_rows, true_rows, label_list)
+    source_metrics: dict[str, Any] = {}
+    for source in sorted({str(row.get("source", "")) for row in test_rows}):
+        indices = [idx for idx, row in enumerate(test_rows) if str(row.get("source", "")) == source]
+        source_metrics[source] = metric_dict([pred_rows[idx] for idx in indices], [true_rows[idx] for idx in indices], label_list)
     payload = {
         "task": task,
         "model_path": args.model_path,
@@ -328,6 +343,7 @@ def run_task(task: str, args: argparse.Namespace) -> dict[str, Any]:
         "valid_samples": len(valid_rows),
         "test_samples": len(test_rows),
         "test_metrics": test_metrics,
+        "test_metrics_by_source": source_metrics,
         "trainer_test_metrics": {k: float(v) for k, v in prediction_output.metrics.items()},
     }
     json_path = report_dir / f"{task}_modernbert_ner.json"
@@ -337,7 +353,19 @@ def run_task(task: str, args: argparse.Namespace) -> dict[str, Any]:
     write_report(md_path, payload)
     with pred_path.open("w", encoding="utf-8") as f:
         for row, pred_labels, true_labels in zip(test_rows[: args.predictions_limit], pred_rows, true_rows):
-            f.write(json.dumps({"text": row["text"], "pred_labels": pred_labels, "true_labels": true_labels}, ensure_ascii=False) + "\n")
+            f.write(
+                json.dumps(
+                    {
+                        "text": row["text"],
+                        "source": row.get("source", ""),
+                        "values": row.get("values", ""),
+                        "pred_labels": pred_labels,
+                        "true_labels": true_labels,
+                    },
+                    ensure_ascii=False,
+                )
+                + "\n"
+            )
 
     print(json.dumps({"task": task, "report": str(json_path), "metrics": test_metrics}, ensure_ascii=False, indent=2))
     del trainer, model

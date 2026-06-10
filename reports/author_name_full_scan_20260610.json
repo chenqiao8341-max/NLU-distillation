@@ -1,0 +1,342 @@
+{
+  "source": "/home/qiao/work/NLU-distillation/nlu-data/knows_nlu_20260101_20260603.jsonl",
+  "elapsed_seconds": 3.3,
+  "parse_errors": 0,
+  "stats": {
+    "total_rows": 411788,
+    "rows_with_nlu": 411788,
+    "rows_with_authors_key": 244714,
+    "rows_with_raw_authors_nonempty": 1990,
+    "raw_author_value_occurrences_dedup_per_row": 26502,
+    "rows_with_query_visible_author_name": 1954,
+    "visible_author_value_occurrences_dedup_per_row": 3604,
+    "rows_with_query_visible_author_institution": 437,
+    "rows_positive_author_org_current_logic": 1968,
+    "rows_with_raw_authors_but_no_query_visible_author": 36
+  },
+  "unique_raw_author_values": 12433,
+  "unique_query_visible_author_names": 1728,
+  "top_raw_author_values": [
+    [
+      "Liu Y.",
+      54
+    ],
+    [
+      "Y. Liu",
+      54
+    ],
+    [
+      "Liu Y",
+      53
+    ],
+    [
+      "Y Liu",
+      53
+    ],
+    [
+      "liuyao",
+      52
+    ],
+    [
+      "Liu Yao",
+      52
+    ],
+    [
+      "Yao Liu",
+      52
+    ],
+    [
+      "Liu, Yao",
+      52
+    ],
+    [
+      "Yao, Liu",
+      52
+    ],
+    [
+      "Tong Peijian",
+      29
+    ],
+    [
+      "Peijian Tong",
+      29
+    ],
+    [
+      "Tong, Peijian",
+      29
+    ],
+    [
+      "Tong Pei Jian",
+      29
+    ],
+    [
+      "Pei Jian Tong",
+      29
+    ],
+    [
+      "李仲愚",
+      29
+    ],
+    [
+      "Li Zhongyu",
+      29
+    ],
+    [
+      "Zhongyu Li",
+      29
+    ],
+    [
+      "Li Zhong-Yu",
+      29
+    ],
+    [
+      "Zhong-Yu Li",
+      29
+    ],
+    [
+      "Li, Zhongyu",
+      29
+    ]
+  ],
+  "top_query_visible_author_names": [
+    [
+      "liuyao",
+      52
+    ],
+    [
+      "李仲愚",
+      29
+    ],
+    [
+      "童培建",
+      27
+    ],
+    [
+      "王心娅",
+      20
+    ],
+    [
+      "江基尧",
+      19
+    ],
+    [
+      "Rossetti AO",
+      18
+    ],
+    [
+      "Claassen J",
+      18
+    ],
+    [
+      "Gaspard N",
+      18
+    ],
+    [
+      "张火俊",
+      16
+    ],
+    [
+      "刘志红",
+      16
+    ],
+    [
+      "仇恒庆",
+      14
+    ],
+    [
+      "顾娟",
+      14
+    ],
+    [
+      "zhengliang Sun",
+      14
+    ],
+    [
+      "Zhengliang Sun",
+      14
+    ],
+    [
+      "Wang H",
+      13
+    ],
+    [
+      "白玲",
+      13
+    ],
+    [
+      "Liu X",
+      13
+    ],
+    [
+      "Ku JC",
+      13
+    ],
+    [
+      "Dmytriw AA",
+      13
+    ],
+    [
+      "Essibayi MA",
+      13
+    ]
+  ],
+  "samples_raw_authors_but_no_visible_author": [
+    {
+      "line": 3662,
+      "query": "请帮我整理一下Johns Hopkins大学的Dr. Jun O.Liu教授发表过的所有的文章，请按影响因子排序",
+      "raw_authors": [
+        "刘俊",
+        "Liu Jun",
+        "Jun Liu",
+        "Liu Jun O.",
+        "Jun O. Liu",
+        "Liu J. O.",
+        "J. O. Liu",
+        "Jun O. L.",
+        "J. O. L.",
+        "Liu, Jun"
+      ]
+    },
+    {
+      "line": 7329,
+      "query": "请阅读实施科学，眼动实验相关的国内外文献，给下面这段内容，最后加一段内容，大致就写基于实施科学进行干预实施，学习效果的测量增加客观指标，采用眼动实验评估重大疫情防控技术扩散意愿。大概600字，要有真实的参考文献引用。参考文献为近五年的，来自PubMed、万方、知网等数据库。\n（2）医学技术高质量扩散的促进策略研究进展\n在疫情大流行背景下，已有多种培训手段被开发并应用于医护人员的培训，但这些技术的扩散仍显不足，亟需系统性优化和推广。传统面对面教学法[65, 66]、线上学习[6",
+      "raw_authors": [
+        "张三",
+        "Zhang San",
+        "San Zhang",
+        "Zhang S.",
+        "S. Zhang",
+        "Z. San",
+        "San Z.",
+        "Zhang, San",
+        "San, Zhang",
+        "Zhang-San"
+      ]
+    },
+    {
+      "line": 12946,
+      "query": "我要你设计一个骨肿瘤有关的临床课题，课题围绕临床痛点，空白点，或者争议点展开。我目前可以用北京积水潭骨肿瘤科的临床数据开展课题",
+      "raw_authors": [
+        "未提供"
+      ]
+    },
+    {
+      "line": 13001,
+      "query": "一种“伪装高手”的罕见病——VEXAS综合征\n患者：男性，60岁\n主诉：间断皮疹3年余，间断发热2年余。\n现病史：2022年11月起出现四肢及躯干散在红色皮疹，不突出皮肤，无瘙痒及疼痛，数天后皮疹可自行消退，有时受凉后皮疹反复，未进一步诊治；2024年3月出现发热，Tmax 38.5℃，多于下午出现，有时受凉即出现发热，自行饮热水、出汗后数小时体温可恢复正常，伴有双手近指关节、双膝关节、双踝关节疼痛，2天后关节疼痛自行好转。3月28日再次出现发热伴四肢及躯干皮疹，同前，无疼痛",
+      "raw_authors": [
+        "未知"
+      ]
+    },
+    {
+      "line": 19733,
+      "query": "北京大学人民医院血液科关于二次移植的临床研究结果展示",
+      "raw_authors": [
+        "未识别作者"
+      ]
+    }
+  ],
+  "samples_visible_author": [
+    {
+      "line": 214,
+      "query": "武汉大学化学院张先正的主要研究方向",
+      "raw_authors": [
+        "张先正",
+        "Zhang Xianzheng",
+        "Xianzheng Zhang",
+        "Zhang Xian-zheng",
+        "Xian-zheng Zhang",
+        "Zhang X. Zheng",
+        "X. Zheng Zhang",
+        "Xianzheng Z.",
+        "Z. Xianzheng",
+        "X. Z. Zhang",
+        "Xian-zheng, Zhang",
+        "Zhang, Xianzheng",
+        "Zhang Xian Zheng",
+        "Xian Zheng Zhang",
+        "Z. Xian Zheng"
+      ],
+      "visible_author_name": "张先正",
+      "variants": "<variant>Zhang Xianzheng</variant>\n<variant>Xianzheng Zhang</variant>\n<variant>Zhang Xian-zheng</variant>\n<variant>Xian-zheng Zhang</variant>\n<variant>Zhang X. Zheng</variant>\n<variant>X. Zheng Zhang</variant>\n<variant>Xianzheng Z.</variant>\n<variant>Z. Xianzheng</variant>\n<variant>X. Z. Zhang</variant>\n<variant>Xian-zheng, Zhang</variant>\n<variant>Zhang, Xianzheng</variant>\n<variant>Zhang Xian Zheng</variant>\n<variant>Xian Zheng Zhang</variant>\n<variant>Z. Xian Zheng</variant>"
+    },
+    {
+      "line": 302,
+      "query": "-Surface ProblemCervical and Lumbar Spine Issues: The cervical spine transitions from a healthy curvature “C shape” towards straightening “I shape”,and the lumbar spine becomes stiff from prolonged pressure, leading to chronic pain.Muscle S",
+      "raw_authors": [
+        "Zack"
+      ],
+      "visible_author_name": "Zack",
+      "variants": ""
+    },
+    {
+      "line": 367,
+      "query": "Shoji等应用随机森林预测儿童万古霉素谷浓度，AUROC达0.82；Lu等基于XGBoost构建VA-AKI预测模型，AUROC达0.81；Zasowski等利用机器学习识别MRSA菌血症治疗失败的高风险患者，验证集AUROC为0.79，请查找以上几个文献结果的原文",
+      "raw_authors": [
+        "Shoji",
+        "Shoji S.",
+        "S. Shoji",
+        "Shoji, S.",
+        "S., Shoji",
+        "Lu",
+        "Lu L.",
+        "L. Lu",
+        "Lu, L.",
+        "L., Lu",
+        "Zasowski",
+        "Zasowski Z.",
+        "Z. Zasowski",
+        "Zasowski, Z.",
+        "Z., Zasowski"
+      ],
+      "visible_author_name": "Shoji；Lu；Zasowski",
+      "variants": "<variant>Shoji S.</variant>\n<variant>S. Shoji</variant>\n<variant>Shoji, S.</variant>\n<variant>S., Shoji</variant>\n<variant>Lu L.</variant>\n<variant>L. Lu</variant>\n<variant>Lu, L.</variant>\n<variant>L., Lu</variant>\n<variant>Zasowski Z.</variant>\n<variant>Z. Zasowski</variant>\n<variant>Zasowski, Z.</variant>\n<variant>Z., Zasowski</variant>"
+    },
+    {
+      "line": 442,
+      "query": "Brito-Zerón et al., 2018, Autoimmunity Reviews",
+      "raw_authors": [
+        "Brito-Zerón",
+        "Brito Zerón",
+        "Brito-Zeron",
+        "Brito Zeron",
+        "B. Zerón",
+        "B. Zeron",
+        "Zerón, Brito",
+        "Zeron, Brito",
+        "Brito-Z."
+      ],
+      "visible_author_name": "Brito-Zerón",
+      "variants": "<variant>Brito Zerón</variant>\n<variant>Brito-Zeron</variant>\n<variant>Brito Zeron</variant>\n<variant>B. Zerón</variant>\n<variant>B. Zeron</variant>\n<variant>Zerón, Brito</variant>\n<variant>Zeron, Brito</variant>\n<variant>Brito-Z.</variant>"
+    },
+    {
+      "line": 486,
+      "query": "失眠驱动PVT神经炎症级联启动及其下游环路功能损害\n业已证明，睡眠在维持中枢神经系统微环境稳态中发挥重要作用。睡眠期间，类淋巴系统功能活跃，可高效清除清醒期神经元活动产生的代谢产物。持续性失眠导致类淋巴系统清除功能受损，致使ATP、HMGB1等内源性代谢产物在脑内异常蓄积【Maiken Nedergaard, Steven A. Goldman ,Glymphatic failure as a final common pathway to dementia.Science3",
+      "raw_authors": [
+        "Maiken Nedergaard",
+        "Nedergaard Maiken",
+        "M. Nedergaard",
+        "N. Maiken",
+        "Maiken N.",
+        "N. M.",
+        "Maiken, Nedergaard",
+        "Nedergaard, Maiken",
+        "Steven A. Goldman",
+        "Steven Goldman",
+        "Goldman Steven A.",
+        "Goldman Steven",
+        "S. A. Goldman",
+        "S. Goldman",
+        "Goldman S. A.",
+        "Goldman S.",
+        "Steven A. G.",
+        "S. A. G.",
+        "Steven, Goldman",
+        "Goldman, Steven",
+        "Steven, A. Goldman",
+        "Goldman, Steven A."
+      ],
+      "visible_author_name": "Maiken Nedergaard；Steven A. Goldman",
+      "variants": "<variant>Nedergaard Maiken</variant>\n<variant>M. Nedergaard</variant>\n<variant>N. Maiken</variant>\n<variant>Maiken N.</variant>\n<variant>N. M.</variant>\n<variant>Maiken, Nedergaard</variant>\n<variant>Nedergaard, Maiken</variant>\n<variant>Steven Goldman</variant>\n<variant>Goldman Steven A.</variant>\n<variant>Goldman Steven</variant>\n<variant>S. A. Goldman</variant>\n<variant>S. Goldman</variant>\n<variant>Goldman S. A.</variant>\n<variant>Goldman S.</variant>\n<variant>Steven A. G.</variant>\n<variant>S. A. G.</variant>\n<variant>Steven, Goldman</variant>\n<variant>Goldman, Steven</variant>\n<variant>Steven, A. Goldman</variant>\n<variant>Goldman, Steven A.</variant>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slot": "country",
+  "label": "COUNTRY",
+  "splits": {
+    "train": {
+      "rows": 4000,
+      "positive_rows": 655,
+      "empty_rows": 3345,
+      "entities": 790,
+      "missed_spans": 0,
+      "source_counts": {
+        "org_country_train": 4000
+      }
+    },
+    "valid": {
+      "rows": 500,
+      "positive_rows": 90,
+      "empty_rows": 410,
+      "entities": 105,
+      "missed_spans": 0,
+      "source_counts": {
+        "org_country_valid": 500
+      }
+    },
+    "test": {
+      "rows": 200,
+      "positive_rows": 42,
+      "empty_rows": 158,
+      "entities": 48,
+      "missed_spans": 0,
+      "source_counts": {
+        "eval_org_country": 200
+      }
+    },
+    "all": {
+      "rows": 4700,
+      "positive_rows": 787,
+      "empty_rows": 3913,
+      "entities": 943,
+      "missed_spans": 0,
+      "source_counts": {
+        "eval_org_country": 200,
+        "org_country_train": 4000,
+        "org_country_valid": 500
+      }
+    }
+  }
+}

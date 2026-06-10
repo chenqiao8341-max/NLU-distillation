@@ -1,0 +1,111 @@
+﻿task_type,query,GT_author_name,GT_author_name英文变体,GT_author_institution,GT_机构名称,GT_国家,PRED_author_name,PRED_author_name英文变体,PRED_author_institution,PRED_机构名称,PRED_国家,raw_output,parsed_output
+作者和机构,同济大学附属第十人民医院王平医生的学术合作者及密切相关的研究作者有哪些？,王平,"<variant>Wang Ping</variant>
+<variant>Ping Wang</variant>
+<variant>Wang P.</variant>
+<variant>P. Wang</variant>
+<variant>Wang, Ping</variant>
+<variant>Ping, Wang</variant>
+<variant>Wang P</variant>
+<variant>Wang-Ping</variant>
+<variant>Ping-Wang</variant>
+<variant>Wang, P.</variant>",同济大学附属第十人民医院,,,王平,"<variant>Wang Ping</variant>
+ <variant>Ping Wang</variant>
+ <variant>Wang, Ping</variant>
+ <variant>Wang P</variant>
+ <variant>P Wang</variant>
+ <variant>P. Wang</variant>
+ <variant>Wang P.</variant>
+ <variant>W. Ping</variant>
+ <variant>Ping W.</variant>",同济大学附属第十人民医院,,,"{""data"": {""result"": {""author_name"": ""王平"", ""author_name英文变体"": ""<variant>Wang Ping</variant>\n <variant>Ping Wang</variant>\n <variant>Wang, Ping</variant>\n <variant>Wang P</variant>\n <variant>P Wang</variant>\n <variant>P. Wang</variant>\n <variant>Wang P.</variant>\n <variant>W. Ping</variant>\n <variant>Ping W.</variant>"", ""author_institution"": ""同济大学附属第十人民医院""}}, ""raw_entities"": {""author"": [{""label"": ""AUTHOR"", ""start"": 12, ""end"": 14, ""text"": ""王平""}], ""institution"": [{""label"": ""INSTITUTION"", ""start"": 0, ""end"": 12, ""text"": ""同济大学附属第十人民医院""}]}}","{""author_name"": ""王平"", ""author_name英文变体"": ""<variant>Wang Ping</variant>\n <variant>Ping Wang</variant>\n <variant>Wang, Ping</variant>\n <variant>Wang P</variant>\n <variant>P Wang</variant>\n <variant>P. Wang</variant>\n <variant>Wang P.</variant>\n <variant>W. Ping</variant>\n <variant>Ping W.</variant>"", ""author_institution"": ""同济大学附属第十人民医院""}"
+作者和机构,陈文平医生怎么样,陈文平,"<variant>Chen Wenping</variant>
+ <variant>Wenping Chen</variant>
+ <variant>Chen Wen-Ping</variant>
+ <variant>Wen-Ping Chen</variant>
+ <variant>Chen Wen Ping</variant>
+ <variant>Wen Ping Chen</variant>
+ <variant>Chen, Wenping</variant>
+ <variant>Chen, Wen-Ping</variant>
+ <variant>Chen, Wen Ping</variant>
+ <variant>Chen W.</variant>
+ <variant>Chen W</variant>
+ <variant>W. Chen</variant>
+ <variant>W Chen</variant>
+ <variant>Chen WP</variant>
+ <variant>Chen W P</variant>
+ <variant>W.P. Chen</variant>
+ <variant>W. P. Chen</variant>
+ <variant>W P Chen</variant>
+ <variant>Chen W.-P.</variant>
+ <variant>Chen W-P</variant>
+ <variant>W.-P. Chen</variant>
+ <variant>W-P Chen</variant>
+ <variant>C. Wenping</variant>
+ <variant>Wenping C.</variant>
+ <variant>C. Wen Ping</variant>
+ <variant>Wen Ping C.</variant>
+ <variant>C. Wen-Ping</variant>
+ <variant>Wen-Ping C.</variant>",,,,陈文平,"<variant>Chen Wenping</variant>
+ <variant>Wenping Chen</variant>
+ <variant>Chen, Wenping</variant>
+ <variant>Chen Wen Ping</variant>
+ <variant>Wen Ping Chen</variant>
+ <variant>Chen Wen-Ping</variant>
+ <variant>Wen-Ping Chen</variant>
+ <variant>Chen, Wen-Ping</variant>
+ <variant>Chen, Wen Ping</variant>
+ <variant>Chen WP</variant>
+ <variant>Chen W P</variant>
+ <variant>Chen W</variant>
+ <variant>W Chen</variant>
+ <variant>W. P. Chen</variant>
+ <variant>Chen W. P.</variant>
+ <variant>Chen W.P.</variant>
+ <variant>Chen W.P</variant>
+ <variant>W.P. Chen</variant>
+ <variant>W.P Chen</variant>
+ <variant>W-P. Chen</variant>
+ <variant>W-P Chen</variant>
+ <variant>C. Wenping</variant>
+ <variant>Wenping C.</variant>
+ <variant>C. Wen Ping</variant>
+ <variant>Wen Ping C.</variant>
+ <variant>C. Wen-Ping</variant>
+ <variant>Wen-Ping C.</variant>
+ <variant>Chen W.</variant>
+ <variant>W. Chen</variant>",,,,"{""data"": {""result"": {""author_name"": ""陈文平"", ""author_name英文变体"": ""<variant>Chen Wenping</variant>\n <variant>Wenping Chen</variant>\n <variant>Chen, Wenping</variant>\n <variant>Chen Wen Ping</variant>\n <variant>Wen Ping Chen</variant>\n <variant>Chen Wen-Ping</variant>\n <variant>Wen-Ping Chen</variant>\n <variant>Chen, Wen-Ping</variant>\n <variant>Chen, Wen Ping</variant>\n <variant>Chen WP</variant>\n <variant>Chen W P</variant>\n <variant>Chen W</variant>\n <variant>W Chen</variant>\n <variant>W. P. Chen</variant>\n <variant>Chen W. P.</variant>\n <variant>Chen W.P.</variant>\n <variant>Chen W.P</variant>\n <variant>W.P. Chen</variant>\n <variant>W.P Chen</variant>\n <variant>W-P. Chen</variant>\n <variant>W-P Chen</variant>\n <variant>C. Wenping</variant>\n <variant>Wenping C.</variant>\n <variant>C. Wen Ping</variant>\n <variant>Wen Ping C.</variant>\n <variant>C. Wen-Ping</variant>\n <variant>Wen-Ping C.</variant>\n <variant>Chen W.</variant>\n <variant>W. Chen</variant>"", ""author_institution"": """"}}, ""raw_entities"": {""author"": [{""label"": ""AUTHOR"", ""start"": 0, ""end"": 3, ""text"": ""陈文平""}], ""institution"": []}}","{""author_name"": ""陈文平"", ""author_name英文变体"": ""<variant>Chen Wenping</variant>\n <variant>Wenping Chen</variant>\n <variant>Chen, Wenping</variant>\n <variant>Chen Wen Ping</variant>\n <variant>Wen Ping Chen</variant>\n <variant>Chen Wen-Ping</variant>\n <variant>Wen-Ping Chen</variant>\n <variant>Chen, Wen-Ping</variant>\n <variant>Chen, Wen Ping</variant>\n <variant>Chen WP</variant>\n <variant>Chen W P</variant>\n <variant>Chen W</variant>\n <variant>W Chen</variant>\n <variant>W. P. Chen</variant>\n <variant>Chen W. P.</variant>\n <variant>Chen W.P.</variant>\n <variant>Chen W.P</variant>\n <variant>W.P. Chen</variant>\n <variant>W.P Chen</variant>\n <variant>W-P. Chen</variant>\n <variant>W-P Chen</variant>\n <variant>C. Wenping</variant>\n <variant>Wenping C.</variant>\n <variant>C. Wen Ping</variant>\n <variant>Wen Ping C.</variant>\n <variant>C. Wen-Ping</variant>\n <variant>Wen-Ping C.</variant>\n <variant>Chen W.</variant>\n <variant>W. Chen</variant>"", ""author_institution"": """"}"
+作者和机构,地中海贫血新药物研究临床试验,,,,,,,,,,,"{""data"": {""result"": {""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}}, ""raw_entities"": {""author"": [], ""institution"": []}}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+作者和机构,"请详细解读文献：Yang JK, Lu J, Yuan SS, et al. From hyperG to hypoinsulinemia and diabetes: effect of KCNH6 on insulin secretion. Cell Reports, 2018, 25(13): 3800-3810.",Yang JK；Lu J；Yuan SS,"<variant>Yang J K</variant>
+<variant>J K Yang</variant>
+<variant>Yang, J K</variant>
+<variant>J. K. Yang</variant>
+<variant>J K. Yang</variant>
+<variant>J Lu</variant>
+<variant>Lu, J</variant>
+<variant>J. Lu</variant>
+<variant>Yuan S S</variant>
+<variant>S S Yuan</variant>
+<variant>Yuan, S S</variant>
+<variant>S. S. Yuan</variant>",,,,Yang JK；Lu J；Yuan SS,"<variant>Yang JK</variant>
+ <variant>JK Yang</variant>
+ <variant>JK, Yang</variant>
+ <variant>JK Y.</variant>
+ <variant>Y. JK</variant>
+ <variant>JK Y</variant>
+ <variant>Lu J</variant>
+ <variant>J Lu</variant>
+ <variant>J, Lu</variant>
+ <variant>J L.</variant>
+ <variant>L. J</variant>
+ <variant>J L</variant>
+ <variant>Yuan SS</variant>
+ <variant>SS Yuan</variant>
+ <variant>SS, Yuan</variant>
+ <variant>SS Y.</variant>
+ <variant>Y. SS</variant>
+ <variant>SS Y</variant>",,,,"{""data"": {""result"": {""author_name"": ""Yang JK；Lu J；Yuan SS"", ""author_name英文变体"": ""<variant>Yang JK</variant>\n <variant>JK Yang</variant>\n <variant>JK, Yang</variant>\n <variant>JK Y.</variant>\n <variant>Y. JK</variant>\n <variant>JK Y</variant>\n <variant>Lu J</variant>\n <variant>J Lu</variant>\n <variant>J, Lu</variant>\n <variant>J L.</variant>\n <variant>L. J</variant>\n <variant>J L</variant>\n <variant>Yuan SS</variant>\n <variant>SS Yuan</variant>\n <variant>SS, Yuan</variant>\n <variant>SS Y.</variant>\n <variant>Y. SS</variant>\n <variant>SS Y</variant>"", ""author_institution"": """"}}, ""raw_entities"": {""author"": [{""label"": ""AUTHOR"", ""start"": 8, ""end"": 15, ""text"": ""Yang JK""}, {""label"": ""AUTHOR"", ""start"": 16, ""end"": 21, ""text"": "" Lu J""}, {""label"": ""AUTHOR"", ""start"": 22, ""end"": 30, ""text"": "" Yuan SS""}], ""institution"": []}}","{""author_name"": ""Yang JK；Lu J；Yuan SS"", ""author_name英文变体"": ""<variant>Yang JK</variant>\n <variant>JK Yang</variant>\n <variant>JK, Yang</variant>\n <variant>JK Y.</variant>\n <variant>Y. JK</variant>\n <variant>JK Y</variant>\n <variant>Lu J</variant>\n <variant>J Lu</variant>\n <variant>J, Lu</variant>\n <variant>J L.</variant>\n <variant>L. J</variant>\n <variant>J L</variant>\n <variant>Yuan SS</variant>\n <variant>SS Yuan</variant>\n <variant>SS, Yuan</variant>\n <variant>SS Y.</variant>\n <variant>Y. SS</variant>\n <variant>SS Y</variant>"", ""author_institution"": """"}"
+作者和机构,骨髓瘤标准治疗后的贫血治疗临床试验研究,,,,,,,,,,,"{""data"": {""result"": {""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}}, ""raw_entities"": {""author"": [], ""institution"": []}}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+机构和国家,肌少症膳食营养处方及运动疗法干预中国专家共识（2025）主要内容及核心要点,,,,,中国,,,,,,"{""data"": {""result"": {""机构名称"": """", ""国家"": """"}}, ""raw_entities"": {""institution"": [{""label"": ""INSTITUTION"", ""start"": 16, ""end"": 20, ""text"": ""中国专家""}], ""country"": []}}","{""机构名称"": """", ""国家"": """"}"
+机构和国家,2026 SSC research or guidelines,,,,SSC,,,,,SSC,,"{""data"": {""result"": {""机构名称"": ""SSC"", ""国家"": """"}}, ""raw_entities"": {""institution"": [{""label"": ""INSTITUTION"", ""start"": 4, ""end"": 8, ""text"": "" SSC""}], ""country"": []}}","{""机构名称"": ""SSC"", ""国家"": """"}"
+机构和国家,什么样的胰腺癌患者可以接受FOLFIRINOX作为一线治疗?,,,,,,,,,,,"{""data"": {""result"": {""机构名称"": """", ""国家"": """"}}, ""raw_entities"": {""institution"": [], ""country"": []}}","{""机构名称"": """", ""国家"": """"}"
+机构和国家,中国血脂管理指南2023全文及核心内容,,,,,中国,,,,,,"{""data"": {""result"": {""机构名称"": """", ""国家"": """"}}, ""raw_entities"": {""institution"": [{""label"": ""INSTITUTION"", ""start"": 0, ""end"": 8, ""text"": ""中国血脂管理指南""}], ""country"": []}}","{""机构名称"": """", ""国家"": """"}"
+机构和国家,血清和血浆的区别,,,,,,,,,,,"{""data"": {""result"": {""机构名称"": """", ""国家"": """"}}, ""raw_entities"": {""institution"": [], ""country"": []}}","{""机构名称"": """", ""国家"": """"}"
