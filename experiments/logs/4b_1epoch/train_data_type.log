@@ -1,0 +1,722 @@
+/home/qiao/work/lf-env/lib/python3.12/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[transformers] warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+[INFO|2026-06-08 21:06:55] llamafactory.hparams.parser:507 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: torch.bfloat16
+[INFO|configuration_utils.py:769] 2026-06-08 21:06:55,477 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:847] 2026-06-08 21:06:55,484 >> Model config Qwen3_5Config {
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "image_token_id": 248056,
+  "model_type": "qwen3_5",
+  "text_config": {
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "attn_output_gate": true,
+    "bos_token_id": null,
+    "dtype": "bfloat16",
+    "eos_token_id": 248044,
+    "full_attention_interval": 4,
+    "head_dim": 256,
+    "hidden_act": "silu",
+    "hidden_size": 2560,
+    "initializer_range": 0.02,
+    "intermediate_size": 9216,
+    "layer_types": [
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention"
+    ],
+    "linear_conv_kernel_dim": 4,
+    "linear_key_head_dim": 128,
+    "linear_num_key_heads": 16,
+    "linear_num_value_heads": 32,
+    "linear_value_head_dim": 128,
+    "mamba_ssm_dtype": "float32",
+    "max_position_embeddings": 262144,
+    "mlp_only_layers": [],
+    "model_type": "qwen3_5_text",
+    "mtp_num_hidden_layers": 1,
+    "mtp_use_dedicated_embeddings": false,
+    "num_attention_heads": 16,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 4,
+    "pad_token_id": null,
+    "partial_rotary_factor": 0.25,
+    "rms_norm_eps": 1e-06,
+    "rope_parameters": {
+      "mrope_interleaved": true,
+      "mrope_section": [
+        11,
+        11,
+        10
+      ],
+      "partial_rotary_factor": 0.25,
+      "rope_theta": 10000000,
+      "rope_type": "default"
+    },
+    "tie_word_embeddings": true,
+    "use_cache": true,
+    "vocab_size": 248320
+  },
+  "tie_word_embeddings": true,
+  "transformers_version": "5.6.0",
+  "video_token_id": 248057,
+  "vision_config": {
+    "deepstack_visual_indexes": [],
+    "depth": 24,
+    "hidden_act": "gelu_pytorch_tanh",
+    "hidden_size": 1024,
+    "in_channels": 3,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "model_type": "qwen3_5_vision",
+    "num_heads": 16,
+    "num_position_embeddings": 2304,
+    "out_hidden_size": 2560,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2
+  },
+  "vision_end_token_id": 248054,
+  "vision_start_token_id": 248053
+}
+
+[INFO|image_processing_base.py:342] 2026-06-08 21:06:55,862 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/preprocessor_config.json
+[INFO|processing_utils.py:1122] 2026-06-08 21:06:55,866 >> loading configuration file None
+[INFO|image_processing_base.py:342] 2026-06-08 21:06:55,866 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/preprocessor_config.json
+[WARNING|logging.py:340] 2026-06-08 21:06:55,866 >> The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[INFO|image_processing_base.py:342] 2026-06-08 21:06:55,873 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/preprocessor_config.json
+[INFO|image_processing_base.py:385] 2026-06-08 21:06:55,873 >> Image processor Qwen2VLImageProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "Qwen2VLImageProcessor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "merge_size": 2,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "longest_edge": 16777216,
+    "shortest_edge": 65536
+  },
+  "temporal_patch_size": 2
+}
+
+[INFO|configuration_utils.py:769] 2026-06-08 21:06:55,873 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:847] 2026-06-08 21:06:55,877 >> Model config Qwen3_5Config {
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "image_token_id": 248056,
+  "model_type": "qwen3_5",
+  "text_config": {
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "attn_output_gate": true,
+    "bos_token_id": null,
+    "dtype": "bfloat16",
+    "eos_token_id": 248044,
+    "full_attention_interval": 4,
+    "head_dim": 256,
+    "hidden_act": "silu",
+    "hidden_size": 2560,
+    "initializer_range": 0.02,
+    "intermediate_size": 9216,
+    "layer_types": [
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention"
+    ],
+    "linear_conv_kernel_dim": 4,
+    "linear_key_head_dim": 128,
+    "linear_num_key_heads": 16,
+    "linear_num_value_heads": 32,
+    "linear_value_head_dim": 128,
+    "mamba_ssm_dtype": "float32",
+    "max_position_embeddings": 262144,
+    "mlp_only_layers": [],
+    "model_type": "qwen3_5_text",
+    "mtp_num_hidden_layers": 1,
+    "mtp_use_dedicated_embeddings": false,
+    "num_attention_heads": 16,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 4,
+    "pad_token_id": null,
+    "partial_rotary_factor": 0.25,
+    "rms_norm_eps": 1e-06,
+    "rope_parameters": {
+      "mrope_interleaved": true,
+      "mrope_section": [
+        11,
+        11,
+        10
+      ],
+      "partial_rotary_factor": 0.25,
+      "rope_theta": 10000000,
+      "rope_type": "default"
+    },
+    "tie_word_embeddings": true,
+    "use_cache": true,
+    "vocab_size": 248320
+  },
+  "tie_word_embeddings": true,
+  "transformers_version": "5.6.0",
+  "video_token_id": 248057,
+  "vision_config": {
+    "deepstack_visual_indexes": [],
+    "depth": 24,
+    "hidden_act": "gelu_pytorch_tanh",
+    "hidden_size": 1024,
+    "in_channels": 3,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "model_type": "qwen3_5_vision",
+    "num_heads": 16,
+    "num_position_embeddings": 2304,
+    "out_hidden_size": 2560,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2
+  },
+  "vision_end_token_id": 248054,
+  "vision_start_token_id": 248053
+}
+
+[INFO|video_processing_utils.py:684] 2026-06-08 21:06:56,218 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/video_preprocessor_config.json
+[INFO|video_processing_utils.py:684] 2026-06-08 21:06:56,219 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/video_preprocessor_config.json
+[INFO|video_processing_utils.py:727] 2026-06-08 21:06:56,219 >> Video processor Qwen3VLVideoProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "do_sample_frames": true,
+  "fps": 2,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "max_frames": 768,
+  "merge_size": 2,
+  "min_frames": 4,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "return_metadata": false,
+  "size": {
+    "longest_edge": 25165824,
+    "shortest_edge": 4096
+  },
+  "temporal_patch_size": 2,
+  "video_processor_type": "Qwen3VLVideoProcessor"
+}
+
+[INFO|processing_utils.py:1199] 2026-06-08 21:06:56,220 >> Processor Qwen3VLProcessor:
+- image_processor: Qwen2VLImageProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "Qwen2VLImageProcessor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "merge_size": 2,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "longest_edge": 16777216,
+    "shortest_edge": 65536
+  },
+  "temporal_patch_size": 2
+}
+
+- tokenizer: Qwen2Tokenizer(name_or_path='/home/qiao/models/Qwen/Qwen3.5-4B', vocab_size=248044, model_max_length=262144, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'audio_bos_token': '<|audio_start|>', 'audio_eos_token': '<|audio_end|>', 'audio_token': '<|audio_pad|>', 'image_token': '<|image_pad|>', 'video_token': '<|video_pad|>', 'vision_bos_token': '<|vision_start|>', 'vision_eos_token': '<|vision_end|>'}, added_tokens_decoder={
+	248044: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248045: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248046: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248047: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248048: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248049: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248050: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248051: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248052: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248053: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248054: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248055: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248056: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248057: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248058: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248059: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248060: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248061: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248062: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248063: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248064: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248065: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248066: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248067: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248068: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248069: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248070: AddedToken("<|audio_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248071: AddedToken("<|audio_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248072: AddedToken("<tts_pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248073: AddedToken("<tts_text_bos>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248074: AddedToken("<tts_text_eod>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248075: AddedToken("<tts_text_bos_single>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248076: AddedToken("<|audio_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+})
+- video_processor: Qwen3VLVideoProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "do_sample_frames": true,
+  "fps": 2,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "max_frames": 768,
+  "merge_size": 2,
+  "min_frames": 4,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "return_metadata": false,
+  "size": {
+    "longest_edge": 25165824,
+    "shortest_edge": 4096
+  },
+  "temporal_patch_size": 2,
+  "video_processor_type": "Qwen3VLVideoProcessor"
+}
+
+
+{
+  "image_processor": {
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "Qwen2VLImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "merge_size": 2,
+    "patch_size": 16,
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "longest_edge": 16777216,
+      "shortest_edge": 65536
+    },
+    "temporal_patch_size": 2
+  },
+  "processor_class": "Qwen3VLProcessor",
+  "video_processor": {
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "do_sample_frames": true,
+    "fps": 2,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "max_frames": 768,
+    "merge_size": 2,
+    "min_frames": 4,
+    "patch_size": 16,
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "return_metadata": false,
+    "size": {
+      "longest_edge": 25165824,
+      "shortest_edge": 4096
+    },
+    "temporal_patch_size": 2,
+    "video_processor_type": "Qwen3VLVideoProcessor"
+  }
+}
+
+[INFO|2026-06-08 21:06:56] llamafactory.data.loader:144 >> Loading dataset nlu_data_type_prod_sft.jsonl...
+Converting format of dataset (num_proc=4): 100%|██████████| 5000/5000 [00:00<?, ? examples/s]Converting format of dataset (num_proc=4): 6250 examples [00:00, 8292.88 examples/s]         Converting format of dataset (num_proc=4): 10000 examples [00:00, 16887.61 examples/s]
+Running tokenizer on dataset (num_proc=4):   0%|          | 0/5000 [00:00<?, ? examples/s]Running tokenizer on dataset (num_proc=4):  20%|██        | 1000/5000 [00:02<00:08, 493.15 examples/s]Running tokenizer on dataset (num_proc=4):  45%|████▌     | 2250/5000 [00:03<00:03, 760.76 examples/s]Running tokenizer on dataset (num_proc=4):  70%|███████   | 3500/5000 [00:04<00:01, 904.50 examples/s]Running tokenizer on dataset (num_proc=4):  95%|█████████▌| 4750/5000 [00:05<00:00, 990.69 examples/s]Running tokenizer on dataset (num_proc=4): 100%|██████████| 5000/5000 [00:05<00:00, 900.85 examples/s]
+[INFO|configuration_utils.py:769] 2026-06-08 21:07:03,459 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:847] 2026-06-08 21:07:03,471 >> Model config Qwen3_5Config {
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "image_token_id": 248056,
+  "model_type": "qwen3_5",
+  "text_config": {
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "attn_output_gate": true,
+    "bos_token_id": null,
+    "dtype": "bfloat16",
+    "eos_token_id": 248044,
+    "full_attention_interval": 4,
+    "head_dim": 256,
+    "hidden_act": "silu",
+    "hidden_size": 2560,
+    "initializer_range": 0.02,
+    "intermediate_size": 9216,
+    "layer_types": [
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention"
+    ],
+    "linear_conv_kernel_dim": 4,
+    "linear_key_head_dim": 128,
+    "linear_num_key_heads": 16,
+    "linear_num_value_heads": 32,
+    "linear_value_head_dim": 128,
+    "mamba_ssm_dtype": "float32",
+    "max_position_embeddings": 262144,
+    "mlp_only_layers": [],
+    "model_type": "qwen3_5_text",
+    "mtp_num_hidden_layers": 1,
+    "mtp_use_dedicated_embeddings": false,
+    "num_attention_heads": 16,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 4,
+    "pad_token_id": null,
+    "partial_rotary_factor": 0.25,
+    "rms_norm_eps": 1e-06,
+    "rope_parameters": {
+      "mrope_interleaved": true,
+      "mrope_section": [
+        11,
+        11,
+        10
+      ],
+      "partial_rotary_factor": 0.25,
+      "rope_theta": 10000000,
+      "rope_type": "default"
+    },
+    "tie_word_embeddings": true,
+    "use_cache": true,
+    "vocab_size": 248320
+  },
+  "tie_word_embeddings": true,
+  "transformers_version": "5.6.0",
+  "video_token_id": 248057,
+  "vision_config": {
+    "deepstack_visual_indexes": [],
+    "depth": 24,
+    "hidden_act": "gelu_pytorch_tanh",
+    "hidden_size": 1024,
+    "in_channels": 3,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "model_type": "qwen3_5_vision",
+    "num_heads": 16,
+    "num_position_embeddings": 2304,
+    "out_hidden_size": 2560,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2
+  },
+  "vision_end_token_id": 248054,
+  "vision_start_token_id": 248053
+}
+
+training example:
+input_ids:
+[248045, 846, 198, 133653, 101638, 111688, 443, 22512, 220, 114404, 96160, 1710, 96220, 100593, 3134, 220, 97553, 134633, 111577, 101638, 96605, 98418, 1710, 96227, 100627, 96125, 99578, 4566, 220, 99462, 3709, 97240, 99516, 795, 1756, 220, 114165, 1710, 105163, 96326, 98249, 4960, 116783, 5205, 11827, 96847, 14, 121268, 116783, 5205, 72289, 5205, 99484, 95911, 96605, 5205, 104079, 98253, 14, 104079, 97126, 5205, 136314, 1710, 98895, 96326, 95826, 99986, 95880, 96389, 98655, 24178, 96487, 98290, 96605, 98418, 95865, 106126, 110089, 1710, 198, 97774, 95958, 95948, 98715, 95772, 96230, 97101, 96260, 96348, 113431, 104673, 98658, 96563, 98148, 95789, 3709, 141620, 132179, 99510, 9616, 96031, 1271, 52, 102206, 96341, 5205, 98011, 127421, 96341, 5205, 122669, 96024, 7313, 99939, 115322, 135982, 96902, 3709, 108552, 72289, 96348, 100740, 102039, 95911, 96605, 1710, 96605, 98418, 4960, 72289, 11, 36514, 1605, 62, 47086, 1710, 109641, 4960, 17, 15, 17, 15, 95859, 12, 99237, 1710, 96808, 110610, 87228, 8, 96326, 25, 18, 12, 95979, 98674, 1710, 248046, 198, 248045, 74455, 198, 4754, 673, 1756, 3147, 72289, 8934, 248046]
+inputs:
+<|im_start|>user
+你是一个医学检索 NLU 抽取器。请判断 query 是否明确要求限定医学研究类型。只输出一个合法 JSON 对象，必须包含 data_type 字段。可选值包括：综述、Meta分析/系统性综述、RCT、观察性研究、病例系列/病例报告、基础研究。多个值用中文分号连接；没有明确研究类型时填空字符串。
+乌司他丁在热射病或重症炎症反应相关疾病中，对患者预后指标（如ICU住院时间、机械通气时间、死亡率等）改善作用的临床研究数据，特别是RCT或高质量回顾性研究。研究类型：RCT,Observational_Study。发布时间：2020年-至今。影响因子(IF)值:3-无限制。<|im_end|>
+<|im_start|>assistant
+{"data_type":"RCT"}<|im_end|>
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 4754, 673, 1756, 3147, 72289, 8934, 248046]
+labels:
+{"data_type":"RCT"}<|im_end|>
+[INFO|2026-06-08 21:07:03] llamafactory.model.model_utils.kv_cache:144 >> KV cache is disabled during training.
+[INFO|modeling_utils.py:748] 2026-06-08 21:07:03,732 >> loading weights file /home/qiao/models/Qwen/Qwen3.5-4B/model.safetensors.index.json
+[INFO|modeling_utils.py:834] 2026-06-08 21:07:03,734 >> Since the `dtype` attribute can't be found in model's config object, will use dtype=torch.bfloat16 as derived from model's weights
+[INFO|configuration_utils.py:1027] 2026-06-08 21:07:03,735 >> Generate config GenerationConfig {
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "use_cache": false
+}
+
+[WARNING|logging.py:340] 2026-06-08 21:07:03,749 >> The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:   0%|          | 1/723 [00:08<1:41:15,  8.41s/it]Loading weights:   1%|          | 6/723 [00:08<12:57,  1.08s/it]  Loading weights:   1%|          | 9/723 [00:08<07:37,  1.56it/s]Loading weights:   2%|▏         | 11/723 [00:09<05:39,  2.10it/s]Loading weights:   2%|▏         | 13/723 [00:09<05:03,  2.34it/s]Loading weights:   2%|▏         | 15/723 [00:09<04:01,  2.94it/s]Loading weights:   3%|▎         | 20/723 [00:10<02:24,  4.88it/s]Loading weights:   3%|▎         | 25/723 [00:10<01:29,  7.76it/s]Loading weights:   4%|▎         | 27/723 [00:10<01:49,  6.37it/s]Loading weights:   4%|▍         | 29/723 [00:11<01:45,  6.60it/s]Loading weights:   5%|▍         | 33/723 [00:11<01:23,  8.30it/s]Loading weights:   5%|▌         | 37/723 [00:11<01:00, 11.26it/s]Loading weights:   5%|▌         | 39/723 [00:12<01:20,  8.52it/s]Loading weights:   6%|▌         | 41/723 [00:12<01:24,  8.05it/s]Loading weights:   6%|▌         | 43/723 [00:12<01:27,  7.77it/s]Loading weights:   6%|▌         | 45/723 [00:12<01:32,  7.31it/s]Loading weights:   6%|▋         | 46/723 [00:13<02:25,  4.66it/s]Loading weights:   7%|▋         | 51/723 [00:13<01:19,  8.47it/s]Loading weights:   7%|▋         | 53/723 [00:14<01:23,  8.05it/s]Loading weights:   8%|▊         | 61/723 [00:14<00:50, 12.98it/s]Loading weights:   9%|▊         | 63/723 [00:14<00:49, 13.25it/s]Loading weights:   9%|▉         | 65/723 [00:14<01:08,  9.67it/s]Loading weights:   9%|▉         | 67/723 [00:15<01:37,  6.74it/s]Loading weights:  10%|█         | 75/723 [00:15<00:54, 11.97it/s]Loading weights:  11%|█         | 77/723 [00:15<00:52, 12.35it/s]Loading weights:  11%|█         | 79/723 [00:16<01:07,  9.55it/s]Loading weights:  11%|█         | 81/723 [00:16<01:33,  6.84it/s]Loading weights:  12%|█▏        | 86/723 [00:17<01:13,  8.64it/s]Loading weights:  13%|█▎        | 92/723 [00:17<00:48, 13.13it/s]Loading weights:  13%|█▎        | 95/723 [00:18<01:24,  7.41it/s]Loading weights:  14%|█▎        | 98/723 [00:18<01:20,  7.80it/s]Loading weights:  14%|█▍        | 100/723 [00:19<01:45,  5.88it/s]Loading weights:  14%|█▍        | 104/723 [00:19<01:16,  8.10it/s]Loading weights:  15%|█▍        | 106/723 [00:19<01:18,  7.83it/s]Loading weights:  16%|█▌        | 114/723 [00:20<00:48, 12.59it/s]Loading weights:  16%|█▌        | 116/723 [00:20<01:09,  8.78it/s]Loading weights:  16%|█▋        | 119/723 [00:21<01:23,  7.25it/s]Loading weights:  18%|█▊        | 128/723 [00:21<00:49, 12.12it/s]Loading weights:  18%|█▊        | 130/723 [00:22<01:02,  9.47it/s]Loading weights:  18%|█▊        | 132/723 [00:22<01:16,  7.76it/s]Loading weights:  19%|█▊        | 134/723 [00:23<01:21,  7.24it/s]Loading weights:  20%|██        | 146/723 [00:23<00:41, 13.79it/s]Loading weights:  20%|██        | 148/723 [00:24<00:58,  9.75it/s]Loading weights:  21%|██        | 151/723 [00:24<00:57,  9.90it/s]Loading weights:  21%|██        | 153/723 [00:24<01:16,  7.47it/s]Loading weights:  22%|██▏       | 157/723 [00:25<00:58,  9.71it/s]Loading weights:  22%|██▏       | 159/723 [00:25<00:59,  9.44it/s]Loading weights:  23%|██▎       | 166/723 [00:25<00:40, 13.73it/s]Loading weights:  23%|██▎       | 168/723 [00:25<00:39, 14.19it/s]Loading weights:  24%|██▎       | 170/723 [00:25<00:38, 14.27it/s]Loading weights:  24%|██▍       | 172/723 [00:26<01:07,  8.16it/s]Loading weights:  24%|██▍       | 174/723 [00:26<01:12,  7.61it/s]Loading weights:  25%|██▌       | 181/723 [00:27<00:45, 11.90it/s]Loading weights:  25%|██▌       | 183/723 [00:27<00:43, 12.45it/s]Loading weights:  26%|██▌       | 185/723 [00:27<00:59,  9.02it/s]Loading weights:  26%|██▌       | 187/723 [00:28<01:24,  6.33it/s]Loading weights:  27%|██▋       | 193/723 [00:28<00:48, 10.86it/s]Loading weights:  27%|██▋       | 195/723 [00:28<00:53,  9.90it/s]Loading weights:  27%|██▋       | 198/723 [00:28<00:45, 11.66it/s]Loading weights:  28%|██▊       | 200/723 [00:29<01:11,  7.30it/s]Loading weights:  28%|██▊       | 202/723 [00:29<01:13,  7.09it/s]Loading weights:  28%|██▊       | 204/723 [00:30<01:17,  6.73it/s]Loading weights:  28%|██▊       | 205/723 [00:30<01:32,  5.61it/s]Loading weights:  28%|██▊       | 206/723 [00:30<01:42,  5.02it/s]Loading weights:  29%|██▉       | 210/723 [00:31<01:00,  8.43it/s]Loading weights:  29%|██▉       | 212/723 [00:31<01:02,  8.20it/s]Loading weights:  30%|███       | 220/723 [00:31<00:35, 14.14it/s]Loading weights:  31%|███       | 222/723 [00:31<00:34, 14.60it/s]Loading weights:  31%|███       | 224/723 [00:32<00:48, 10.21it/s]Loading weights:  31%|███▏      | 226/723 [00:32<01:10,  7.06it/s]Loading weights:  32%|███▏      | 234/723 [00:32<00:39, 12.52it/s]Loading weights:  33%|███▎      | 236/723 [00:33<00:43, 11.20it/s]Loading weights:  33%|███▎      | 238/723 [00:33<00:49,  9.90it/s]Loading weights:  33%|███▎      | 240/723 [00:34<01:09,  6.96it/s]Loading weights:  34%|███▍      | 248/723 [00:34<00:39, 12.14it/s]Loading weights:  35%|███▍      | 250/723 [00:34<00:37, 12.58it/s]Loading weights:  35%|███▍      | 252/723 [00:34<00:48,  9.62it/s]Loading weights:  35%|███▌      | 254/723 [00:35<01:08,  6.89it/s]Loading weights:  36%|███▌      | 257/723 [00:35<00:59,  7.78it/s]Loading weights:  36%|███▌      | 258/723 [00:36<01:09,  6.73it/s]Loading weights:  36%|███▌      | 259/723 [00:36<01:18,  5.90it/s]Loading weights:  36%|███▋      | 263/723 [00:36<01:02,  7.41it/s]Loading weights:  37%|███▋      | 270/723 [00:37<00:38, 11.88it/s]Loading weights:  38%|███▊      | 274/723 [00:37<00:30, 14.53it/s]Loading weights:  38%|███▊      | 276/723 [00:37<00:30, 14.53it/s]Loading weights:  38%|███▊      | 278/723 [00:37<00:54,  8.20it/s]Loading weights:  39%|███▊      | 280/723 [00:38<00:58,  7.57it/s]Loading weights:  39%|███▉      | 284/723 [00:38<00:53,  8.21it/s]Loading weights:  40%|███▉      | 289/723 [00:39<00:48,  9.00it/s]Loading weights:  40%|████      | 292/723 [00:39<00:47,  9.00it/s]Loading weights:  41%|████      | 293/723 [00:39<00:56,  7.59it/s]Loading weights:  42%|████▏     | 305/723 [00:40<00:27, 15.07it/s]Loading weights:  42%|████▏     | 307/723 [00:40<00:41,  9.99it/s]Loading weights:  43%|████▎     | 310/723 [00:41<00:41, 10.06it/s]Loading weights:  43%|████▎     | 312/723 [00:41<00:54,  7.54it/s]Loading weights:  44%|████▎     | 316/723 [00:41<00:40,  9.94it/s]Loading weights:  44%|████▍     | 318/723 [00:42<00:43,  9.33it/s]Loading weights:  45%|████▌     | 326/723 [00:42<00:27, 14.43it/s]Loading weights:  45%|████▌     | 328/723 [00:42<00:26, 14.64it/s]Loading weights:  46%|████▌     | 330/723 [00:42<00:35, 10.94it/s]Loading weights:  46%|████▌     | 332/723 [00:43<00:52,  7.50it/s]Loading weights:  47%|████▋     | 339/723 [00:43<00:36, 10.58it/s]Loading weights:  47%|████▋     | 343/723 [00:44<00:28, 13.10it/s]Loading weights:  48%|████▊     | 345/723 [00:44<00:42,  8.83it/s]Loading weights:  48%|████▊     | 347/723 [00:44<00:45,  8.28it/s]Loading weights:  49%|████▉     | 354/723 [00:45<00:34, 10.66it/s]Loading weights:  49%|████▉     | 356/723 [00:45<00:32, 11.30it/s]Loading weights:  50%|████▉     | 358/723 [00:45<00:35, 10.28it/s]Loading weights:  50%|████▉     | 360/723 [00:46<00:50,  7.22it/s]Loading weights:  50%|█████     | 363/723 [00:46<00:46,  7.75it/s]Loading weights:  50%|█████     | 364/723 [00:47<01:12,  4.95it/s]Loading weights:  51%|█████     | 369/723 [00:47<00:43,  8.17it/s]Loading weights:  51%|█████▏    | 371/723 [00:47<00:44,  7.88it/s]Loading weights:  52%|█████▏    | 376/723 [00:48<00:35,  9.85it/s]Loading weights:  53%|█████▎    | 380/723 [00:48<00:27, 12.28it/s]Loading weights:  53%|█████▎    | 382/723 [00:48<00:27, 12.47it/s]Loading weights:  53%|█████▎    | 384/723 [00:49<00:46,  7.28it/s]Loading weights:  53%|█████▎    | 386/723 [00:49<00:48,  6.88it/s]Loading weights:  54%|█████▍    | 393/723 [00:49<00:28, 11.67it/s]Loading weights:  55%|█████▍    | 395/723 [00:49<00:27, 12.06it/s]Loading weights:  55%|█████▍    | 397/723 [00:50<00:37,  8.72it/s]Loading weights:  55%|█████▌    | 399/723 [00:51<00:51,  6.26it/s]Loading weights:  56%|█████▌    | 404/723 [00:51<00:36,  8.76it/s]Loading weights:  56%|█████▋    | 408/723 [00:51<00:27, 11.41it/s]Loading weights:  57%|█████▋    | 410/723 [00:51<00:36,  8.52it/s]Loading weights:  57%|█████▋    | 412/723 [00:52<00:39,  7.96it/s]Loading weights:  57%|█████▋    | 414/723 [00:52<00:41,  7.45it/s]Loading weights:  58%|█████▊    | 416/723 [00:52<00:44,  6.96it/s]Loading weights:  58%|█████▊    | 417/723 [00:53<01:08,  4.45it/s]Loading weights:  58%|█████▊    | 422/723 [00:53<00:38,  7.91it/s]Loading weights:  59%|█████▊    | 424/723 [00:54<00:39,  7.51it/s]Loading weights:  60%|█████▉    | 432/723 [00:54<00:19, 14.74it/s]Loading weights:  61%|██████    | 441/723 [00:54<00:11, 24.15it/s]Loading weights:  62%|██████▏   | 446/723 [00:54<00:10, 27.41it/s]Loading weights:  63%|██████▎   | 455/723 [00:54<00:07, 37.06it/s]Loading weights:  65%|██████▍   | 468/723 [00:54<00:05, 49.49it/s]Loading weights:  66%|██████▌   | 478/723 [00:54<00:04, 51.81it/s]Loading weights:  68%|██████▊   | 490/723 [00:55<00:03, 62.55it/s]Loading weights:  69%|██████▉   | 498/723 [00:55<00:03, 63.70it/s]Loading weights:  70%|██████▉   | 505/723 [00:55<00:03, 60.10it/s]Loading weights:  71%|███████▏  | 516/723 [00:55<00:02, 70.69it/s]Loading weights:  72%|███████▏  | 524/723 [00:55<00:02, 71.23it/s]Loading weights:  75%|███████▍  | 539/723 [00:55<00:02, 87.56it/s]Loading weights:  76%|███████▋  | 552/723 [00:55<00:01, 86.78it/s]Loading weights:  78%|███████▊  | 561/723 [00:55<00:01, 84.25it/s]Loading weights:  79%|███████▉  | 570/723 [00:56<00:01, 82.29it/s]Loading weights:  80%|████████  | 579/723 [00:56<00:02, 71.91it/s]Loading weights:  83%|████████▎ | 598/723 [00:56<00:01, 93.60it/s]Loading weights:  84%|████████▍ | 608/723 [00:56<00:01, 87.85it/s]Loading weights:  85%|████████▌ | 617/723 [00:56<00:01, 78.53it/s]Loading weights:  87%|████████▋ | 626/723 [00:56<00:01, 70.98it/s]Loading weights:  88%|████████▊ | 636/723 [00:56<00:01, 77.12it/s]Loading weights:  89%|████████▉ | 646/723 [00:56<00:00, 82.46it/s]Loading weights:  91%|█████████ | 655/723 [00:57<00:00, 80.36it/s]Loading weights:  92%|█████████▏| 664/723 [00:57<00:00, 75.56it/s]Loading weights:  93%|█████████▎| 672/723 [00:57<00:00, 76.08it/s]Loading weights:  94%|█████████▍| 681/723 [00:57<00:00, 79.13it/s]Loading weights:  95%|█████████▌| 690/723 [00:57<00:00, 81.52it/s]Loading weights:  97%|█████████▋| 699/723 [00:57<00:00, 72.96it/s]Loading weights:  98%|█████████▊| 708/723 [00:57<00:00, 77.33it/s]Loading weights:  99%|█████████▉| 716/723 [00:58<00:00, 55.21it/s]Loading weights: 100%|██████████| 723/723 [00:58<00:00, 50.52it/s]Loading weights: 100%|██████████| 723/723 [00:58<00:00, 12.42it/s]
+[INFO|utils.py:411] 2026-06-08 21:08:03,163 >> Generation config file not found, using a generation config created from the model config.
+[INFO|configuration_utils.py:978] 2026-06-08 21:08:03,163 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:1027] 2026-06-08 21:08:03,163 >> Generate config GenerationConfig {}
+
+[INFO|dynamic_module_utils.py:406] 2026-06-08 21:08:03,164 >> Could not locate the custom_generate/generate.py inside /home/qiao/models/Qwen/Qwen3.5-4B.
+[INFO|2026-06-08 21:08:03] llamafactory.model.model_utils.checkpointing:144 >> Gradient checkpointing enabled.
+[INFO|2026-06-08 21:08:03] llamafactory.model.model_utils.attention:144 >> Using torch SDPA for faster training and inference.
+[INFO|2026-06-08 21:08:03] llamafactory.model.adapter:144 >> Upcasting trainable params to float32.
+[INFO|2026-06-08 21:08:03] llamafactory.model.adapter:144 >> Fine-tuning method: LoRA
+[INFO|2026-06-08 21:08:03] llamafactory.model.model_utils.misc:144 >> Found linear modules: in_proj_a,q_proj,o_proj,in_proj_qkv,out_proj,gate_proj,k_proj,down_proj,v_proj,up_proj,in_proj_b,in_proj_z
+[INFO|2026-06-08 21:08:03] llamafactory.model.model_utils.visual:144 >> Set vision model not trainable: ['visual.pos_embed', 'visual.patch_embed', 'visual.blocks'].
+[INFO|2026-06-08 21:08:03] llamafactory.model.model_utils.visual:144 >> Set multi model projector not trainable: ['model.visual.merger'].
+/home/qiao/work/lf-env/lib/python3.12/site-packages/peft/tuners/tuners_utils.py:1225: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+[INFO|2026-06-08 21:08:03] llamafactory.model.loader:144 >> trainable params: 1,287,630,848 || all params: 5,826,896,384 || trainable%: 22.0981
+[WARNING|trainer_utils.py:1238] 2026-06-08 21:08:03,983 >> The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'eos_token_id': 248046, 'pad_token_id': 248044}.
+[INFO|trainer.py:1469] 2026-06-08 21:08:04,296 >> ***** Running training *****
+[INFO|trainer.py:1470] 2026-06-08 21:08:04,296 >>   Num examples = 5,000
+[INFO|trainer.py:1471] 2026-06-08 21:08:04,296 >>   Num Epochs = 1
+[INFO|trainer.py:1472] 2026-06-08 21:08:04,296 >>   Num update steps per epoch = 313
+[INFO|trainer.py:1473] 2026-06-08 21:08:04,296 >>   Instantaneous batch size per device = 2
+[INFO|trainer.py:1476] 2026-06-08 21:08:04,296 >>   Total train batch size (w. parallel, distributed & accumulation) = 16
+[INFO|trainer.py:1477] 2026-06-08 21:08:04,296 >>   Gradient Accumulation steps = 8
+[INFO|trainer.py:1478] 2026-06-08 21:08:04,296 >>   Total optimization steps = 313
+[INFO|trainer.py:1479] 2026-06-08 21:08:04,298 >>   Number of trainable parameters = 1,287,630,848
+  0%|          | 0/313 [00:00<?, ?it/s]  0%|          | 1/313 [00:09<50:06,  9.64s/it]  1%|          | 2/313 [00:17<45:19,  8.74s/it]  1%|          | 3/313 [00:25<43:51,  8.49s/it]  1%|▏         | 4/313 [00:34<42:56,  8.34s/it]  2%|▏         | 5/313 [00:42<42:17,  8.24s/it]                                                 2%|▏         | 5/313 [00:42<42:17,  8.24s/it]  2%|▏         | 6/313 [00:49<41:21,  8.08s/it]  2%|▏         | 7/313 [00:58<41:38,  8.17s/it]  3%|▎         | 8/313 [01:17<1:00:12, 11.84s/it]  3%|▎         | 9/313 [01:25<52:52, 10.44s/it]    3%|▎         | 10/313 [01:32<48:21,  9.58s/it]                                                  3%|▎         | 10/313 [01:33<48:21,  9.58s/it]  4%|▎         | 11/313 [01:40<45:08,  8.97s/it]  4%|▍         | 12/313 [01:48<44:07,  8.80s/it]  4%|▍         | 13/313 [01:56<42:23,  8.48s/it]  4%|▍         | 14/313 [02:04<41:26,  8.32s/it]  5%|▍         | 15/313 [02:12<40:04,  8.07s/it]                                                  5%|▍         | 15/313 [02:12<40:04,  8.07s/it]  5%|▌         | 16/313 [02:20<39:54,  8.06s/it]  5%|▌         | 17/313 [02:27<38:51,  7.88s/it]  6%|▌         | 18/313 [02:35<38:46,  7.89s/it]  6%|▌         | 19/313 [02:43<39:03,  7.97s/it]  6%|▋         | 20/313 [02:51<38:55,  7.97s/it]                                                  6%|▋         | 20/313 [02:51<38:55,  7.97s/it]  7%|▋         | 21/313 [02:59<38:24,  7.89s/it]  7%|▋         | 22/313 [03:07<38:27,  7.93s/it]  7%|▋         | 23/313 [03:14<37:45,  7.81s/it]  8%|▊         | 24/313 [03:22<37:59,  7.89s/it]  8%|▊         | 25/313 [03:30<37:43,  7.86s/it]                                                  8%|▊         | 25/313 [03:31<37:43,  7.86s/it]  8%|▊         | 26/313 [03:38<37:48,  7.91s/it]  9%|▊         | 27/313 [03:46<37:20,  7.83s/it]  9%|▉         | 28/313 [03:54<37:22,  7.87s/it]  9%|▉         | 29/313 [04:01<36:41,  7.75s/it] 10%|▉         | 30/313 [04:10<37:35,  7.97s/it]                                                 10%|▉         | 30/313 [04:10<37:35,  7.97s/it] 10%|▉         | 31/313 [04:17<36:51,  7.84s/it] 10%|█         | 32/313 [04:25<37:00,  7.90s/it] 11%|█         | 33/313 [04:55<1:06:33, 14.26s/it] 11%|█         | 34/313 [05:02<57:26, 12.35s/it]   11%|█         | 35/313 [05:10<50:38, 10.93s/it]                                                 11%|█         | 35/313 [05:10<50:38, 10.93s/it] 12%|█▏        | 36/313 [05:18<46:00,  9.97s/it] 12%|█▏        | 37/313 [05:26<42:44,  9.29s/it] 12%|█▏        | 38/313 [05:33<40:22,  8.81s/it] 12%|█▏        | 39/313 [05:41<39:06,  8.56s/it] 13%|█▎        | 40/313 [05:49<37:24,  8.22s/it]                                                 13%|█▎        | 40/313 [05:49<37:24,  8.22s/it] 13%|█▎        | 41/313 [05:56<36:05,  7.96s/it] 13%|█▎        | 42/313 [06:04<35:36,  7.89s/it] 14%|█▎        | 43/313 [06:12<35:27,  7.88s/it] 14%|█▍        | 44/313 [06:19<35:04,  7.82s/it] 14%|█▍        | 45/313 [06:27<34:20,  7.69s/it]                                                 14%|█▍        | 45/313 [06:27<34:20,  7.69s/it] 15%|█▍        | 46/313 [06:34<34:03,  7.65s/it] 15%|█▌        | 47/313 [06:42<34:49,  7.85s/it] 15%|█▌        | 48/313 [06:50<34:21,  7.78s/it] 16%|█▌        | 49/313 [06:58<34:16,  7.79s/it] 16%|█▌        | 50/313 [07:06<34:00,  7.76s/it]                                                 16%|█▌        | 50/313 [07:06<34:00,  7.76s/it] 16%|█▋        | 51/313 [07:13<33:35,  7.69s/it] 17%|█▋        | 52/313 [07:21<33:42,  7.75s/it] 17%|█▋        | 53/313 [07:29<33:23,  7.71s/it] 17%|█▋        | 54/313 [07:36<32:41,  7.57s/it] 18%|█▊        | 55/313 [07:44<33:03,  7.69s/it]                                                 18%|█▊        | 55/313 [07:44<33:03,  7.69s/it] 18%|█▊        | 56/313 [07:51<32:21,  7.55s/it] 18%|█▊        | 57/313 [07:59<32:19,  7.58s/it] 19%|█▊        | 58/313 [08:06<32:13,  7.58s/it] 19%|█▉        | 59/313 [08:14<31:59,  7.56s/it] 19%|█▉        | 60/313 [08:22<32:10,  7.63s/it]                                                 19%|█▉        | 60/313 [08:22<32:10,  7.63s/it] 19%|█▉        | 61/313 [08:30<32:30,  7.74s/it] 20%|█▉        | 62/313 [08:37<32:00,  7.65s/it] 20%|██        | 63/313 [08:45<31:57,  7.67s/it] 20%|██        | 64/313 [09:11<54:26, 13.12s/it] 21%|██        | 65/313 [09:19<47:53, 11.59s/it]                                                 21%|██        | 65/313 [09:19<47:53, 11.59s/it] 21%|██        | 66/313 [09:26<43:01, 10.45s/it] 21%|██▏       | 67/313 [09:34<39:42,  9.69s/it] 22%|██▏       | 68/313 [09:42<37:26,  9.17s/it] 22%|██▏       | 69/313 [09:50<35:29,  8.73s/it] 22%|██▏       | 70/313 [09:58<34:23,  8.49s/it]                                                 22%|██▏       | 70/313 [09:58<34:23,  8.49s/it] 23%|██▎       | 71/313 [10:06<33:13,  8.24s/it] 23%|██▎       | 72/313 [10:14<32:48,  8.17s/it] 23%|██▎       | 73/313 [10:21<31:50,  7.96s/it] 24%|██▎       | 74/313 [10:29<31:42,  7.96s/it] 24%|██▍       | 75/313 [10:37<31:31,  7.95s/it]                                                 24%|██▍       | 75/313 [10:37<31:31,  7.95s/it] 24%|██▍       | 76/313 [10:44<30:54,  7.83s/it] 25%|██▍       | 77/313 [10:52<30:49,  7.84s/it] 25%|██▍       | 78/313 [11:00<30:35,  7.81s/it] 25%|██▌       | 79/313 [11:09<31:39,  8.12s/it] 26%|██▌       | 80/313 [11:17<31:05,  8.01s/it]                                                 26%|██▌       | 80/313 [11:17<31:05,  8.01s/it] 26%|██▌       | 81/313 [11:24<30:38,  7.92s/it] 26%|██▌       | 82/313 [11:32<29:54,  7.77s/it] 27%|██▋       | 83/313 [11:40<29:55,  7.81s/it] 27%|██▋       | 84/313 [11:47<29:24,  7.71s/it] 27%|██▋       | 85/313 [11:55<28:54,  7.61s/it]                                                 27%|██▋       | 85/313 [11:55<28:54,  7.61s/it] 27%|██▋       | 86/313 [12:02<28:37,  7.57s/it] 28%|██▊       | 87/313 [12:10<29:22,  7.80s/it] 28%|██▊       | 88/313 [12:19<29:41,  7.92s/it] 28%|██▊       | 89/313 [12:26<29:24,  7.88s/it] 29%|██▉       | 90/313 [12:34<29:27,  7.93s/it]                                                 29%|██▉       | 90/313 [12:35<29:27,  7.93s/it] 29%|██▉       | 91/313 [12:42<29:25,  7.95s/it] 29%|██▉       | 92/313 [12:50<29:26,  7.99s/it] 30%|██▉       | 93/313 [12:58<29:09,  7.95s/it] 30%|███       | 94/313 [13:06<28:59,  7.94s/it] 30%|███       | 95/313 [13:14<29:05,  8.00s/it]                                                 30%|███       | 95/313 [13:15<29:05,  8.00s/it] 31%|███       | 96/313 [13:23<29:13,  8.08s/it] 31%|███       | 97/313 [13:30<28:45,  7.99s/it] 31%|███▏      | 98/313 [13:39<28:58,  8.09s/it] 32%|███▏      | 99/313 [13:46<28:13,  7.92s/it] 32%|███▏      | 100/313 [13:54<28:00,  7.89s/it]                                                  32%|███▏      | 100/313 [13:54<28:00,  7.89s/it][INFO|trainer.py:3815] 2026-06-08 21:21:59,115 >> Saving model checkpoint to saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-100
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:22:23,953 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-100/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:22:23,953 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-100/tokenizer_config.json
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:23:45,580 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-100/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:23:45,580 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-100/tokenizer_config.json
+[INFO|processing_utils.py:881] 2026-06-08 21:23:45,695 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-100/chat_template.jinja
+[INFO|processing_utils.py:899] 2026-06-08 21:23:45,695 >> processor saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-100/processor_config.json
+ 32%|███▏      | 101/313 [15:49<2:20:53, 39.87s/it] 33%|███▎      | 102/313 [15:56<1:45:52, 30.11s/it] 33%|███▎      | 103/313 [16:04<1:22:13, 23.49s/it] 33%|███▎      | 104/313 [16:12<1:05:28, 18.80s/it] 34%|███▎      | 105/313 [16:20<53:37, 15.47s/it]                                                    34%|███▎      | 105/313 [16:20<53:37, 15.47s/it] 34%|███▍      | 106/313 [16:27<45:27, 13.18s/it] 34%|███▍      | 107/313 [16:35<39:27, 11.49s/it] 35%|███▍      | 108/313 [16:43<35:24, 10.36s/it] 35%|███▍      | 109/313 [16:53<35:10, 10.34s/it] 35%|███▌      | 110/313 [17:01<32:52,  9.72s/it]                                                  35%|███▌      | 110/313 [17:01<32:52,  9.72s/it] 35%|███▌      | 111/313 [17:09<30:29,  9.06s/it] 36%|███▌      | 112/313 [17:16<29:00,  8.66s/it] 36%|███▌      | 113/313 [17:24<28:02,  8.41s/it] 36%|███▋      | 114/313 [17:32<26:53,  8.11s/it] 37%|███▋      | 115/313 [17:40<26:33,  8.05s/it]                                                  37%|███▋      | 115/313 [17:40<26:33,  8.05s/it] 37%|███▋      | 116/313 [17:47<26:17,  8.01s/it] 37%|███▋      | 117/313 [17:55<25:55,  7.93s/it] 38%|███▊      | 118/313 [18:03<25:34,  7.87s/it] 38%|███▊      | 119/313 [18:10<24:55,  7.71s/it] 38%|███▊      | 120/313 [18:18<24:57,  7.76s/it]                                                  38%|███▊      | 120/313 [18:18<24:57,  7.76s/it] 39%|███▊      | 121/313 [18:26<25:08,  7.86s/it] 39%|███▉      | 122/313 [18:34<24:52,  7.81s/it] 39%|███▉      | 123/313 [18:42<24:48,  7.83s/it] 40%|███▉      | 124/313 [18:50<24:59,  7.93s/it] 40%|███▉      | 125/313 [18:58<25:19,  8.08s/it]                                                  40%|███▉      | 125/313 [18:59<25:19,  8.08s/it] 40%|████      | 126/313 [19:06<25:00,  8.02s/it] 41%|████      | 127/313 [19:14<24:20,  7.85s/it] 41%|████      | 128/313 [19:22<24:18,  7.88s/it] 41%|████      | 129/313 [19:30<24:07,  7.87s/it] 42%|████▏     | 130/313 [19:37<23:51,  7.82s/it]                                                  42%|████▏     | 130/313 [19:38<23:51,  7.82s/it] 42%|████▏     | 131/313 [19:45<23:32,  7.76s/it] 42%|████▏     | 132/313 [19:54<24:13,  8.03s/it] 42%|████▏     | 133/313 [20:01<23:40,  7.89s/it] 43%|████▎     | 134/313 [20:09<23:41,  7.94s/it] 43%|████▎     | 135/313 [20:17<23:35,  7.95s/it]                                                  43%|████▎     | 135/313 [20:17<23:35,  7.95s/it] 43%|████▎     | 136/313 [20:25<23:20,  7.91s/it] 44%|████▍     | 137/313 [20:32<22:50,  7.79s/it] 44%|████▍     | 138/313 [20:40<22:30,  7.72s/it] 44%|████▍     | 139/313 [20:48<22:22,  7.72s/it] 45%|████▍     | 140/313 [20:56<22:21,  7.76s/it]                                                  45%|████▍     | 140/313 [20:56<22:21,  7.76s/it] 45%|████▌     | 141/313 [21:03<22:13,  7.76s/it] 45%|████▌     | 142/313 [21:11<21:54,  7.69s/it] 46%|████▌     | 143/313 [21:19<21:43,  7.67s/it] 46%|████▌     | 144/313 [21:26<21:26,  7.61s/it] 46%|████▋     | 145/313 [21:33<21:11,  7.57s/it]                                                  46%|████▋     | 145/313 [21:34<21:11,  7.57s/it] 47%|████▋     | 146/313 [21:41<21:07,  7.59s/it] 47%|████▋     | 147/313 [21:49<21:32,  7.78s/it] 47%|████▋     | 148/313 [21:57<21:25,  7.79s/it] 48%|████▊     | 149/313 [22:05<21:26,  7.84s/it] 48%|████▊     | 150/313 [22:13<21:08,  7.78s/it]                                                  48%|████▊     | 150/313 [22:13<21:08,  7.78s/it] 48%|████▊     | 151/313 [22:21<21:02,  7.79s/it] 49%|████▊     | 152/313 [22:28<20:58,  7.82s/it] 49%|████▉     | 153/313 [22:36<20:47,  7.79s/it] 49%|████▉     | 154/313 [22:44<20:35,  7.77s/it] 50%|████▉     | 155/313 [22:51<20:12,  7.68s/it]                                                  50%|████▉     | 155/313 [22:52<20:12,  7.68s/it] 50%|████▉     | 156/313 [22:59<19:57,  7.62s/it] 50%|█████     | 157/313 [23:07<19:57,  7.68s/it] 50%|█████     | 158/313 [23:15<20:00,  7.75s/it] 51%|█████     | 159/313 [23:22<19:57,  7.77s/it] 51%|█████     | 160/313 [23:30<19:47,  7.76s/it]                                                  51%|█████     | 160/313 [23:30<19:47,  7.76s/it] 51%|█████▏    | 161/313 [23:39<20:08,  7.95s/it] 52%|█████▏    | 162/313 [23:46<19:52,  7.90s/it] 52%|█████▏    | 163/313 [23:54<19:50,  7.94s/it] 52%|█████▏    | 164/313 [24:02<19:27,  7.84s/it] 53%|█████▎    | 165/313 [24:10<19:11,  7.78s/it]                                                  53%|█████▎    | 165/313 [24:10<19:11,  7.78s/it] 53%|█████▎    | 166/313 [24:17<19:00,  7.76s/it] 53%|█████▎    | 167/313 [24:25<18:50,  7.74s/it] 54%|█████▎    | 168/313 [24:33<18:48,  7.78s/it] 54%|█████▍    | 169/313 [24:41<18:50,  7.85s/it] 54%|█████▍    | 170/313 [24:49<19:00,  7.98s/it]                                                  54%|█████▍    | 170/313 [24:49<19:00,  7.98s/it] 55%|█████▍    | 171/313 [24:57<18:55,  7.99s/it] 55%|█████▍    | 172/313 [25:04<18:14,  7.77s/it] 55%|█████▌    | 173/313 [25:12<17:55,  7.68s/it] 56%|█████▌    | 174/313 [25:20<17:49,  7.69s/it] 56%|█████▌    | 175/313 [25:29<19:11,  8.35s/it]                                                  56%|█████▌    | 175/313 [25:30<19:11,  8.35s/it] 56%|█████▌    | 176/313 [25:38<18:54,  8.28s/it] 57%|█████▋    | 177/313 [25:46<18:31,  8.17s/it] 57%|█████▋    | 178/313 [25:53<18:14,  8.11s/it] 57%|█████▋    | 179/313 [26:02<18:15,  8.17s/it] 58%|█████▊    | 180/313 [26:09<17:25,  7.86s/it]                                                  58%|█████▊    | 180/313 [26:09<17:25,  7.86s/it] 58%|█████▊    | 181/313 [26:16<16:57,  7.71s/it] 58%|█████▊    | 182/313 [26:25<17:18,  7.93s/it] 58%|█████▊    | 183/313 [26:33<17:04,  7.88s/it] 59%|█████▉    | 184/313 [26:40<16:50,  7.84s/it] 59%|█████▉    | 185/313 [26:48<16:45,  7.86s/it]                                                  59%|█████▉    | 185/313 [26:48<16:45,  7.86s/it] 59%|█████▉    | 186/313 [26:56<16:26,  7.77s/it] 60%|█████▉    | 187/313 [27:03<16:17,  7.76s/it] 60%|██████    | 188/313 [27:13<17:14,  8.27s/it] 60%|██████    | 189/313 [27:20<16:35,  8.03s/it] 61%|██████    | 190/313 [27:28<16:22,  7.99s/it]                                                  61%|██████    | 190/313 [27:28<16:22,  7.99s/it] 61%|██████    | 191/313 [27:36<16:10,  7.96s/it] 61%|██████▏   | 192/313 [27:44<15:55,  7.90s/it] 62%|██████▏   | 193/313 [28:16<30:08, 15.07s/it] 62%|██████▏   | 194/313 [28:23<25:21, 12.78s/it] 62%|██████▏   | 195/313 [28:31<22:16, 11.33s/it]                                                  62%|██████▏   | 195/313 [28:31<22:16, 11.33s/it] 63%|██████▎   | 196/313 [28:39<20:02, 10.28s/it] 63%|██████▎   | 197/313 [28:46<18:15,  9.44s/it] 63%|██████▎   | 198/313 [28:54<17:05,  8.91s/it] 64%|██████▎   | 199/313 [29:05<18:14,  9.60s/it] 64%|██████▍   | 200/313 [29:14<17:19,  9.20s/it]                                                  64%|██████▍   | 200/313 [29:14<17:19,  9.20s/it][INFO|trainer.py:3815] 2026-06-08 21:37:18,593 >> Saving model checkpoint to saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-200
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:37:43,133 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-200/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:37:43,133 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-200/tokenizer_config.json
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:39:04,849 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-200/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:39:04,850 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-200/tokenizer_config.json
+[INFO|processing_utils.py:881] 2026-06-08 21:39:04,966 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-200/chat_template.jinja
+[INFO|processing_utils.py:899] 2026-06-08 21:39:04,966 >> processor saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-200/processor_config.json
+ 64%|██████▍   | 201/313 [31:07<1:15:47, 40.60s/it] 65%|██████▍   | 202/313 [31:15<56:43, 30.66s/it]   65%|██████▍   | 203/313 [31:22<43:29, 23.72s/it] 65%|██████▌   | 204/313 [31:30<34:15, 18.85s/it] 65%|██████▌   | 205/313 [31:37<27:47, 15.44s/it]                                                  65%|██████▌   | 205/313 [31:38<27:47, 15.44s/it] 66%|██████▌   | 206/313 [31:45<23:26, 13.14s/it] 66%|██████▌   | 207/313 [31:53<20:08, 11.40s/it] 66%|██████▋   | 208/313 [32:00<17:44, 10.14s/it] 67%|██████▋   | 209/313 [32:08<16:41,  9.63s/it] 67%|██████▋   | 210/313 [32:17<15:55,  9.28s/it]                                                  67%|██████▋   | 210/313 [32:17<15:55,  9.28s/it] 67%|██████▋   | 211/313 [32:24<14:51,  8.74s/it] 68%|██████▊   | 212/313 [32:32<14:09,  8.41s/it] 68%|██████▊   | 213/313 [32:40<13:56,  8.36s/it] 68%|██████▊   | 214/313 [32:48<13:38,  8.27s/it] 69%|██████▊   | 215/313 [32:56<13:18,  8.15s/it]                                                  69%|██████▊   | 215/313 [32:56<13:18,  8.15s/it] 69%|██████▉   | 216/313 [33:04<12:57,  8.02s/it] 69%|██████▉   | 217/313 [33:11<12:39,  7.92s/it] 70%|██████▉   | 218/313 [33:19<12:13,  7.72s/it] 70%|██████▉   | 219/313 [33:28<12:45,  8.15s/it] 70%|███████   | 220/313 [33:35<12:25,  8.02s/it]                                                  70%|███████   | 220/313 [33:36<12:25,  8.02s/it] 71%|███████   | 221/313 [33:43<12:17,  8.01s/it] 71%|███████   | 222/313 [33:51<12:09,  8.02s/it] 71%|███████   | 223/313 [33:59<11:58,  7.99s/it] 72%|███████▏  | 224/313 [34:07<11:40,  7.87s/it] 72%|███████▏  | 225/313 [34:15<11:29,  7.83s/it]                                                  72%|███████▏  | 225/313 [34:15<11:29,  7.83s/it] 72%|███████▏  | 226/313 [34:23<11:41,  8.07s/it] 73%|███████▎  | 227/313 [34:31<11:18,  7.89s/it] 73%|███████▎  | 228/313 [34:39<11:08,  7.86s/it] 73%|███████▎  | 229/313 [34:46<10:57,  7.82s/it] 73%|███████▎  | 230/313 [34:54<10:47,  7.80s/it]                                                  73%|███████▎  | 230/313 [34:54<10:47,  7.80s/it] 74%|███████▍  | 231/313 [35:01<10:28,  7.67s/it] 74%|███████▍  | 232/313 [35:09<10:21,  7.67s/it] 74%|███████▍  | 233/313 [35:19<11:07,  8.34s/it] 75%|███████▍  | 234/313 [35:27<10:39,  8.10s/it] 75%|███████▌  | 235/313 [35:35<10:30,  8.09s/it]                                                  75%|███████▌  | 235/313 [35:35<10:30,  8.09s/it] 75%|███████▌  | 236/313 [35:42<10:14,  7.98s/it] 76%|███████▌  | 237/313 [35:50<10:03,  7.94s/it] 76%|███████▌  | 238/313 [35:59<10:10,  8.14s/it] 76%|███████▋  | 239/313 [36:07<09:54,  8.04s/it] 77%|███████▋  | 240/313 [36:14<09:32,  7.84s/it]                                                  77%|███████▋  | 240/313 [36:14<09:32,  7.84s/it] 77%|███████▋  | 241/313 [36:22<09:26,  7.86s/it] 77%|███████▋  | 242/313 [36:29<09:12,  7.78s/it] 78%|███████▊  | 243/313 [36:38<09:10,  7.86s/it] 78%|███████▊  | 244/313 [36:49<10:26,  9.09s/it] 78%|███████▊  | 245/313 [36:57<09:47,  8.65s/it]                                                  78%|███████▊  | 245/313 [36:57<09:47,  8.65s/it] 79%|███████▊  | 246/313 [37:05<09:26,  8.46s/it] 79%|███████▉  | 247/313 [37:13<09:02,  8.21s/it] 79%|███████▉  | 248/313 [37:21<08:49,  8.15s/it] 80%|███████▉  | 249/313 [37:29<08:44,  8.20s/it] 80%|███████▉  | 250/313 [37:37<08:29,  8.08s/it]                                                  80%|███████▉  | 250/313 [37:37<08:29,  8.08s/it] 80%|████████  | 251/313 [37:44<08:11,  7.92s/it] 81%|████████  | 252/313 [37:52<08:04,  7.94s/it] 81%|████████  | 253/313 [38:00<07:50,  7.84s/it] 81%|████████  | 254/313 [38:08<07:38,  7.76s/it] 81%|████████▏ | 255/313 [38:15<07:31,  7.78s/it]                                                  81%|████████▏ | 255/313 [38:16<07:31,  7.78s/it] 82%|████████▏ | 256/313 [38:24<07:30,  7.90s/it] 82%|████████▏ | 257/313 [38:31<07:19,  7.85s/it] 82%|████████▏ | 258/313 [38:43<08:13,  8.97s/it] 83%|████████▎ | 259/313 [38:51<07:51,  8.73s/it] 83%|████████▎ | 260/313 [38:59<07:31,  8.51s/it]                                                  83%|████████▎ | 260/313 [38:59<07:31,  8.51s/it] 83%|████████▎ | 261/313 [39:07<07:14,  8.36s/it] 84%|████████▎ | 262/313 [39:15<07:01,  8.26s/it] 84%|████████▍ | 263/313 [39:23<06:43,  8.06s/it] 84%|████████▍ | 264/313 [39:31<06:31,  7.98s/it] 85%|████████▍ | 265/313 [39:38<06:14,  7.80s/it]                                                  85%|████████▍ | 265/313 [39:38<06:14,  7.80s/it] 85%|████████▍ | 266/313 [39:46<06:07,  7.82s/it] 85%|████████▌ | 267/313 [39:54<06:01,  7.86s/it] 86%|████████▌ | 268/313 [40:02<05:53,  7.87s/it] 86%|████████▌ | 269/313 [40:09<05:43,  7.81s/it] 86%|████████▋ | 270/313 [40:17<05:35,  7.81s/it]                                                  86%|████████▋ | 270/313 [40:17<05:35,  7.81s/it] 87%|████████▋ | 271/313 [40:25<05:32,  7.91s/it] 87%|████████▋ | 272/313 [40:33<05:21,  7.84s/it] 87%|████████▋ | 273/313 [40:42<05:23,  8.10s/it] 88%|████████▊ | 274/313 [40:50<05:16,  8.11s/it] 88%|████████▊ | 275/313 [40:58<05:04,  8.02s/it]                                                  88%|████████▊ | 275/313 [40:58<05:04,  8.02s/it] 88%|████████▊ | 276/313 [41:05<04:52,  7.91s/it] 88%|████████▊ | 277/313 [41:13<04:44,  7.91s/it] 89%|████████▉ | 278/313 [41:21<04:39,  7.98s/it] 89%|████████▉ | 279/313 [41:29<04:27,  7.87s/it] 89%|████████▉ | 280/313 [41:37<04:23,  7.97s/it]                                                  89%|████████▉ | 280/313 [41:37<04:23,  7.97s/it] 90%|████████▉ | 281/313 [41:44<04:09,  7.79s/it] 90%|█████████ | 282/313 [41:52<04:01,  7.78s/it] 90%|█████████ | 283/313 [42:00<03:52,  7.74s/it] 91%|█████████ | 284/313 [42:07<03:43,  7.72s/it] 91%|█████████ | 285/313 [42:16<03:41,  7.90s/it]                                                  91%|█████████ | 285/313 [42:16<03:41,  7.90s/it] 91%|█████████▏| 286/313 [42:24<03:31,  7.84s/it] 92%|█████████▏| 287/313 [42:31<03:24,  7.87s/it] 92%|█████████▏| 288/313 [42:39<03:16,  7.84s/it] 92%|█████████▏| 289/313 [42:47<03:06,  7.79s/it] 93%|█████████▎| 290/313 [42:55<02:59,  7.79s/it]                                                  93%|█████████▎| 290/313 [42:55<02:59,  7.79s/it] 93%|█████████▎| 291/313 [43:02<02:48,  7.65s/it] 93%|█████████▎| 292/313 [43:10<02:40,  7.65s/it] 94%|█████████▎| 293/313 [43:18<02:35,  7.77s/it] 94%|█████████▍| 294/313 [43:25<02:24,  7.58s/it] 94%|█████████▍| 295/313 [43:33<02:16,  7.61s/it]                                                  94%|█████████▍| 295/313 [43:33<02:16,  7.61s/it] 95%|█████████▍| 296/313 [43:40<02:09,  7.61s/it] 95%|█████████▍| 297/313 [43:48<02:01,  7.59s/it] 95%|█████████▌| 298/313 [43:55<01:53,  7.54s/it] 96%|█████████▌| 299/313 [44:04<01:49,  7.82s/it] 96%|█████████▌| 300/313 [44:11<01:41,  7.83s/it]                                                  96%|█████████▌| 300/313 [44:12<01:41,  7.83s/it][INFO|trainer.py:3815] 2026-06-08 21:52:16,481 >> Saving model checkpoint to saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-300
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:52:41,834 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-300/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:52:41,834 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-300/tokenizer_config.json
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:54:03,948 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-300/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:54:03,949 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-300/tokenizer_config.json
+[INFO|processing_utils.py:881] 2026-06-08 21:54:04,069 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-300/chat_template.jinja
+[INFO|processing_utils.py:899] 2026-06-08 21:54:04,070 >> processor saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-300/processor_config.json
+ 96%|█████████▌| 301/313 [46:07<08:01, 40.12s/it] 96%|█████████▋| 302/313 [46:15<05:34, 30.43s/it] 97%|█████████▋| 303/313 [46:23<03:57, 23.70s/it] 97%|█████████▋| 304/313 [46:31<02:51, 19.01s/it] 97%|█████████▋| 305/313 [46:38<02:04, 15.60s/it]                                                  97%|█████████▋| 305/313 [46:39<02:04, 15.60s/it] 98%|█████████▊| 306/313 [46:46<01:32, 13.16s/it] 98%|█████████▊| 307/313 [46:55<01:12, 12.05s/it] 98%|█████████▊| 308/313 [47:03<00:53, 10.62s/it] 99%|█████████▊| 309/313 [47:10<00:38,  9.72s/it] 99%|█████████▉| 310/313 [47:18<00:27,  9.23s/it]                                                  99%|█████████▉| 310/313 [47:19<00:27,  9.23s/it] 99%|█████████▉| 311/313 [47:26<00:17,  8.78s/it]100%|█████████▉| 312/313 [47:36<00:09,  9.20s/it]100%|██████████| 313/313 [47:40<00:00,  7.58s/it][INFO|trainer.py:3815] 2026-06-08 21:55:44,887 >> Saving model checkpoint to saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-313
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:56:10,153 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-313/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:56:10,154 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-313/tokenizer_config.json
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:57:33,155 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-313/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:57:33,155 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-313/tokenizer_config.json
+[INFO|processing_utils.py:881] 2026-06-08 21:57:33,271 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-313/chat_template.jinja
+[INFO|processing_utils.py:899] 2026-06-08 21:57:33,272 >> processor saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/checkpoint-313/processor_config.json
+[INFO|trainer.py:1823] 2026-06-08 21:57:33,272 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                                 100%|██████████| 313/313 [49:28<00:00,  7.58s/it]100%|██████████| 313/313 [49:28<00:00,  9.49s/it]
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:57:33,274 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:57:33,274 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/tokenizer_config.json
+[INFO|processing_utils.py:881] 2026-06-08 21:57:33,390 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/chat_template.jinja
+[INFO|processing_utils.py:899] 2026-06-08 21:57:33,390 >> processor saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/processor_config.json
+[INFO|trainer.py:3815] 2026-06-08 21:57:33,390 >> Saving model checkpoint to saves/qwen3.5-4b/lora/nlu-prod-data-type
+[INFO|tokenization_utils_base.py:3278] 2026-06-08 21:57:57,455 >> chat template saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/chat_template.jinja
+[INFO|tokenization_utils_base.py:2111] 2026-06-08 21:57:57,455 >> tokenizer config file saved in saves/qwen3.5-4b/lora/nlu-prod-data-type/tokenizer_config.json
+{'loss': '2.27', 'grad_norm': '39.45', 'learning_rate': '4e-05', 'epoch': '0.016'}
+{'loss': '0.4074', 'grad_norm': '2.889', 'learning_rate': '9e-05', 'epoch': '0.032'}
+{'loss': '0.07916', 'grad_norm': '5.721', 'learning_rate': '9.996e-05', 'epoch': '0.048'}
+{'loss': '0.07238', 'grad_norm': '2.103', 'learning_rate': '9.978e-05', 'epoch': '0.064'}
+{'loss': '0.16', 'grad_norm': '8.482', 'learning_rate': '9.947e-05', 'epoch': '0.08'}
+{'loss': '0.03882', 'grad_norm': '0.2453', 'learning_rate': '9.903e-05', 'epoch': '0.096'}
+{'loss': '0.06436', 'grad_norm': '2.685', 'learning_rate': '9.846e-05', 'epoch': '0.112'}
+{'loss': '0.04713', 'grad_norm': '1.061', 'learning_rate': '9.776e-05', 'epoch': '0.128'}
+{'loss': '0.04967', 'grad_norm': '3.228', 'learning_rate': '9.693e-05', 'epoch': '0.144'}
+{'loss': '0.07113', 'grad_norm': '4.46', 'learning_rate': '9.597e-05', 'epoch': '0.16'}
+{'loss': '0.04986', 'grad_norm': '1.946', 'learning_rate': '9.489e-05', 'epoch': '0.176'}
+{'loss': '0.0525', 'grad_norm': '3.514', 'learning_rate': '9.368e-05', 'epoch': '0.192'}
+{'loss': '0.03151', 'grad_norm': '0.9364', 'learning_rate': '9.237e-05', 'epoch': '0.208'}
+{'loss': '0.04839', 'grad_norm': '3.625', 'learning_rate': '9.093e-05', 'epoch': '0.224'}
+{'loss': '0.02077', 'grad_norm': '8.303', 'learning_rate': '8.939e-05', 'epoch': '0.24'}
+{'loss': '0.04834', 'grad_norm': '1.433', 'learning_rate': '8.774e-05', 'epoch': '0.256'}
+{'loss': '0.05817', 'grad_norm': '2.797', 'learning_rate': '8.599e-05', 'epoch': '0.272'}
+{'loss': '0.06222', 'grad_norm': '1.738', 'learning_rate': '8.414e-05', 'epoch': '0.288'}
+{'loss': '0.04607', 'grad_norm': '1.089', 'learning_rate': '8.221e-05', 'epoch': '0.304'}
+{'loss': '0.05013', 'grad_norm': '2.133', 'learning_rate': '8.018e-05', 'epoch': '0.32'}
+{'loss': '0.02239', 'grad_norm': '0.9337', 'learning_rate': '7.807e-05', 'epoch': '0.336'}
+{'loss': '0.03088', 'grad_norm': '1.235', 'learning_rate': '7.589e-05', 'epoch': '0.352'}
+{'loss': '0.03802', 'grad_norm': '1.879', 'learning_rate': '7.364e-05', 'epoch': '0.368'}
+{'loss': '0.05534', 'grad_norm': '3.419', 'learning_rate': '7.133e-05', 'epoch': '0.384'}
+{'loss': '0.05347', 'grad_norm': '4.116', 'learning_rate': '6.895e-05', 'epoch': '0.4'}
+{'loss': '0.04865', 'grad_norm': '2.079', 'learning_rate': '6.653e-05', 'epoch': '0.416'}
+{'loss': '0.0468', 'grad_norm': '2.549', 'learning_rate': '6.406e-05', 'epoch': '0.432'}
+{'loss': '0.0134', 'grad_norm': '1.343', 'learning_rate': '6.156e-05', 'epoch': '0.448'}
+{'loss': '0.05122', 'grad_norm': '1.561', 'learning_rate': '5.902e-05', 'epoch': '0.464'}
+{'loss': '0.03718', 'grad_norm': '1.859', 'learning_rate': '5.646e-05', 'epoch': '0.48'}
+{'loss': '0.02471', 'grad_norm': '1.329', 'learning_rate': '5.388e-05', 'epoch': '0.496'}
+{'loss': '0.04576', 'grad_norm': '4.491', 'learning_rate': '5.13e-05', 'epoch': '0.512'}
+{'loss': '0.04064', 'grad_norm': '0.7317', 'learning_rate': '4.87e-05', 'epoch': '0.528'}
+{'loss': '0.05685', 'grad_norm': '1.085', 'learning_rate': '4.612e-05', 'epoch': '0.544'}
+{'loss': '0.02634', 'grad_norm': '1.486', 'learning_rate': '4.354e-05', 'epoch': '0.56'}
+{'loss': '0.03538', 'grad_norm': '0.4934', 'learning_rate': '4.098e-05', 'epoch': '0.576'}
+{'loss': '0.02323', 'grad_norm': '1.5', 'learning_rate': '3.844e-05', 'epoch': '0.592'}
+{'loss': '0.03154', 'grad_norm': '2.094', 'learning_rate': '3.594e-05', 'epoch': '0.608'}
+{'loss': '0.02955', 'grad_norm': '1.688', 'learning_rate': '3.347e-05', 'epoch': '0.624'}
+{'loss': '0.039', 'grad_norm': '1.552', 'learning_rate': '3.105e-05', 'epoch': '0.64'}
+{'loss': '0.02239', 'grad_norm': '2.241', 'learning_rate': '2.867e-05', 'epoch': '0.656'}
+{'loss': '0.0273', 'grad_norm': '1.162', 'learning_rate': '2.636e-05', 'epoch': '0.672'}
+{'loss': '0.02432', 'grad_norm': '0.9934', 'learning_rate': '2.411e-05', 'epoch': '0.688'}
+{'loss': '0.04386', 'grad_norm': '0.318', 'learning_rate': '2.193e-05', 'epoch': '0.704'}
+{'loss': '0.03394', 'grad_norm': '1.822', 'learning_rate': '1.982e-05', 'epoch': '0.72'}
+{'loss': '0.03827', 'grad_norm': '0.3608', 'learning_rate': '1.779e-05', 'epoch': '0.736'}
+{'loss': '0.0357', 'grad_norm': '4.109', 'learning_rate': '1.586e-05', 'epoch': '0.752'}
+{'loss': '0.0284', 'grad_norm': '0.7521', 'learning_rate': '1.401e-05', 'epoch': '0.768'}
+{'loss': '0.02792', 'grad_norm': '1.046', 'learning_rate': '1.226e-05', 'epoch': '0.784'}
+{'loss': '0.03287', 'grad_norm': '1.699', 'learning_rate': '1.061e-05', 'epoch': '0.8'}
+{'loss': '0.1044', 'grad_norm': '3.301', 'learning_rate': '9.067e-06', 'epoch': '0.816'}
+{'loss': '0.03854', 'grad_norm': '1.158', 'learning_rate': '7.634e-06', 'epoch': '0.832'}
+{'loss': '0.03675', 'grad_norm': '2.622', 'learning_rate': '6.315e-06', 'epoch': '0.848'}
+{'loss': '0.0215', 'grad_norm': '0.3915', 'learning_rate': '5.113e-06', 'epoch': '0.864'}
+{'loss': '0.03893', 'grad_norm': '2.979', 'learning_rate': '4.032e-06', 'epoch': '0.88'}
+{'loss': '0.0234', 'grad_norm': '1.438', 'learning_rate': '3.075e-06', 'epoch': '0.896'}
+{'loss': '0.02208', 'grad_norm': '1.409', 'learning_rate': '2.243e-06', 'epoch': '0.912'}
+{'loss': '0.02889', 'grad_norm': '1.25', 'learning_rate': '1.54e-06', 'epoch': '0.928'}
+{'loss': '0.01464', 'grad_norm': '0.1848', 'learning_rate': '9.671e-07', 'epoch': '0.944'}
+{'loss': '0.01666', 'grad_norm': '1.087', 'learning_rate': '5.258e-07', 'epoch': '0.96'}
+{'loss': '0.02383', 'grad_norm': '1.382', 'learning_rate': '2.175e-07', 'epoch': '0.976'}
+{'loss': '0.03057', 'grad_norm': '1.265', 'learning_rate': '4.299e-08', 'epoch': '0.992'}
+{'train_runtime': '2969', 'train_samples_per_second': '1.684', 'train_steps_per_second': '0.105', 'train_loss': '0.08328', 'epoch': '1'}
+***** train metrics *****
+  epoch                    =        1.0
+  total_flos               = 19262728GF
+  train_loss               =     0.0833
+  train_runtime            = 0:49:28.97
+  train_samples_per_second =      1.684
+  train_steps_per_second   =      0.105
+Figure saved at: saves/qwen3.5-4b/lora/nlu-prod-data-type/training_loss.png
+[WARNING|2026-06-08 21:57:57] llamafactory.extras.ploting:149 >> No metric eval_loss to plot.
+[WARNING|2026-06-08 21:57:57] llamafactory.extras.ploting:149 >> No metric eval_accuracy to plot.
+[INFO|modelcard.py:263] 2026-06-08 21:57:57,638 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}

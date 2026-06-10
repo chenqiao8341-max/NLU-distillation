@@ -1,0 +1,19 @@
+{
+  "task": "时间和if值",
+  "total_examples": 5000,
+  "positive_examples": 3000,
+  "negative_examples": 2000,
+  "formats": {
+    "sft": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000
+    }
+  },
+  "source_rows_scanned": 411788,
+  "available_positive_examples": 131366,
+  "available_negative_examples": 280422,
+  "selected_positive_examples": 3000,
+  "selected_negative_examples": 2000
+}

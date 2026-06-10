@@ -1,0 +1,36 @@
+{
+  "task": "机构和国家",
+  "total_examples": 5000,
+  "positive_examples": 3000,
+  "negative_examples": 2000,
+  "formats": {
+    "sft": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000
+    },
+    "bio": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000,
+      "label_list": [
+        "O",
+        "B-INSTITUTION",
+        "I-INSTITUTION",
+        "B-COUNTRY",
+        "I-COUNTRY"
+      ],
+      "missed_gold_spans": {
+        "机构名称": 15,
+        "国家": 0
+      }
+    }
+  },
+  "source_rows_scanned": 411788,
+  "available_positive_examples": 7851,
+  "available_negative_examples": 403937,
+  "selected_positive_examples": 3000,
+  "selected_negative_examples": 2000
+}

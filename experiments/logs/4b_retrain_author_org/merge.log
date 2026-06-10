@@ -1,0 +1,576 @@
+/home/qiao/work/lf-env/lib/python3.12/site-packages/jieba/_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[INFO|2026-06-09 14:36:34] llamafactory.hparams.parser:507 >> Process rank: 0, world size: 1, device: cuda:0, distributed training: False, compute dtype: None
+[INFO|configuration_utils.py:769] 2026-06-09 14:36:34,987 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:847] 2026-06-09 14:36:34,995 >> Model config Qwen3_5Config {
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "image_token_id": 248056,
+  "model_type": "qwen3_5",
+  "text_config": {
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "attn_output_gate": true,
+    "bos_token_id": null,
+    "dtype": "bfloat16",
+    "eos_token_id": 248044,
+    "full_attention_interval": 4,
+    "head_dim": 256,
+    "hidden_act": "silu",
+    "hidden_size": 2560,
+    "initializer_range": 0.02,
+    "intermediate_size": 9216,
+    "layer_types": [
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention"
+    ],
+    "linear_conv_kernel_dim": 4,
+    "linear_key_head_dim": 128,
+    "linear_num_key_heads": 16,
+    "linear_num_value_heads": 32,
+    "linear_value_head_dim": 128,
+    "mamba_ssm_dtype": "float32",
+    "max_position_embeddings": 262144,
+    "mlp_only_layers": [],
+    "model_type": "qwen3_5_text",
+    "mtp_num_hidden_layers": 1,
+    "mtp_use_dedicated_embeddings": false,
+    "num_attention_heads": 16,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 4,
+    "pad_token_id": null,
+    "partial_rotary_factor": 0.25,
+    "rms_norm_eps": 1e-06,
+    "rope_parameters": {
+      "mrope_interleaved": true,
+      "mrope_section": [
+        11,
+        11,
+        10
+      ],
+      "partial_rotary_factor": 0.25,
+      "rope_theta": 10000000,
+      "rope_type": "default"
+    },
+    "tie_word_embeddings": true,
+    "use_cache": true,
+    "vocab_size": 248320
+  },
+  "tie_word_embeddings": true,
+  "transformers_version": "5.6.0",
+  "video_token_id": 248057,
+  "vision_config": {
+    "deepstack_visual_indexes": [],
+    "depth": 24,
+    "hidden_act": "gelu_pytorch_tanh",
+    "hidden_size": 1024,
+    "in_channels": 3,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "model_type": "qwen3_5_vision",
+    "num_heads": 16,
+    "num_position_embeddings": 2304,
+    "out_hidden_size": 2560,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2
+  },
+  "vision_end_token_id": 248054,
+  "vision_start_token_id": 248053
+}
+
+[INFO|image_processing_base.py:342] 2026-06-09 14:36:35,424 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/preprocessor_config.json
+[INFO|processing_utils.py:1122] 2026-06-09 14:36:35,428 >> loading configuration file None
+[INFO|image_processing_base.py:342] 2026-06-09 14:36:35,428 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/preprocessor_config.json
+[WARNING|logging.py:340] 2026-06-09 14:36:35,428 >> The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+[INFO|image_processing_base.py:342] 2026-06-09 14:36:35,433 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/preprocessor_config.json
+[INFO|image_processing_base.py:385] 2026-06-09 14:36:35,433 >> Image processor Qwen2VLImageProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "Qwen2VLImageProcessor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "merge_size": 2,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "longest_edge": 16777216,
+    "shortest_edge": 65536
+  },
+  "temporal_patch_size": 2
+}
+
+[INFO|configuration_utils.py:769] 2026-06-09 14:36:35,433 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:847] 2026-06-09 14:36:35,437 >> Model config Qwen3_5Config {
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "image_token_id": 248056,
+  "model_type": "qwen3_5",
+  "text_config": {
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "attn_output_gate": true,
+    "bos_token_id": null,
+    "dtype": "bfloat16",
+    "eos_token_id": 248044,
+    "full_attention_interval": 4,
+    "head_dim": 256,
+    "hidden_act": "silu",
+    "hidden_size": 2560,
+    "initializer_range": 0.02,
+    "intermediate_size": 9216,
+    "layer_types": [
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention"
+    ],
+    "linear_conv_kernel_dim": 4,
+    "linear_key_head_dim": 128,
+    "linear_num_key_heads": 16,
+    "linear_num_value_heads": 32,
+    "linear_value_head_dim": 128,
+    "mamba_ssm_dtype": "float32",
+    "max_position_embeddings": 262144,
+    "mlp_only_layers": [],
+    "model_type": "qwen3_5_text",
+    "mtp_num_hidden_layers": 1,
+    "mtp_use_dedicated_embeddings": false,
+    "num_attention_heads": 16,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 4,
+    "pad_token_id": null,
+    "partial_rotary_factor": 0.25,
+    "rms_norm_eps": 1e-06,
+    "rope_parameters": {
+      "mrope_interleaved": true,
+      "mrope_section": [
+        11,
+        11,
+        10
+      ],
+      "partial_rotary_factor": 0.25,
+      "rope_theta": 10000000,
+      "rope_type": "default"
+    },
+    "tie_word_embeddings": true,
+    "use_cache": true,
+    "vocab_size": 248320
+  },
+  "tie_word_embeddings": true,
+  "transformers_version": "5.6.0",
+  "video_token_id": 248057,
+  "vision_config": {
+    "deepstack_visual_indexes": [],
+    "depth": 24,
+    "hidden_act": "gelu_pytorch_tanh",
+    "hidden_size": 1024,
+    "in_channels": 3,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "model_type": "qwen3_5_vision",
+    "num_heads": 16,
+    "num_position_embeddings": 2304,
+    "out_hidden_size": 2560,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2
+  },
+  "vision_end_token_id": 248054,
+  "vision_start_token_id": 248053
+}
+
+[INFO|video_processing_utils.py:684] 2026-06-09 14:36:35,802 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/video_preprocessor_config.json
+[INFO|video_processing_utils.py:684] 2026-06-09 14:36:35,803 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/video_preprocessor_config.json
+[INFO|video_processing_utils.py:727] 2026-06-09 14:36:35,803 >> Video processor Qwen3VLVideoProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "do_sample_frames": true,
+  "fps": 2,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "max_frames": 768,
+  "merge_size": 2,
+  "min_frames": 4,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "return_metadata": false,
+  "size": {
+    "longest_edge": 25165824,
+    "shortest_edge": 4096
+  },
+  "temporal_patch_size": 2,
+  "video_processor_type": "Qwen3VLVideoProcessor"
+}
+
+[INFO|processing_utils.py:1199] 2026-06-09 14:36:35,804 >> Processor Qwen3VLProcessor:
+- image_processor: Qwen2VLImageProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_processor_type": "Qwen2VLImageProcessor",
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "merge_size": 2,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "longest_edge": 16777216,
+    "shortest_edge": 65536
+  },
+  "temporal_patch_size": 2
+}
+
+- tokenizer: Qwen2Tokenizer(name_or_path='/home/qiao/models/Qwen/Qwen3.5-4B', vocab_size=248044, model_max_length=262144, padding_side='right', truncation_side='right', special_tokens={'eos_token': '<|im_end|>', 'pad_token': '<|endoftext|>', 'audio_bos_token': '<|audio_start|>', 'audio_eos_token': '<|audio_end|>', 'audio_token': '<|audio_pad|>', 'image_token': '<|image_pad|>', 'video_token': '<|video_pad|>', 'vision_bos_token': '<|vision_start|>', 'vision_eos_token': '<|vision_end|>'}, added_tokens_decoder={
+	248044: AddedToken("<|endoftext|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248045: AddedToken("<|im_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248046: AddedToken("<|im_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248047: AddedToken("<|object_ref_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248048: AddedToken("<|object_ref_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248049: AddedToken("<|box_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248050: AddedToken("<|box_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248051: AddedToken("<|quad_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248052: AddedToken("<|quad_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248053: AddedToken("<|vision_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248054: AddedToken("<|vision_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248055: AddedToken("<|vision_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248056: AddedToken("<|image_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248057: AddedToken("<|video_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248058: AddedToken("<tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248059: AddedToken("</tool_call>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248060: AddedToken("<|fim_prefix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248061: AddedToken("<|fim_middle|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248062: AddedToken("<|fim_suffix|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248063: AddedToken("<|fim_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248064: AddedToken("<|repo_name|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248065: AddedToken("<|file_sep|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248066: AddedToken("<tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248067: AddedToken("</tool_response>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248068: AddedToken("<think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248069: AddedToken("</think>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=False),
+	248070: AddedToken("<|audio_start|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248071: AddedToken("<|audio_end|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248072: AddedToken("<tts_pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248073: AddedToken("<tts_text_bos>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248074: AddedToken("<tts_text_eod>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248075: AddedToken("<tts_text_bos_single>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	248076: AddedToken("<|audio_pad|>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+})
+- video_processor: Qwen3VLVideoProcessor {
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "do_sample_frames": true,
+  "fps": 2,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "max_frames": 768,
+  "merge_size": 2,
+  "min_frames": 4,
+  "patch_size": 16,
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "return_metadata": false,
+  "size": {
+    "longest_edge": 25165824,
+    "shortest_edge": 4096
+  },
+  "temporal_patch_size": 2,
+  "video_processor_type": "Qwen3VLVideoProcessor"
+}
+
+
+{
+  "image_processor": {
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "Qwen2VLImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "merge_size": 2,
+    "patch_size": 16,
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "longest_edge": 16777216,
+      "shortest_edge": 65536
+    },
+    "temporal_patch_size": 2
+  },
+  "processor_class": "Qwen3VLProcessor",
+  "video_processor": {
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "do_sample_frames": true,
+    "fps": 2,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "max_frames": 768,
+    "merge_size": 2,
+    "min_frames": 4,
+    "patch_size": 16,
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "return_metadata": false,
+    "size": {
+      "longest_edge": 25165824,
+      "shortest_edge": 4096
+    },
+    "temporal_patch_size": 2,
+    "video_processor_type": "Qwen3VLVideoProcessor"
+  }
+}
+
+[INFO|configuration_utils.py:769] 2026-06-09 14:36:35,855 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:847] 2026-06-09 14:36:35,859 >> Model config Qwen3_5Config {
+  "architectures": [
+    "Qwen3_5ForConditionalGeneration"
+  ],
+  "image_token_id": 248056,
+  "model_type": "qwen3_5",
+  "text_config": {
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "attn_output_gate": true,
+    "bos_token_id": null,
+    "dtype": "bfloat16",
+    "eos_token_id": 248044,
+    "full_attention_interval": 4,
+    "head_dim": 256,
+    "hidden_act": "silu",
+    "hidden_size": 2560,
+    "initializer_range": 0.02,
+    "intermediate_size": 9216,
+    "layer_types": [
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention",
+      "linear_attention",
+      "linear_attention",
+      "linear_attention",
+      "full_attention"
+    ],
+    "linear_conv_kernel_dim": 4,
+    "linear_key_head_dim": 128,
+    "linear_num_key_heads": 16,
+    "linear_num_value_heads": 32,
+    "linear_value_head_dim": 128,
+    "mamba_ssm_dtype": "float32",
+    "max_position_embeddings": 262144,
+    "mlp_only_layers": [],
+    "model_type": "qwen3_5_text",
+    "mtp_num_hidden_layers": 1,
+    "mtp_use_dedicated_embeddings": false,
+    "num_attention_heads": 16,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 4,
+    "pad_token_id": null,
+    "partial_rotary_factor": 0.25,
+    "rms_norm_eps": 1e-06,
+    "rope_parameters": {
+      "mrope_interleaved": true,
+      "mrope_section": [
+        11,
+        11,
+        10
+      ],
+      "partial_rotary_factor": 0.25,
+      "rope_theta": 10000000,
+      "rope_type": "default"
+    },
+    "tie_word_embeddings": true,
+    "use_cache": true,
+    "vocab_size": 248320
+  },
+  "tie_word_embeddings": true,
+  "transformers_version": "5.6.0",
+  "video_token_id": 248057,
+  "vision_config": {
+    "deepstack_visual_indexes": [],
+    "depth": 24,
+    "hidden_act": "gelu_pytorch_tanh",
+    "hidden_size": 1024,
+    "in_channels": 3,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "model_type": "qwen3_5_vision",
+    "num_heads": 16,
+    "num_position_embeddings": 2304,
+    "out_hidden_size": 2560,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "temporal_patch_size": 2
+  },
+  "vision_end_token_id": 248054,
+  "vision_start_token_id": 248053
+}
+
+[WARNING|logging.py:340] 2026-06-09 14:36:35,859 >> `torch_dtype` is deprecated! Use `dtype` instead!
+[INFO|2026-06-09 14:36:35] llamafactory.model.model_utils.kv_cache:144 >> KV cache is enabled for faster generation.
+[INFO|modeling_utils.py:748] 2026-06-09 14:36:36,039 >> loading weights file /home/qiao/models/Qwen/Qwen3.5-4B/model.safetensors.index.json
+[INFO|modeling_utils.py:834] 2026-06-09 14:36:36,041 >> Since the `dtype` attribute can't be found in model's config object, will use dtype=torch.bfloat16 as derived from model's weights
+[INFO|configuration_utils.py:1027] 2026-06-09 14:36:36,042 >> Generate config GenerationConfig {
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "use_cache": true
+}
+
+[WARNING|logging.py:340] 2026-06-09 14:36:36,062 >> The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:   0%|          | 1/723 [00:08<1:41:37,  8.45s/it]Loading weights:   1%|          | 8/723 [00:08<09:31,  1.25it/s]  Loading weights:   1%|▏         | 10/723 [00:08<07:19,  1.62it/s]Loading weights:   2%|▏         | 12/723 [00:09<05:43,  2.07it/s]Loading weights:   2%|▏         | 14/723 [00:09<05:00,  2.36it/s]Loading weights:   3%|▎         | 20/723 [00:10<02:39,  4.42it/s]Loading weights:   3%|▎         | 25/723 [00:10<01:42,  6.78it/s]Loading weights:   4%|▎         | 27/723 [00:10<02:02,  5.68it/s]Loading weights:   4%|▍         | 32/723 [00:11<01:27,  7.86it/s]Loading weights:   5%|▌         | 37/723 [00:11<01:01, 11.09it/s]Loading weights:   6%|▌         | 40/723 [00:11<01:09,  9.89it/s]Loading weights:   6%|▌         | 42/723 [00:12<01:31,  7.43it/s]Loading weights:   6%|▌         | 45/723 [00:12<01:22,  8.18it/s]Loading weights:   7%|▋         | 47/723 [00:13<01:45,  6.42it/s]Loading weights:   7%|▋         | 51/723 [00:13<01:15,  8.89it/s]Loading weights:   7%|▋         | 53/723 [00:13<01:17,  8.69it/s]Loading weights:   8%|▊         | 60/723 [00:13<00:52, 12.72it/s]Loading weights:   9%|▊         | 62/723 [00:13<00:51, 12.89it/s]Loading weights:   9%|▉         | 64/723 [00:14<00:50, 13.04it/s]Loading weights:   9%|▉         | 66/723 [00:14<01:24,  7.77it/s]Loading weights:   9%|▉         | 68/723 [00:15<01:30,  7.24it/s]Loading weights:  10%|█         | 75/723 [00:15<00:55, 11.64it/s]Loading weights:  11%|█         | 77/723 [00:15<00:53, 12.18it/s]Loading weights:  11%|█         | 79/723 [00:15<01:13,  8.74it/s]Loading weights:  11%|█         | 81/723 [00:16<01:23,  7.69it/s]Loading weights:  12%|█▏        | 87/723 [00:16<01:08,  9.24it/s]Loading weights:  13%|█▎        | 93/723 [00:17<00:54, 11.46it/s]Loading weights:  13%|█▎        | 95/723 [00:17<01:19,  7.91it/s]Loading weights:  14%|█▎        | 98/723 [00:18<01:16,  8.17it/s]Loading weights:  14%|█▎        | 99/723 [00:18<01:30,  6.91it/s]Loading weights:  14%|█▍        | 100/723 [00:18<01:46,  5.85it/s]Loading weights:  14%|█▍        | 104/723 [00:19<01:11,  8.62it/s]Loading weights:  15%|█▍        | 106/723 [00:19<01:16,  8.03it/s]Loading weights:  16%|█▌        | 114/723 [00:19<00:46, 13.22it/s]Loading weights:  16%|█▌        | 116/723 [00:19<00:45, 13.38it/s]Loading weights:  16%|█▋        | 118/723 [00:20<01:05,  9.25it/s]Loading weights:  17%|█▋        | 120/723 [00:20<01:25,  7.06it/s]Loading weights:  17%|█▋        | 126/723 [00:21<00:56, 10.57it/s]Loading weights:  18%|█▊        | 129/723 [00:21<00:49, 11.98it/s]Loading weights:  18%|█▊        | 131/723 [00:21<01:04,  9.14it/s]Loading weights:  18%|█▊        | 133/723 [00:21<01:08,  8.57it/s]Loading weights:  19%|█▊        | 135/723 [00:22<01:14,  7.93it/s]Loading weights:  20%|██        | 146/723 [00:22<00:37, 15.49it/s]Loading weights:  20%|██        | 148/723 [00:23<00:56, 10.15it/s]Loading weights:  21%|██        | 151/723 [00:23<00:55, 10.27it/s]Loading weights:  21%|██        | 153/723 [00:24<01:17,  7.40it/s]Loading weights:  22%|██▏       | 157/723 [00:24<00:58,  9.70it/s]Loading weights:  22%|██▏       | 159/723 [00:24<01:00,  9.35it/s]Loading weights:  23%|██▎       | 167/723 [00:24<00:42, 13.12it/s]Loading weights:  24%|██▎       | 170/723 [00:25<00:38, 14.34it/s]Loading weights:  24%|██▍       | 172/723 [00:25<01:16,  7.19it/s]Loading weights:  25%|██▍       | 178/723 [00:26<00:54,  9.96it/s]Loading weights:  25%|██▌       | 182/723 [00:26<00:43, 12.38it/s]Loading weights:  25%|██▌       | 184/723 [00:26<00:41, 12.85it/s]Loading weights:  26%|██▌       | 186/723 [00:27<01:20,  6.65it/s]Loading weights:  27%|██▋       | 193/723 [00:27<00:49, 10.67it/s]Loading weights:  27%|██▋       | 196/723 [00:27<00:42, 12.32it/s]Loading weights:  28%|██▊       | 199/723 [00:28<00:52,  9.99it/s]Loading weights:  28%|██▊       | 201/723 [00:28<01:13,  7.12it/s]Loading weights:  28%|██▊       | 204/723 [00:29<01:08,  7.61it/s]Loading weights:  28%|██▊       | 206/723 [00:29<01:27,  5.89it/s]Loading weights:  29%|██▉       | 210/723 [00:29<01:01,  8.28it/s]Loading weights:  29%|██▉       | 212/723 [00:30<01:03,  8.03it/s]Loading weights:  30%|███       | 220/723 [00:30<00:38, 12.99it/s]Loading weights:  31%|███       | 222/723 [00:30<00:43, 11.60it/s]Loading weights:  31%|███       | 224/723 [00:31<00:49, 10.01it/s]Loading weights:  31%|███▏      | 226/723 [00:31<01:11,  6.90it/s]Loading weights:  32%|███▏      | 234/723 [00:32<00:41, 11.79it/s]Loading weights:  33%|███▎      | 236/723 [00:32<00:40, 12.01it/s]Loading weights:  33%|███▎      | 238/723 [00:32<00:53,  9.07it/s]Loading weights:  33%|███▎      | 240/723 [00:32<00:58,  8.24it/s]Loading weights:  34%|███▍      | 248/723 [00:33<00:34, 13.87it/s]Loading weights:  35%|███▍      | 250/723 [00:33<00:33, 14.13it/s]Loading weights:  35%|███▍      | 252/723 [00:33<00:45, 10.43it/s]Loading weights:  35%|███▌      | 254/723 [00:34<00:51,  9.05it/s]Loading weights:  36%|███▌      | 257/723 [00:34<00:49,  9.50it/s]Loading weights:  36%|███▌      | 259/723 [00:34<01:08,  6.79it/s]Loading weights:  36%|███▋      | 263/723 [00:35<00:48,  9.55it/s]Loading weights:  37%|███▋      | 265/723 [00:35<00:50,  9.00it/s]Loading weights:  37%|███▋      | 271/723 [00:35<00:32, 14.09it/s]Loading weights:  38%|███▊      | 273/723 [00:35<00:37, 12.09it/s]Loading weights:  38%|███▊      | 276/723 [00:35<00:32, 13.92it/s]Loading weights:  38%|███▊      | 278/723 [00:36<00:54,  8.15it/s]Loading weights:  39%|███▊      | 280/723 [00:36<00:56,  7.87it/s]Loading weights:  39%|███▉      | 283/723 [00:37<00:49,  8.89it/s]Loading weights:  40%|███▉      | 288/723 [00:37<00:32, 13.56it/s]Loading weights:  40%|████      | 291/723 [00:37<00:39, 10.94it/s]Loading weights:  41%|████      | 293/723 [00:37<00:45,  9.36it/s]Loading weights:  42%|████▏     | 305/723 [00:38<00:25, 16.71it/s]Loading weights:  42%|████▏     | 307/723 [00:38<00:38, 10.89it/s]Loading weights:  43%|████▎     | 310/723 [00:39<00:38, 10.63it/s]Loading weights:  43%|████▎     | 312/723 [00:39<00:53,  7.74it/s]Loading weights:  44%|████▎     | 316/723 [00:40<00:41,  9.91it/s]Loading weights:  44%|████▍     | 318/723 [00:40<00:43,  9.22it/s]Loading weights:  45%|████▍     | 325/723 [00:40<00:34, 11.54it/s]Loading weights:  46%|████▌     | 329/723 [00:40<00:28, 13.80it/s]Loading weights:  46%|████▌     | 331/723 [00:41<00:54,  7.26it/s]Loading weights:  47%|████▋     | 340/723 [00:42<00:34, 11.23it/s]Loading weights:  47%|████▋     | 343/723 [00:42<00:30, 12.49it/s]Loading weights:  48%|████▊     | 345/723 [00:42<00:42,  8.84it/s]Loading weights:  48%|████▊     | 347/723 [00:43<00:46,  8.10it/s]Loading weights:  49%|████▉     | 354/723 [00:43<00:30, 11.97it/s]Loading weights:  49%|████▉     | 356/723 [00:43<00:30, 12.20it/s]Loading weights:  50%|████▉     | 358/723 [00:44<00:39,  9.16it/s]Loading weights:  50%|████▉     | 360/723 [00:44<00:56,  6.48it/s]Loading weights:  50%|█████     | 363/723 [00:45<00:49,  7.26it/s]Loading weights:  50%|█████     | 364/723 [00:45<00:57,  6.29it/s]Loading weights:  50%|█████     | 365/723 [00:45<01:06,  5.38it/s]Loading weights:  51%|█████     | 369/723 [00:45<00:41,  8.51it/s]Loading weights:  51%|█████▏    | 371/723 [00:46<00:42,  8.19it/s]Loading weights:  52%|█████▏    | 379/723 [00:46<00:25, 13.59it/s]Loading weights:  53%|█████▎    | 384/723 [00:46<00:19, 17.66it/s]Loading weights:  54%|█████▎    | 388/723 [00:46<00:19, 17.19it/s]Loading weights:  54%|█████▍    | 394/723 [00:47<00:14, 22.35it/s]Loading weights:  55%|█████▍    | 397/723 [00:47<00:21, 15.03it/s]Loading weights:  55%|█████▌    | 400/723 [00:48<00:31, 10.17it/s]Loading weights:  56%|█████▌    | 405/723 [00:48<00:26, 11.88it/s]Loading weights:  56%|█████▋    | 407/723 [00:48<00:25, 12.37it/s]Loading weights:  57%|█████▋    | 410/723 [00:48<00:22, 14.18it/s]Loading weights:  57%|█████▋    | 412/723 [00:49<00:37,  8.34it/s]Loading weights:  57%|█████▋    | 414/723 [00:49<00:39,  7.82it/s]Loading weights:  58%|█████▊    | 416/723 [00:49<00:42,  7.26it/s]Loading weights:  58%|█████▊    | 418/723 [00:50<00:44,  6.79it/s]Loading weights:  58%|█████▊    | 422/723 [00:50<00:42,  7.04it/s]Loading weights:  61%|██████    | 442/723 [00:50<00:11, 24.88it/s]Loading weights:  63%|██████▎   | 454/723 [00:51<00:07, 35.04it/s]Loading weights:  64%|██████▍   | 461/723 [00:51<00:06, 39.16it/s]Loading weights:  65%|██████▍   | 468/723 [00:51<00:06, 42.45it/s]Loading weights:  66%|██████▌   | 478/723 [00:51<00:04, 52.27it/s]Loading weights:  67%|██████▋   | 486/723 [00:51<00:04, 57.79it/s]Loading weights:  68%|██████▊   | 494/723 [00:51<00:03, 61.36it/s]Loading weights:  70%|██████▉   | 505/723 [00:51<00:03, 70.05it/s]Loading weights:  71%|███████▏  | 516/723 [00:51<00:02, 77.96it/s]Loading weights:  73%|███████▎  | 525/723 [00:51<00:02, 80.28it/s]Loading weights:  75%|███████▍  | 539/723 [00:52<00:01, 93.03it/s]Loading weights:  76%|███████▌  | 550/723 [00:52<00:01, 95.40it/s]Loading weights:  77%|███████▋  | 560/723 [00:52<00:01, 91.61it/s]Loading weights:  79%|███████▉  | 570/723 [00:52<00:01, 82.55it/s]Loading weights:  80%|████████  | 579/723 [00:52<00:01, 75.64it/s]Loading weights:  81%|████████▏ | 588/723 [00:52<00:01, 77.97it/s]Loading weights:  83%|████████▎ | 597/723 [00:52<00:01, 73.01it/s]Loading weights:  85%|████████▍ | 612/723 [00:52<00:01, 83.51it/s]Loading weights:  86%|████████▌ | 621/723 [00:53<00:01, 78.75it/s]Loading weights:  87%|████████▋ | 631/723 [00:53<00:01, 82.32it/s]Loading weights:  89%|████████▉ | 646/723 [00:53<00:00, 94.51it/s]Loading weights:  91%|█████████ | 656/723 [00:53<00:00, 90.73it/s]Loading weights:  92%|█████████▏| 666/723 [00:53<00:00, 85.16it/s]Loading weights:  93%|█████████▎| 675/723 [00:53<00:00, 73.69it/s]Loading weights:  94%|█████████▍| 683/723 [00:53<00:00, 70.57it/s]Loading weights:  96%|█████████▌| 694/723 [00:53<00:00, 79.38it/s]Loading weights:  97%|█████████▋| 703/723 [00:54<00:00, 81.56it/s]Loading weights:  98%|█████████▊| 712/723 [00:54<00:00, 73.65it/s]Loading weights: 100%|█████████▉| 720/723 [00:54<00:00, 46.12it/s]Loading weights: 100%|██████████| 723/723 [00:54<00:00, 13.23it/s]
+[INFO|utils.py:411] 2026-06-09 14:37:31,711 >> Generation config file not found, using a generation config created from the model config.
+[INFO|configuration_utils.py:978] 2026-06-09 14:37:31,712 >> loading configuration file /home/qiao/models/Qwen/Qwen3.5-4B/config.json
+[INFO|configuration_utils.py:1027] 2026-06-09 14:37:31,712 >> Generate config GenerationConfig {}
+
+[INFO|dynamic_module_utils.py:406] 2026-06-09 14:37:31,712 >> Could not locate the custom_generate/generate.py inside /home/qiao/models/Qwen/Qwen3.5-4B.
+[INFO|2026-06-09 14:37:31] llamafactory.model.model_utils.attention:144 >> Using torch SDPA for faster training and inference.
+/home/qiao/work/lf-env/lib/python3.12/site-packages/peft/tuners/tuners_utils.py:1225: UserWarning: Model has `tie_word_embeddings=True` and a tied layer is part of the adapter, but `ensure_weight_tying` is not set to True. This can lead to complications, for example when merging the adapter or converting your model to formats other than safetensors. Check the discussion here: https://github.com/huggingface/peft/issues/2777
+  warnings.warn(msg)
+[INFO|2026-06-09 14:38:06] llamafactory.model.adapter:144 >> Merged 1 adapter(s).
+[INFO|2026-06-09 14:38:06] llamafactory.model.adapter:144 >> Loaded adapter(s): saves/qwen3.5-4b/lora/nlu-prod-author-org
+[INFO|2026-06-09 14:38:06] llamafactory.model.loader:144 >> all params: 5,174,964,736

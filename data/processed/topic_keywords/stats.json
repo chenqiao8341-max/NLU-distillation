@@ -1,0 +1,36 @@
+{
+  "task": "topic和keywords",
+  "total_examples": 5000,
+  "positive_examples": 3000,
+  "negative_examples": 2000,
+  "formats": {
+    "sft": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000
+    },
+    "bio": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000,
+      "label_list": [
+        "O",
+        "B-TOPIC",
+        "I-TOPIC",
+        "B-KEYWORD",
+        "I-KEYWORD"
+      ],
+      "missed_gold_spans": {
+        "topics": 52,
+        "keywords": 127
+      }
+    }
+  },
+  "source_rows_scanned": 411788,
+  "available_positive_examples": 233762,
+  "available_negative_examples": 178026,
+  "selected_positive_examples": 3000,
+  "selected_negative_examples": 2000
+}

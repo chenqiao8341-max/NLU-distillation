@@ -1,0 +1,39 @@
+
+== data_type (310 samples) ==
+  data_type: 10/310
+  data_type: 20/310
+  data_type: 30/310
+  data_type: 40/310
+  data_type: 50/310
+  data_type: 60/310
+  data_type: 70/310
+  data_type: 80/310
+  data_type: 90/310
+  data_type: 100/310
+  data_type: 110/310
+  data_type: 120/310
+  data_type: 130/310
+  data_type: 140/310
+  data_type: 150/310
+  data_type: 160/310
+  data_type: 170/310
+  data_type: 180/310
+  data_type: 190/310
+  data_type: 200/310
+  data_type: 210/310
+  data_type: 220/310
+  data_type: 230/310
+  data_type: 240/310
+  data_type: 250/310
+  data_type: 260/310
+  data_type: 270/310
+  data_type: 280/310
+  data_type: 290/310
+  data_type: 300/310
+  data_type: 310/310
+
+📊 进行评估...
+  抽取评估字段: data_type
+
+JSON: /home/qiao/work/NLU-distillation/reports/merged/qwen35_4b_nlu_prod_data_type.json
+Markdown: /home/qiao/work/NLU-distillation/reports/merged/qwen35_4b_nlu_prod_data_type.md

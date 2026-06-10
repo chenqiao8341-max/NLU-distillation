@@ -1,0 +1,54 @@
+$ /home/qiao/work/llm_env/bin/python /home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py --base-url http://127.0.0.1:8000/v1 --model qwen35-4b-nlu-prod-author-org --dataset-dir /home/qiao/work/nlu-server/eval --tasks 作者和机构 --concurrency 1 --max-tokens 1024 --timeout 180 --no-xlsx --output-prefix /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_author_org
+
+== 作者和机构 (200 samples) ==
+  作者和机构: 10/200
+  作者和机构: 20/200
+  作者和机构: 30/200
+Traceback (most recent call last):
+  File "/home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py", line 428, in <module>
+    main()
+  File "/home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py", line 377, in main
+    metrics, records = evaluate_task(
+                       ^^^^^^^^^^^^^^
+  File "/home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py", line 252, in evaluate_task
+    record = build_record(item, client)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py", line 241, in build_record
+    raw = local_client.predict(task_type, fields, item["query"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py", line 203, in predict
+    resp = self.session.post(f"{self.base_url}/chat/completions", json=payload, timeout=self.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/llm_env/lib/python3.12/site-packages/requests/sessions.py", line 640, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/llm_env/lib/python3.12/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/llm_env/lib/python3.12/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/llm_env/lib/python3.12/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/qiao/work/llm_env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/llm_env/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/qiao/work/llm_env/lib/python3.12/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

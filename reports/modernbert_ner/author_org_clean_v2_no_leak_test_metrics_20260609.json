@@ -1,0 +1,31 @@
+{
+  "model_dir": "/home/chenqr/work/nlu-bert/outputs/modernbert-author-org-ner-clean-v2",
+  "data_dir": "/home/chenqr/work/nlu-bert/data/author_org_bio_clean_v2",
+  "test_samples": 300,
+  "token_accuracy": 1.0,
+  "entity_precision": 1.0,
+  "entity_recall": 1.0,
+  "entity_f1": 1.0,
+  "entity_true_count": 237,
+  "entity_pred_count": 237,
+  "entity_tp_count": 237,
+  "by_entity": {
+    "AUTHOR": {
+      "tp": 158,
+      "pred": 158,
+      "true": 158,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "INSTITUTION": {
+      "tp": 79,
+      "pred": 79,
+      "true": 79,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "leakage": "none: evaluated on held-out test split from author_org_bio_clean_v2"
+}

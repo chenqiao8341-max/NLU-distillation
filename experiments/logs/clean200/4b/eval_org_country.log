@@ -1,0 +1,29 @@
+$ /home/qiao/work/llm_env/bin/python /home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py --base-url http://127.0.0.1:8000/v1 --model qwen35-4b-nlu-prod-org-country --dataset-dir /home/qiao/work/nlu-server/eval --tasks 机构和国家 --concurrency 1 --max-tokens 256 --timeout 180 --no-xlsx --output-prefix /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_org_country
+
+== 机构和国家 (200 samples) ==
+  机构和国家: 10/200
+  机构和国家: 20/200
+  机构和国家: 30/200
+  机构和国家: 40/200
+  机构和国家: 50/200
+  机构和国家: 60/200
+  机构和国家: 70/200
+  机构和国家: 80/200
+  机构和国家: 90/200
+  机构和国家: 100/200
+  机构和国家: 110/200
+  机构和国家: 120/200
+  机构和国家: 130/200
+  机构和国家: 140/200
+  机构和国家: 150/200
+  机构和国家: 160/200
+  机构和国家: 170/200
+  机构和国家: 180/200
+  机构和国家: 190/200
+  机构和国家: 200/200
+
+📊 进行评估...
+  抽取评估字段: 国家, 机构名称
+
+JSON: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_org_country.json
+Markdown: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_org_country.md

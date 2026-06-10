@@ -1,0 +1,689 @@
+{
+  "model": "qwen35-4b-nlu-author-org",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "generated_at": "2026-06-09T01:43:37",
+  "total_samples": 10,
+  "overall_metrics": {
+    "Average-EM": 0.0,
+    "Average-Partial": 0.15384615384615385,
+    "Average-F1": 0.1012987012987013,
+    "Null-accuracy": 1.0
+  },
+  "tasks": [
+    {
+      "task_type": "作者和机构",
+      "sample_count": 10,
+      "metrics": {
+        "author-institution-EM": 0.0,
+        "author-institution-Partial": 0.0,
+        "author-institution-Precision": 0.0,
+        "author-institution-Recall": 0.0,
+        "author-institution-F1": 0.0,
+        "author-name-EM": 0.0,
+        "author-name-Partial": 0.0,
+        "author-name-Precision": 0.0,
+        "author-name-Recall": 0.0,
+        "author-name-F1": 0.0,
+        "author-name英文变体-EM": 0.0,
+        "author-name英文变体-Partial": 0.4,
+        "author-name英文变体-Precision": 0.6,
+        "author-name英文变体-Recall": 0.1716666666666667,
+        "author-name英文变体-F1": 0.2633766233766234,
+        "Average-EM": 0.0,
+        "Average-Partial": 0.15384615384615385,
+        "Average-F1": 0.1012987012987013,
+        "Null-accuracy": 1.0
+      },
+      "samples": [
+        {
+          "query": "龚建平教授发表的rct研究最终结论是什么",
+          "ground_truth": {
+            "author_name": "龚建平",
+            "author_name英文变体": "<variant>Gong Jianping</variant>\n <variant>Jianping Gong</variant>\n <variant>Gong Jian-Ping</variant>\n <variant>Jian-Ping Gong</variant>\n <variant>Gong Jian Ping</variant>\n <variant>Jian Ping Gong</variant>\n <variant>Gong, Jianping</variant>\n <variant>Gong, Jian-Ping</variant>\n <variant>Gong, Jian Ping</variant>\n <variant>Gong J.</variant>\n <variant>Gong J</variant>\n <variant>J. Gong</variant>\n <variant>J Gong</variant>\n <variant>Gong JP</variant>\n <variant>Gong J P</variant>\n <variant>J. P. Gong</variant>\n <variant>J.P. Gong</variant>\n <variant>J P Gong</variant>\n <variant>Gong J.-P.</variant>\n <variant>Gong J-P</variant>\n <variant>J.-P. Gong</variant>\n <variant>J-P Gong</variant>\n <variant>G. Jianping</variant>\n <variant>Jianping G.</variant>\n <variant>G. Jian Ping</variant>\n <variant>Jian Ping G.</variant>\n <variant>G. Jian-Ping</variant>\n <variant>Jian-Ping G.</variant>",
+            "author_institution": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-28e6e293437947b894283a469710bde5",
+              "object": "chat.completion",
+              "created": 1780936949,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 307,
+                "completion_tokens": 96,
+                "total_tokens": 403
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name英文变体": "Gong Jianping；Jianping Gong",
+            "entities": {
+              "author_name英文变体": "Gong Jianping；Jianping Gong"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-28e6e293437947b894283a469710bde5",
+                "object": "chat.completion",
+                "created": 1780936949,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 307,
+                  "completion_tokens": 96,
+                  "total_tokens": 403
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "克利夫兰诊所科尔眼科研究所的乔治教授对视网膜断层成像在不同疾病 ME 诊断中的作用，2014 年 7 月刊 British Journal of Ophthalmology。",
+          "ground_truth": {
+            "author_name": "乔治",
+            "author_name英文变体": "<variant>Qiao Zhi</variant>\n <variant>Zhi Qiao</variant>\n <variant>Qiao-Zhi</variant>\n <variant>Zhi-Qiao</variant>\n <variant>Qiao, Zhi</variant>\n <variant>Qiao Z.</variant>\n <variant>Qiao Z</variant>\n <variant>Z. Qiao</variant>\n <variant>Z Qiao</variant>\n <variant>Q. Zhi</variant>\n <variant>Zhi Q.</variant>\n <variant>George</variant>",
+            "author_institution": "克利夫兰诊所科尔眼科研究所"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-70b77e660d6a4aa1af6a4bda1b8f6629",
+              "object": "chat.completion",
+              "created": 1780936957,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 335,
+                "completion_tokens": 96,
+                "total_tokens": 431
+              }
+            }
+          },
+          "parsed_output": {
+            "entities": {},
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-70b77e660d6a4aa1af6a4bda1b8f6629",
+                "object": "chat.completion",
+                "created": 1780936957,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 335,
+                  "completion_tokens": 96,
+                  "total_tokens": 431
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "◦南京大学生命科学学院李根喜教授课题组提出赋予多肽电活性的策略，设计了一种双功能多肽—FFFGGGGRGDS。该多肽是一种同时具有分子识别和自组装能力的两亲性肽，能够与电活性物质二茂铁甲酸（FcCOOH）共组装成电活性多肽纳米探针（ePNPs）。",
+          "ground_truth": {
+            "author_name": "李根喜",
+            "author_name英文变体": "<variant>Li Genxi</variant>\n <variant>Genxi Li</variant>\n <variant>Li Gen-Xi</variant>\n <variant>Gen-Xi Li</variant>\n <variant>Li Gen Xi</variant>\n <variant>Gen Xi Li</variant>\n <variant>Li, Genxi</variant>\n <variant>Li, Gen-Xi</variant>\n <variant>Li, Gen Xi</variant>\n <variant>Li G.</variant>\n <variant>Li G</variant>\n <variant>G. Li</variant>\n <variant>G Li</variant>\n <variant>Li GX</variant>\n <variant>Li G X</variant>\n <variant>G. X. Li</variant>\n <variant>G.X. Li</variant>\n <variant>G X Li</variant>\n <variant>Li G.-X.</variant>\n <variant>Li G-X</variant>\n <variant>G.-X. Li</variant>\n <variant>G-X Li</variant>\n <variant>L. Genxi</variant>\n <variant>Genxi L.</variant>\n <variant>L. Gen Xi</variant>\n <variant>Gen Xi L.</variant>\n <variant>L. Gen-Xi</variant>\n <variant>Gen-Xi L.</variant>",
+            "author_institution": "南京大学生命科学学院"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-0293a60a4a734807bd1a32c406e2cb28",
+              "object": "chat.completion",
+              "created": 1780936964,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 376,
+                "completion_tokens": 96,
+                "total_tokens": 472
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name英文变体": "Li Genxi",
+            "entities": {
+              "author_name英文变体": "Li Genxi"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-0293a60a4a734807bd1a32c406e2cb28",
+                "object": "chat.completion",
+                "created": 1780936964,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 376,
+                  "completion_tokens": 96,
+                  "total_tokens": 472
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "stephen liu教授",
+          "ground_truth": {
+            "author_name": "stephen liu",
+            "author_name英文变体": "<variant>Stephen Liu</variant>\n <variant>Liu Stephen</variant>\n <variant>Liu, Stephen</variant>\n <variant>Liu S.</variant>\n <variant>Liu S</variant>\n <variant>S. Liu</variant>\n <variant>S Liu</variant>\n <variant>L. Stephen</variant>\n <variant>Stephen L.</variant>",
+            "author_institution": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"stephen liu；Liu Stephen；S. Liu；Liu S.；S. L.；Liu, Stephen；Stephen, Liu；Liu S；S Liu\",\"author_name英文变体\":\"<variant>Stephen Liu</variant>\\n<Liu Stephen>\\n<S. Liu>\\n<Liu S.>\\n<S. L.>\\n<Liu, Stephen>\\n<Stephen, Liu>\\n<Liu S>\\"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-6c20e2edbc37458eb5733c9a0bb76b82",
+              "object": "chat.completion",
+              "created": 1780936972,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"stephen liu；Liu Stephen；S. Liu；Liu S.；S. L.；Liu, Stephen；Stephen, Liu；Liu S；S Liu\",\"author_name英文变体\":\"<variant>Stephen Liu</variant>\\n<Liu Stephen>\\n<S. Liu>\\n<Liu S.>\\n<S. L.>\\n<Liu, Stephen>\\n<Stephen, Liu>\\n<Liu S>\\"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 302,
+                "completion_tokens": 96,
+                "total_tokens": 398
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name英文变体": "Stephen Liu",
+            "entities": {
+              "author_name英文变体": "Stephen Liu"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"stephen liu；Liu Stephen；S. Liu；Liu S.；S. L.；Liu, Stephen；Stephen, Liu；Liu S；S Liu\",\"author_name英文变体\":\"<variant>Stephen Liu</variant>\\n<Liu Stephen>\\n<S. Liu>\\n<Liu S.>\\n<S. L.>\\n<Liu, Stephen>\\n<Stephen, Liu>\\n<Liu S>\\"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-6c20e2edbc37458eb5733c9a0bb76b82",
+                "object": "chat.completion",
+                "created": 1780936972,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"stephen liu；Liu Stephen；S. Liu；Liu S.；S. L.；Liu, Stephen；Stephen, Liu；Liu S；S Liu\",\"author_name英文变体\":\"<variant>Stephen Liu</variant>\\n<Liu Stephen>\\n<S. Liu>\\n<Liu S.>\\n<S. L.>\\n<Liu, Stephen>\\n<Stephen, Liu>\\n<Liu S>\\"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 302,
+                  "completion_tokens": 96,
+                  "total_tokens": 398
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "马赛大学Guy Magalon 教授团队通过长期研究发现，脂肪基质成分中的一类细胞亚群可通过促进血管生成相关的作用机制促进移植后受区组织中脂肪细胞的生存和生长。同时，还有一类细胞及细胞因子为受区组织的愈合提供抑制整体炎症因子表达的微环境，降低了组织坏死或发生排异反应的风险",
+          "ground_truth": {
+            "author_name": "Guy Magalon",
+            "author_name英文变体": "<variant>Guy Magalon</variant>\n <variant>Magalon Guy</variant>\n <variant>Magalon, Guy</variant>\n <variant>Magalon G.</variant>\n <variant>Magalon G</variant>\n <variant>G. Magalon</variant>\n <variant>G Magalon</variant>\n <variant>M. Guy</variant>\n <variant>Guy M.</variant>",
+            "author_institution": "马赛大学"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"Guy Magalon；Magalon Guy；G. Magalon；Magalon G.；G. M.；M. G.；G. M.；Guy M.；M. Guy；G. M.；Guy, Magalon；Magalon, Guy；G. M.；G. M.\",\"author_name英文变体\":\"<variant>Guy Magalon</variant>\\n<variant>Magalon Guy</variant>\\n<"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-a88aff85059147179fdf98b37f0d0f66",
+              "object": "chat.completion",
+              "created": 1780936979,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"Guy Magalon；Magalon Guy；G. Magalon；Magalon G.；G. M.；M. G.；G. M.；Guy M.；M. Guy；G. M.；Guy, Magalon；Magalon, Guy；G. M.；G. M.\",\"author_name英文变体\":\"<variant>Guy Magalon</variant>\\n<variant>Magalon Guy</variant>\\n<"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 368,
+                "completion_tokens": 96,
+                "total_tokens": 464
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name英文变体": "Guy Magalon；Magalon Guy",
+            "entities": {
+              "author_name英文变体": "Guy Magalon；Magalon Guy"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"Guy Magalon；Magalon Guy；G. Magalon；Magalon G.；G. M.；M. G.；G. M.；Guy M.；M. Guy；G. M.；Guy, Magalon；Magalon, Guy；G. M.；G. M.\",\"author_name英文变体\":\"<variant>Guy Magalon</variant>\\n<variant>Magalon Guy</variant>\\n<"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-a88aff85059147179fdf98b37f0d0f66",
+                "object": "chat.completion",
+                "created": 1780936979,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"Guy Magalon；Magalon Guy；G. Magalon；Magalon G.；G. M.；M. G.；G. M.；Guy M.；M. Guy；G. M.；Guy, Magalon；Magalon, Guy；G. M.；G. M.\",\"author_name英文变体\":\"<variant>Guy Magalon</variant>\\n<variant>Magalon Guy</variant>\\n<"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 368,
+                  "completion_tokens": 96,
+                  "total_tokens": 464
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "柳李旺教授团队在萝卜肉质根形成机制解析研究中发现，萝卜基因组中鉴定出 48 个 RsCLE 基因，其中 RsCLE22a 在肉质根维管形成层区域高表达。",
+          "ground_truth": {
+            "author_name": "柳李旺",
+            "author_name英文变体": "<variant>Liu Liwang</variant>\n <variant>Liwang Liu</variant>\n <variant>Liu Li-Wang</variant>\n <variant>Li-Wang Liu</variant>\n <variant>Liu Li Wang</variant>\n <variant>Li Wang Liu</variant>\n <variant>Liu, Liwang</variant>\n <variant>Liu, Li-Wang</variant>\n <variant>Liu, Li Wang</variant>\n <variant>Liu L.</variant>\n <variant>Liu L</variant>\n <variant>L. Liu</variant>\n <variant>L Liu</variant>\n <variant>Liu LW</variant>\n <variant>Liu L W</variant>\n <variant>L.W. Liu</variant>\n <variant>L. W. Liu</variant>\n <variant>L W Liu</variant>\n <variant>Liu L.-W.</variant>\n <variant>Liu L-W</variant>\n <variant>L.-W. Liu</variant>\n <variant>L-W Liu</variant>\n <variant>L. Liwang</variant>\n <variant>Liwang L.</variant>\n <variant>L. Li Wang</variant>\n <variant>Li Wang L.</variant>\n <variant>L. Li-Wang</variant>\n <variant>Li-Wang L.</variant>",
+            "author_institution": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"柳李旺；Liu Liwang；Liwang Liu；Liu, Liwang；L. Liwang；Liwang, L.；Liu Li-Wang；Li-Wang Liu；L. Li-Wang；Li-Wang, L.\",\"author_name英文变体\":\"<variant>Liu Liwang</variant>\\n<variant>Liwang Liu</variant>\\n<variant>Liu, Liwang</variant>\\n<variant"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-46276fbd56e14070bafed344dd0e271a",
+              "object": "chat.completion",
+              "created": 1780936987,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"柳李旺；Liu Liwang；Liwang Liu；Liu, Liwang；L. Liwang；Liwang, L.；Liu Li-Wang；Li-Wang Liu；L. Li-Wang；Li-Wang, L.\",\"author_name英文变体\":\"<variant>Liu Liwang</variant>\\n<variant>Liwang Liu</variant>\\n<variant>Liu, Liwang</variant>\\n<variant"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 345,
+                "completion_tokens": 96,
+                "total_tokens": 441
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name英文变体": "Liu Liwang；Liwang Liu；Liu, Liwang",
+            "entities": {
+              "author_name英文变体": "Liu Liwang；Liwang Liu；Liu, Liwang"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"柳李旺；Liu Liwang；Liwang Liu；Liu, Liwang；L. Liwang；Liwang, L.；Liu Li-Wang；Li-Wang Liu；L. Li-Wang；Li-Wang, L.\",\"author_name英文变体\":\"<variant>Liu Liwang</variant>\\n<variant>Liwang Liu</variant>\\n<variant>Liu, Liwang</variant>\\n<variant"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-46276fbd56e14070bafed344dd0e271a",
+                "object": "chat.completion",
+                "created": 1780936987,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"柳李旺；Liu Liwang；Liwang Liu；Liu, Liwang；L. Liwang；Liwang, L.；Liu Li-Wang；Li-Wang Liu；L. Li-Wang；Li-Wang, L.\",\"author_name英文变体\":\"<variant>Liu Liwang</variant>\\n<variant>Liwang Liu</variant>\\n<variant>Liu, Liwang</variant>\\n<variant"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 345,
+                  "completion_tokens": 96,
+                  "total_tokens": 441
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "◦如南京大学李根喜教授课题组提出赋予多肽电活性的策略，使得多肽同时具有靶标识别和信号转导的功能，为生物传感器的设计提供了新的理论基础。",
+          "ground_truth": {
+            "author_name": "李根喜",
+            "author_name英文变体": "<variant>Li Genxi</variant>\n <variant>Genxi Li</variant>\n <variant>Li Gen-Xi</variant>\n <variant>Gen-Xi Li</variant>\n <variant>Li Gen Xi</variant>\n <variant>Gen Xi Li</variant>\n <variant>Li, Genxi</variant>\n <variant>Li, Gen-Xi</variant>\n <variant>Li, Gen Xi</variant>\n <variant>Li G.</variant>\n <variant>Li G</variant>\n <variant>G. Li</variant>\n <variant>G Li</variant>\n <variant>Li GX</variant>\n <variant>Li G X</variant>\n <variant>G. X. Li</variant>\n <variant>G.X. Li</variant>\n <variant>G X Li</variant>\n <variant>Li G.-X.</variant>\n <variant>Li G-X</variant>\n <variant>G.-X. Li</variant>\n <variant>G-X Li</variant>\n <variant>L. Genxi</variant>\n <variant>Genxi L.</variant>\n <variant>L. Gen Xi</variant>\n <variant>Gen Xi L.</variant>\n <variant>L. Gen-Xi</variant>\n <variant>Gen-Xi L.</variant>",
+            "author_institution": "南京大学"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；Li G. Xi；G. Xi Li；Li G. X.；G. X. Li；Li-Genxi；Genxi-Li；Li, G. Xi；G. Xi, Li；Li, G. X.；G. X., Li；Li G. X.；G. X. Li\",\"author_name英文变体\":\""
+            },
+            "raw_openai": {
+              "id": "chatcmpl-52fbca5cb0b744769eb8bd1211f0ad89",
+              "object": "chat.completion",
+              "created": 1780936995,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；Li G. Xi；G. Xi Li；Li G. X.；G. X. Li；Li-Genxi；Genxi-Li；Li, G. Xi；G. Xi, Li；Li, G. X.；G. X., Li；Li G. X.；G. X. Li\",\"author_name英文变体\":\""
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 337,
+                "completion_tokens": 96,
+                "total_tokens": 433
+              }
+            }
+          },
+          "parsed_output": {
+            "entities": {},
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；Li G. Xi；G. Xi Li；Li G. X.；G. X. Li；Li-Genxi；Genxi-Li；Li, G. Xi；G. Xi, Li；Li, G. X.；G. X., Li；Li G. X.；G. X. Li\",\"author_name英文变体\":\""
+              },
+              "raw_openai": {
+                "id": "chatcmpl-52fbca5cb0b744769eb8bd1211f0ad89",
+                "object": "chat.completion",
+                "created": 1780936995,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；Li G. Xi；G. Xi Li；Li G. X.；G. X. Li；Li-Genxi；Genxi-Li；Li, G. Xi；G. Xi, Li；Li, G. X.；G. X., Li；Li G. X.；G. X. Li\",\"author_name英文变体\":\""
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 337,
+                  "completion_tokens": 96,
+                  "total_tokens": 433
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "北大人民医院栗占国教授",
+          "ground_truth": {
+            "author_name": "栗占国",
+            "author_name英文变体": "<variant>Li Zhanguo</variant>\n <variant>Zhanguo Li</variant>\n <variant>Li Zhan-Guo</variant>\n <variant>Zhan-Guo Li</variant>\n <variant>Li Zhan Guo</variant>\n <variant>Zhan Guo Li</variant>\n <variant>Li, Zhanguo</variant>\n <variant>Li, Zhan-Guo</variant>\n <variant>Li, Zhan Guo</variant>\n <variant>Li Z.</variant>\n <variant>Li Z</variant>\n <variant>Z. Li</variant>\n <variant>Z Li</variant>\n <variant>Li ZG</variant>\n <variant>Li Z G</variant>\n <variant>Z.G. Li</variant>\n <variant>Z. G. Li</variant>\n <variant>Z G Li</variant>\n <variant>Li Z.-G.</variant>\n <variant>Li Z-G</variant>\n <variant>Z.-G. Li</variant>\n <variant>Z-G Li</variant>\n <variant>L. Zhanguo</variant>\n <variant>Zhanguo L.</variant>\n <variant>L. Zhan Guo</variant>\n <variant>Zhan Guo L.</variant>\n <variant>L. Zhan-Guo</variant>\n <variant>Zhan-Guo L.</variant>",
+            "author_institution": "北大人民医院"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"栗占国；Li ZhanGuo；ZhanGuo Li；Li, ZhanGuo；ZhanGuo, Li；Li Z. Guo；Z. Guo Li；Li-ZhanGuo；ZhanGuo-Li；Li Z. G.；Z. G. Li；Li Z. G.；Z. G. Li；Li, Z. Guo；Z. Guo, Li"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-e994ee463c2546e2a7fa97c7cf6bfb9b",
+              "object": "chat.completion",
+              "created": 1780937002,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"栗占国；Li ZhanGuo；ZhanGuo Li；Li, ZhanGuo；ZhanGuo, Li；Li Z. Guo；Z. Guo Li；Li-ZhanGuo；ZhanGuo-Li；Li Z. G.；Z. G. Li；Li Z. G.；Z. G. Li；Li, Z. Guo；Z. Guo, Li"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 303,
+                "completion_tokens": 96,
+                "total_tokens": 399
+              }
+            }
+          },
+          "parsed_output": {
+            "entities": {},
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"栗占国；Li ZhanGuo；ZhanGuo Li；Li, ZhanGuo；ZhanGuo, Li；Li Z. Guo；Z. Guo Li；Li-ZhanGuo；ZhanGuo-Li；Li Z. G.；Z. G. Li；Li Z. G.；Z. G. Li；Li, Z. Guo；Z. Guo, Li"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-e994ee463c2546e2a7fa97c7cf6bfb9b",
+                "object": "chat.completion",
+                "created": 1780937002,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"栗占国；Li ZhanGuo；ZhanGuo Li；Li, ZhanGuo；ZhanGuo, Li；Li Z. Guo；Z. Guo Li；Li-ZhanGuo；ZhanGuo-Li；Li Z. G.；Z. G. Li；Li Z. G.；Z. G. Li；Li, Z. Guo；Z. Guo, Li"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 303,
+                  "completion_tokens": 96,
+                  "total_tokens": 399
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "中山大学附属一院匡铭教授在肝癌领域的成果",
+          "ground_truth": {
+            "author_name": "匡铭",
+            "author_name英文变体": "<variant>Kuang Ming</variant>\n <variant>Ming Kuang</variant>\n <variant>Kuang, Ming</variant>\n <variant>Kuang M.</variant>\n <variant>Kuang M</variant>\n <variant>M. Kuang</variant>\n <variant>M Kuang</variant>\n <variant>K. Ming</variant>\n <variant>Ming K.</variant>",
+            "author_institution": "中山大学附属一院"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"匡铭；Kuang Ming；Ming Kuang；Kuang, Ming；K. Ming；M. Kuang；Kuang-Ming；Ming-Kuang；Kuang M；M K；Kuang, M；M, Kuang；Kuang, M.；M., Kuang；Kuang, Ming, M.；Ming, Kuang, M.\",\"author_name英文变体\":\"Kuang Ming；Ming"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-efaba37c65c842909298f97ec18c28e5",
+              "object": "chat.completion",
+              "created": 1780937010,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"匡铭；Kuang Ming；Ming Kuang；Kuang, Ming；K. Ming；M. Kuang；Kuang-Ming；Ming-Kuang；Kuang M；M K；Kuang, M；M, Kuang；Kuang, M.；M., Kuang；Kuang, Ming, M.；Ming, Kuang, M.\",\"author_name英文变体\":\"Kuang Ming；Ming"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 308,
+                "completion_tokens": 96,
+                "total_tokens": 404
+              }
+            }
+          },
+          "parsed_output": {
+            "entities": {},
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"匡铭；Kuang Ming；Ming Kuang；Kuang, Ming；K. Ming；M. Kuang；Kuang-Ming；Ming-Kuang；Kuang M；M K；Kuang, M；M, Kuang；Kuang, M.；M., Kuang；Kuang, Ming, M.；Ming, Kuang, M.\",\"author_name英文变体\":\"Kuang Ming；Ming"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-efaba37c65c842909298f97ec18c28e5",
+                "object": "chat.completion",
+                "created": 1780937010,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"匡铭；Kuang Ming；Ming Kuang；Kuang, Ming；K. Ming；M. Kuang；Kuang-Ming；Ming-Kuang；Kuang M；M K；Kuang, M；M, Kuang；Kuang, M.；M., Kuang；Kuang, Ming, M.；Ming, Kuang, M.\",\"author_name英文变体\":\"Kuang Ming；Ming"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 308,
+                  "completion_tokens": 96,
+                  "total_tokens": 404
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "2024年SABCS 刘西禹教授：替雷利珠单抗联合司曲替尼治疗晚期三阴性乳腺癌 SPARK实验数据",
+          "ground_truth": {
+            "author_name": "刘西禹",
+            "author_name英文变体": "<variant>Liu Xiyu</variant>\n <variant>Xiyu Liu</variant>\n <variant>Liu Xi-Yu</variant>\n <variant>Xi-Yu Liu</variant>\n <variant>Liu Xi Yu</variant>\n <variant>Xi Yu Liu</variant>\n <variant>Liu, Xiyu</variant>\n <variant>Liu, Xi-Yu</variant>\n <variant>Liu, Xi Yu</variant>\n <variant>Liu X.</variant>\n <variant>Liu X</variant>\n <variant>X. Liu</variant>\n <variant>X Liu</variant>\n <variant>Liu XY</variant>\n <variant>Liu X Y</variant>\n <variant>X.Y. Liu</variant>\n <variant>X. Y. Liu</variant>\n <variant>X Y Liu</variant>\n <variant>Liu X.-Y.</variant>\n <variant>Liu X-Y</variant>\n <variant>X.-Y. Liu</variant>\n <variant>X-Y Liu</variant>\n <variant>L. Xiyu</variant>\n <variant>Xiyu L.</variant>\n <variant>L. Xi Yu</variant>\n <variant>Xi Yu L.</variant>\n <variant>L. Xi-Yu</variant>\n <variant>Xi-Yu L.</variant>",
+            "author_institution": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"刘西禹；Liu Xiyu；Xiyu Liu；Liu, Xiyu；Liu X. Yu；X. Yu Liu；Liu X. Y.；X. Y. Liu；Liu-Xiyu；Xiyu-Liu；Liu X. Y.\",\"author_name英文变体\":\"<variant>Liu Xiyu</variant>\\n<variant>Xiyu Liu</variant>\\n<"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-b5924d5f196544f5a9b98a3c34722cf2",
+              "object": "chat.completion",
+              "created": 1780937017,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"刘西禹；Liu Xiyu；Xiyu Liu；Liu, Xiyu；Liu X. Yu；X. Yu Liu；Liu X. Y.；X. Y. Liu；Liu-Xiyu；Xiyu-Liu；Liu X. Y.\",\"author_name英文变体\":\"<variant>Liu Xiyu</variant>\\n<variant>Xiyu Liu</variant>\\n<"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 329,
+                "completion_tokens": 96,
+                "total_tokens": 425
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name英文变体": "Liu Xiyu；Xiyu Liu",
+            "entities": {
+              "author_name英文变体": "Liu Xiyu；Xiyu Liu"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"刘西禹；Liu Xiyu；Xiyu Liu；Liu, Xiyu；Liu X. Yu；X. Yu Liu；Liu X. Y.；X. Y. Liu；Liu-Xiyu；Xiyu-Liu；Liu X. Y.\",\"author_name英文变体\":\"<variant>Liu Xiyu</variant>\\n<variant>Xiyu Liu</variant>\\n<"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-b5924d5f196544f5a9b98a3c34722cf2",
+                "object": "chat.completion",
+                "created": 1780937017,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"刘西禹；Liu Xiyu；Xiyu Liu；Liu, Xiyu；Liu X. Yu；X. Yu Liu；Liu X. Y.；X. Y. Liu；Liu-Xiyu；Xiyu-Liu；Liu X. Y.\",\"author_name英文变体\":\"<variant>Liu Xiyu</variant>\\n<variant>Xiyu Liu</variant>\\n<"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 329,
+                  "completion_tokens": 96,
+                  "total_tokens": 425
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

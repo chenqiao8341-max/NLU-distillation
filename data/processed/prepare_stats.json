@@ -1,0 +1,148 @@
+[
+  {
+    "task": "作者和机构",
+    "total_examples": 3968,
+    "positive_examples": 1968,
+    "negative_examples": 2000,
+    "formats": {
+      "sft": {
+        "test": 396,
+        "valid": 396,
+        "train": 3176,
+        "all": 3968
+      },
+      "bio": {
+        "test": 396,
+        "valid": 396,
+        "train": 3176,
+        "all": 3968,
+        "label_list": [
+          "O",
+          "B-AUTHOR",
+          "I-AUTHOR",
+          "B-INSTITUTION",
+          "I-INSTITUTION"
+        ],
+        "missed_gold_spans": {
+          "author_name": 97,
+          "author_institution": 1
+        }
+      }
+    },
+    "source_rows_scanned": 411788,
+    "available_positive_examples": 1968,
+    "available_negative_examples": 409820,
+    "selected_positive_examples": 1968,
+    "selected_negative_examples": 2000
+  },
+  {
+    "task": "机构和国家",
+    "total_examples": 5000,
+    "positive_examples": 3000,
+    "negative_examples": 2000,
+    "formats": {
+      "sft": {
+        "test": 500,
+        "valid": 500,
+        "train": 4000,
+        "all": 5000
+      },
+      "bio": {
+        "test": 500,
+        "valid": 500,
+        "train": 4000,
+        "all": 5000,
+        "label_list": [
+          "O",
+          "B-INSTITUTION",
+          "I-INSTITUTION",
+          "B-COUNTRY",
+          "I-COUNTRY"
+        ],
+        "missed_gold_spans": {
+          "机构名称": 15,
+          "国家": 0
+        }
+      }
+    },
+    "source_rows_scanned": 411788,
+    "available_positive_examples": 7851,
+    "available_negative_examples": 403937,
+    "selected_positive_examples": 3000,
+    "selected_negative_examples": 2000
+  },
+  {
+    "task": "时间和if值",
+    "total_examples": 5000,
+    "positive_examples": 3000,
+    "negative_examples": 2000,
+    "formats": {
+      "sft": {
+        "test": 500,
+        "valid": 500,
+        "train": 4000,
+        "all": 5000
+      }
+    },
+    "source_rows_scanned": 411788,
+    "available_positive_examples": 131366,
+    "available_negative_examples": 280422,
+    "selected_positive_examples": 3000,
+    "selected_negative_examples": 2000
+  },
+  {
+    "task": "data_type",
+    "total_examples": 5000,
+    "positive_examples": 3000,
+    "negative_examples": 2000,
+    "formats": {
+      "sft": {
+        "test": 500,
+        "valid": 500,
+        "train": 4000,
+        "all": 5000
+      }
+    },
+    "source_rows_scanned": 411788,
+    "available_positive_examples": 109085,
+    "available_negative_examples": 302703,
+    "selected_positive_examples": 3000,
+    "selected_negative_examples": 2000
+  },
+  {
+    "task": "topic和keywords",
+    "total_examples": 5000,
+    "positive_examples": 3000,
+    "negative_examples": 2000,
+    "formats": {
+      "sft": {
+        "test": 500,
+        "valid": 500,
+        "train": 4000,
+        "all": 5000
+      },
+      "bio": {
+        "test": 500,
+        "valid": 500,
+        "train": 4000,
+        "all": 5000,
+        "label_list": [
+          "O",
+          "B-TOPIC",
+          "I-TOPIC",
+          "B-KEYWORD",
+          "I-KEYWORD"
+        ],
+        "missed_gold_spans": {
+          "topics": 52,
+          "keywords": 127
+        }
+      }
+    },
+    "source_rows_scanned": 411788,
+    "available_positive_examples": 233762,
+    "available_negative_examples": 178026,
+    "selected_positive_examples": 3000,
+    "selected_negative_examples": 2000
+  }
+]

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/qiao/work/NLU-distillation/scripts/maintenance/run_qwen35_nlu_pipeline.py", line 253, in <module>
+    
+  File "/home/qiao/work/NLU-distillation/scripts/maintenance/run_qwen35_nlu_pipeline.py", line 228, in main
+    "1",
+^^^^^^^^
+  File "/home/qiao/work/NLU-distillation/scripts/maintenance/run_qwen35_nlu_pipeline.py", line 62, in run_command
+    status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

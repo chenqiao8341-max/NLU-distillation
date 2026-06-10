@@ -1,0 +1,29 @@
+$ /home/qiao/work/llm_env/bin/python /home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py --base-url http://127.0.0.1:8000/v1 --model qwen35-4b-nlu-prod-data-type --dataset-dir /home/qiao/work/nlu-server/eval --tasks data_type --concurrency 1 --max-tokens 256 --timeout 180 --no-xlsx --output-prefix /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_data_type
+
+== data_type (200 samples) ==
+  data_type: 10/200
+  data_type: 20/200
+  data_type: 30/200
+  data_type: 40/200
+  data_type: 50/200
+  data_type: 60/200
+  data_type: 70/200
+  data_type: 80/200
+  data_type: 90/200
+  data_type: 100/200
+  data_type: 110/200
+  data_type: 120/200
+  data_type: 130/200
+  data_type: 140/200
+  data_type: 150/200
+  data_type: 160/200
+  data_type: 170/200
+  data_type: 180/200
+  data_type: 190/200
+  data_type: 200/200
+
+📊 进行评估...
+  抽取评估字段: data_type
+
+JSON: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_data_type.json
+Markdown: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_data_type.md

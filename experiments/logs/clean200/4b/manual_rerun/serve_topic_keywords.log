@@ -1,0 +1,212 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:   0%|          | 1/723 [00:06<1:21:42,  6.79s/it]Loading weights:   1%|          | 6/723 [00:07<10:40,  1.12it/s]  Loading weights:   2%|▏         | 11/723 [00:07<05:11,  2.29it/s]Loading weights:   2%|▏         | 13/723 [00:07<04:18,  2.75it/s]Loading weights:   2%|▏         | 14/723 [00:08<04:06,  2.88it/s]Loading weights:   3%|▎         | 22/723 [00:08<01:50,  6.35it/s]Loading weights:   3%|▎         | 25/723 [00:08<01:28,  7.84it/s]Loading weights:   4%|▎         | 27/723 [00:08<01:45,  6.59it/s]Loading weights:   4%|▍         | 29/723 [00:09<01:42,  6.77it/s]Loading weights:   6%|▌         | 45/723 [00:09<00:39, 17.22it/s]Loading weights:   7%|▋         | 48/723 [00:10<00:50, 13.34it/s]Loading weights:   7%|▋         | 51/723 [00:10<00:46, 14.37it/s]Loading weights:   7%|▋         | 53/723 [00:10<00:50, 13.15it/s]Loading weights:   8%|▊         | 59/723 [00:10<00:41, 15.95it/s]Loading weights:   9%|▊         | 62/723 [00:10<00:42, 15.44it/s]Loading weights:   9%|▉         | 65/723 [00:11<00:45, 14.40it/s]Loading weights:   9%|▉         | 67/723 [00:11<01:07,  9.67it/s]Loading weights:  10%|█         | 75/723 [00:11<00:41, 15.49it/s]Loading weights:  11%|█         | 77/723 [00:12<00:40, 15.80it/s]Loading weights:  11%|█         | 79/723 [00:12<00:54, 11.80it/s]Loading weights:  11%|█         | 81/723 [00:12<01:16,  8.39it/s]Loading weights:  12%|█▏        | 89/723 [00:13<00:54, 11.54it/s]Loading weights:  13%|█▎        | 93/723 [00:13<00:50, 12.42it/s]Loading weights:  13%|█▎        | 95/723 [00:14<01:08,  9.16it/s]Loading weights:  14%|█▎        | 98/723 [00:14<01:04,  9.66it/s]Loading weights:  14%|█▍        | 100/723 [00:14<01:23,  7.44it/s]Loading weights:  14%|█▍        | 104/723 [00:15<01:02,  9.95it/s]Loading weights:  15%|█▍        | 106/723 [00:15<01:04,  9.55it/s]Loading weights:  16%|█▋        | 119/723 [00:15<00:25, 24.13it/s]Loading weights:  17%|█▋        | 125/723 [00:15<00:24, 24.58it/s]Loading weights:  18%|█▊        | 129/723 [00:15<00:22, 26.40it/s]Loading weights:  18%|█▊        | 133/723 [00:16<00:39, 14.92it/s]Loading weights:  19%|█▉        | 136/723 [00:16<00:41, 14.15it/s]Loading weights:  19%|█▉        | 139/723 [00:16<00:41, 14.00it/s]Loading weights:  20%|█▉        | 143/723 [00:16<00:33, 17.26it/s]Loading weights:  20%|██        | 146/723 [00:17<00:42, 13.51it/s]Loading weights:  21%|██        | 149/723 [00:18<01:10,  8.16it/s]Loading weights:  21%|██        | 151/723 [00:18<01:11,  8.05it/s]Loading weights:  22%|██▏       | 157/723 [00:18<00:44, 12.86it/s]Loading weights:  22%|██▏       | 160/723 [00:18<00:44, 12.78it/s]Loading weights:  23%|██▎       | 167/723 [00:18<00:31, 17.48it/s]Loading weights:  24%|██▎       | 170/723 [00:19<00:33, 16.29it/s]Loading weights:  24%|██▍       | 173/723 [00:19<00:59,  9.32it/s]Loading weights:  25%|██▌       | 181/723 [00:20<00:41, 12.93it/s]Loading weights:  25%|██▌       | 184/723 [00:20<00:37, 14.46it/s]Loading weights:  26%|██▌       | 187/723 [00:21<00:59,  9.08it/s]Loading weights:  27%|██▋       | 195/723 [00:21<00:38, 13.71it/s]Loading weights:  27%|██▋       | 198/723 [00:21<00:38, 13.63it/s]Loading weights:  28%|██▊       | 200/723 [00:22<00:53,  9.79it/s]Loading weights:  28%|██▊       | 202/723 [00:22<00:55,  9.41it/s]Loading weights:  28%|██▊       | 204/723 [00:22<00:57,  9.09it/s]Loading weights:  28%|██▊       | 206/723 [00:23<01:13,  7.03it/s]Loading weights:  29%|██▉       | 210/723 [00:23<00:50, 10.13it/s]Loading weights:  29%|██▉       | 212/723 [00:23<00:51,  9.86it/s]Loading weights:  30%|███       | 220/723 [00:23<00:31, 16.17it/s]Loading weights:  31%|███       | 222/723 [00:23<00:30, 16.48it/s]Loading weights:  31%|███       | 224/723 [00:24<00:41, 12.01it/s]Loading weights:  32%|███▏      | 232/723 [00:24<00:27, 17.70it/s]Loading weights:  33%|███▎      | 235/723 [00:24<00:25, 19.20it/s]Loading weights:  33%|███▎      | 238/723 [00:24<00:33, 14.69it/s]Loading weights:  33%|███▎      | 240/723 [00:25<00:49,  9.73it/s]Loading weights:  34%|███▍      | 247/723 [00:25<00:36, 13.18it/s]Loading weights:  35%|███▍      | 250/723 [00:26<00:40, 11.55it/s]Loading weights:  35%|███▍      | 253/723 [00:26<00:40, 11.57it/s]Loading weights:  35%|███▌      | 255/723 [00:26<00:43, 10.69it/s]Loading weights:  36%|███▌      | 257/723 [00:26<00:46, 10.03it/s]Loading weights:  36%|███▌      | 259/723 [00:27<01:02,  7.37it/s]Loading weights:  36%|███▋      | 263/723 [00:27<00:44, 10.43it/s]Loading weights:  37%|███▋      | 265/723 [00:27<00:46,  9.92it/s]Loading weights:  38%|███▊      | 272/723 [00:28<00:34, 13.15it/s]Loading weights:  38%|███▊      | 276/723 [00:28<00:27, 16.20it/s]Loading weights:  39%|███▊      | 279/723 [00:29<00:47,  9.30it/s]Loading weights:  40%|███▉      | 287/723 [00:29<00:32, 13.28it/s]Loading weights:  40%|████      | 290/723 [00:29<00:29, 14.92it/s]Loading weights:  41%|████      | 293/723 [00:30<00:45,  9.37it/s]Loading weights:  43%|████▎     | 310/723 [00:30<00:20, 20.11it/s]Loading weights:  43%|████▎     | 313/723 [00:31<00:26, 15.37it/s]Loading weights:  44%|████▎     | 316/723 [00:31<00:25, 16.27it/s]Loading weights:  44%|████▍     | 319/723 [00:31<00:26, 15.40it/s]Loading weights:  45%|████▍     | 323/723 [00:31<00:24, 16.10it/s]Loading weights:  45%|████▌     | 326/723 [00:31<00:25, 15.66it/s]Loading weights:  46%|████▌     | 330/723 [00:32<00:24, 15.91it/s]Loading weights:  46%|████▌     | 332/723 [00:32<00:37, 10.51it/s]Loading weights:  47%|████▋     | 338/723 [00:32<00:24, 15.92it/s]Loading weights:  47%|████▋     | 341/723 [00:32<00:24, 15.51it/s]Loading weights:  48%|████▊     | 344/723 [00:33<00:29, 12.93it/s]Loading weights:  48%|████▊     | 346/723 [00:33<00:41,  9.05it/s]Loading weights:  49%|████▉     | 353/723 [00:33<00:24, 15.36it/s]Loading weights:  49%|████▉     | 356/723 [00:34<00:25, 14.50it/s]Loading weights:  50%|████▉     | 359/723 [00:34<00:37,  9.59it/s]Loading weights:  50%|████▉     | 361/723 [00:34<00:39,  9.26it/s]Loading weights:  50%|█████     | 363/723 [00:35<00:39,  9.01it/s]Loading weights:  50%|█████     | 365/723 [00:35<00:51,  6.91it/s]Loading weights:  51%|█████     | 369/723 [00:35<00:35,  9.91it/s]Loading weights:  51%|█████▏    | 371/723 [00:36<00:35,  9.79it/s]Loading weights:  52%|█████▏    | 379/723 [00:36<00:21, 15.93it/s]Loading weights:  53%|█████▎    | 381/723 [00:36<00:21, 16.23it/s]Loading weights:  53%|█████▎    | 383/723 [00:36<00:28, 11.99it/s]Loading weights:  53%|█████▎    | 385/723 [00:37<00:40,  8.28it/s]Loading weights:  54%|█████▍    | 391/723 [00:37<00:29, 11.14it/s]Loading weights:  55%|█████▍    | 396/723 [00:37<00:21, 15.42it/s]Loading weights:  55%|█████▌    | 399/723 [00:38<00:34,  9.29it/s]Loading weights:  56%|█████▌    | 404/723 [00:38<00:26, 11.82it/s]Loading weights:  56%|█████▋    | 408/723 [00:38<00:21, 14.76it/s]Loading weights:  57%|█████▋    | 411/723 [00:39<00:25, 12.21it/s]Loading weights:  57%|█████▋    | 413/723 [00:39<00:35,  8.67it/s]Loading weights:  58%|█████▊    | 416/723 [00:39<00:32,  9.33it/s]Loading weights:  58%|█████▊    | 418/723 [00:40<00:43,  7.03it/s]Loading weights:  58%|█████▊    | 420/723 [00:40<00:38,  7.84it/s]Loading weights:  59%|█████▊    | 424/723 [00:40<00:29, 10.06it/s]Loading weights:  60%|█████▉    | 432/723 [00:41<00:15, 18.77it/s]Loading weights:  61%|██████▏   | 444/723 [00:41<00:08, 32.46it/s]Loading weights:  63%|██████▎   | 456/723 [00:41<00:05, 44.93it/s]Loading weights:  65%|██████▍   | 467/723 [00:41<00:04, 54.41it/s]Loading weights:  66%|██████▋   | 480/723 [00:41<00:03, 66.20it/s]Loading weights:  68%|██████▊   | 489/723 [00:41<00:03, 66.64it/s]Loading weights:  70%|██████▉   | 504/723 [00:41<00:02, 80.50it/s]Loading weights:  71%|███████   | 514/723 [00:41<00:02, 79.58it/s]Loading weights:  73%|███████▎  | 525/723 [00:42<00:02, 80.49it/s]Loading weights:  74%|███████▍  | 535/723 [00:42<00:02, 79.41it/s]Loading weights:  76%|███████▋  | 552/723 [00:42<00:01, 92.91it/s]Loading weights:  78%|███████▊  | 564/723 [00:42<00:01, 81.97it/s]Loading weights:  80%|███████▉  | 578/723 [00:42<00:01, 88.02it/s]Loading weights:  81%|████████▏ | 588/723 [00:42<00:01, 90.33it/s]Loading weights:  83%|████████▎ | 600/723 [00:42<00:01, 90.43it/s]Loading weights:  85%|████████▍ | 612/723 [00:43<00:01, 89.87it/s]Loading weights:  86%|████████▋ | 624/723 [00:43<00:01, 89.16it/s]Loading weights:  88%|████████▊ | 636/723 [00:43<00:00, 89.87it/s]Loading weights:  90%|████████▉ | 648/723 [00:43<00:00, 87.17it/s]Loading weights:  91%|█████████▏| 660/723 [00:43<00:00, 89.26it/s]Loading weights:  93%|█████████▎| 672/723 [00:43<00:00, 88.59it/s]Loading weights:  95%|█████████▍| 684/723 [00:43<00:00, 87.40it/s]Loading weights:  96%|█████████▋| 696/723 [00:43<00:00, 86.32it/s]Loading weights:  98%|█████████▊| 705/723 [00:44<00:00, 79.65it/s]Loading weights:  99%|█████████▉| 715/723 [00:44<00:00, 64.04it/s]Loading weights: 100%|█████████▉| 722/723 [00:44<00:00, 58.38it/s]Loading weights: 100%|██████████| 723/723 [00:44<00:00, 16.24it/s]
+INFO:     Started server process [2652160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8012 (Press CTRL+C to quit)
+INFO:     127.0.0.1:40478 - "GET /v1/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2652160]

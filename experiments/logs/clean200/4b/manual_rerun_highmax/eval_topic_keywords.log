@@ -1,0 +1,28 @@
+
+== topic和keywords (200 samples) ==
+  topic和keywords: 10/200
+  topic和keywords: 20/200
+  topic和keywords: 30/200
+  topic和keywords: 40/200
+  topic和keywords: 50/200
+  topic和keywords: 60/200
+  topic和keywords: 70/200
+  topic和keywords: 80/200
+  topic和keywords: 90/200
+  topic和keywords: 100/200
+  topic和keywords: 110/200
+  topic和keywords: 120/200
+  topic和keywords: 130/200
+  topic和keywords: 140/200
+  topic和keywords: 150/200
+  topic和keywords: 160/200
+  topic和keywords: 170/200
+  topic和keywords: 180/200
+  topic和keywords: 190/200
+  topic和keywords: 200/200
+
+📊 进行评估...
+  抽取评估字段: keywords, topics
+
+JSON: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_topic_keywords.json
+Markdown: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_topic_keywords.md

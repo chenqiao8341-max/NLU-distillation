@@ -1,0 +1,74 @@
+# Model registry for candidate NLU routes.
+
+models:
+  modernbert_ner:
+    family: encoder_token_classification
+    status: trained_in_legacy_project
+    legacy_project: /home/qiao/work/nlu-bert
+    base_model: /home/qiao/models/BERT/ModernBERT-base
+    current_output: /home/qiao/work/nlu-bert/outputs/modernbert-author-org-ner
+    suitable_tasks:
+      - author_org
+      - org_country
+      - time_if
+    strengths:
+      - fast inference
+      - stable span extraction
+      - easier deterministic post-processing
+    risks:
+      - task-specific heads
+      - weaker for query rewriting and multi-field generation
+
+  qwen3_5_0_8b_sft:
+    family: decoder_lora_sft
+    status: configured_in_llamafactory
+    legacy_project: /home/qiao/work/LLaMA-Factory
+    base_model: /home/qiao/models/Qwen/Qwen3.5-0.8B
+    train_config: /home/qiao/work/LLaMA-Factory/my_configs/qwen3.5_0.8b_base_lora_sft_author_org.yaml
+    suitable_tasks:
+      - data_type
+      - author_org
+      - org_country
+      - time_if
+    strengths:
+      - cheap to train
+      - useful speed baseline
+      - can share one instruction format across tasks
+    risks:
+      - may underfit complex medical slots
+      - JSON stability needs evaluation
+
+  qwen3_5_4b_sft:
+    family: decoder_lora_sft
+    status: configured_in_llamafactory
+    legacy_project: /home/qiao/work/LLaMA-Factory
+    base_model: /home/qiao/models/Qwen/Qwen3.5-4B
+    train_config: /home/qiao/work/LLaMA-Factory/my_configs/qwen3.5_4b_base_lora_sft_nlu_author_org.yaml
+    suitable_tasks:
+      - data_type
+      - author_org
+      - org_country
+      - time_if
+      - query_rewrite
+      - topic_keyword
+      - trial_slots
+      - publisher_research_type
+    strengths:
+      - stronger multi-field generation
+      - better candidate for unified NLU JSON output
+      - already has local training route
+    risks:
+      - slower and more expensive than 0.8B
+      - requires stricter output validation
+
+  api_teacher:
+    family: closed_or_large_teacher
+    status: reference_only
+    suitable_tasks:
+      - all
+    strengths:
+      - can generate pseudo labels
+      - can provide response distillation data
+    risks:
+      - cost and latency
+      - label noise needs sampling audit

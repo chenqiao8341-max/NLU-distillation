@@ -1,0 +1,240 @@
+{
+  "model": "qwen35-4b-nlu-author-org",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "generated_at": "2026-06-09T01:07:43",
+  "total_samples": 3,
+  "overall_metrics": {
+    "Average-EM": 0.125,
+    "Average-Partial": 0.375,
+    "Average-F1": 0.3070818070818071,
+    "Null-accuracy": 1.0
+  },
+  "tasks": [
+    {
+      "task_type": "作者和机构",
+      "sample_count": 3,
+      "metrics": {
+        "author-institution-EM": 0.5,
+        "author-institution-Partial": 0.5,
+        "author-institution-Precision": 0.5,
+        "author-institution-Recall": 0.5,
+        "author-institution-F1": 0.5,
+        "author-name-EM": 0.0,
+        "author-name-Partial": 0.0,
+        "author-name-Precision": 0.05555555555555555,
+        "author-name-Recall": 0.3333333333333333,
+        "author-name-F1": 0.09523809523809523,
+        "author-name英文变体-EM": 0.0,
+        "author-name英文变体-Partial": 0.6666666666666666,
+        "author-name英文变体-Precision": 0.5185185185185185,
+        "author-name英文变体-Recall": 0.3333333333333333,
+        "author-name英文变体-F1": 0.39031339031339024,
+        "Average-EM": 0.125,
+        "Average-Partial": 0.375,
+        "Average-F1": 0.3070818070818071,
+        "Null-accuracy": 1.0
+      },
+      "samples": [
+        {
+          "query": "龚建平教授发表的rct研究最终结论是什么",
+          "ground_truth": {
+            "author_name": "龚建平",
+            "author_name英文变体": "<variant>Gong Jianping</variant>\n <variant>Jianping Gong</variant>\n <variant>Gong Jian-Ping</variant>\n <variant>Jian-Ping Gong</variant>\n <variant>Gong Jian Ping</variant>\n <variant>Jian Ping Gong</variant>\n <variant>Gong, Jianping</variant>\n <variant>Gong, Jian-Ping</variant>\n <variant>Gong, Jian Ping</variant>\n <variant>Gong J.</variant>\n <variant>Gong J</variant>\n <variant>J. Gong</variant>\n <variant>J Gong</variant>\n <variant>Gong JP</variant>\n <variant>Gong J P</variant>\n <variant>J. P. Gong</variant>\n <variant>J.P. Gong</variant>\n <variant>J P Gong</variant>\n <variant>Gong J.-P.</variant>\n <variant>Gong J-P</variant>\n <variant>J.-P. Gong</variant>\n <variant>J-P Gong</variant>\n <variant>G. Jianping</variant>\n <variant>Jianping G.</variant>\n <variant>G. Jian Ping</variant>\n <variant>Jian Ping G.</variant>\n <variant>G. Jian-Ping</variant>\n <variant>Jian-Ping G.</variant>",
+            "author_institution": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}\n{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-b4b2fca1c5fa48b08643ba0d092bdc06",
+              "object": "chat.completion",
+              "created": 1780934803,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}\n{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 307,
+                "completion_tokens": 316,
+                "total_tokens": 623
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name英文变体": "Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}\n{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong",
+            "entities": {
+              "author_name英文变体": "Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}\n{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}\n{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-b4b2fca1c5fa48b08643ba0d092bdc06",
+                "object": "chat.completion",
+                "created": 1780934803,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}\n{\"author_name\":\"龚建平；Gong Jianping；Jianping Gong；Gong, Jianping；Gong J.；J. Gong；Gong-Jianping；Jianping-Gong；Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_name英文变体\":\"<variant>Gong Jianping</variant>\\n<variant>Jianping Gong</variant>\\n<variant>Gong, Jianping</variant>\\n<variant>Gong J.；J. Gong</variant>\\n<variant>Gong-Jianping；Jianping-Gong</variant>\\n<variant>Gong J P；J P Gong；Gong, J.；J., Gong\",\"author_institution\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 307,
+                  "completion_tokens": 316,
+                  "total_tokens": 623
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "克利夫兰诊所科尔眼科研究所的乔治教授对视网膜断层成像在不同疾病 ME 诊断中的作用，2014 年 7 月刊 British Journal of Ophthalmology。",
+          "ground_truth": {
+            "author_name": "乔治",
+            "author_name英文变体": "<variant>Qiao Zhi</variant>\n <variant>Zhi Qiao</variant>\n <variant>Qiao-Zhi</variant>\n <variant>Zhi-Qiao</variant>\n <variant>Qiao, Zhi</variant>\n <variant>Qiao Z.</variant>\n <variant>Qiao Z</variant>\n <variant>Z. Qiao</variant>\n <variant>Z Qiao</variant>\n <variant>Q. Zhi</variant>\n <variant>Zhi Q.</variant>\n <variant>George</variant>",
+            "author_institution": "克利夫兰诊所科尔眼科研究所"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-5337ebd52e73438f822fd89340d625fc",
+              "object": "chat.completion",
+              "created": 1780934833,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 335,
+                "completion_tokens": 384,
+                "total_tokens": 719
+              }
+            }
+          },
+          "parsed_output": {
+            "entities": {},
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-5337ebd52e73438f822fd89340d625fc",
+                "object": "chat.completion",
+                "created": 1780934833,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"乔治；George；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G.；G"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 335,
+                  "completion_tokens": 384,
+                  "total_tokens": 719
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "◦南京大学生命科学学院李根喜教授课题组提出赋予多肽电活性的策略，设计了一种双功能多肽—FFFGGGGRGDS。该多肽是一种同时具有分子识别和自组装能力的两亲性肽，能够与电活性物质二茂铁甲酸（FcCOOH）共组装成电活性多肽纳米探针（ePNPs）。",
+          "ground_truth": {
+            "author_name": "李根喜",
+            "author_name英文变体": "<variant>Li Genxi</variant>\n <variant>Genxi Li</variant>\n <variant>Li Gen-Xi</variant>\n <variant>Gen-Xi Li</variant>\n <variant>Li Gen Xi</variant>\n <variant>Gen Xi Li</variant>\n <variant>Li, Genxi</variant>\n <variant>Li, Gen-Xi</variant>\n <variant>Li, Gen Xi</variant>\n <variant>Li G.</variant>\n <variant>Li G</variant>\n <variant>G. Li</variant>\n <variant>G Li</variant>\n <variant>Li GX</variant>\n <variant>Li G X</variant>\n <variant>G. X. Li</variant>\n <variant>G.X. Li</variant>\n <variant>G X Li</variant>\n <variant>Li G.-X.</variant>\n <variant>Li G-X</variant>\n <variant>G.-X. Li</variant>\n <variant>G-X Li</variant>\n <variant>L. Genxi</variant>\n <variant>Genxi L.</variant>\n <variant>L. Gen Xi</variant>\n <variant>Gen Xi L.</variant>\n <variant>L. Gen-Xi</variant>\n <variant>Gen-Xi L.</variant>",
+            "author_institution": "南京大学生命科学学院"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<variant>Genxi Li</variant>\\n<variant>Li, Genxi</variant>\\n<variant>L. Genxi</variant>\\n<variant>G. Li</variant>\\n<variant>Li G. X.；G. X. Li；G. X.；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_institution\":\"南京大学生命科学学院\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-22b5ee5f60864a0f91e2bae7a0f2bde7",
+              "object": "chat.completion",
+              "created": 1780934863,
+              "model": "qwen35-4b-nlu-author-org",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<variant>Genxi Li</variant>\\n<variant>Li, Genxi</variant>\\n<variant>L. Genxi</variant>\\n<variant>G. Li</variant>\\n<variant>Li G. X.；G. X. Li；G. X.；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_institution\":\"南京大学生命科学学院\"}\n{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<variant>Genxi Li</variant>\\n<variant>Li, Genxi</variant>\\n<variant>L. Genxi</variant>\\n<variant>G. Li</variant>\\n<variant>Li G. X.；G. X. Li；G. X.；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G."
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 376,
+                "completion_tokens": 384,
+                "total_tokens": 760
+              }
+            }
+          },
+          "parsed_output": {
+            "author_name": "李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li",
+            "author_name英文变体": "Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li",
+            "author_institution": "南京大学生命科学学院",
+            "entities": {
+              "author_name": "李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li",
+              "author_name英文变体": "<variant>Li Genxi</variant>\n<variant>Genxi Li</variant>\n<variant>Li, Genxi</variant>\n<variant>L. Genxi</variant>\n<variant>G. Li</variant>\n<variant>Li G. X.；G. X. Li；G. X.；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li",
+              "author_institution": "南京大学生命科学学院"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<variant>Genxi Li</variant>\\n<variant>Li, Genxi</variant>\\n<variant>L. Genxi</variant>\\n<variant>G. Li</variant>\\n<variant>Li G. X.；G. X. Li；G. X.；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_institution\":\"南京大学生命科学学院\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-22b5ee5f60864a0f91e2bae7a0f2bde7",
+                "object": "chat.completion",
+                "created": 1780934863,
+                "model": "qwen35-4b-nlu-author-org",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<variant>Genxi Li</variant>\\n<variant>Li, Genxi</variant>\\n<variant>L. Genxi</variant>\\n<variant>G. Li</variant>\\n<variant>Li G. X.；G. X. Li；G. X.；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_institution\":\"南京大学生命科学学院\"}\n{\"author_name\":\"李根喜；Li Genxi；Genxi Li；Li, Genxi；L. Genxi；G. Li；L. G.；Li G.；G. X. Li；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G. X., Li\",\"author_name英文变体\":\"<variant>Li Genxi</variant>\\n<variant>Genxi Li</variant>\\n<variant>Li, Genxi</variant>\\n<variant>L. Genxi</variant>\\n<variant>G. Li</variant>\\n<variant>Li G. X.；G. X. Li；G. X.；Li G. X.；G. X.；Li-Genxi；Genxi-Li；Li, G. X.；G."
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 376,
+                  "completion_tokens": 384,
+                  "total_tokens": 760
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

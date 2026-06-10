@@ -1,0 +1,671 @@
+{
+  "model": "qwen35-4b-nlu-data-type",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "generated_at": "2026-06-09T11:28:49",
+  "total_samples": 10,
+  "overall_metrics": {
+    "Average-EM": 1.0,
+    "Average-Partial": 1.0,
+    "Average-F1": 1.0,
+    "Null-accuracy": 1.0
+  },
+  "tasks": [
+    {
+      "task_type": "data_type",
+      "sample_count": 10,
+      "metrics": {
+        "data-type-EM": 1.0,
+        "data-type-Partial": 1.0,
+        "data-type-Precision": 1.0,
+        "data-type-Recall": 1.0,
+        "data-type-F1": 1.0,
+        "Average-EM": 1.0,
+        "Average-Partial": 1.0,
+        "Average-F1": 1.0,
+        "Null-accuracy": 1.0
+      },
+      "samples": [
+        {
+          "query": "Staphylococcus aureus clones causing osteomyelitis: a literature review (2000-2020).全文",
+          "ground_truth": {
+            "data_type": "综述"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"综述\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-5ac7027f2515424ea5cfeb8da0954824",
+              "object": "chat.completion",
+              "created": 1780972124,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"综述\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 387,
+                "completion_tokens": 6,
+                "total_tokens": 393
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "综述",
+            "entities": {
+              "data_type": "综述"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"综述\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-5ac7027f2515424ea5cfeb8da0954824",
+                "object": "chat.completion",
+                "created": 1780972124,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"综述\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 387,
+                  "completion_tokens": 6,
+                  "total_tokens": 393
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "是否有卡铂和紫杉醇治疗转移性结直肠癌肉瘤的病例报告？",
+          "ground_truth": {
+            "data_type": "病例系列/病例报告"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"病例系列/病例报告\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-56172f236d9b4894a853f96795e1346a",
+              "object": "chat.completion",
+              "created": 1780972125,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"病例系列/病例报告\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 376,
+                "completion_tokens": 10,
+                "total_tokens": 386
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "病例系列/病例报告",
+            "entities": {
+              "data_type": "病例系列/病例报告"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"病例系列/病例报告\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-56172f236d9b4894a853f96795e1346a",
+                "object": "chat.completion",
+                "created": 1780972125,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"病例系列/病例报告\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 376,
+                  "completion_tokens": 10,
+                  "total_tokens": 386
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "神经外科2000以后的国内外指南共识",
+          "ground_truth": {
+            "data_type": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-7b240ed10a2a4299bbb4890d1a6baabd",
+              "object": "chat.completion",
+              "created": 1780972126,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 368,
+                "completion_tokens": 5,
+                "total_tokens": 373
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "",
+            "entities": {
+              "data_type": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-7b240ed10a2a4299bbb4890d1a6baabd",
+                "object": "chat.completion",
+                "created": 1780972126,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 368,
+                  "completion_tokens": 5,
+                  "total_tokens": 373
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "有没有办公室丢失笔的队列研究",
+          "ground_truth": {
+            "data_type": "观察性研究"
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"观察性研究\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-64c5aa2a8343401eb9b25c131ac1cf34",
+              "object": "chat.completion",
+              "created": 1780972126,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"观察性研究\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 365,
+                "completion_tokens": 8,
+                "total_tokens": 373
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "观察性研究",
+            "entities": {
+              "data_type": "观察性研究"
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"观察性研究\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-64c5aa2a8343401eb9b25c131ac1cf34",
+                "object": "chat.completion",
+                "created": 1780972126,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"观察性研究\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 365,
+                  "completion_tokens": 8,
+                  "total_tokens": 373
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "氘丁苯那嗪说明书",
+          "ground_truth": {
+            "data_type": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-159ace5a9a114390b09698720c8dadfb",
+              "object": "chat.completion",
+              "created": 1780972127,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 366,
+                "completion_tokens": 5,
+                "total_tokens": 371
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "",
+            "entities": {
+              "data_type": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-159ace5a9a114390b09698720c8dadfb",
+                "object": "chat.completion",
+                "created": 1780972127,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 366,
+                  "completion_tokens": 5,
+                  "total_tokens": 371
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "奥沙利铂说明书对于老年患者的用法用量是怎么说的",
+          "ground_truth": {
+            "data_type": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-21092db61143407ea3999278d59d2d73",
+              "object": "chat.completion",
+              "created": 1780972127,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 370,
+                "completion_tokens": 5,
+                "total_tokens": 375
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "",
+            "entities": {
+              "data_type": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-21092db61143407ea3999278d59d2d73",
+                "object": "chat.completion",
+                "created": 1780972127,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 370,
+                  "completion_tokens": 5,
+                  "total_tokens": 375
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "双相情感障碍指南",
+          "ground_truth": {
+            "data_type": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-24ec8d4581e0470dbd5375e87f550383",
+              "object": "chat.completion",
+              "created": 1780972128,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 363,
+                "completion_tokens": 5,
+                "total_tokens": 368
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "",
+            "entities": {
+              "data_type": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-24ec8d4581e0470dbd5375e87f550383",
+                "object": "chat.completion",
+                "created": 1780972128,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 363,
+                  "completion_tokens": 5,
+                  "total_tokens": 368
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "乳腺癌LuminalA淋巴结一枚转移，指南治疗建议",
+          "ground_truth": {
+            "data_type": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-8baf0ac53ad1405daed0a4b6ed20cdf8",
+              "object": "chat.completion",
+              "created": 1780972128,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 370,
+                "completion_tokens": 5,
+                "total_tokens": 375
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "",
+            "entities": {
+              "data_type": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-8baf0ac53ad1405daed0a4b6ed20cdf8",
+                "object": "chat.completion",
+                "created": 1780972128,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 370,
+                  "completion_tokens": 5,
+                  "total_tokens": 375
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "esmo指南对于老年癌症患者的化疗剂量有何建议",
+          "ground_truth": {
+            "data_type": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-c1d80483c9a348a3a1550d625e2cca41",
+              "object": "chat.completion",
+              "created": 1780972129,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 369,
+                "completion_tokens": 5,
+                "total_tokens": 374
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "",
+            "entities": {
+              "data_type": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-c1d80483c9a348a3a1550d625e2cca41",
+                "object": "chat.completion",
+                "created": 1780972129,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 369,
+                  "completion_tokens": 5,
+                  "total_tokens": 374
+                }
+              }
+            }
+          }
+        },
+        {
+          "query": "最新国际会议中，人血白蛋白在肝硬化并发症临床应用中的方案探讨内容有哪些？",
+          "ground_truth": {
+            "data_type": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"data_type\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-adf663436d664337a5cec1ab78e3c486",
+              "object": "chat.completion",
+              "created": 1780972129,
+              "model": "qwen35-4b-nlu-data-type",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"data_type\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 377,
+                "completion_tokens": 5,
+                "total_tokens": 382
+              }
+            }
+          },
+          "parsed_output": {
+            "data_type": "",
+            "entities": {
+              "data_type": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"data_type\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-adf663436d664337a5cec1ab78e3c486",
+                "object": "chat.completion",
+                "created": 1780972129,
+                "model": "qwen35-4b-nlu-data-type",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"data_type\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 377,
+                  "completion_tokens": 5,
+                  "total_tokens": 382
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

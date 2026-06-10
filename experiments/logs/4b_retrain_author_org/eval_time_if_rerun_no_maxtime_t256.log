@@ -1,0 +1,32 @@
+
+== 时间和if值 (235 samples) ==
+  时间和if值: 10/235
+  时间和if值: 20/235
+  时间和if值: 30/235
+  时间和if值: 40/235
+  时间和if值: 50/235
+  时间和if值: 60/235
+  时间和if值: 70/235
+  时间和if值: 80/235
+  时间和if值: 90/235
+  时间和if值: 100/235
+  时间和if值: 110/235
+  时间和if值: 120/235
+  时间和if值: 130/235
+  时间和if值: 140/235
+  时间和if值: 150/235
+  时间和if值: 160/235
+  时间和if值: 170/235
+  时间和if值: 180/235
+  时间和if值: 190/235
+  时间和if值: 200/235
+  时间和if值: 210/235
+  时间和if值: 220/235
+  时间和if值: 230/235
+  时间和if值: 235/235
+
+📊 进行评估...
+  抽取评估字段: filter_end_datetime, filter_end_if, filter_start_datetime, filter_start_if
+
+JSON: /home/qiao/work/NLU-distillation/reports/merged/qwen35_4b_nlu_prod_time_if.json
+Markdown: /home/qiao/work/NLU-distillation/reports/merged/qwen35_4b_nlu_prod_time_if.md

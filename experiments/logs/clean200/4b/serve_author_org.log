@@ -1,0 +1,1 @@
+$ /home/qiao/work/lf-env/bin/python /home/qiao/work/NLU-distillation/scripts/serve_transformers_openai.py --model-path /home/qiao/work/LLaMA-Factory/saves/qwen3.5-4b/merged/nlu-prod-author-org --served-model-name qwen35-4b-nlu-prod-author-org --host 127.0.0.1 --port 8011 --dtype bfloat16 --stop-after-first-json

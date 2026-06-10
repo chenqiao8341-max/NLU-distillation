@@ -1,0 +1,30 @@
+run:
+  name: smoke_author_org_modernbert
+  seed: 42
+  output_dir: experiments/runs/smoke_author_org_modernbert
+
+task:
+  id: author_org
+  registry: configs/task_registry.yaml
+
+dataset:
+  raw_path: nlu-data/100case.jsonl
+  prepared_dir: data/processed/author_org
+  split_dir: data/splits/author_org
+  max_samples: 100
+
+model:
+  id: modernbert_ner
+  registry: configs/model_registry.yaml
+
+tracking:
+  report_to: none
+  wandb_project: nlu-distillation
+  tensorboard_dir: experiments/tensorboard
+
+stages:
+  inspect: true
+  prepare: true
+  train: false
+  evaluate: false
+  compare: false

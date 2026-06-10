@@ -1,0 +1,155 @@
+# Task registry for NLU-distillation.
+# Each task owns its schema, data preparation, training route, and evaluation contract.
+
+tasks:
+  data_type:
+    name_zh: 数据类型识别
+    status: existing_eval_data
+    source_refs:
+      - /home/qiao/work/nlu-server/eval/data_type.json
+    input_fields:
+      - query
+      - question
+    target_fields:
+      - data_type
+    recommended_models:
+      - qwen3_5_0_8b_sft
+      - qwen3_5_4b_sft
+    notes: 输出空间较小，适合做生成式小模型 SFT 的第一批对比任务。
+
+  author_org:
+    name_zh: 作者和机构抽取
+    status: modernbert_done_to_migrate
+    source_refs:
+      - /home/qiao/work/nlu-server/eval/作者和机构.json
+      - /home/qiao/work/nlu-server/eval/作者和机构_互联网扩展3k.json
+      - /home/qiao/work/nlu-bert
+    input_fields:
+      - query
+      - question
+    target_fields:
+      - author_name
+      - author_name_en_variants
+      - author_institution
+    recommended_models:
+      - modernbert_ner
+      - qwen3_5_0_8b_sft
+      - qwen3_5_4b_sft
+    notes: 已有 BIO 标注、ModernBERT 训练、推理和 nlu-evaluator 口径评测。
+
+  org_country:
+    name_zh: 机构和国家抽取
+    status: existing_eval_data
+    source_refs:
+      - /home/qiao/work/nlu-server/eval/机构和国家.json
+    input_fields:
+      - query
+      - question
+    target_fields:
+      - institutions
+      - countries
+      - countries_standardized
+    recommended_models:
+      - qwen3_5_0_8b_sft
+      - qwen3_5_4b_sft
+    notes: 可考虑 encoder 抽取加规则标准化，或生成式 JSON 输出。
+
+  time_if:
+    name_zh: 时间和 IF 值抽取
+    status: existing_eval_data
+    source_refs:
+      - /home/qiao/work/nlu-server/eval/时间和if值.json
+      - /home/qiao/work/NLU-distillation/nlu-data/100case.jsonl
+    input_fields:
+      - query
+      - question
+    target_fields:
+      - publish_date_start
+      - publish_date_end
+      - trial_start_date_start
+      - trial_start_date_end
+      - if_min_value
+      - if_max_value
+    recommended_models:
+      - qwen3_5_0_8b_sft
+      - qwen3_5_4b_sft
+    notes: 日期和数值字段建议同时建立规则 baseline。
+
+  query_rewrite:
+    name_zh: Query 改写与中英翻译
+    status: production_data_available
+    source_refs:
+      - /home/qiao/work/NLU-distillation/nlu-data/100case.jsonl
+      - /home/qiao/work/NLU-distillation/nlu-data/knows_nlu_20260101_20260603.jsonl
+    input_fields:
+      - query
+    target_fields:
+      - rewritten_question
+      - rewritten_translated_cn_question
+      - rewritten_translated_en_question
+    recommended_models:
+      - qwen3_5_4b_sft
+    notes: 需要先定义自动评测口径，避免只看表面相似度。
+
+  topic_keyword:
+    name_zh: 主题、关键词与扩展词抽取
+    status: production_data_available
+    source_refs:
+      - /home/qiao/work/NLU-distillation/nlu-data/100case.jsonl
+      - /home/qiao/work/NLU-distillation/nlu-data/knows_nlu_20260101_20260603.jsonl
+    input_fields:
+      - query
+    target_fields:
+      - topics
+      - keyword
+      - expand_topics
+      - expand_topics_en
+      - expand_keywords
+      - expand_keywords_en
+    recommended_models:
+      - qwen3_5_4b_sft
+    notes: 生产数据覆盖最多，建议优先做字段统计和人工抽检。
+
+  trial_slots:
+    name_zh: 临床试验槽位抽取
+    status: production_data_available
+    source_refs:
+      - /home/qiao/work/NLU-distillation/nlu-data/100case.jsonl
+      - /home/qiao/work/NLU-distillation/nlu-data/knows_nlu_20260101_20260603.jsonl
+    input_fields:
+      - query
+      - data_sources
+    target_fields:
+      - trial_acronyms
+      - trial_diseases
+      - trial_diseases_en
+      - trial_interventions
+      - trial_interventions_en
+      - trial_locations
+      - trial_locations_en
+      - trial_outcome_measure
+      - trial_outcome_measure_en
+      - trial_phases
+      - trial_sponsors
+      - trial_sponsors_en
+      - trial_study_types
+    recommended_models:
+      - qwen3_5_4b_sft
+    notes: 字段多、稀疏性强，建议从 TRIAL 数据源子集开始。
+
+  publisher_research_type:
+    name_zh: 期刊/出版方与研究类型
+    status: production_data_available
+    source_refs:
+      - /home/qiao/work/NLU-distillation/nlu-data/100case.jsonl
+      - /home/qiao/work/NLU-distillation/nlu-data/knows_nlu_20260101_20260603.jsonl
+    input_fields:
+      - query
+    target_fields:
+      - publishers
+      - publishers_standardized
+      - research_types
+    recommended_models:
+      - qwen3_5_0_8b_sft
+      - qwen3_5_4b_sft
+    notes: 100 条样本中非空较少，训练前需要确认全量覆盖度。

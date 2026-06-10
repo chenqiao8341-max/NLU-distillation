@@ -1,0 +1,48 @@
+# ModernBERT NER - topic_keywords
+
+- model_path: /home/chenqr/models/BERT/ModernBERT-base
+- model_dir: /home/chenqr/work/NLU-distillation/experiments/modernbert_ner/topic_keywords
+- data_dir: /home/chenqr/work/NLU-distillation/data/processed/topic_keywords/bio
+- generated_at: 2026-06-08T11:11:41
+- train_samples: 4000
+- valid_samples: 500
+- test_samples: 500
+
+## Test Metrics
+
+```json
+{
+  "token_accuracy": 0.9230892331327615,
+  "entity_precision": 0.3137254901960784,
+  "entity_recall": 0.30434782608695654,
+  "entity_f1": 0.30896551724137933,
+  "entity_true_count": 368,
+  "entity_pred_count": 357,
+  "entity_tp_count": 112,
+  "label_list": [
+    "O",
+    "B-TOPIC",
+    "I-TOPIC",
+    "B-KEYWORD",
+    "I-KEYWORD"
+  ],
+  "by_entity": {
+    "KEYWORD": {
+      "tp": 0,
+      "pred": 0,
+      "true": 37,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "TOPIC": {
+      "tp": 112,
+      "pred": 357,
+      "true": 331,
+      "precision": 0.3137254901960784,
+      "recall": 0.338368580060423,
+      "f1": 0.3255813953488372
+    }
+  }
+}
+```

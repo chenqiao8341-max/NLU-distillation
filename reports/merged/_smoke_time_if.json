@@ -1,0 +1,119 @@
+{
+  "model": "qwen35-4b-nlu-prod-time-if",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "generated_at": "2026-06-09T16:23:25",
+  "total_samples": 1,
+  "overall_metrics": {
+    "Average-EM": 1.0,
+    "Average-Partial": 1.0,
+    "Average-F1": 1.0,
+    "Null-accuracy": 1.0
+  },
+  "tasks": [
+    {
+      "task_type": "时间和if值",
+      "sample_count": 1,
+      "metrics": {
+        "filter-end-datetime-EM": 1.0,
+        "filter-end-datetime-Partial": 1.0,
+        "filter-end-datetime-Precision": 1.0,
+        "filter-end-datetime-Recall": 1.0,
+        "filter-end-datetime-F1": 1.0,
+        "filter-end-if-EM": 0.0,
+        "filter-end-if-Partial": 0.0,
+        "filter-end-if-Precision": 0.0,
+        "filter-end-if-Recall": 0.0,
+        "filter-end-if-F1": 0.0,
+        "filter-start-datetime-EM": 1.0,
+        "filter-start-datetime-Partial": 1.0,
+        "filter-start-datetime-Precision": 1.0,
+        "filter-start-datetime-Recall": 1.0,
+        "filter-start-datetime-F1": 1.0,
+        "filter-start-if-EM": 0.0,
+        "filter-start-if-Partial": 0.0,
+        "filter-start-if-Precision": 0.0,
+        "filter-start-if-Recall": 0.0,
+        "filter-start-if-F1": 0.0,
+        "Average-EM": 1.0,
+        "Average-Partial": 1.0,
+        "Average-F1": 1.0,
+        "Null-accuracy": 1.0
+      },
+      "samples": [
+        {
+          "query": "Staphylococcus aureus clones causing osteomyelitis: a literature review (2000-2020).全文",
+          "ground_truth": {
+            "filter_start_datetime": "2000-01-01",
+            "filter_end_datetime": "2020-12-31",
+            "filter_start_if": "",
+            "filter_end_if": ""
+          },
+          "raw_output": {
+            "data": {
+              "result": "{\"filter_start_datetime\":\"2000-01-01\",\"filter_end_datetime\":\"2020-12-31\",\"filter_start_if\":\"\",\"filter_end_if\":\"\"}"
+            },
+            "raw_openai": {
+              "id": "chatcmpl-c6da47fb9d2140c88a13290fccecb3d8",
+              "object": "chat.completion",
+              "created": 1780989805,
+              "model": "qwen35-4b-nlu-prod-time-if",
+              "choices": [
+                {
+                  "index": 0,
+                  "message": {
+                    "role": "assistant",
+                    "content": "{\"filter_start_datetime\":\"2000-01-01\",\"filter_end_datetime\":\"2020-12-31\",\"filter_start_if\":\"\",\"filter_end_if\":\"\"}"
+                  },
+                  "finish_reason": "stop"
+                }
+              ],
+              "usage": {
+                "prompt_tokens": 367,
+                "completion_tokens": 40,
+                "total_tokens": 407
+              }
+            }
+          },
+          "parsed_output": {
+            "filter_start_datetime": "2000-01-01",
+            "filter_end_datetime": "2020-12-31",
+            "filter_start_if": "",
+            "filter_end_if": "",
+            "entities": {
+              "filter_start_datetime": "2000-01-01",
+              "filter_end_datetime": "2020-12-31",
+              "filter_start_if": "",
+              "filter_end_if": ""
+            },
+            "raw": {
+              "data": {
+                "result": "{\"filter_start_datetime\":\"2000-01-01\",\"filter_end_datetime\":\"2020-12-31\",\"filter_start_if\":\"\",\"filter_end_if\":\"\"}"
+              },
+              "raw_openai": {
+                "id": "chatcmpl-c6da47fb9d2140c88a13290fccecb3d8",
+                "object": "chat.completion",
+                "created": 1780989805,
+                "model": "qwen35-4b-nlu-prod-time-if",
+                "choices": [
+                  {
+                    "index": 0,
+                    "message": {
+                      "role": "assistant",
+                      "content": "{\"filter_start_datetime\":\"2000-01-01\",\"filter_end_datetime\":\"2020-12-31\",\"filter_start_if\":\"\",\"filter_end_if\":\"\"}"
+                    },
+                    "finish_reason": "stop"
+                  }
+                ],
+                "usage": {
+                  "prompt_tokens": 367,
+                  "completion_tokens": 40,
+                  "total_tokens": 407
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

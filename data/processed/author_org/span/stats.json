@@ -1,0 +1,59 @@
+{
+  "source": "/home/chenqr/work/NLU-distillation/data/processed/author_org/bio",
+  "output": "/home/chenqr/work/NLU-distillation/data/processed/author_org/span",
+  "fields": [
+    "author_name",
+    "author_name英文变体",
+    "author_institution"
+  ],
+  "labels": {
+    "AUTHOR": "author_name",
+    "INSTITUTION": "author_institution"
+  },
+  "summary": {
+    "train": {
+      "rows": 3176,
+      "positive_rows": 1546,
+      "empty_rows": 1630,
+      "entity_counts": {
+        "AUTHOR": 2716,
+        "INSTITUTION": 451
+      },
+      "long_rows_gt_256_chars": 172,
+      "entities_start_after_char_256": 474
+    },
+    "valid": {
+      "rows": 396,
+      "positive_rows": 209,
+      "empty_rows": 187,
+      "entity_counts": {
+        "AUTHOR": 345,
+        "INSTITUTION": 69
+      },
+      "long_rows_gt_256_chars": 21,
+      "entities_start_after_char_256": 74
+    },
+    "test": {
+      "rows": 396,
+      "positive_rows": 201,
+      "empty_rows": 195,
+      "entity_counts": {
+        "AUTHOR": 447,
+        "INSTITUTION": 70
+      },
+      "long_rows_gt_256_chars": 31,
+      "entities_start_after_char_256": 113
+    },
+    "all": {
+      "rows": 3968,
+      "positive_rows": 1956,
+      "empty_rows": 2012,
+      "entity_counts": {
+        "AUTHOR": 3508,
+        "INSTITUTION": 590
+      },
+      "long_rows_gt_256_chars": 224,
+      "entities_start_after_char_256": 661
+    }
+  }
+}

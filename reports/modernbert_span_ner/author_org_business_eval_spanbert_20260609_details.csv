@@ -1,0 +1,1727 @@
+﻿query,GT_author_name,PRED_author_name,GT_author_name英文变体,PRED_author_name英文变体,GT_author_institution,PRED_author_institution,raw_output,parsed_output
+龚建平教授发表的rct研究最终结论是什么,龚建平,龚建平,"<variant>Gong Jianping</variant>
+ <variant>Jianping Gong</variant>
+ <variant>Gong Jian-Ping</variant>
+ <variant>Jian-Ping Gong</variant>
+ <variant>Gong Jian Ping</variant>
+ <variant>Jian Ping Gong</variant>
+ <variant>Gong, Jianping</variant>
+ <variant>Gong, Jian-Ping</variant>
+ <variant>Gong, Jian Ping</variant>
+ <variant>Gong J.</variant>
+ <variant>Gong J</variant>
+ <variant>J. Gong</variant>
+ <variant>J Gong</variant>
+ <variant>Gong JP</variant>
+ <variant>Gong J P</variant>
+ <variant>J. P. Gong</variant>
+ <variant>J.P. Gong</variant>
+ <variant>J P Gong</variant>
+ <variant>Gong J.-P.</variant>
+ <variant>Gong J-P</variant>
+ <variant>J.-P. Gong</variant>
+ <variant>J-P Gong</variant>
+ <variant>G. Jianping</variant>
+ <variant>Jianping G.</variant>
+ <variant>G. Jian Ping</variant>
+ <variant>Jian Ping G.</variant>
+ <variant>G. Jian-Ping</variant>
+ <variant>Jian-Ping G.</variant>","<variant>Gong Jianping</variant>
+ <variant>Jianping Gong</variant>
+ <variant>Gong, Jianping</variant>
+ <variant>Gong Jian Ping</variant>
+ <variant>Jian Ping Gong</variant>
+ <variant>Gong Jian-Ping</variant>
+ <variant>Jian-Ping Gong</variant>
+ <variant>Gong, Jian-Ping</variant>
+ <variant>Gong, Jian Ping</variant>
+ <variant>Gong JP</variant>
+ <variant>Gong J P</variant>
+ <variant>Gong J</variant>
+ <variant>J Gong</variant>
+ <variant>J. P. Gong</variant>
+ <variant>Gong J. P.</variant>
+ <variant>Gong J.P.</variant>
+ <variant>Gong J.P</variant>
+ <variant>J.P. Gong</variant>
+ <variant>J.P Gong</variant>
+ <variant>J-P. Gong</variant>
+ <variant>J-P Gong</variant>
+ <variant>G. Jianping</variant>
+ <variant>Jianping G.</variant>
+ <variant>G. Jian Ping</variant>
+ <variant>Jian Ping G.</variant>
+ <variant>G. Jian-Ping</variant>
+ <variant>Jian-Ping G.</variant>
+ <variant>Gong J.</variant>
+ <variant>J. Gong</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""龚""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""龚建平""}]}","{""author_name"": ""龚建平"", ""author_name英文变体"": ""<variant>Gong Jianping</variant>\n <variant>Jianping Gong</variant>\n <variant>Gong, Jianping</variant>\n <variant>Gong Jian Ping</variant>\n <variant>Jian Ping Gong</variant>\n <variant>Gong Jian-Ping</variant>\n <variant>Jian-Ping Gong</variant>\n <variant>Gong, Jian-Ping</variant>\n <variant>Gong, Jian Ping</variant>\n <variant>Gong JP</variant>\n <variant>Gong J P</variant>\n <variant>Gong J</variant>\n <variant>J Gong</variant>\n <variant>J. P. Gong</variant>\n <variant>Gong J. P.</variant>\n <variant>Gong J.P.</variant>\n <variant>Gong J.P</variant>\n <variant>J.P. Gong</variant>\n <variant>J.P Gong</variant>\n <variant>J-P. Gong</variant>\n <variant>J-P Gong</variant>\n <variant>G. Jianping</variant>\n <variant>Jianping G.</variant>\n <variant>G. Jian Ping</variant>\n <variant>Jian Ping G.</variant>\n <variant>G. Jian-Ping</variant>\n <variant>Jian-Ping G.</variant>\n <variant>Gong J.</variant>\n <variant>J. Gong</variant>"", ""author_institution"": """"}"
+克利夫兰诊所科尔眼科研究所的乔治教授对视网膜断层成像在不同疾病 ME 诊断中的作用，2014 年 7 月刊 British Journal of Ophthalmology。,乔治,乔治,"<variant>Qiao Zhi</variant>
+ <variant>Zhi Qiao</variant>
+ <variant>Qiao-Zhi</variant>
+ <variant>Zhi-Qiao</variant>
+ <variant>Qiao, Zhi</variant>
+ <variant>Qiao Z.</variant>
+ <variant>Qiao Z</variant>
+ <variant>Z. Qiao</variant>
+ <variant>Z Qiao</variant>
+ <variant>Q. Zhi</variant>
+ <variant>Zhi Q.</variant>
+ <variant>George</variant>","<variant>Qiao Zhi</variant>
+ <variant>Zhi Qiao</variant>
+ <variant>Qiao, Zhi</variant>
+ <variant>Qiao Z</variant>
+ <variant>Z Qiao</variant>
+ <variant>Z. Qiao</variant>
+ <variant>Qiao Z.</variant>
+ <variant>Q. Zhi</variant>
+ <variant>Zhi Q.</variant>",克利夫兰诊所科尔眼科研究所,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 14, ""end"": 15, ""text"": ""乔""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 14, ""end"": 16, ""text"": ""乔治""}]}","{""author_name"": ""乔治"", ""author_name英文变体"": ""<variant>Qiao Zhi</variant>\n <variant>Zhi Qiao</variant>\n <variant>Qiao, Zhi</variant>\n <variant>Qiao Z</variant>\n <variant>Z Qiao</variant>\n <variant>Z. Qiao</variant>\n <variant>Qiao Z.</variant>\n <variant>Q. Zhi</variant>\n <variant>Zhi Q.</variant>"", ""author_institution"": """"}"
+◦南京大学生命科学学院李根喜教授课题组提出赋予多肽电活性的策略，设计了一种双功能多肽—FFFGGGGRGDS。该多肽是一种同时具有分子识别和自组装能力的两亲性肽，能够与电活性物质二茂铁甲酸（FcCOOH）共组装成电活性多肽纳米探针（ePNPs）。,李根喜,李根喜,"<variant>Li Genxi</variant>
+ <variant>Genxi Li</variant>
+ <variant>Li Gen-Xi</variant>
+ <variant>Gen-Xi Li</variant>
+ <variant>Li Gen Xi</variant>
+ <variant>Gen Xi Li</variant>
+ <variant>Li, Genxi</variant>
+ <variant>Li, Gen-Xi</variant>
+ <variant>Li, Gen Xi</variant>
+ <variant>Li G.</variant>
+ <variant>Li G</variant>
+ <variant>G. Li</variant>
+ <variant>G Li</variant>
+ <variant>Li GX</variant>
+ <variant>Li G X</variant>
+ <variant>G. X. Li</variant>
+ <variant>G.X. Li</variant>
+ <variant>G X Li</variant>
+ <variant>Li G.-X.</variant>
+ <variant>Li G-X</variant>
+ <variant>G.-X. Li</variant>
+ <variant>G-X Li</variant>
+ <variant>L. Genxi</variant>
+ <variant>Genxi L.</variant>
+ <variant>L. Gen Xi</variant>
+ <variant>Gen Xi L.</variant>
+ <variant>L. Gen-Xi</variant>
+ <variant>Gen-Xi L.</variant>","<variant>Li Genxi</variant>
+ <variant>Genxi Li</variant>
+ <variant>Li, Genxi</variant>
+ <variant>Li Gen Xi</variant>
+ <variant>Gen Xi Li</variant>
+ <variant>Li Gen-Xi</variant>
+ <variant>Gen-Xi Li</variant>
+ <variant>Li, Gen-Xi</variant>
+ <variant>Li, Gen Xi</variant>
+ <variant>Li GX</variant>
+ <variant>Li G X</variant>
+ <variant>Li G</variant>
+ <variant>G Li</variant>
+ <variant>G. X. Li</variant>
+ <variant>Li G. X.</variant>
+ <variant>Li G.X.</variant>
+ <variant>Li G.X</variant>
+ <variant>G.X. Li</variant>
+ <variant>G.X Li</variant>
+ <variant>G-X. Li</variant>
+ <variant>G-X Li</variant>
+ <variant>L. Genxi</variant>
+ <variant>Genxi L.</variant>
+ <variant>L. Gen Xi</variant>
+ <variant>Gen Xi L.</variant>
+ <variant>L. Gen-Xi</variant>
+ <variant>Gen-Xi L.</variant>
+ <variant>Li G.</variant>
+ <variant>G. Li</variant>",南京大学生命科学学院,南京大学生命科学学院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""◦""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 1, ""end"": 2, ""text"": ""南""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 1, ""end"": 11, ""text"": ""南京大学生命科学学院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 11, ""end"": 12, ""text"": ""李""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 11, ""end"": 14, ""text"": ""李根喜""}]}","{""author_name"": ""李根喜"", ""author_name英文变体"": ""<variant>Li Genxi</variant>\n <variant>Genxi Li</variant>\n <variant>Li, Genxi</variant>\n <variant>Li Gen Xi</variant>\n <variant>Gen Xi Li</variant>\n <variant>Li Gen-Xi</variant>\n <variant>Gen-Xi Li</variant>\n <variant>Li, Gen-Xi</variant>\n <variant>Li, Gen Xi</variant>\n <variant>Li GX</variant>\n <variant>Li G X</variant>\n <variant>Li G</variant>\n <variant>G Li</variant>\n <variant>G. X. Li</variant>\n <variant>Li G. X.</variant>\n <variant>Li G.X.</variant>\n <variant>Li G.X</variant>\n <variant>G.X. Li</variant>\n <variant>G.X Li</variant>\n <variant>G-X. Li</variant>\n <variant>G-X Li</variant>\n <variant>L. Genxi</variant>\n <variant>Genxi L.</variant>\n <variant>L. Gen Xi</variant>\n <variant>Gen Xi L.</variant>\n <variant>L. Gen-Xi</variant>\n <variant>Gen-Xi L.</variant>\n <variant>Li G.</variant>\n <variant>G. Li</variant>"", ""author_institution"": ""南京大学生命科学学院""}"
+stephen liu教授,stephen liu,step；hen liu,"<variant>Stephen Liu</variant>
+ <variant>Liu Stephen</variant>
+ <variant>Liu, Stephen</variant>
+ <variant>Liu S.</variant>
+ <variant>Liu S</variant>
+ <variant>S. Liu</variant>
+ <variant>S Liu</variant>
+ <variant>L. Stephen</variant>
+ <variant>Stephen L.</variant>","<variant>step</variant>
+ <variant>hen liu</variant>
+ <variant>liu hen</variant>
+ <variant>liu, hen</variant>
+ <variant>liu h.</variant>
+ <variant>h. liu</variant>
+ <variant>liu h</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 4, ""text"": ""step""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 4, ""end"": 11, ""text"": ""hen liu""}]}","{""author_name"": ""step；hen liu"", ""author_name英文变体"": ""<variant>step</variant>\n <variant>hen liu</variant>\n <variant>liu hen</variant>\n <variant>liu, hen</variant>\n <variant>liu h.</variant>\n <variant>h. liu</variant>\n <variant>liu h</variant>"", ""author_institution"": """"}"
+马赛大学Guy Magalon 教授团队通过长期研究发现，脂肪基质成分中的一类细胞亚群可通过促进血管生成相关的作用机制促进移植后受区组织中脂肪细胞的生存和生长。同时，还有一类细胞及细胞因子为受区组织的愈合提供抑制整体炎症因子表达的微环境，降低了组织坏死或发生排异反应的风险,Guy Magalon,Guy Magalon,"<variant>Guy Magalon</variant>
+ <variant>Magalon Guy</variant>
+ <variant>Magalon, Guy</variant>
+ <variant>Magalon G.</variant>
+ <variant>Magalon G</variant>
+ <variant>G. Magalon</variant>
+ <variant>G Magalon</variant>
+ <variant>M. Guy</variant>
+ <variant>Guy M.</variant>","<variant>Guy Magalon</variant>
+ <variant>Magalon Guy</variant>
+ <variant>Magalon, Guy</variant>
+ <variant>Magalon G.</variant>
+ <variant>G. Magalon</variant>
+ <variant>Magalon G</variant>",马赛大学,马赛大学,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""马""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 4, ""text"": ""马赛大学""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 4, ""end"": 15, ""text"": ""Guy Magalon""}]}","{""author_name"": ""Guy Magalon"", ""author_name英文变体"": ""<variant>Guy Magalon</variant>\n <variant>Magalon Guy</variant>\n <variant>Magalon, Guy</variant>\n <variant>Magalon G.</variant>\n <variant>G. Magalon</variant>\n <variant>Magalon G</variant>"", ""author_institution"": ""马赛大学""}"
+柳李旺教授团队在萝卜肉质根形成机制解析研究中发现，萝卜基因组中鉴定出 48 个 RsCLE 基因，其中 RsCLE22a 在肉质根维管形成层区域高表达。,柳李旺,柳李旺,"<variant>Liu Liwang</variant>
+ <variant>Liwang Liu</variant>
+ <variant>Liu Li-Wang</variant>
+ <variant>Li-Wang Liu</variant>
+ <variant>Liu Li Wang</variant>
+ <variant>Li Wang Liu</variant>
+ <variant>Liu, Liwang</variant>
+ <variant>Liu, Li-Wang</variant>
+ <variant>Liu, Li Wang</variant>
+ <variant>Liu L.</variant>
+ <variant>Liu L</variant>
+ <variant>L. Liu</variant>
+ <variant>L Liu</variant>
+ <variant>Liu LW</variant>
+ <variant>Liu L W</variant>
+ <variant>L.W. Liu</variant>
+ <variant>L. W. Liu</variant>
+ <variant>L W Liu</variant>
+ <variant>Liu L.-W.</variant>
+ <variant>Liu L-W</variant>
+ <variant>L.-W. Liu</variant>
+ <variant>L-W Liu</variant>
+ <variant>L. Liwang</variant>
+ <variant>Liwang L.</variant>
+ <variant>L. Li Wang</variant>
+ <variant>Li Wang L.</variant>
+ <variant>L. Li-Wang</variant>
+ <variant>Li-Wang L.</variant>","<variant>Liu Liwang</variant>
+ <variant>Liwang Liu</variant>
+ <variant>Liu, Liwang</variant>
+ <variant>Liu Li Wang</variant>
+ <variant>Li Wang Liu</variant>
+ <variant>Liu Li-Wang</variant>
+ <variant>Li-Wang Liu</variant>
+ <variant>Liu, Li-Wang</variant>
+ <variant>Liu, Li Wang</variant>
+ <variant>Liu LW</variant>
+ <variant>Liu L W</variant>
+ <variant>Liu L</variant>
+ <variant>L Liu</variant>
+ <variant>L. W. Liu</variant>
+ <variant>Liu L. W.</variant>
+ <variant>Liu L.W.</variant>
+ <variant>Liu L.W</variant>
+ <variant>L.W. Liu</variant>
+ <variant>L.W Liu</variant>
+ <variant>L-W. Liu</variant>
+ <variant>L-W Liu</variant>
+ <variant>L. Liwang</variant>
+ <variant>Liwang L.</variant>
+ <variant>L. Li Wang</variant>
+ <variant>Li Wang L.</variant>
+ <variant>L. Li-Wang</variant>
+ <variant>Li-Wang L.</variant>
+ <variant>Liu L.</variant>
+ <variant>L. Liu</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""柳""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""柳李旺""}]}","{""author_name"": ""柳李旺"", ""author_name英文变体"": ""<variant>Liu Liwang</variant>\n <variant>Liwang Liu</variant>\n <variant>Liu, Liwang</variant>\n <variant>Liu Li Wang</variant>\n <variant>Li Wang Liu</variant>\n <variant>Liu Li-Wang</variant>\n <variant>Li-Wang Liu</variant>\n <variant>Liu, Li-Wang</variant>\n <variant>Liu, Li Wang</variant>\n <variant>Liu LW</variant>\n <variant>Liu L W</variant>\n <variant>Liu L</variant>\n <variant>L Liu</variant>\n <variant>L. W. Liu</variant>\n <variant>Liu L. W.</variant>\n <variant>Liu L.W.</variant>\n <variant>Liu L.W</variant>\n <variant>L.W. Liu</variant>\n <variant>L.W Liu</variant>\n <variant>L-W. Liu</variant>\n <variant>L-W Liu</variant>\n <variant>L. Liwang</variant>\n <variant>Liwang L.</variant>\n <variant>L. Li Wang</variant>\n <variant>Li Wang L.</variant>\n <variant>L. Li-Wang</variant>\n <variant>Li-Wang L.</variant>\n <variant>Liu L.</variant>\n <variant>L. Liu</variant>"", ""author_institution"": """"}"
+◦如南京大学李根喜教授课题组提出赋予多肽电活性的策略，使得多肽同时具有靶标识别和信号转导的功能，为生物传感器的设计提供了新的理论基础。,李根喜,李根喜,"<variant>Li Genxi</variant>
+ <variant>Genxi Li</variant>
+ <variant>Li Gen-Xi</variant>
+ <variant>Gen-Xi Li</variant>
+ <variant>Li Gen Xi</variant>
+ <variant>Gen Xi Li</variant>
+ <variant>Li, Genxi</variant>
+ <variant>Li, Gen-Xi</variant>
+ <variant>Li, Gen Xi</variant>
+ <variant>Li G.</variant>
+ <variant>Li G</variant>
+ <variant>G. Li</variant>
+ <variant>G Li</variant>
+ <variant>Li GX</variant>
+ <variant>Li G X</variant>
+ <variant>G. X. Li</variant>
+ <variant>G.X. Li</variant>
+ <variant>G X Li</variant>
+ <variant>Li G.-X.</variant>
+ <variant>Li G-X</variant>
+ <variant>G.-X. Li</variant>
+ <variant>G-X Li</variant>
+ <variant>L. Genxi</variant>
+ <variant>Genxi L.</variant>
+ <variant>L. Gen Xi</variant>
+ <variant>Gen Xi L.</variant>
+ <variant>L. Gen-Xi</variant>
+ <variant>Gen-Xi L.</variant>","<variant>Li Genxi</variant>
+ <variant>Genxi Li</variant>
+ <variant>Li, Genxi</variant>
+ <variant>Li Gen Xi</variant>
+ <variant>Gen Xi Li</variant>
+ <variant>Li Gen-Xi</variant>
+ <variant>Gen-Xi Li</variant>
+ <variant>Li, Gen-Xi</variant>
+ <variant>Li, Gen Xi</variant>
+ <variant>Li GX</variant>
+ <variant>Li G X</variant>
+ <variant>Li G</variant>
+ <variant>G Li</variant>
+ <variant>G. X. Li</variant>
+ <variant>Li G. X.</variant>
+ <variant>Li G.X.</variant>
+ <variant>Li G.X</variant>
+ <variant>G.X. Li</variant>
+ <variant>G.X Li</variant>
+ <variant>G-X. Li</variant>
+ <variant>G-X Li</variant>
+ <variant>L. Genxi</variant>
+ <variant>Genxi L.</variant>
+ <variant>L. Gen Xi</variant>
+ <variant>Gen Xi L.</variant>
+ <variant>L. Gen-Xi</variant>
+ <variant>Gen-Xi L.</variant>
+ <variant>Li G.</variant>
+ <variant>G. Li</variant>",南京大学,南京大学,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 2, ""end"": 3, ""text"": ""南""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 2, ""end"": 6, ""text"": ""南京大学""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 7, ""text"": ""李""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 9, ""text"": ""李根喜""}]}","{""author_name"": ""李根喜"", ""author_name英文变体"": ""<variant>Li Genxi</variant>\n <variant>Genxi Li</variant>\n <variant>Li, Genxi</variant>\n <variant>Li Gen Xi</variant>\n <variant>Gen Xi Li</variant>\n <variant>Li Gen-Xi</variant>\n <variant>Gen-Xi Li</variant>\n <variant>Li, Gen-Xi</variant>\n <variant>Li, Gen Xi</variant>\n <variant>Li GX</variant>\n <variant>Li G X</variant>\n <variant>Li G</variant>\n <variant>G Li</variant>\n <variant>G. X. Li</variant>\n <variant>Li G. X.</variant>\n <variant>Li G.X.</variant>\n <variant>Li G.X</variant>\n <variant>G.X. Li</variant>\n <variant>G.X Li</variant>\n <variant>G-X. Li</variant>\n <variant>G-X Li</variant>\n <variant>L. Genxi</variant>\n <variant>Genxi L.</variant>\n <variant>L. Gen Xi</variant>\n <variant>Gen Xi L.</variant>\n <variant>L. Gen-Xi</variant>\n <variant>Gen-Xi L.</variant>\n <variant>Li G.</variant>\n <variant>G. Li</variant>"", ""author_institution"": ""南京大学""}"
+北大人民医院栗占国教授,栗占国,栗占国,"<variant>Li Zhanguo</variant>
+ <variant>Zhanguo Li</variant>
+ <variant>Li Zhan-Guo</variant>
+ <variant>Zhan-Guo Li</variant>
+ <variant>Li Zhan Guo</variant>
+ <variant>Zhan Guo Li</variant>
+ <variant>Li, Zhanguo</variant>
+ <variant>Li, Zhan-Guo</variant>
+ <variant>Li, Zhan Guo</variant>
+ <variant>Li Z.</variant>
+ <variant>Li Z</variant>
+ <variant>Z. Li</variant>
+ <variant>Z Li</variant>
+ <variant>Li ZG</variant>
+ <variant>Li Z G</variant>
+ <variant>Z.G. Li</variant>
+ <variant>Z. G. Li</variant>
+ <variant>Z G Li</variant>
+ <variant>Li Z.-G.</variant>
+ <variant>Li Z-G</variant>
+ <variant>Z.-G. Li</variant>
+ <variant>Z-G Li</variant>
+ <variant>L. Zhanguo</variant>
+ <variant>Zhanguo L.</variant>
+ <variant>L. Zhan Guo</variant>
+ <variant>Zhan Guo L.</variant>
+ <variant>L. Zhan-Guo</variant>
+ <variant>Zhan-Guo L.</variant>","<variant>Li Zhanguo</variant>
+ <variant>Zhanguo Li</variant>
+ <variant>Li Zhan-Guo</variant>
+ <variant>Zhan-Guo Li</variant>
+ <variant>Li Zhan Guo</variant>
+ <variant>Zhan Guo Li</variant>
+ <variant>Li, Zhanguo</variant>
+ <variant>Li, Zhan-Guo</variant>
+ <variant>Li, Zhan Guo</variant>
+ <variant>Li Z.</variant>
+ <variant>Li Z</variant>
+ <variant>Z. Li</variant>
+ <variant>Z Li</variant>
+ <variant>Li ZG</variant>
+ <variant>Li Z G</variant>
+ <variant>Z.G. Li</variant>
+ <variant>Z. G. Li</variant>
+ <variant>Z G Li</variant>
+ <variant>Li Z.-G.</variant>
+ <variant>Li Z-G</variant>
+ <variant>Z.-G. Li</variant>
+ <variant>Z-G Li</variant>
+ <variant>L. Zhanguo</variant>
+ <variant>Zhanguo L.</variant>
+ <variant>L. Zhan Guo</variant>
+ <variant>Zhan Guo L.</variant>
+ <variant>L. Zhan-Guo</variant>
+ <variant>Zhan-Guo L.</variant>",北大人民医院,北大人民医院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""北""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 6, ""text"": ""北大人民医院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 7, ""text"": ""栗""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 9, ""text"": ""栗占国""}]}","{""author_name"": ""栗占国"", ""author_name英文变体"": ""<variant>Li Zhanguo</variant>\n <variant>Zhanguo Li</variant>\n <variant>Li Zhan-Guo</variant>\n <variant>Zhan-Guo Li</variant>\n <variant>Li Zhan Guo</variant>\n <variant>Zhan Guo Li</variant>\n <variant>Li, Zhanguo</variant>\n <variant>Li, Zhan-Guo</variant>\n <variant>Li, Zhan Guo</variant>\n <variant>Li Z.</variant>\n <variant>Li Z</variant>\n <variant>Z. Li</variant>\n <variant>Z Li</variant>\n <variant>Li ZG</variant>\n <variant>Li Z G</variant>\n <variant>Z.G. Li</variant>\n <variant>Z. G. Li</variant>\n <variant>Z G Li</variant>\n <variant>Li Z.-G.</variant>\n <variant>Li Z-G</variant>\n <variant>Z.-G. Li</variant>\n <variant>Z-G Li</variant>\n <variant>L. Zhanguo</variant>\n <variant>Zhanguo L.</variant>\n <variant>L. Zhan Guo</variant>\n <variant>Zhan Guo L.</variant>\n <variant>L. Zhan-Guo</variant>\n <variant>Zhan-Guo L.</variant>"", ""author_institution"": ""北大人民医院""}"
+中山大学附属一院匡铭教授在肝癌领域的成果,匡铭,匡铭,"<variant>Kuang Ming</variant>
+ <variant>Ming Kuang</variant>
+ <variant>Kuang, Ming</variant>
+ <variant>Kuang M.</variant>
+ <variant>Kuang M</variant>
+ <variant>M. Kuang</variant>
+ <variant>M Kuang</variant>
+ <variant>K. Ming</variant>
+ <variant>Ming K.</variant>","<variant>Kuang Ming</variant>
+ <variant>Ming Kuang</variant>
+ <variant>Kuang, Ming</variant>
+ <variant>Kuang M</variant>
+ <variant>M Kuang</variant>
+ <variant>M. Kuang</variant>
+ <variant>Kuang M.</variant>
+ <variant>K. Ming</variant>
+ <variant>Ming K.</variant>",中山大学附属一院,中山大学附属一院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 8, ""text"": ""中山大学附属一院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 8, ""end"": 9, ""text"": ""匡""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 8, ""end"": 10, ""text"": ""匡铭""}]}","{""author_name"": ""匡铭"", ""author_name英文变体"": ""<variant>Kuang Ming</variant>\n <variant>Ming Kuang</variant>\n <variant>Kuang, Ming</variant>\n <variant>Kuang M</variant>\n <variant>M Kuang</variant>\n <variant>M. Kuang</variant>\n <variant>Kuang M.</variant>\n <variant>K. Ming</variant>\n <variant>Ming K.</variant>"", ""author_institution"": ""中山大学附属一院""}"
+2024年SABCS 刘西禹教授：替雷利珠单抗联合司曲替尼治疗晚期三阴性乳腺癌 SPARK实验数据,刘西禹,刘西禹,"<variant>Liu Xiyu</variant>
+ <variant>Xiyu Liu</variant>
+ <variant>Liu Xi-Yu</variant>
+ <variant>Xi-Yu Liu</variant>
+ <variant>Liu Xi Yu</variant>
+ <variant>Xi Yu Liu</variant>
+ <variant>Liu, Xiyu</variant>
+ <variant>Liu, Xi-Yu</variant>
+ <variant>Liu, Xi Yu</variant>
+ <variant>Liu X.</variant>
+ <variant>Liu X</variant>
+ <variant>X. Liu</variant>
+ <variant>X Liu</variant>
+ <variant>Liu XY</variant>
+ <variant>Liu X Y</variant>
+ <variant>X.Y. Liu</variant>
+ <variant>X. Y. Liu</variant>
+ <variant>X Y Liu</variant>
+ <variant>Liu X.-Y.</variant>
+ <variant>Liu X-Y</variant>
+ <variant>X.-Y. Liu</variant>
+ <variant>X-Y Liu</variant>
+ <variant>L. Xiyu</variant>
+ <variant>Xiyu L.</variant>
+ <variant>L. Xi Yu</variant>
+ <variant>Xi Yu L.</variant>
+ <variant>L. Xi-Yu</variant>
+ <variant>Xi-Yu L.</variant>","<variant>Liu Xiyu</variant>
+ <variant>Xiyu Liu</variant>
+ <variant>Liu, Xiyu</variant>
+ <variant>Liu Xi Yu</variant>
+ <variant>Xi Yu Liu</variant>
+ <variant>Liu Xi-Yu</variant>
+ <variant>Xi-Yu Liu</variant>
+ <variant>Liu, Xi-Yu</variant>
+ <variant>Liu, Xi Yu</variant>
+ <variant>Liu XY</variant>
+ <variant>Liu X Y</variant>
+ <variant>Liu X</variant>
+ <variant>X Liu</variant>
+ <variant>X. Y. Liu</variant>
+ <variant>Liu X. Y.</variant>
+ <variant>Liu X.Y.</variant>
+ <variant>Liu X.Y</variant>
+ <variant>X.Y. Liu</variant>
+ <variant>X.Y Liu</variant>
+ <variant>X-Y. Liu</variant>
+ <variant>X-Y Liu</variant>
+ <variant>L. Xiyu</variant>
+ <variant>Xiyu L.</variant>
+ <variant>L. Xi Yu</variant>
+ <variant>Xi Yu L.</variant>
+ <variant>L. Xi-Yu</variant>
+ <variant>Xi-Yu L.</variant>
+ <variant>Liu X.</variant>
+ <variant>X. Liu</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 11, ""end"": 12, ""text"": ""刘""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 11, ""end"": 14, ""text"": ""刘西禹""}]}","{""author_name"": ""刘西禹"", ""author_name英文变体"": ""<variant>Liu Xiyu</variant>\n <variant>Xiyu Liu</variant>\n <variant>Liu, Xiyu</variant>\n <variant>Liu Xi Yu</variant>\n <variant>Xi Yu Liu</variant>\n <variant>Liu Xi-Yu</variant>\n <variant>Xi-Yu Liu</variant>\n <variant>Liu, Xi-Yu</variant>\n <variant>Liu, Xi Yu</variant>\n <variant>Liu XY</variant>\n <variant>Liu X Y</variant>\n <variant>Liu X</variant>\n <variant>X Liu</variant>\n <variant>X. Y. Liu</variant>\n <variant>Liu X. Y.</variant>\n <variant>Liu X.Y.</variant>\n <variant>Liu X.Y</variant>\n <variant>X.Y. Liu</variant>\n <variant>X.Y Liu</variant>\n <variant>X-Y. Liu</variant>\n <variant>X-Y Liu</variant>\n <variant>L. Xiyu</variant>\n <variant>Xiyu L.</variant>\n <variant>L. Xi Yu</variant>\n <variant>Xi Yu L.</variant>\n <variant>L. Xi-Yu</variant>\n <variant>Xi-Yu L.</variant>\n <variant>Liu X.</variant>\n <variant>X. Liu</variant>"", ""author_institution"": """"}"
+耿海霞教授的研究方向及课题组方向,耿海霞,耿海霞,"<variant>Geng Haixia</variant>
+ <variant>Haixia Geng</variant>
+ <variant>Geng Hai-Xia</variant>
+ <variant>Hai-Xia Geng</variant>
+ <variant>Geng Hai Xia</variant>
+ <variant>Hai Xia Geng</variant>
+ <variant>Geng, Haixia</variant>
+ <variant>Geng, Hai-Xia</variant>
+ <variant>Geng, Hai Xia</variant>
+ <variant>Geng H.</variant>
+ <variant>Geng H</variant>
+ <variant>H. Geng</variant>
+ <variant>H Geng</variant>
+ <variant>Geng HX</variant>
+ <variant>Geng H X</variant>
+ <variant>H.X. Geng</variant>
+ <variant>H. X. Geng</variant>
+ <variant>H X Geng</variant>
+ <variant>Geng H.-X.</variant>
+ <variant>Geng H-X</variant>
+ <variant>H.-X. Geng</variant>
+ <variant>H-X Geng</variant>
+ <variant>G. Haixia</variant>
+ <variant>Haixia G.</variant>
+ <variant>G. Hai Xia</variant>
+ <variant>Hai Xia G.</variant>
+ <variant>G. Hai-Xia</variant>
+ <variant>Hai-Xia G.</variant>","<variant>Geng Haixia</variant>
+ <variant>Haixia Geng</variant>
+ <variant>Geng, Haixia</variant>
+ <variant>Geng Hai Xia</variant>
+ <variant>Hai Xia Geng</variant>
+ <variant>Geng Hai-Xia</variant>
+ <variant>Hai-Xia Geng</variant>
+ <variant>Geng, Hai-Xia</variant>
+ <variant>Geng, Hai Xia</variant>
+ <variant>Geng HX</variant>
+ <variant>Geng H X</variant>
+ <variant>Geng H</variant>
+ <variant>H Geng</variant>
+ <variant>H. X. Geng</variant>
+ <variant>Geng H. X.</variant>
+ <variant>Geng H.X.</variant>
+ <variant>Geng H.X</variant>
+ <variant>H.X. Geng</variant>
+ <variant>H.X Geng</variant>
+ <variant>H-X. Geng</variant>
+ <variant>H-X Geng</variant>
+ <variant>G. Haixia</variant>
+ <variant>Haixia G.</variant>
+ <variant>G. Hai Xia</variant>
+ <variant>Hai Xia G.</variant>
+ <variant>G. Hai-Xia</variant>
+ <variant>Hai-Xia G.</variant>
+ <variant>Geng H.</variant>
+ <variant>H. Geng</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""耿""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""耿海霞""}]}","{""author_name"": ""耿海霞"", ""author_name英文变体"": ""<variant>Geng Haixia</variant>\n <variant>Haixia Geng</variant>\n <variant>Geng, Haixia</variant>\n <variant>Geng Hai Xia</variant>\n <variant>Hai Xia Geng</variant>\n <variant>Geng Hai-Xia</variant>\n <variant>Hai-Xia Geng</variant>\n <variant>Geng, Hai-Xia</variant>\n <variant>Geng, Hai Xia</variant>\n <variant>Geng HX</variant>\n <variant>Geng H X</variant>\n <variant>Geng H</variant>\n <variant>H Geng</variant>\n <variant>H. X. Geng</variant>\n <variant>Geng H. X.</variant>\n <variant>Geng H.X.</variant>\n <variant>Geng H.X</variant>\n <variant>H.X. Geng</variant>\n <variant>H.X Geng</variant>\n <variant>H-X. Geng</variant>\n <variant>H-X Geng</variant>\n <variant>G. Haixia</variant>\n <variant>Haixia G.</variant>\n <variant>G. Hai Xia</variant>\n <variant>Hai Xia G.</variant>\n <variant>G. Hai-Xia</variant>\n <variant>Hai-Xia G.</variant>\n <variant>Geng H.</variant>\n <variant>H. Geng</variant>"", ""author_institution"": """"}"
+甘肃省肿瘤医院张学良教授讲课“CAP方案在晚期微卫星稳定型 结直肠癌中的临床应用及AE管理”，作为讨论嘉宾进行讨论,张学良,张学良,"<variant>Zhang Xueliang</variant>
+ <variant>Xueliang Zhang</variant>
+ <variant>Zhang Xue-Liang</variant>
+ <variant>Xue-Liang Zhang</variant>
+ <variant>Zhang Xue Liang</variant>
+ <variant>Xue Liang Zhang</variant>
+ <variant>Zhang, Xueliang</variant>
+ <variant>Zhang, Xue-Liang</variant>
+ <variant>Zhang, Xue Liang</variant>
+ <variant>Zhang X.</variant>
+ <variant>Zhang X</variant>
+ <variant>X. Zhang</variant>
+ <variant>X Zhang</variant>
+ <variant>Zhang XL</variant>
+ <variant>Zhang X L</variant>
+ <variant>X.L. Zhang</variant>
+ <variant>X. L. Zhang</variant>
+ <variant>X L Zhang</variant>
+ <variant>Zhang X.-L.</variant>
+ <variant>Zhang X-L</variant>
+ <variant>X.-L. Zhang</variant>
+ <variant>X-L Zhang</variant>
+ <variant>Z. Xueliang</variant>
+ <variant>Xueliang Z.</variant>
+ <variant>Z. Xue Liang</variant>
+ <variant>Xue Liang Z.</variant>
+ <variant>Z. Xue-Liang</variant>
+ <variant>Xue-Liang Z.</variant>","<variant>Zhang Xueliang</variant>
+ <variant>Xueliang Zhang</variant>
+ <variant>Zhang, Xueliang</variant>
+ <variant>Zhang Xue Liang</variant>
+ <variant>Xue Liang Zhang</variant>
+ <variant>Zhang Xue-Liang</variant>
+ <variant>Xue-Liang Zhang</variant>
+ <variant>Zhang, Xue-Liang</variant>
+ <variant>Zhang, Xue Liang</variant>
+ <variant>Zhang XL</variant>
+ <variant>Zhang X L</variant>
+ <variant>Zhang X</variant>
+ <variant>X Zhang</variant>
+ <variant>X. L. Zhang</variant>
+ <variant>Zhang X. L.</variant>
+ <variant>Zhang X.L.</variant>
+ <variant>Zhang X.L</variant>
+ <variant>X.L. Zhang</variant>
+ <variant>X.L Zhang</variant>
+ <variant>X-L. Zhang</variant>
+ <variant>X-L Zhang</variant>
+ <variant>Z. Xueliang</variant>
+ <variant>Xueliang Z.</variant>
+ <variant>Z. Xue Liang</variant>
+ <variant>Xue Liang Z.</variant>
+ <variant>Z. Xue-Liang</variant>
+ <variant>Xue-Liang Z.</variant>
+ <variant>Zhang X.</variant>
+ <variant>X. Zhang</variant>",甘肃省肿瘤医院,甘肃省肿瘤医院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""甘""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 7, ""text"": ""甘肃省肿瘤医院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 7, ""end"": 8, ""text"": ""张""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 7, ""end"": 10, ""text"": ""张学良""}]}","{""author_name"": ""张学良"", ""author_name英文变体"": ""<variant>Zhang Xueliang</variant>\n <variant>Xueliang Zhang</variant>\n <variant>Zhang, Xueliang</variant>\n <variant>Zhang Xue Liang</variant>\n <variant>Xue Liang Zhang</variant>\n <variant>Zhang Xue-Liang</variant>\n <variant>Xue-Liang Zhang</variant>\n <variant>Zhang, Xue-Liang</variant>\n <variant>Zhang, Xue Liang</variant>\n <variant>Zhang XL</variant>\n <variant>Zhang X L</variant>\n <variant>Zhang X</variant>\n <variant>X Zhang</variant>\n <variant>X. L. Zhang</variant>\n <variant>Zhang X. L.</variant>\n <variant>Zhang X.L.</variant>\n <variant>Zhang X.L</variant>\n <variant>X.L. Zhang</variant>\n <variant>X.L Zhang</variant>\n <variant>X-L. Zhang</variant>\n <variant>X-L Zhang</variant>\n <variant>Z. Xueliang</variant>\n <variant>Xueliang Z.</variant>\n <variant>Z. Xue Liang</variant>\n <variant>Xue Liang Z.</variant>\n <variant>Z. Xue-Liang</variant>\n <variant>Xue-Liang Z.</variant>\n <variant>Zhang X.</variant>\n <variant>X. Zhang</variant>"", ""author_institution"": ""甘肃省肿瘤医院""}"
+能查到中山大学第五附属医院泌尿外科汤育新教授电子邮箱么？,汤育新,汤育新,"<variant>Tang Yuxin</variant>
+ <variant>Yuxin Tang</variant>
+ <variant>Tang Yu-Xin</variant>
+ <variant>Yu-Xin Tang</variant>
+ <variant>Tang Yu Xin</variant>
+ <variant>Yu Xin Tang</variant>
+ <variant>Tang, Yuxin</variant>
+ <variant>Tang, Yu-Xin</variant>
+ <variant>Tang, Yu Xin</variant>
+ <variant>Tang Y.</variant>
+ <variant>Tang Y</variant>
+ <variant>Y. Tang</variant>
+ <variant>Y Tang</variant>
+ <variant>Tang YX</variant>
+ <variant>Tang Y X</variant>
+ <variant>Y.X. Tang</variant>
+ <variant>Y. X. Tang</variant>
+ <variant>Y X Tang</variant>
+ <variant>Tang Y.-X.</variant>
+ <variant>Tang Y-X</variant>
+ <variant>Y.-X. Tang</variant>
+ <variant>Y-X Tang</variant>
+ <variant>T. Yuxin</variant>
+ <variant>Yuxin T.</variant>
+ <variant>T. Yu Xin</variant>
+ <variant>Yu Xin T.</variant>
+ <variant>T. Yu-Xin</variant>
+ <variant>Yu-Xin T.</variant>","<variant>Tang Yuxin</variant>
+ <variant>Yuxin Tang</variant>
+ <variant>Tang, Yuxin</variant>
+ <variant>Tang Yu Xin</variant>
+ <variant>Yu Xin Tang</variant>
+ <variant>Tang Yu-Xin</variant>
+ <variant>Yu-Xin Tang</variant>
+ <variant>Tang, Yu-Xin</variant>
+ <variant>Tang, Yu Xin</variant>
+ <variant>Tang YX</variant>
+ <variant>Tang Y X</variant>
+ <variant>Tang Y</variant>
+ <variant>Y Tang</variant>
+ <variant>Y. X. Tang</variant>
+ <variant>Tang Y. X.</variant>
+ <variant>Tang Y.X.</variant>
+ <variant>Tang Y.X</variant>
+ <variant>Y.X. Tang</variant>
+ <variant>Y.X Tang</variant>
+ <variant>Y-X. Tang</variant>
+ <variant>Y-X Tang</variant>
+ <variant>T. Yuxin</variant>
+ <variant>Yuxin T.</variant>
+ <variant>T. Yu Xin</variant>
+ <variant>Yu Xin T.</variant>
+ <variant>T. Yu-Xin</variant>
+ <variant>Yu-Xin T.</variant>
+ <variant>Tang Y.</variant>
+ <variant>Y. Tang</variant>",中山大学第五附属医院泌尿外科,中山大学第五附属医院泌尿外科,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 17, ""text"": ""中山大学第五附属医院泌尿外科""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 17, ""end"": 18, ""text"": ""汤""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 17, ""end"": 20, ""text"": ""汤育新""}]}","{""author_name"": ""汤育新"", ""author_name英文变体"": ""<variant>Tang Yuxin</variant>\n <variant>Yuxin Tang</variant>\n <variant>Tang, Yuxin</variant>\n <variant>Tang Yu Xin</variant>\n <variant>Yu Xin Tang</variant>\n <variant>Tang Yu-Xin</variant>\n <variant>Yu-Xin Tang</variant>\n <variant>Tang, Yu-Xin</variant>\n <variant>Tang, Yu Xin</variant>\n <variant>Tang YX</variant>\n <variant>Tang Y X</variant>\n <variant>Tang Y</variant>\n <variant>Y Tang</variant>\n <variant>Y. X. Tang</variant>\n <variant>Tang Y. X.</variant>\n <variant>Tang Y.X.</variant>\n <variant>Tang Y.X</variant>\n <variant>Y.X. Tang</variant>\n <variant>Y.X Tang</variant>\n <variant>Y-X. Tang</variant>\n <variant>Y-X Tang</variant>\n <variant>T. Yuxin</variant>\n <variant>Yuxin T.</variant>\n <variant>T. Yu Xin</variant>\n <variant>Yu Xin T.</variant>\n <variant>T. Yu-Xin</variant>\n <variant>Yu-Xin T.</variant>\n <variant>Tang Y.</variant>\n <variant>Y. Tang</variant>"", ""author_institution"": ""中山大学第五附属医院泌尿外科""}"
+假如你是临床肿瘤学教授，写一篇关于肺癌BRAF G466V突变治疗进展的点评,,临床肿瘤学,,"<variant>Lin Chuangzhongliuxue</variant>
+ <variant>Chuangzhongliuxue Lin</variant>
+ <variant>Lin, Chuangzhongliuxue</variant>
+ <variant>Lin Chuang Zhong Liu Xue</variant>
+ <variant>Chuang Zhong Liu Xue Lin</variant>
+ <variant>Lin Chuang-Zhong-Liu-Xue</variant>
+ <variant>Chuang-Zhong-Liu-Xue Lin</variant>
+ <variant>Lin, Chuang-Zhong-Liu-Xue</variant>
+ <variant>Lin, Chuang Zhong Liu Xue</variant>
+ <variant>Lin CZLX</variant>
+ <variant>Lin C Z L X</variant>
+ <variant>Lin C</variant>
+ <variant>C Lin</variant>
+ <variant>C. Z. L. X. Lin</variant>
+ <variant>Lin C. Z. L. X.</variant>
+ <variant>Lin C.Z.L.X.</variant>
+ <variant>Lin C.Z.L.X</variant>
+ <variant>C.Z.L.X. Lin</variant>
+ <variant>C.Z.L.X Lin</variant>
+ <variant>C-Z-L-X. Lin</variant>
+ <variant>C-Z-L-X Lin</variant>
+ <variant>L. Chuangzhongliuxue</variant>
+ <variant>Chuangzhongliuxue L.</variant>
+ <variant>L. Chuang Zhong Liu Xue</variant>
+ <variant>Chuang Zhong Liu Xue L.</variant>
+ <variant>L. Chuang-Zhong-Liu-Xue</variant>
+ <variant>Chuang-Zhong-Liu-Xue L.</variant>
+ <variant>Lin C.</variant>
+ <variant>C. Lin</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 4, ""end"": 5, ""text"": ""临""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 4, ""end"": 9, ""text"": ""临床肿瘤学""}]}","{""author_name"": ""临床肿瘤学"", ""author_name英文变体"": ""<variant>Lin Chuangzhongliuxue</variant>\n <variant>Chuangzhongliuxue Lin</variant>\n <variant>Lin, Chuangzhongliuxue</variant>\n <variant>Lin Chuang Zhong Liu Xue</variant>\n <variant>Chuang Zhong Liu Xue Lin</variant>\n <variant>Lin Chuang-Zhong-Liu-Xue</variant>\n <variant>Chuang-Zhong-Liu-Xue Lin</variant>\n <variant>Lin, Chuang-Zhong-Liu-Xue</variant>\n <variant>Lin, Chuang Zhong Liu Xue</variant>\n <variant>Lin CZLX</variant>\n <variant>Lin C Z L X</variant>\n <variant>Lin C</variant>\n <variant>C Lin</variant>\n <variant>C. Z. L. X. Lin</variant>\n <variant>Lin C. Z. L. X.</variant>\n <variant>Lin C.Z.L.X.</variant>\n <variant>Lin C.Z.L.X</variant>\n <variant>C.Z.L.X. Lin</variant>\n <variant>C.Z.L.X Lin</variant>\n <variant>C-Z-L-X. Lin</variant>\n <variant>C-Z-L-X Lin</variant>\n <variant>L. Chuangzhongliuxue</variant>\n <variant>Chuangzhongliuxue L.</variant>\n <variant>L. Chuang Zhong Liu Xue</variant>\n <variant>Chuang Zhong Liu Xue L.</variant>\n <variant>L. Chuang-Zhong-Liu-Xue</variant>\n <variant>Chuang-Zhong-Liu-Xue L.</variant>\n <variant>Lin C.</variant>\n <variant>C. Lin</variant>"", ""author_institution"": """"}"
+吴一龙教授的新学术论文,吴一龙,吴一龙,"<variant>Wu Yilong</variant>
+ <variant>Yilong Wu</variant>
+ <variant>Wu Yi-Long</variant>
+ <variant>Yi-Long Wu</variant>
+ <variant>Wu Yi Long</variant>
+ <variant>Yi Long Wu</variant>
+ <variant>Wu, Yilong</variant>
+ <variant>Wu, Yi-Long</variant>
+ <variant>Wu, Yi Long</variant>
+ <variant>Wu Y.</variant>
+ <variant>Wu Y</variant>
+ <variant>Y. Wu</variant>
+ <variant>Y Wu</variant>
+ <variant>Wu YL</variant>
+ <variant>Wu Y L</variant>
+ <variant>Y.L. Wu</variant>
+ <variant>Y. L. Wu</variant>
+ <variant>Y L Wu</variant>
+ <variant>Wu Y.-L.</variant>
+ <variant>Wu Y-L</variant>
+ <variant>Y.-L. Wu</variant>
+ <variant>Y-L Wu</variant>
+ <variant>W. Yilong</variant>
+ <variant>Yilong W.</variant>
+ <variant>W. Yi Long</variant>
+ <variant>Yi Long W.</variant>
+ <variant>W. Yi-Long</variant>
+ <variant>Yi-Long W.</variant>","<variant>Wu Yilong</variant>
+ <variant>Yilong Wu</variant>
+ <variant>Wu Yi-Long</variant>
+ <variant>Yi-Long Wu</variant>
+ <variant>Wu Yi Long</variant>
+ <variant>Yi Long Wu</variant>
+ <variant>Wu, Yilong</variant>
+ <variant>Wu, Yi-Long</variant>
+ <variant>Wu, Yi Long</variant>
+ <variant>Wu Y.</variant>
+ <variant>Wu Y</variant>
+ <variant>Y. Wu</variant>
+ <variant>Y Wu</variant>
+ <variant>Wu YL</variant>
+ <variant>Wu Y L</variant>
+ <variant>Y.L. Wu</variant>
+ <variant>Y. L. Wu</variant>
+ <variant>Y L Wu</variant>
+ <variant>Wu Y.-L.</variant>
+ <variant>Wu Y-L</variant>
+ <variant>Y.-L. Wu</variant>
+ <variant>Y-L Wu</variant>
+ <variant>W. Yilong</variant>
+ <variant>Yilong W.</variant>
+ <variant>W. Yi Long</variant>
+ <variant>Yi Long W.</variant>
+ <variant>W. Yi-Long</variant>
+ <variant>Yi-Long W.</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""吴""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""吴一龙""}]}","{""author_name"": ""吴一龙"", ""author_name英文变体"": ""<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>"", ""author_institution"": """"}"
+江西中医药大学付勇教授对肠易激综合征的研究贡献,付勇,付勇,"<variant>Fu Yong</variant>
+ <variant>Yong Fu</variant>
+ <variant>Fu, Yong</variant>
+ <variant>Fu Y.</variant>
+ <variant>Fu Y</variant>
+ <variant>Y. Fu</variant>
+ <variant>Y Fu</variant>
+ <variant>F. Yong</variant>
+ <variant>Yong F.</variant>","<variant>Fu Yong</variant>
+ <variant>Yong Fu</variant>
+ <variant>Fu, Yong</variant>
+ <variant>Fu Y</variant>
+ <variant>Y Fu</variant>
+ <variant>Y. Fu</variant>
+ <variant>Fu Y.</variant>
+ <variant>F. Yong</variant>
+ <variant>Yong F.</variant>",江西中医药大学,江西中医药大学,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""江""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 7, ""text"": ""江西中医药大学""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 7, ""end"": 8, ""text"": ""付""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 7, ""end"": 9, ""text"": ""付勇""}]}","{""author_name"": ""付勇"", ""author_name英文变体"": ""<variant>Fu Yong</variant>\n <variant>Yong Fu</variant>\n <variant>Fu, Yong</variant>\n <variant>Fu Y</variant>\n <variant>Y Fu</variant>\n <variant>Y. Fu</variant>\n <variant>Fu Y.</variant>\n <variant>F. Yong</variant>\n <variant>Yong F.</variant>"", ""author_institution"": ""江西中医药大学""}"
+马赛大学Guy.Magalon教授团队 研究脂肪基质成分一类细胞亚群促进血管生长文献,Guy.Magalon,Guy.Magalon,"<variant>Guy Magalon</variant>
+ <variant>Magalon Guy</variant>
+ <variant>Magalon, Guy</variant>
+ <variant>Magalon G.</variant>
+ <variant>Magalon G</variant>
+ <variant>G. Magalon</variant>
+ <variant>G Magalon</variant>
+ <variant>M. Guy</variant>
+ <variant>Guy M.</variant>",<variant>Guy.Magalon</variant>,马赛大学,马赛大学,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""马""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 4, ""text"": ""马赛大学""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 4, ""end"": 15, ""text"": ""Guy.Magalon""}]}","{""author_name"": ""Guy.Magalon"", ""author_name英文变体"": ""<variant>Guy.Magalon</variant>"", ""author_institution"": ""马赛大学""}"
+介绍一下孙英贤教授,孙英贤,孙英贤,"<variant>Sun Yingxian</variant>
+ <variant>Yingxian Sun</variant>
+ <variant>Sun Ying-Xian</variant>
+ <variant>Ying-Xian Sun</variant>
+ <variant>Sun Ying Xian</variant>
+ <variant>Ying Xian Sun</variant>
+ <variant>Sun, Yingxian</variant>
+ <variant>Sun, Ying-Xian</variant>
+ <variant>Sun, Ying Xian</variant>
+ <variant>Sun Y.</variant>
+ <variant>Sun Y</variant>
+ <variant>Y. Sun</variant>
+ <variant>Y Sun</variant>
+ <variant>Sun YX</variant>
+ <variant>Sun Y X</variant>
+ <variant>Y.X. Sun</variant>
+ <variant>Y. X. Sun</variant>
+ <variant>Y X Sun</variant>
+ <variant>Sun Y.-X.</variant>
+ <variant>Sun Y-X</variant>
+ <variant>Y.-X. Sun</variant>
+ <variant>Y-X Sun</variant>
+ <variant>S. Yingxian</variant>
+ <variant>Yingxian S.</variant>
+ <variant>S. Ying Xian</variant>
+ <variant>Ying Xian S.</variant>
+ <variant>S. Ying-Xian</variant>
+ <variant>Ying-Xian S.</variant>","<variant>Sun Yingxian</variant>
+ <variant>Yingxian Sun</variant>
+ <variant>Sun, Yingxian</variant>
+ <variant>Sun Ying Xian</variant>
+ <variant>Ying Xian Sun</variant>
+ <variant>Sun Ying-Xian</variant>
+ <variant>Ying-Xian Sun</variant>
+ <variant>Sun, Ying-Xian</variant>
+ <variant>Sun, Ying Xian</variant>
+ <variant>Sun YX</variant>
+ <variant>Sun Y X</variant>
+ <variant>Sun Y</variant>
+ <variant>Y Sun</variant>
+ <variant>Y. X. Sun</variant>
+ <variant>Sun Y. X.</variant>
+ <variant>Sun Y.X.</variant>
+ <variant>Sun Y.X</variant>
+ <variant>Y.X. Sun</variant>
+ <variant>Y.X Sun</variant>
+ <variant>Y-X. Sun</variant>
+ <variant>Y-X Sun</variant>
+ <variant>S. Yingxian</variant>
+ <variant>Yingxian S.</variant>
+ <variant>S. Ying Xian</variant>
+ <variant>Ying Xian S.</variant>
+ <variant>S. Ying-Xian</variant>
+ <variant>Ying-Xian S.</variant>
+ <variant>Sun Y.</variant>
+ <variant>Y. Sun</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 4, ""end"": 5, ""text"": ""孙""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 4, ""end"": 7, ""text"": ""孙英贤""}]}","{""author_name"": ""孙英贤"", ""author_name英文变体"": ""<variant>Sun Yingxian</variant>\n <variant>Yingxian Sun</variant>\n <variant>Sun, Yingxian</variant>\n <variant>Sun Ying Xian</variant>\n <variant>Ying Xian Sun</variant>\n <variant>Sun Ying-Xian</variant>\n <variant>Ying-Xian Sun</variant>\n <variant>Sun, Ying-Xian</variant>\n <variant>Sun, Ying Xian</variant>\n <variant>Sun YX</variant>\n <variant>Sun Y X</variant>\n <variant>Sun Y</variant>\n <variant>Y Sun</variant>\n <variant>Y. X. Sun</variant>\n <variant>Sun Y. X.</variant>\n <variant>Sun Y.X.</variant>\n <variant>Sun Y.X</variant>\n <variant>Y.X. Sun</variant>\n <variant>Y.X Sun</variant>\n <variant>Y-X. Sun</variant>\n <variant>Y-X Sun</variant>\n <variant>S. Yingxian</variant>\n <variant>Yingxian S.</variant>\n <variant>S. Ying Xian</variant>\n <variant>Ying Xian S.</variant>\n <variant>S. Ying-Xian</variant>\n <variant>Ying-Xian S.</variant>\n <variant>Sun Y.</variant>\n <variant>Y. Sun</variant>"", ""author_institution"": """"}"
+请帮我查找中山大学邹小兵教授团队近几年发表的关于ASD的文章,邹小兵,邹小兵,"<variant>Zou Xiaobing</variant>
+ <variant>Xiaobing Zou</variant>
+ <variant>Zou Xiao-Bing</variant>
+ <variant>Xiao-Bing Zou</variant>
+ <variant>Zou Xiao Bing</variant>
+ <variant>Xiao Bing Zou</variant>
+ <variant>Zou, Xiaobing</variant>
+ <variant>Zou, Xiao-Bing</variant>
+ <variant>Zou, Xiao Bing</variant>
+ <variant>Zou X.</variant>
+ <variant>Zou X</variant>
+ <variant>X. Zou</variant>
+ <variant>X Zou</variant>
+ <variant>Zou XB</variant>
+ <variant>Zou X B</variant>
+ <variant>X.B. Zou</variant>
+ <variant>X. B. Zou</variant>
+ <variant>X B Zou</variant>
+ <variant>Zou X.-B.</variant>
+ <variant>Zou X-B</variant>
+ <variant>X.-B. Zou</variant>
+ <variant>X-B Zou</variant>
+ <variant>Z. Xiaobing</variant>
+ <variant>Xiaobing Z.</variant>
+ <variant>Z. Xiao Bing</variant>
+ <variant>Xiao Bing Z.</variant>
+ <variant>Z. Xiao-Bing</variant>
+ <variant>Xiao-Bing Z.</variant>","<variant>Zou Xiaobing</variant>
+ <variant>Xiaobing Zou</variant>
+ <variant>Zou, Xiaobing</variant>
+ <variant>Zou Xiao Bing</variant>
+ <variant>Xiao Bing Zou</variant>
+ <variant>Zou Xiao-Bing</variant>
+ <variant>Xiao-Bing Zou</variant>
+ <variant>Zou, Xiao-Bing</variant>
+ <variant>Zou, Xiao Bing</variant>
+ <variant>Zou XB</variant>
+ <variant>Zou X B</variant>
+ <variant>Zou X</variant>
+ <variant>X Zou</variant>
+ <variant>X. B. Zou</variant>
+ <variant>Zou X. B.</variant>
+ <variant>Zou X.B.</variant>
+ <variant>Zou X.B</variant>
+ <variant>X.B. Zou</variant>
+ <variant>X.B Zou</variant>
+ <variant>X-B. Zou</variant>
+ <variant>X-B Zou</variant>
+ <variant>Z. Xiaobing</variant>
+ <variant>Xiaobing Z.</variant>
+ <variant>Z. Xiao Bing</variant>
+ <variant>Xiao Bing Z.</variant>
+ <variant>Z. Xiao-Bing</variant>
+ <variant>Xiao-Bing Z.</variant>
+ <variant>Zou X.</variant>
+ <variant>X. Zou</variant>",中山大学,中山大学,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 5, ""end"": 9, ""text"": ""中山大学""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 9, ""end"": 10, ""text"": ""邹""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 9, ""end"": 12, ""text"": ""邹小兵""}]}","{""author_name"": ""邹小兵"", ""author_name英文变体"": ""<variant>Zou Xiaobing</variant>\n <variant>Xiaobing Zou</variant>\n <variant>Zou, Xiaobing</variant>\n <variant>Zou Xiao Bing</variant>\n <variant>Xiao Bing Zou</variant>\n <variant>Zou Xiao-Bing</variant>\n <variant>Xiao-Bing Zou</variant>\n <variant>Zou, Xiao-Bing</variant>\n <variant>Zou, Xiao Bing</variant>\n <variant>Zou XB</variant>\n <variant>Zou X B</variant>\n <variant>Zou X</variant>\n <variant>X Zou</variant>\n <variant>X. B. Zou</variant>\n <variant>Zou X. B.</variant>\n <variant>Zou X.B.</variant>\n <variant>Zou X.B</variant>\n <variant>X.B. Zou</variant>\n <variant>X.B Zou</variant>\n <variant>X-B. Zou</variant>\n <variant>X-B Zou</variant>\n <variant>Z. Xiaobing</variant>\n <variant>Xiaobing Z.</variant>\n <variant>Z. Xiao Bing</variant>\n <variant>Xiao Bing Z.</variant>\n <variant>Z. Xiao-Bing</variant>\n <variant>Xiao-Bing Z.</variant>\n <variant>Zou X.</variant>\n <variant>X. Zou</variant>"", ""author_institution"": ""中山大学""}"
+王国栋教授课题组发现一组功能冗余 CLE 多肽激素 CLE1 - CLE7 调控拟南芥不定芽从头发生。,王国栋,王国栋,"<variant>Wang Guodong</variant>
+ <variant>Guodong Wang</variant>
+ <variant>Wang Guo-Dong</variant>
+ <variant>Guo-Dong Wang</variant>
+ <variant>Wang Guo Dong</variant>
+ <variant>Guo Dong Wang</variant>
+ <variant>Wang, Guodong</variant>
+ <variant>Wang, Guo-Dong</variant>
+ <variant>Wang, Guo Dong</variant>
+ <variant>Wang G.</variant>
+ <variant>Wang G</variant>
+ <variant>G. Wang</variant>
+ <variant>G Wang</variant>
+ <variant>Wang GD</variant>
+ <variant>Wang G D</variant>
+ <variant>G.D. Wang</variant>
+ <variant>G. D. Wang</variant>
+ <variant>G D Wang</variant>
+ <variant>Wang G.-D.</variant>
+ <variant>Wang G-D</variant>
+ <variant>G.-D. Wang</variant>
+ <variant>G-D Wang</variant>
+ <variant>W. Guodong</variant>
+ <variant>Guodong W.</variant>
+ <variant>W. Guo Dong</variant>
+ <variant>Guo Dong W.</variant>
+ <variant>W. Guo-Dong</variant>
+ <variant>Guo-Dong W.</variant>","<variant>Wang Guodong</variant>
+ <variant>Guodong Wang</variant>
+ <variant>Wang, Guodong</variant>
+ <variant>Wang Guo Dong</variant>
+ <variant>Guo Dong Wang</variant>
+ <variant>Wang Guo-Dong</variant>
+ <variant>Guo-Dong Wang</variant>
+ <variant>Wang, Guo-Dong</variant>
+ <variant>Wang, Guo Dong</variant>
+ <variant>Wang GD</variant>
+ <variant>Wang G D</variant>
+ <variant>Wang G</variant>
+ <variant>G Wang</variant>
+ <variant>G. D. Wang</variant>
+ <variant>Wang G. D.</variant>
+ <variant>Wang G.D.</variant>
+ <variant>Wang G.D</variant>
+ <variant>G.D. Wang</variant>
+ <variant>G.D Wang</variant>
+ <variant>G-D. Wang</variant>
+ <variant>G-D Wang</variant>
+ <variant>W. Guodong</variant>
+ <variant>Guodong W.</variant>
+ <variant>W. Guo Dong</variant>
+ <variant>Guo Dong W.</variant>
+ <variant>W. Guo-Dong</variant>
+ <variant>Guo-Dong W.</variant>
+ <variant>Wang G.</variant>
+ <variant>G. Wang</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""王""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""王国栋""}]}","{""author_name"": ""王国栋"", ""author_name英文变体"": ""<variant>Wang Guodong</variant>\n <variant>Guodong Wang</variant>\n <variant>Wang, Guodong</variant>\n <variant>Wang Guo Dong</variant>\n <variant>Guo Dong Wang</variant>\n <variant>Wang Guo-Dong</variant>\n <variant>Guo-Dong Wang</variant>\n <variant>Wang, Guo-Dong</variant>\n <variant>Wang, Guo Dong</variant>\n <variant>Wang GD</variant>\n <variant>Wang G D</variant>\n <variant>Wang G</variant>\n <variant>G Wang</variant>\n <variant>G. D. Wang</variant>\n <variant>Wang G. D.</variant>\n <variant>Wang G.D.</variant>\n <variant>Wang G.D</variant>\n <variant>G.D. Wang</variant>\n <variant>G.D Wang</variant>\n <variant>G-D. Wang</variant>\n <variant>G-D Wang</variant>\n <variant>W. Guodong</variant>\n <variant>Guodong W.</variant>\n <variant>W. Guo Dong</variant>\n <variant>Guo Dong W.</variant>\n <variant>W. Guo-Dong</variant>\n <variant>Guo-Dong W.</variant>\n <variant>Wang G.</variant>\n <variant>G. Wang</variant>"", ""author_institution"": """"}"
+苏津自 教授对于血脂管理的文章或者见解,苏津自,苏津自,"<variant>Su Jinzi</variant>
+ <variant>Jinzi Su</variant>
+ <variant>Su Jin-Zi</variant>
+ <variant>Jin-Zi Su</variant>
+ <variant>Su Jin Zi</variant>
+ <variant>Jin Zi Su</variant>
+ <variant>Su, Jinzi</variant>
+ <variant>Su, Jin-Zi</variant>
+ <variant>Su, Jin Zi</variant>
+ <variant>Su J.</variant>
+ <variant>Su J</variant>
+ <variant>J. Su</variant>
+ <variant>J Su</variant>
+ <variant>Su JZ</variant>
+ <variant>Su J Z</variant>
+ <variant>J.Z. Su</variant>
+ <variant>J. Z. Su</variant>
+ <variant>J Z Su</variant>
+ <variant>Su J.-Z.</variant>
+ <variant>Su J-Z</variant>
+ <variant>J.-Z. Su</variant>
+ <variant>J-Z Su</variant>
+ <variant>S. Jinzi</variant>
+ <variant>Jinzi S.</variant>
+ <variant>S. Jin Zi</variant>
+ <variant>Jin Zi S.</variant>
+ <variant>S. Jin-Zi</variant>
+ <variant>Jin-Zi S.</variant>","<variant>Su Jinzi</variant>
+ <variant>Jinzi Su</variant>
+ <variant>Su, Jinzi</variant>
+ <variant>Su Jin Zi</variant>
+ <variant>Jin Zi Su</variant>
+ <variant>Su Jin-Zi</variant>
+ <variant>Jin-Zi Su</variant>
+ <variant>Su, Jin-Zi</variant>
+ <variant>Su, Jin Zi</variant>
+ <variant>Su JZ</variant>
+ <variant>Su J Z</variant>
+ <variant>Su J</variant>
+ <variant>J Su</variant>
+ <variant>J. Z. Su</variant>
+ <variant>Su J. Z.</variant>
+ <variant>Su J.Z.</variant>
+ <variant>Su J.Z</variant>
+ <variant>J.Z. Su</variant>
+ <variant>J.Z Su</variant>
+ <variant>J-Z. Su</variant>
+ <variant>J-Z Su</variant>
+ <variant>S. Jinzi</variant>
+ <variant>Jinzi S.</variant>
+ <variant>S. Jin Zi</variant>
+ <variant>Jin Zi S.</variant>
+ <variant>S. Jin-Zi</variant>
+ <variant>Jin-Zi S.</variant>
+ <variant>Su J.</variant>
+ <variant>J. Su</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""苏""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""苏津自""}]}","{""author_name"": ""苏津自"", ""author_name英文变体"": ""<variant>Su Jinzi</variant>\n <variant>Jinzi Su</variant>\n <variant>Su, Jinzi</variant>\n <variant>Su Jin Zi</variant>\n <variant>Jin Zi Su</variant>\n <variant>Su Jin-Zi</variant>\n <variant>Jin-Zi Su</variant>\n <variant>Su, Jin-Zi</variant>\n <variant>Su, Jin Zi</variant>\n <variant>Su JZ</variant>\n <variant>Su J Z</variant>\n <variant>Su J</variant>\n <variant>J Su</variant>\n <variant>J. Z. Su</variant>\n <variant>Su J. Z.</variant>\n <variant>Su J.Z.</variant>\n <variant>Su J.Z</variant>\n <variant>J.Z. Su</variant>\n <variant>J.Z Su</variant>\n <variant>J-Z. Su</variant>\n <variant>J-Z Su</variant>\n <variant>S. Jinzi</variant>\n <variant>Jinzi S.</variant>\n <variant>S. Jin Zi</variant>\n <variant>Jin Zi S.</variant>\n <variant>S. Jin-Zi</variant>\n <variant>Jin-Zi S.</variant>\n <variant>Su J.</variant>\n <variant>J. Su</variant>"", ""author_institution"": """"}"
+黎晓新教授眼底病报告,黎晓新,黎晓新,"<variant>Li Xiaoxin</variant>
+ <variant>Xiaoxin Li</variant>
+ <variant>Li Xiao-Xin</variant>
+ <variant>Xiao-Xin Li</variant>
+ <variant>Li Xiao Xin</variant>
+ <variant>Xiao Xin Li</variant>
+ <variant>Li, Xiaoxin</variant>
+ <variant>Li, Xiao-Xin</variant>
+ <variant>Li, Xiao Xin</variant>
+ <variant>Li X.</variant>
+ <variant>Li X</variant>
+ <variant>X. Li</variant>
+ <variant>X Li</variant>
+ <variant>Li XX</variant>
+ <variant>Li X X</variant>
+ <variant>X.X. Li</variant>
+ <variant>X. X. Li</variant>
+ <variant>X X Li</variant>
+ <variant>Li X.-X.</variant>
+ <variant>Li X-X</variant>
+ <variant>X.-X. Li</variant>
+ <variant>X-X Li</variant>
+ <variant>L. Xiaoxin</variant>
+ <variant>Xiaoxin L.</variant>
+ <variant>L. Xiao Xin</variant>
+ <variant>Xiao Xin L.</variant>
+ <variant>L. Xiao-Xin</variant>
+ <variant>Xiao-Xin L.</variant>","<variant>Li Xiaoxin</variant>
+ <variant>Xiaoxin Li</variant>
+ <variant>Li, Xiaoxin</variant>
+ <variant>Li Xiao Xin</variant>
+ <variant>Xiao Xin Li</variant>
+ <variant>Li Xiao-Xin</variant>
+ <variant>Xiao-Xin Li</variant>
+ <variant>Li, Xiao-Xin</variant>
+ <variant>Li, Xiao Xin</variant>
+ <variant>Li XX</variant>
+ <variant>Li X X</variant>
+ <variant>Li X</variant>
+ <variant>X Li</variant>
+ <variant>X. X. Li</variant>
+ <variant>Li X. X.</variant>
+ <variant>Li X.X.</variant>
+ <variant>Li X.X</variant>
+ <variant>X.X. Li</variant>
+ <variant>X.X Li</variant>
+ <variant>X-X. Li</variant>
+ <variant>X-X Li</variant>
+ <variant>L. Xiaoxin</variant>
+ <variant>Xiaoxin L.</variant>
+ <variant>L. Xiao Xin</variant>
+ <variant>Xiao Xin L.</variant>
+ <variant>L. Xiao-Xin</variant>
+ <variant>Xiao-Xin L.</variant>
+ <variant>Li X.</variant>
+ <variant>X. Li</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""黎""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""黎晓新""}]}","{""author_name"": ""黎晓新"", ""author_name英文变体"": ""<variant>Li Xiaoxin</variant>\n <variant>Xiaoxin Li</variant>\n <variant>Li, Xiaoxin</variant>\n <variant>Li Xiao Xin</variant>\n <variant>Xiao Xin Li</variant>\n <variant>Li Xiao-Xin</variant>\n <variant>Xiao-Xin Li</variant>\n <variant>Li, Xiao-Xin</variant>\n <variant>Li, Xiao Xin</variant>\n <variant>Li XX</variant>\n <variant>Li X X</variant>\n <variant>Li X</variant>\n <variant>X Li</variant>\n <variant>X. X. Li</variant>\n <variant>Li X. X.</variant>\n <variant>Li X.X.</variant>\n <variant>Li X.X</variant>\n <variant>X.X. Li</variant>\n <variant>X.X Li</variant>\n <variant>X-X. Li</variant>\n <variant>X-X Li</variant>\n <variant>L. Xiaoxin</variant>\n <variant>Xiaoxin L.</variant>\n <variant>L. Xiao Xin</variant>\n <variant>Xiao Xin L.</variant>\n <variant>L. Xiao-Xin</variant>\n <variant>Xiao-Xin L.</variant>\n <variant>Li X.</variant>\n <variant>X. Li</variant>"", ""author_institution"": """"}"
+吴一龙教授的肺癌适应性治疗中国专家共识,吴一龙,吴一龙,"<variant>Wu Yilong</variant>
+ <variant>Yilong Wu</variant>
+ <variant>Wu Yi-Long</variant>
+ <variant>Yi-Long Wu</variant>
+ <variant>Wu Yi Long</variant>
+ <variant>Yi Long Wu</variant>
+ <variant>Wu, Yilong</variant>
+ <variant>Wu, Yi-Long</variant>
+ <variant>Wu, Yi Long</variant>
+ <variant>Wu Y.</variant>
+ <variant>Wu Y</variant>
+ <variant>Y. Wu</variant>
+ <variant>Y Wu</variant>
+ <variant>Wu YL</variant>
+ <variant>Wu Y L</variant>
+ <variant>Y.L. Wu</variant>
+ <variant>Y. L. Wu</variant>
+ <variant>Y L Wu</variant>
+ <variant>Wu Y.-L.</variant>
+ <variant>Wu Y-L</variant>
+ <variant>Y.-L. Wu</variant>
+ <variant>Y-L Wu</variant>
+ <variant>W. Yilong</variant>
+ <variant>Yilong W.</variant>
+ <variant>W. Yi Long</variant>
+ <variant>Yi Long W.</variant>
+ <variant>W. Yi-Long</variant>
+ <variant>Yi-Long W.</variant>","<variant>Wu Yilong</variant>
+ <variant>Yilong Wu</variant>
+ <variant>Wu Yi-Long</variant>
+ <variant>Yi-Long Wu</variant>
+ <variant>Wu Yi Long</variant>
+ <variant>Yi Long Wu</variant>
+ <variant>Wu, Yilong</variant>
+ <variant>Wu, Yi-Long</variant>
+ <variant>Wu, Yi Long</variant>
+ <variant>Wu Y.</variant>
+ <variant>Wu Y</variant>
+ <variant>Y. Wu</variant>
+ <variant>Y Wu</variant>
+ <variant>Wu YL</variant>
+ <variant>Wu Y L</variant>
+ <variant>Y.L. Wu</variant>
+ <variant>Y. L. Wu</variant>
+ <variant>Y L Wu</variant>
+ <variant>Wu Y.-L.</variant>
+ <variant>Wu Y-L</variant>
+ <variant>Y.-L. Wu</variant>
+ <variant>Y-L Wu</variant>
+ <variant>W. Yilong</variant>
+ <variant>Yilong W.</variant>
+ <variant>W. Yi Long</variant>
+ <variant>Yi Long W.</variant>
+ <variant>W. Yi-Long</variant>
+ <variant>Yi-Long W.</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""吴""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""吴一龙""}]}","{""author_name"": ""吴一龙"", ""author_name英文变体"": ""<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>"", ""author_institution"": """"}"
+查找北医三院王毅教授托珠单抗治疗甲状腺眼病的文献,王毅,王毅,"<variant>Wang Yi</variant>
+ <variant>Yi Wang</variant>
+ <variant>Wang, Yi</variant>
+ <variant>Wang Y.</variant>
+ <variant>Wang Y</variant>
+ <variant>Y. Wang</variant>
+ <variant>Y Wang</variant>
+ <variant>W. Yi</variant>
+ <variant>Yi W.</variant>","<variant>Wang Yi</variant>
+ <variant>Yi Wang</variant>
+ <variant>Wang, Yi</variant>
+ <variant>Wang Y</variant>
+ <variant>Y Wang</variant>
+ <variant>Y. Wang</variant>
+ <variant>Wang Y.</variant>
+ <variant>W. Yi</variant>
+ <variant>Yi W.</variant>",北医三院,北医三院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 2, ""end"": 3, ""text"": ""北""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 2, ""end"": 6, ""text"": ""北医三院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 7, ""text"": ""王""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 8, ""text"": ""王毅""}]}","{""author_name"": ""王毅"", ""author_name英文变体"": ""<variant>Wang Yi</variant>\n <variant>Yi Wang</variant>\n <variant>Wang, Yi</variant>\n <variant>Wang Y</variant>\n <variant>Y Wang</variant>\n <variant>Y. Wang</variant>\n <variant>Wang Y.</variant>\n <variant>W. Yi</variant>\n <variant>Yi W.</variant>"", ""author_institution"": ""北医三院""}"
+陆军军医大学附属第二医院或新桥医院刘政教授课题组研究特点和优势不足以及课题组科研方向分析,刘政,刘政,"<variant>Liu Zheng</variant>
+ <variant>Zheng Liu</variant>
+ <variant>Liu, Zheng</variant>
+ <variant>Liu Z.</variant>
+ <variant>Liu Z</variant>
+ <variant>Z. Liu</variant>
+ <variant>Z Liu</variant>
+ <variant>L. Zheng</variant>
+ <variant>Zheng L.</variant>","<variant>Liu Zheng</variant>
+ <variant>Zheng Liu</variant>
+ <variant>Liu, Zheng</variant>
+ <variant>Liu Z</variant>
+ <variant>Z Liu</variant>
+ <variant>Z. Liu</variant>
+ <variant>Liu Z.</variant>
+ <variant>L. Zheng</variant>
+ <variant>Zheng L.</variant>",陆军军医大学附属第二医院,陆军军医大学附属第二医院或新桥医院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""陆""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 17, ""text"": ""陆军军医大学附属第二医院或新桥医院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 17, ""end"": 18, ""text"": ""刘""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 17, ""end"": 19, ""text"": ""刘政""}]}","{""author_name"": ""刘政"", ""author_name英文变体"": ""<variant>Liu Zheng</variant>\n <variant>Zheng Liu</variant>\n <variant>Liu, Zheng</variant>\n <variant>Liu Z</variant>\n <variant>Z Liu</variant>\n <variant>Z. Liu</variant>\n <variant>Liu Z.</variant>\n <variant>L. Zheng</variant>\n <variant>Zheng L.</variant>"", ""author_institution"": ""陆军军医大学附属第二医院或新桥医院""}"
+耿海霞正畸科主任的研究方向及课题组方向,耿海霞,霞正,"<variant>Geng Haixia</variant>
+ <variant>Haixia Geng</variant>
+ <variant>Geng Hai-Xia</variant>
+ <variant>Hai-Xia Geng</variant>
+ <variant>Geng Hai Xia</variant>
+ <variant>Hai Xia Geng</variant>
+ <variant>Geng, Haixia</variant>
+ <variant>Geng, Hai-Xia</variant>
+ <variant>Geng, Hai Xia</variant>
+ <variant>Geng H.</variant>
+ <variant>Geng H</variant>
+ <variant>H. Geng</variant>
+ <variant>H Geng</variant>
+ <variant>Geng HX</variant>
+ <variant>Geng H X</variant>
+ <variant>H.X. Geng</variant>
+ <variant>H. X. Geng</variant>
+ <variant>H X Geng</variant>
+ <variant>Geng H.-X.</variant>
+ <variant>Geng H-X</variant>
+ <variant>H.-X. Geng</variant>
+ <variant>H-X Geng</variant>
+ <variant>G. Haixia</variant>
+ <variant>Haixia G.</variant>
+ <variant>G. Hai Xia</variant>
+ <variant>Hai Xia G.</variant>
+ <variant>G. Hai-Xia</variant>
+ <variant>Hai-Xia G.</variant>","<variant>Xia Zheng</variant>
+ <variant>Zheng Xia</variant>
+ <variant>Xia, Zheng</variant>
+ <variant>Xia Z</variant>
+ <variant>Z Xia</variant>
+ <variant>Z. Xia</variant>
+ <variant>Xia Z.</variant>
+ <variant>X. Zheng</variant>
+ <variant>Zheng X.</variant>",,耿海；畸科,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""耿""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 2, ""text"": ""耿海""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 2, ""end"": 4, ""text"": ""霞正""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 4, ""end"": 6, ""text"": ""畸科""}]}","{""author_name"": ""霞正"", ""author_name英文变体"": ""<variant>Xia Zheng</variant>\n <variant>Zheng Xia</variant>\n <variant>Xia, Zheng</variant>\n <variant>Xia Z</variant>\n <variant>Z Xia</variant>\n <variant>Z. Xia</variant>\n <variant>Xia Z.</variant>\n <variant>X. Zheng</variant>\n <variant>Zheng X.</variant>"", ""author_institution"": ""耿海；畸科""}"
+神经外科副主任医生的科普问题可以有哪些？给5个,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""神""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 4, ""text"": ""科""}]}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+我想了解下安徽省立医院尚希福主任在针对Crowe Type 4 DDH中对手术技巧的创新及其意义有哪些。,尚希福,尚希福,"<variant>Shang Xifu</variant>
+ <variant>Xifu Shang</variant>
+ <variant>Shang Xi-Fu</variant>
+ <variant>Xi-Fu Shang</variant>
+ <variant>Shang Xi Fu</variant>
+ <variant>Xi Fu Shang</variant>
+ <variant>Shang, Xifu</variant>
+ <variant>Shang, Xi-Fu</variant>
+ <variant>Shang, Xi Fu</variant>
+ <variant>Shang X.</variant>
+ <variant>Shang X</variant>
+ <variant>X. Shang</variant>
+ <variant>X Shang</variant>
+ <variant>Shang XF</variant>
+ <variant>Shang X F</variant>
+ <variant>X.F. Shang</variant>
+ <variant>X. F. Shang</variant>
+ <variant>X F Shang</variant>
+ <variant>Shang X.-F.</variant>
+ <variant>Shang X-F</variant>
+ <variant>X.-F. Shang</variant>
+ <variant>X-F Shang</variant>
+ <variant>S. Xifu</variant>
+ <variant>Xifu S.</variant>
+ <variant>S. Xi Fu</variant>
+ <variant>Xi Fu S.</variant>
+ <variant>S. Xi-Fu</variant>
+ <variant>Xi-Fu S.</variant>","<variant>Shang Xifu</variant>
+ <variant>Xifu Shang</variant>
+ <variant>Shang, Xifu</variant>
+ <variant>Shang Xi Fu</variant>
+ <variant>Xi Fu Shang</variant>
+ <variant>Shang Xi-Fu</variant>
+ <variant>Xi-Fu Shang</variant>
+ <variant>Shang, Xi-Fu</variant>
+ <variant>Shang, Xi Fu</variant>
+ <variant>Shang XF</variant>
+ <variant>Shang X F</variant>
+ <variant>Shang X</variant>
+ <variant>X Shang</variant>
+ <variant>X. F. Shang</variant>
+ <variant>Shang X. F.</variant>
+ <variant>Shang X.F.</variant>
+ <variant>Shang X.F</variant>
+ <variant>X.F. Shang</variant>
+ <variant>X.F Shang</variant>
+ <variant>X-F. Shang</variant>
+ <variant>X-F Shang</variant>
+ <variant>S. Xifu</variant>
+ <variant>Xifu S.</variant>
+ <variant>S. Xi Fu</variant>
+ <variant>Xi Fu S.</variant>
+ <variant>S. Xi-Fu</variant>
+ <variant>Xi-Fu S.</variant>
+ <variant>Shang X.</variant>
+ <variant>X. Shang</variant>",安徽省立医院,安徽省立医院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 5, ""end"": 11, ""text"": ""安徽省立医院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 11, ""end"": 12, ""text"": ""尚""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 11, ""end"": 14, ""text"": ""尚希福""}]}","{""author_name"": ""尚希福"", ""author_name英文变体"": ""<variant>Shang Xifu</variant>\n <variant>Xifu Shang</variant>\n <variant>Shang, Xifu</variant>\n <variant>Shang Xi Fu</variant>\n <variant>Xi Fu Shang</variant>\n <variant>Shang Xi-Fu</variant>\n <variant>Xi-Fu Shang</variant>\n <variant>Shang, Xi-Fu</variant>\n <variant>Shang, Xi Fu</variant>\n <variant>Shang XF</variant>\n <variant>Shang X F</variant>\n <variant>Shang X</variant>\n <variant>X Shang</variant>\n <variant>X. F. Shang</variant>\n <variant>Shang X. F.</variant>\n <variant>Shang X.F.</variant>\n <variant>Shang X.F</variant>\n <variant>X.F. Shang</variant>\n <variant>X.F Shang</variant>\n <variant>X-F. Shang</variant>\n <variant>X-F Shang</variant>\n <variant>S. Xifu</variant>\n <variant>Xifu S.</variant>\n <variant>S. Xi Fu</variant>\n <variant>Xi Fu S.</variant>\n <variant>S. Xi-Fu</variant>\n <variant>Xi-Fu S.</variant>\n <variant>Shang X.</variant>\n <variant>X. Shang</variant>"", ""author_institution"": ""安徽省立医院""}"
+帮我总结一下储浩然主任医师治疗肠易激综合征的学术思想,储浩然,储浩然,"<variant>Chu Haoran</variant>
+ <variant>Haoran Chu</variant>
+ <variant>Chu Hao-Ran</variant>
+ <variant>Hao-Ran Chu</variant>
+ <variant>Chu Hao Ran</variant>
+ <variant>Hao Ran Chu</variant>
+ <variant>Chu, Haoran</variant>
+ <variant>Chu, Hao-Ran</variant>
+ <variant>Chu, Hao Ran</variant>
+ <variant>Chu H.</variant>
+ <variant>Chu H</variant>
+ <variant>H. Chu</variant>
+ <variant>H Chu</variant>
+ <variant>Chu HR</variant>
+ <variant>Chu H R</variant>
+ <variant>H.R. Chu</variant>
+ <variant>H. R. Chu</variant>
+ <variant>H R Chu</variant>
+ <variant>Chu H.-R.</variant>
+ <variant>Chu H-R</variant>
+ <variant>H.-R. Chu</variant>
+ <variant>H-R Chu</variant>
+ <variant>C. Haoran</variant>
+ <variant>Haoran C.</variant>
+ <variant>C. Hao Ran</variant>
+ <variant>Hao Ran C.</variant>
+ <variant>C. Hao-Ran</variant>
+ <variant>Hao-Ran C.</variant>","<variant>Chu Haoran</variant>
+ <variant>Haoran Chu</variant>
+ <variant>Chu, Haoran</variant>
+ <variant>Chu Hao Ran</variant>
+ <variant>Hao Ran Chu</variant>
+ <variant>Chu Hao-Ran</variant>
+ <variant>Hao-Ran Chu</variant>
+ <variant>Chu, Hao-Ran</variant>
+ <variant>Chu, Hao Ran</variant>
+ <variant>Chu HR</variant>
+ <variant>Chu H R</variant>
+ <variant>Chu H</variant>
+ <variant>H Chu</variant>
+ <variant>H. R. Chu</variant>
+ <variant>Chu H. R.</variant>
+ <variant>Chu H.R.</variant>
+ <variant>Chu H.R</variant>
+ <variant>H.R. Chu</variant>
+ <variant>H.R Chu</variant>
+ <variant>H-R. Chu</variant>
+ <variant>H-R Chu</variant>
+ <variant>C. Haoran</variant>
+ <variant>Haoran C.</variant>
+ <variant>C. Hao Ran</variant>
+ <variant>Hao Ran C.</variant>
+ <variant>C. Hao-Ran</variant>
+ <variant>Hao-Ran C.</variant>
+ <variant>Chu H.</variant>
+ <variant>H. Chu</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 7, ""text"": ""储""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 9, ""text"": ""储浩然""}]}","{""author_name"": ""储浩然"", ""author_name英文变体"": ""<variant>Chu Haoran</variant>\n <variant>Haoran Chu</variant>\n <variant>Chu, Haoran</variant>\n <variant>Chu Hao Ran</variant>\n <variant>Hao Ran Chu</variant>\n <variant>Chu Hao-Ran</variant>\n <variant>Hao-Ran Chu</variant>\n <variant>Chu, Hao-Ran</variant>\n <variant>Chu, Hao Ran</variant>\n <variant>Chu HR</variant>\n <variant>Chu H R</variant>\n <variant>Chu H</variant>\n <variant>H Chu</variant>\n <variant>H. R. Chu</variant>\n <variant>Chu H. R.</variant>\n <variant>Chu H.R.</variant>\n <variant>Chu H.R</variant>\n <variant>H.R. Chu</variant>\n <variant>H.R Chu</variant>\n <variant>H-R. Chu</variant>\n <variant>H-R Chu</variant>\n <variant>C. Haoran</variant>\n <variant>Haoran C.</variant>\n <variant>C. Hao Ran</variant>\n <variant>Hao Ran C.</variant>\n <variant>C. Hao-Ran</variant>\n <variant>Hao-Ran C.</variant>\n <variant>Chu H.</variant>\n <variant>H. Chu</variant>"", ""author_institution"": """"}"
+北京306生殖中心主任 朱亮的SCI文章,朱亮,朱亮,"<variant>Zhu Liang</variant>
+ <variant>Liang Zhu</variant>
+ <variant>Zhu, Liang</variant>
+ <variant>Zhu L.</variant>
+ <variant>Zhu L</variant>
+ <variant>L. Zhu</variant>
+ <variant>L Zhu</variant>
+ <variant>Z. Liang</variant>
+ <variant>Liang Z.</variant>","<variant>Zhu Liang</variant>
+ <variant>Liang Zhu</variant>
+ <variant>Zhu, Liang</variant>
+ <variant>Zhu L</variant>
+ <variant>L Zhu</variant>
+ <variant>L. Zhu</variant>
+ <variant>Zhu L.</variant>
+ <variant>Z. Liang</variant>
+ <variant>Liang Z.</variant>",北京306生殖中心,北京306生殖中心,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 1, ""text"": ""北""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 0, ""end"": 9, ""text"": ""北京306生殖中心""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 12, ""end"": 13, ""text"": ""朱""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 12, ""end"": 14, ""text"": ""朱亮""}]}","{""author_name"": ""朱亮"", ""author_name英文变体"": ""<variant>Zhu Liang</variant>\n <variant>Liang Zhu</variant>\n <variant>Zhu, Liang</variant>\n <variant>Zhu L</variant>\n <variant>L Zhu</variant>\n <variant>L. Zhu</variant>\n <variant>Zhu L.</variant>\n <variant>Z. Liang</variant>\n <variant>Liang Z.</variant>"", ""author_institution"": ""北京306生殖中心""}"
+作者骆宏，情绪劳动量表,骆宏,骆宏,"<variant>Luo Hong</variant>
+ <variant>Hong Luo</variant>
+ <variant>Luo, Hong</variant>
+ <variant>Luo H.</variant>
+ <variant>Luo H</variant>
+ <variant>H. Luo</variant>
+ <variant>H Luo</variant>
+ <variant>L. Hong</variant>
+ <variant>Hong L.</variant>","<variant>Luo Hong</variant>
+ <variant>Hong Luo</variant>
+ <variant>Luo, Hong</variant>
+ <variant>Luo H</variant>
+ <variant>H Luo</variant>
+ <variant>H. Luo</variant>
+ <variant>Luo H.</variant>
+ <variant>L. Hong</variant>
+ <variant>Hong L.</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 2, ""end"": 3, ""text"": ""骆""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 2, ""end"": 4, ""text"": ""骆宏""}]}","{""author_name"": ""骆宏"", ""author_name英文变体"": ""<variant>Luo Hong</variant>\n <variant>Hong Luo</variant>\n <variant>Luo, Hong</variant>\n <variant>Luo H</variant>\n <variant>H Luo</variant>\n <variant>H. Luo</variant>\n <variant>Luo H.</variant>\n <variant>L. Hong</variant>\n <variant>Hong L.</variant>"", ""author_institution"": """"}"
+找一下武汉同济医院马丁院士作为通讯作者发表的关于宫颈癌治疗的文章,马丁,马丁,"<variant>Ma Ding</variant>
+ <variant>Ding Ma</variant>
+ <variant>Ma, Ding</variant>
+ <variant>Ma D.</variant>
+ <variant>Ma D</variant>
+ <variant>D. Ma</variant>
+ <variant>D Ma</variant>
+ <variant>M. Ding</variant>
+ <variant>Ding M.</variant>
+ <variant>Martin</variant>","<variant>Ma Ding</variant>
+ <variant>Ding Ma</variant>
+ <variant>Ma, Ding</variant>
+ <variant>Ma D</variant>
+ <variant>D Ma</variant>
+ <variant>D. Ma</variant>
+ <variant>Ma D.</variant>
+ <variant>M. Ding</variant>
+ <variant>Ding M.</variant>",武汉同济医院,武汉同济医院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 4, ""text"": ""武""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 9, ""text"": ""武汉同济医院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 9, ""end"": 10, ""text"": ""马""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 9, ""end"": 11, ""text"": ""马丁""}]}","{""author_name"": ""马丁"", ""author_name英文变体"": ""<variant>Ma Ding</variant>\n <variant>Ding Ma</variant>\n <variant>Ma, Ding</variant>\n <variant>Ma D</variant>\n <variant>D Ma</variant>\n <variant>D. Ma</variant>\n <variant>Ma D.</variant>\n <variant>M. Ding</variant>\n <variant>Ding M.</variant>"", ""author_institution"": ""武汉同济医院""}"
+请帮我找出通讯作者或者第一作者为周本智的论文,周本智,周本智,"<variant>Zhou Benzhi</variant>
+ <variant>Benzhi Zhou</variant>
+ <variant>Zhou Ben-Zhi</variant>
+ <variant>Ben-Zhi Zhou</variant>
+ <variant>Zhou Ben Zhi</variant>
+ <variant>Ben Zhi Zhou</variant>
+ <variant>Zhou, Benzhi</variant>
+ <variant>Zhou, Ben-Zhi</variant>
+ <variant>Zhou, Ben Zhi</variant>
+ <variant>Zhou B.</variant>
+ <variant>Zhou B</variant>
+ <variant>B. Zhou</variant>
+ <variant>B Zhou</variant>
+ <variant>Zhou BZ</variant>
+ <variant>Zhou B Z</variant>
+ <variant>B.Z. Zhou</variant>
+ <variant>B. Z. Zhou</variant>
+ <variant>B Z Zhou</variant>
+ <variant>Zhou B.-Z.</variant>
+ <variant>Zhou B-Z</variant>
+ <variant>B.-Z. Zhou</variant>
+ <variant>B-Z Zhou</variant>
+ <variant>Z. Benzhi</variant>
+ <variant>Benzhi Z.</variant>
+ <variant>Z. Ben Zhi</variant>
+ <variant>Ben Zhi Z.</variant>
+ <variant>Z. Ben-Zhi</variant>
+ <variant>Ben-Zhi Z.</variant>","<variant>Zhou Benzhi</variant>
+ <variant>Benzhi Zhou</variant>
+ <variant>Zhou, Benzhi</variant>
+ <variant>Zhou Ben Zhi</variant>
+ <variant>Ben Zhi Zhou</variant>
+ <variant>Zhou Ben-Zhi</variant>
+ <variant>Ben-Zhi Zhou</variant>
+ <variant>Zhou, Ben-Zhi</variant>
+ <variant>Zhou, Ben Zhi</variant>
+ <variant>Zhou BZ</variant>
+ <variant>Zhou B Z</variant>
+ <variant>Zhou B</variant>
+ <variant>B Zhou</variant>
+ <variant>B. Z. Zhou</variant>
+ <variant>Zhou B. Z.</variant>
+ <variant>Zhou B.Z.</variant>
+ <variant>Zhou B.Z</variant>
+ <variant>B.Z. Zhou</variant>
+ <variant>B.Z Zhou</variant>
+ <variant>B-Z. Zhou</variant>
+ <variant>B-Z Zhou</variant>
+ <variant>Z. Benzhi</variant>
+ <variant>Benzhi Z.</variant>
+ <variant>Z. Ben Zhi</variant>
+ <variant>Ben Zhi Z.</variant>
+ <variant>Z. Ben-Zhi</variant>
+ <variant>Ben-Zhi Z.</variant>
+ <variant>Zhou B.</variant>
+ <variant>B. Zhou</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 16, ""end"": 17, ""text"": ""周""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 16, ""end"": 19, ""text"": ""周本智""}]}","{""author_name"": ""周本智"", ""author_name英文变体"": ""<variant>Zhou Benzhi</variant>\n <variant>Benzhi Zhou</variant>\n <variant>Zhou, Benzhi</variant>\n <variant>Zhou Ben Zhi</variant>\n <variant>Ben Zhi Zhou</variant>\n <variant>Zhou Ben-Zhi</variant>\n <variant>Ben-Zhi Zhou</variant>\n <variant>Zhou, Ben-Zhi</variant>\n <variant>Zhou, Ben Zhi</variant>\n <variant>Zhou BZ</variant>\n <variant>Zhou B Z</variant>\n <variant>Zhou B</variant>\n <variant>B Zhou</variant>\n <variant>B. Z. Zhou</variant>\n <variant>Zhou B. Z.</variant>\n <variant>Zhou B.Z.</variant>\n <variant>Zhou B.Z</variant>\n <variant>B.Z. Zhou</variant>\n <variant>B.Z Zhou</variant>\n <variant>B-Z. Zhou</variant>\n <variant>B-Z Zhou</variant>\n <variant>Z. Benzhi</variant>\n <variant>Benzhi Z.</variant>\n <variant>Z. Ben Zhi</variant>\n <variant>Ben Zhi Z.</variant>\n <variant>Z. Ben-Zhi</variant>\n <variant>Ben-Zhi Z.</variant>\n <variant>Zhou B.</variant>\n <variant>B. Zhou</variant>"", ""author_institution"": """"}"
+以上哪一篇作者为Faherty?,Faherty,Faherty,<variant>Faherty</variant>,<variant>Faherty</variant>,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 8, ""end"": 15, ""text"": ""Faherty""}]}","{""author_name"": ""Faherty"", ""author_name英文变体"": ""<variant>Faherty</variant>"", ""author_institution"": """"}"
+何贵清温州市中心医院作者发表几篇SCI，分别是哪些,何贵清,何贵清,"<variant>He Guiqing</variant>
+ <variant>Guiqing He</variant>
+ <variant>He Gui-Qing</variant>
+ <variant>Gui-Qing He</variant>
+ <variant>He Gui Qing</variant>
+ <variant>Gui Qing He</variant>
+ <variant>He, Guiqing</variant>
+ <variant>He, Gui-Qing</variant>
+ <variant>He, Gui Qing</variant>
+ <variant>He G.</variant>
+ <variant>He G</variant>
+ <variant>G. He</variant>
+ <variant>G He</variant>
+ <variant>He GQ</variant>
+ <variant>He G Q</variant>
+ <variant>G.Q. He</variant>
+ <variant>G. Q. He</variant>
+ <variant>G Q He</variant>
+ <variant>He G.-Q.</variant>
+ <variant>He G-Q</variant>
+ <variant>G.-Q. He</variant>
+ <variant>G-Q He</variant>
+ <variant>H. Guiqing</variant>
+ <variant>Guiqing H.</variant>
+ <variant>H. Gui Qing</variant>
+ <variant>Gui Qing H.</variant>
+ <variant>H. Gui-Qing</variant>
+ <variant>Gui-Qing H.</variant>","<variant>He Guiqing</variant>
+ <variant>Guiqing He</variant>
+ <variant>He, Guiqing</variant>
+ <variant>He Gui Qing</variant>
+ <variant>Gui Qing He</variant>
+ <variant>He Gui-Qing</variant>
+ <variant>Gui-Qing He</variant>
+ <variant>He, Gui-Qing</variant>
+ <variant>He, Gui Qing</variant>
+ <variant>He GQ</variant>
+ <variant>He G Q</variant>
+ <variant>He G</variant>
+ <variant>G He</variant>
+ <variant>G. Q. He</variant>
+ <variant>He G. Q.</variant>
+ <variant>He G.Q.</variant>
+ <variant>He G.Q</variant>
+ <variant>G.Q. He</variant>
+ <variant>G.Q He</variant>
+ <variant>G-Q. He</variant>
+ <variant>G-Q He</variant>
+ <variant>H. Guiqing</variant>
+ <variant>Guiqing H.</variant>
+ <variant>H. Gui Qing</variant>
+ <variant>Gui Qing H.</variant>
+ <variant>H. Gui-Qing</variant>
+ <variant>Gui-Qing H.</variant>
+ <variant>He G.</variant>
+ <variant>G. He</variant>",温州市中心医院,温州市中心医院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""何贵清""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 4, ""text"": ""温""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 10, ""text"": ""温州市中心医院""}]}","{""author_name"": ""何贵清"", ""author_name英文变体"": ""<variant>He Guiqing</variant>\n <variant>Guiqing He</variant>\n <variant>He, Guiqing</variant>\n <variant>He Gui Qing</variant>\n <variant>Gui Qing He</variant>\n <variant>He Gui-Qing</variant>\n <variant>Gui-Qing He</variant>\n <variant>He, Gui-Qing</variant>\n <variant>He, Gui Qing</variant>\n <variant>He GQ</variant>\n <variant>He G Q</variant>\n <variant>He G</variant>\n <variant>G He</variant>\n <variant>G. Q. He</variant>\n <variant>He G. Q.</variant>\n <variant>He G.Q.</variant>\n <variant>He G.Q</variant>\n <variant>G.Q. He</variant>\n <variant>G.Q He</variant>\n <variant>G-Q. He</variant>\n <variant>G-Q He</variant>\n <variant>H. Guiqing</variant>\n <variant>Guiqing H.</variant>\n <variant>H. Gui Qing</variant>\n <variant>Gui Qing H.</variant>\n <variant>H. Gui-Qing</variant>\n <variant>Gui-Qing H.</variant>\n <variant>He G.</variant>\n <variant>G. He</variant>"", ""author_institution"": ""温州市中心医院""}"
+帮我找几篇有两位通讯作者的Global and Planetary Change期刊论文,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+"请根据以下文献，列出所有相关的文献并写明出处，30篇以上。
+
+1. 行为经济学在慢性病管理中的应用研究 [1,2]
+ 作者：刘羡
+ 作者单位：313000湖州市湖州师范学院护理学院
+ 通信作者：邵圣文，E-mail: shaoshw@zjhu.edu.cn",刘羡,刘羡；邵圣文；sha,"<variant>Liu Xian</variant>
+ <variant>Xian Liu</variant>
+ <variant>Liu, Xian</variant>
+ <variant>Liu X.</variant>
+ <variant>Liu X</variant>
+ <variant>X. Liu</variant>
+ <variant>X Liu</variant>
+ <variant>L. Xian</variant>
+ <variant>Xian L.</variant>","<variant>Liu Xian</variant>
+ <variant>Xian Liu</variant>
+ <variant>Liu, Xian</variant>
+ <variant>Liu X</variant>
+ <variant>X Liu</variant>
+ <variant>X. Liu</variant>
+ <variant>Liu X.</variant>
+ <variant>L. Xian</variant>
+ <variant>Xian L.</variant>
+ <variant>Shao Shengwen</variant>
+ <variant>Shengwen Shao</variant>
+ <variant>Shao, Shengwen</variant>
+ <variant>Shao Sheng Wen</variant>
+ <variant>Sheng Wen Shao</variant>
+ <variant>Shao Sheng-Wen</variant>
+ <variant>Sheng-Wen Shao</variant>
+ <variant>Shao, Sheng-Wen</variant>
+ <variant>Shao, Sheng Wen</variant>
+ <variant>Shao SW</variant>
+ <variant>Shao S W</variant>
+ <variant>Shao S</variant>
+ <variant>S Shao</variant>
+ <variant>S. W. Shao</variant>
+ <variant>Shao S. W.</variant>
+ <variant>Shao S.W.</variant>
+ <variant>Shao S.W</variant>
+ <variant>S.W. Shao</variant>
+ <variant>S.W Shao</variant>
+ <variant>S-W. Shao</variant>
+ <variant>S-W Shao</variant>
+ <variant>S. Shengwen</variant>
+ <variant>Shengwen S.</variant>
+ <variant>S. Sheng Wen</variant>
+ <variant>Sheng Wen S.</variant>
+ <variant>S. Sheng-Wen</variant>
+ <variant>Sheng-Wen S.</variant>
+ <variant>Shao S.</variant>
+ <variant>S. Shao</variant>
+ <variant>sha</variant>",湖州市湖州师范学院护理学院,313000湖；湖州市湖州师范学院护理学院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 62, ""end"": 63, ""text"": ""刘""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 62, ""end"": 64, ""text"": ""刘羡""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 71, ""end"": 78, ""text"": ""313000湖""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 77, ""end"": 90, ""text"": ""湖州市湖州师范学院护理学院""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 97, ""end"": 98, ""text"": ""邵""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 97, ""end"": 100, ""text"": ""邵圣文""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 108, ""end"": 112, ""text"": "" sha""}]}","{""author_name"": ""刘羡；邵圣文；sha"", ""author_name英文变体"": ""<variant>Liu Xian</variant>\n <variant>Xian Liu</variant>\n <variant>Liu, Xian</variant>\n <variant>Liu X</variant>\n <variant>X Liu</variant>\n <variant>X. Liu</variant>\n <variant>Liu X.</variant>\n <variant>L. Xian</variant>\n <variant>Xian L.</variant>\n <variant>Shao Shengwen</variant>\n <variant>Shengwen Shao</variant>\n <variant>Shao, Shengwen</variant>\n <variant>Shao Sheng Wen</variant>\n <variant>Sheng Wen Shao</variant>\n <variant>Shao Sheng-Wen</variant>\n <variant>Sheng-Wen Shao</variant>\n <variant>Shao, Sheng-Wen</variant>\n <variant>Shao, Sheng Wen</variant>\n <variant>Shao SW</variant>\n <variant>Shao S W</variant>\n <variant>Shao S</variant>\n <variant>S Shao</variant>\n <variant>S. W. Shao</variant>\n <variant>Shao S. W.</variant>\n <variant>Shao S.W.</variant>\n <variant>Shao S.W</variant>\n <variant>S.W. Shao</variant>\n <variant>S.W Shao</variant>\n <variant>S-W. Shao</variant>\n <variant>S-W Shao</variant>\n <variant>S. Shengwen</variant>\n <variant>Shengwen S.</variant>\n <variant>S. Sheng Wen</variant>\n <variant>Sheng Wen S.</variant>\n <variant>S. Sheng-Wen</variant>\n <variant>Sheng-Wen S.</variant>\n <variant>Shao S.</variant>\n <variant>S. Shao</variant>\n <variant>sha</variant>"", ""author_institution"": ""313000湖；湖州市湖州师范学院护理学院""}"
+基于大数据的精准教学干预模型及应用研究，作者王磊，博士论文,王磊,王磊,"<variant>Wang Lei</variant>
+ <variant>Lei Wang</variant>
+ <variant>Wang, Lei</variant>
+ <variant>Wang L.</variant>
+ <variant>Wang L</variant>
+ <variant>L. Wang</variant>
+ <variant>L Wang</variant>
+ <variant>W. Lei</variant>
+ <variant>Lei W.</variant>","<variant>Wang Lei</variant>
+ <variant>Lei Wang</variant>
+ <variant>Wang, Lei</variant>
+ <variant>Wang L</variant>
+ <variant>L Wang</variant>
+ <variant>L. Wang</variant>
+ <variant>Wang L.</variant>
+ <variant>W. Lei</variant>
+ <variant>Lei W.</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 22, ""end"": 23, ""text"": ""王""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 22, ""end"": 24, ""text"": ""王磊""}]}","{""author_name"": ""王磊"", ""author_name英文变体"": ""<variant>Wang Lei</variant>\n <variant>Lei Wang</variant>\n <variant>Wang, Lei</variant>\n <variant>Wang L</variant>\n <variant>L Wang</variant>\n <variant>L. Wang</variant>\n <variant>Wang L.</variant>\n <variant>W. Lei</variant>\n <variant>Lei W.</variant>"", ""author_institution"": """"}"
+作者 Ryan Tomlinson,Ryan Tomlinson,Ryan Tomlinson,"<variant>Ryan Tomlinson</variant>
+ <variant>Tomlinson Ryan</variant>
+ <variant>Tomlinson, Ryan</variant>
+ <variant>Tomlinson R.</variant>
+ <variant>Tomlinson R</variant>
+ <variant>R. Tomlinson</variant>
+ <variant>R Tomlinson</variant>
+ <variant>T. Ryan</variant>
+ <variant>Ryan T.</variant>","<variant>Ryan Tomlinson</variant>
+ <variant>Tomlinson Ryan</variant>
+ <variant>Tomlinson, Ryan</variant>
+ <variant>Tomlinson R.</variant>
+ <variant>R. Tomlinson</variant>
+ <variant>Tomlinson R</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 2, ""end"": 17, ""text"": "" Ryan Tomlinson""}]}","{""author_name"": ""Ryan Tomlinson"", ""author_name英文变体"": ""<variant>Ryan Tomlinson</variant>\n <variant>Tomlinson Ryan</variant>\n <variant>Tomlinson, Ryan</variant>\n <variant>Tomlinson R.</variant>\n <variant>R. Tomlinson</variant>\n <variant>Tomlinson R</variant>"", ""author_institution"": """"}"
+作者骆宏，关于情绪劳动,骆宏,骆宏,"<variant>Luo Hong</variant>
+ <variant>Hong Luo</variant>
+ <variant>Luo, Hong</variant>
+ <variant>Luo H.</variant>
+ <variant>Luo H</variant>
+ <variant>H. Luo</variant>
+ <variant>H Luo</variant>
+ <variant>L. Hong</variant>
+ <variant>Hong L.</variant>","<variant>Luo Hong</variant>
+ <variant>Hong Luo</variant>
+ <variant>Luo, Hong</variant>
+ <variant>Luo H</variant>
+ <variant>H Luo</variant>
+ <variant>H. Luo</variant>
+ <variant>Luo H.</variant>
+ <variant>L. Hong</variant>
+ <variant>Hong L.</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 2, ""end"": 3, ""text"": ""骆""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 2, ""end"": 4, ""text"": ""骆宏""}]}","{""author_name"": ""骆宏"", ""author_name英文变体"": ""<variant>Luo Hong</variant>\n <variant>Hong Luo</variant>\n <variant>Luo, Hong</variant>\n <variant>Luo H</variant>\n <variant>H Luo</variant>\n <variant>H. Luo</variant>\n <variant>Luo H.</variant>\n <variant>L. Hong</variant>\n <variant>Hong L.</variant>"", ""author_institution"": """"}"
+Paolo Caraceni 为通讯作者发的文章,Paolo Caraceni ,Paolo Caraceni,"<variant>Paolo Caraceni</variant>
+ <variant>Caraceni Paolo</variant>
+ <variant>Caraceni, Paolo</variant>
+ <variant>Caraceni P.</variant>
+ <variant>Caraceni P</variant>
+ <variant>P. Caraceni</variant>
+ <variant>P Caraceni</variant>
+ <variant>C. Paolo</variant>
+ <variant>Paolo C.</variant>","<variant>Paolo Caraceni</variant>
+ <variant>Caraceni Paolo</variant>
+ <variant>Caraceni, Paolo</variant>
+ <variant>Caraceni P.</variant>
+ <variant>P. Caraceni</variant>
+ <variant>Caraceni P</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 14, ""text"": ""Paolo Caraceni""}]}","{""author_name"": ""Paolo Caraceni"", ""author_name英文变体"": ""<variant>Paolo Caraceni</variant>\n <variant>Caraceni Paolo</variant>\n <variant>Caraceni, Paolo</variant>\n <variant>Caraceni P.</variant>\n <variant>P. Caraceni</variant>\n <variant>Caraceni P</variant>"", ""author_institution"": """"}"
+作者是法国的Serratia marcenscens,Serratia marcenscens,Serratia,"<variant>Serratia Marcenscens</variant>
+ <variant>S. Marcenscens</variant>",<variant>Serratia</variant>,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 6, ""end"": 14, ""text"": ""Serratia""}]}","{""author_name"": ""Serratia"", ""author_name英文变体"": ""<variant>Serratia</variant>"", ""author_institution"": """"}"
+王刚作者关于银屑病,王刚,王刚,"<variant>Wang Gang</variant>
+ <variant>Gang Wang</variant>
+ <variant>Wang, Gang</variant>
+ <variant>Wang G.</variant>
+ <variant>Wang G</variant>
+ <variant>G. Wang</variant>
+ <variant>G Wang</variant>
+ <variant>W. Gang</variant>
+ <variant>Gang W.</variant>","<variant>Wang Gang</variant>
+ <variant>Gang Wang</variant>
+ <variant>Wang, Gang</variant>
+ <variant>Wang G</variant>
+ <variant>G Wang</variant>
+ <variant>G. Wang</variant>
+ <variant>Wang G.</variant>
+ <variant>W. Gang</variant>
+ <variant>Gang W.</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""王""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 2, ""text"": ""王刚""}]}","{""author_name"": ""王刚"", ""author_name英文变体"": ""<variant>Wang Gang</variant>\n <variant>Gang Wang</variant>\n <variant>Wang, Gang</variant>\n <variant>Wang G</variant>\n <variant>G Wang</variant>\n <variant>G. Wang</variant>\n <variant>Wang G.</variant>\n <variant>W. Gang</variant>\n <variant>Gang W.</variant>"", ""author_institution"": """"}"
+陈文平医生怎么样,陈文平,陈文平,"<variant>Chen Wenping</variant>
+ <variant>Wenping Chen</variant>
+ <variant>Chen Wen-Ping</variant>
+ <variant>Wen-Ping Chen</variant>
+ <variant>Chen Wen Ping</variant>
+ <variant>Wen Ping Chen</variant>
+ <variant>Chen, Wenping</variant>
+ <variant>Chen, Wen-Ping</variant>
+ <variant>Chen, Wen Ping</variant>
+ <variant>Chen W.</variant>
+ <variant>Chen W</variant>
+ <variant>W. Chen</variant>
+ <variant>W Chen</variant>
+ <variant>Chen WP</variant>
+ <variant>Chen W P</variant>
+ <variant>W.P. Chen</variant>
+ <variant>W. P. Chen</variant>
+ <variant>W P Chen</variant>
+ <variant>Chen W.-P.</variant>
+ <variant>Chen W-P</variant>
+ <variant>W.-P. Chen</variant>
+ <variant>W-P Chen</variant>
+ <variant>C. Wenping</variant>
+ <variant>Wenping C.</variant>
+ <variant>C. Wen Ping</variant>
+ <variant>Wen Ping C.</variant>
+ <variant>C. Wen-Ping</variant>
+ <variant>Wen-Ping C.</variant>","<variant>Chen Wenping</variant>
+ <variant>Wenping Chen</variant>
+ <variant>Chen, Wenping</variant>
+ <variant>Chen Wen Ping</variant>
+ <variant>Wen Ping Chen</variant>
+ <variant>Chen Wen-Ping</variant>
+ <variant>Wen-Ping Chen</variant>
+ <variant>Chen, Wen-Ping</variant>
+ <variant>Chen, Wen Ping</variant>
+ <variant>Chen WP</variant>
+ <variant>Chen W P</variant>
+ <variant>Chen W</variant>
+ <variant>W Chen</variant>
+ <variant>W. P. Chen</variant>
+ <variant>Chen W. P.</variant>
+ <variant>Chen W.P.</variant>
+ <variant>Chen W.P</variant>
+ <variant>W.P. Chen</variant>
+ <variant>W.P Chen</variant>
+ <variant>W-P. Chen</variant>
+ <variant>W-P Chen</variant>
+ <variant>C. Wenping</variant>
+ <variant>Wenping C.</variant>
+ <variant>C. Wen Ping</variant>
+ <variant>Wen Ping C.</variant>
+ <variant>C. Wen-Ping</variant>
+ <variant>Wen-Ping C.</variant>
+ <variant>Chen W.</variant>
+ <variant>W. Chen</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""陈""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""陈文平""}]}","{""author_name"": ""陈文平"", ""author_name英文变体"": ""<variant>Chen Wenping</variant>\n <variant>Wenping Chen</variant>\n <variant>Chen, Wenping</variant>\n <variant>Chen Wen Ping</variant>\n <variant>Wen Ping Chen</variant>\n <variant>Chen Wen-Ping</variant>\n <variant>Wen-Ping Chen</variant>\n <variant>Chen, Wen-Ping</variant>\n <variant>Chen, Wen Ping</variant>\n <variant>Chen WP</variant>\n <variant>Chen W P</variant>\n <variant>Chen W</variant>\n <variant>W Chen</variant>\n <variant>W. P. Chen</variant>\n <variant>Chen W. P.</variant>\n <variant>Chen W.P.</variant>\n <variant>Chen W.P</variant>\n <variant>W.P. Chen</variant>\n <variant>W.P Chen</variant>\n <variant>W-P. Chen</variant>\n <variant>W-P Chen</variant>\n <variant>C. Wenping</variant>\n <variant>Wenping C.</variant>\n <variant>C. Wen Ping</variant>\n <variant>Wen Ping C.</variant>\n <variant>C. Wen-Ping</variant>\n <variant>Wen-Ping C.</variant>\n <variant>Chen W.</variant>\n <variant>W. Chen</variant>"", ""author_institution"": """"}"
+许浩游医生,许浩游,许浩游,"<variant>Xu Haoyou</variant>
+ <variant>Haoyou Xu</variant>
+ <variant>Xu Hao-You</variant>
+ <variant>Hao-You Xu</variant>
+ <variant>Xu Hao You</variant>
+ <variant>Hao You Xu</variant>
+ <variant>Xu, Haoyou</variant>
+ <variant>Xu, Hao-You</variant>
+ <variant>Xu, Hao You</variant>
+ <variant>Xu H.</variant>
+ <variant>Xu H</variant>
+ <variant>H. Xu</variant>
+ <variant>H Xu</variant>
+ <variant>Xu HY</variant>
+ <variant>Xu H Y</variant>
+ <variant>H.Y. Xu</variant>
+ <variant>H. Y. Xu</variant>
+ <variant>H Y Xu</variant>
+ <variant>Xu H.-Y.</variant>
+ <variant>Xu H-Y</variant>
+ <variant>H.-Y. Xu</variant>
+ <variant>H-Y Xu</variant>
+ <variant>X. Haoyou</variant>
+ <variant>Haoyou X.</variant>
+ <variant>X. Hao You</variant>
+ <variant>Hao You X.</variant>
+ <variant>X. Hao-You</variant>
+ <variant>Hao-You X.</variant>","<variant>Xu Haoyou</variant>
+ <variant>Haoyou Xu</variant>
+ <variant>Xu, Haoyou</variant>
+ <variant>Xu Hao You</variant>
+ <variant>Hao You Xu</variant>
+ <variant>Xu Hao-You</variant>
+ <variant>Hao-You Xu</variant>
+ <variant>Xu, Hao-You</variant>
+ <variant>Xu, Hao You</variant>
+ <variant>Xu HY</variant>
+ <variant>Xu H Y</variant>
+ <variant>Xu H</variant>
+ <variant>H Xu</variant>
+ <variant>H. Y. Xu</variant>
+ <variant>Xu H. Y.</variant>
+ <variant>Xu H.Y.</variant>
+ <variant>Xu H.Y</variant>
+ <variant>H.Y. Xu</variant>
+ <variant>H.Y Xu</variant>
+ <variant>H-Y. Xu</variant>
+ <variant>H-Y Xu</variant>
+ <variant>X. Haoyou</variant>
+ <variant>Haoyou X.</variant>
+ <variant>X. Hao You</variant>
+ <variant>Hao You X.</variant>
+ <variant>X. Hao-You</variant>
+ <variant>Hao-You X.</variant>
+ <variant>Xu H.</variant>
+ <variant>H. Xu</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 1, ""text"": ""许""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 3, ""text"": ""许浩游""}]}","{""author_name"": ""许浩游"", ""author_name英文变体"": ""<variant>Xu Haoyou</variant>\n <variant>Haoyou Xu</variant>\n <variant>Xu, Haoyou</variant>\n <variant>Xu Hao You</variant>\n <variant>Hao You Xu</variant>\n <variant>Xu Hao-You</variant>\n <variant>Hao-You Xu</variant>\n <variant>Xu, Hao-You</variant>\n <variant>Xu, Hao You</variant>\n <variant>Xu HY</variant>\n <variant>Xu H Y</variant>\n <variant>Xu H</variant>\n <variant>H Xu</variant>\n <variant>H. Y. Xu</variant>\n <variant>Xu H. Y.</variant>\n <variant>Xu H.Y.</variant>\n <variant>Xu H.Y</variant>\n <variant>H.Y. Xu</variant>\n <variant>H.Y Xu</variant>\n <variant>H-Y. Xu</variant>\n <variant>H-Y Xu</variant>\n <variant>X. Haoyou</variant>\n <variant>Haoyou X.</variant>\n <variant>X. Hao You</variant>\n <variant>Hao You X.</variant>\n <variant>X. Hao-You</variant>\n <variant>Hao-You X.</variant>\n <variant>Xu H.</variant>\n <variant>H. Xu</variant>"", ""author_institution"": """"}"
+艾恒平、艾司氯胺酮、瑞倍宁三个药物在镇痛中的临床研究数据,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 1, ""end"": 2, ""text"": ""恒""}]}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+请用下方内容生成一个互动病例思维框架：姓名：王某性别：女性年龄：45岁主诉：左侧腰痛伴发热1天。现病史1天前运动后出现左侧腰部疼痛，疼痛间断发作，发作时疼痛剧烈，放射至左下腹及会阴区，伴恶心、呕吐，伴发热，体温最高38.5℃，无肉眼血尿，无尿频、尿急、尿痛等。就诊于外院急诊，行CT提示左肾多发结石、左侧肾门位置异常、左侧输尿管末端结石（约3mm）；予止痛等对症支持治疗后症状缓解。今日症状再次发作，遂就诊于我院急诊，腹部超声提示：左侧肾积水、左侧输尿管上段扩张、左侧肾周积液、左肾多发结石、左侧肾门位置异常。患者近10天食物结合运动减肥，体重下降约5kg。既往史发现左肾结石5年余，最大者大小约2cm，未予特殊处理；否认传染病史，否认心脑血管病史，否认糖尿病、精神病病史，否认手术史，否认外伤史，否认输血史，否认药物、食物过敏史。体格检查生命体征T36.5℃，P88次/分，R18次/分，BP135/85mmHg。一般查体发育正常，营养良好，神志清楚，检查合作。双肺呼吸音正常。心律齐，心脏各瓣音区未闻及病理性杂音。腹平坦，腹式呼吸存在，未见肠型及蠕动波，腹部无压痛，无反跳痛，未触及肿块，无肝脾肿大，无移动性浊音，肠鸣音正常，未闻及血管杂音。脊柱及四肢无畸形，四肢关节无红肿及功能限制。专科查体双侧肋脊角对称，局部无压痛，左肾叩击痛阳性，双侧肾脏均未扪及。沿双侧输尿管走行区无压痛，未扪及肿块。耻骨上膀胱区不充盈，无压痛。辅助检查腹部B超示：左肾上盏可见多发强回声，大者约1.6cm×0.9cm，后方可见快闪伪像，右肾盂及输尿管无扩张；左肾门偏于外上，左肾盂增宽，约1.5cm，输尿管上段宽约0.5cm，中下段显示不清。左肾周可见无回声，厚约0.4cm。提示：左肾盂及输尿管上段扩张、左肾周积液、左肾多发结石、左肾门位置异常（正常变异）。,,王某,,"<variant>Wang Mou</variant>
+ <variant>Mou Wang</variant>
+ <variant>Wang, Mou</variant>
+ <variant>Wang M</variant>
+ <variant>M Wang</variant>
+ <variant>M. Wang</variant>
+ <variant>Wang M.</variant>
+ <variant>W. Mou</variant>
+ <variant>Mou W.</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 22, ""end"": 23, ""text"": ""王""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 22, ""end"": 24, ""text"": ""王某""}]}","{""author_name"": ""王某"", ""author_name英文变体"": ""<variant>Wang Mou</variant>\n <variant>Mou Wang</variant>\n <variant>Wang, Mou</variant>\n <variant>Wang M</variant>\n <variant>M Wang</variant>\n <variant>M. Wang</variant>\n <variant>Wang M.</variant>\n <variant>W. Mou</variant>\n <variant>Mou W.</variant>"", ""author_institution"": """"}"
+胃癌预后和治疗反应预测生物标志物,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+近两年头颈部肿瘤免疫治疗领域有哪些新的临床试验或应用进展值得关注？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+2024年帕金森突破性临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+ADRESU临床试验中ADRCs治疗SUI的使用方法以及作用机制,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+2024年乳腺癌腋窝豁免腋窝清扫(ALND)的临床试验研究进展,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+ASP1570临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+BI 1015550在临床试验中对预防特发性肺纤维化（IPF）患者肺功能下降的影响是什么？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+CGRP类药物临床试验中，发作性偏头痛和慢性偏头痛的患者头痛基线,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+Clinicaltrial.gov ID: NCT02326961 临床试验 ACT-OA,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+DESTINY-Breast06 Ⅲ期临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+HR+ Her2+ 乳腺癌有哪些临床试验。现在的进展和比较,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+Kras TCR-T 临床试验汇总,,Kras,,<variant>Kras</variant>,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 4, ""text"": ""Kras""}]}","{""author_name"": ""Kras"", ""author_name英文变体"": ""<variant>Kras</variant>"", ""author_institution"": """"}"
+Rho激酶抑制剂的临床试验数据,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+不同SGLT2i在急性心衰患者中的临床试验比较,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+地中海贫血新药物研究临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+肝癌近三年免疫治疗临床试验最新数据,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+干细胞或再生细胞或基质细胞治疗神经损伤的临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+骨髓瘤标准治疗后的贫血治疗临床试验研究,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+红斑狼疮的肾损伤如何开展临床试验设计，如何设计试验终点，2期临床的试验规模有多大。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+结直肠癌新辅助治疗药物的临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+NCT04514497评估ATM抑制剂（BAY1895344）在晚期实体瘤中的疗效和安全性结果,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+辉瑞在类风湿性关节炎领域有哪些试验？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索在国内进行的糖尿病临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+请输出广泛期小细胞肺癌免疫治疗临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+目前多发性骨髓瘤的维持治疗主要有哪些临床试验正在进行？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+列出所有北京协和医院正在进行的临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找2024年已经完成的乳腺癌临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索申办方为罗氏的所有进行中的试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找在上海正在招募的儿童白血病二期临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找在欧洲进行的，关于CAR-T疗法治疗多发性骨髓瘤的三期试验，且最近一年内有更新的试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+多柔比星治疗ASPS的临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找2022年之后启动的，关于奥希替尼耐药机制的观察性研究,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+乳腺癌适应症仍处于临床试验阶段（NCT04684810）,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+一在研临床试验（NCT04514497），正在评估ATM抑制剂（BAY1895344）在晚期实体瘤中的疗效和安全性。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+临床试验 NCT04568811,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+请找到NCT03071406 - 默克尔细胞皮肤癌临床试验的文章,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+met扩增的nsclc三期临床试验结果,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+请输出广泛期小细胞肺癌免疫治疗临床试验,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+目前多发性骨髓瘤的维持治疗主要有哪些临床试验正在进行？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+Advent 公司正在进行一个关于 A. muciniphila 补充剂的临床试验，旨在研究其对肥胖、糖尿病以及代谢综合症的治疗效果,,Advent,,<variant>Advent</variant>,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 0, ""end"": 6, ""text"": ""Advent""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 19, ""end"": 20, ""text"": "".""}]}","{""author_name"": ""Advent"", ""author_name英文变体"": ""<variant>Advent</variant>"", ""author_institution"": """"}"
+康柏西普DME三期临床研究数据,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+达格列净的注册临床研究的数据,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找所有正在招募的肺癌临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+有哪些使用帕博利珠单抗 (Pembrolizumab) 治疗黑色素瘤的临床试验？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查询 NCT04511011 的研究详细信息。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索CA209-9LA研究,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+辉瑞在类风湿性关节炎领域有哪些试验？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+列出所有北京协和医院正在进行的临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找阿尔茨海默病的三期临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索在国内进行的糖尿病临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+有哪些观察性研究是关于高血压管理的？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找去年已经完成的乳腺癌临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索申办方为罗氏的所有进行中的试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找在上海正在招募的儿童白血病二期临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索由默沙东发起的，关于PD-1抑制剂治疗非小细胞肺癌并且状态是已完成的试验。,,默沙东,,"<variant>Mo Shadong</variant>
+ <variant>Shadong Mo</variant>
+ <variant>Mo, Shadong</variant>
+ <variant>Mo Sha Dong</variant>
+ <variant>Sha Dong Mo</variant>
+ <variant>Mo Sha-Dong</variant>
+ <variant>Sha-Dong Mo</variant>
+ <variant>Mo, Sha-Dong</variant>
+ <variant>Mo, Sha Dong</variant>
+ <variant>Mo SD</variant>
+ <variant>Mo S D</variant>
+ <variant>Mo S</variant>
+ <variant>S Mo</variant>
+ <variant>S. D. Mo</variant>
+ <variant>Mo S. D.</variant>
+ <variant>Mo S.D.</variant>
+ <variant>Mo S.D</variant>
+ <variant>S.D. Mo</variant>
+ <variant>S.D Mo</variant>
+ <variant>S-D. Mo</variant>
+ <variant>S-D Mo</variant>
+ <variant>M. Shadong</variant>
+ <variant>Shadong M.</variant>
+ <variant>M. Sha Dong</variant>
+ <variant>Sha Dong M.</variant>
+ <variant>M. Sha-Dong</variant>
+ <variant>Sha-Dong M.</variant>
+ <variant>Mo S.</variant>
+ <variant>S. Mo</variant>",,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 3, ""end"": 4, ""text"": ""默""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 3, ""end"": 6, ""text"": ""默沙东""}]}","{""author_name"": ""默沙东"", ""author_name英文变体"": ""<variant>Mo Shadong</variant>\n <variant>Shadong Mo</variant>\n <variant>Mo, Shadong</variant>\n <variant>Mo Sha Dong</variant>\n <variant>Sha Dong Mo</variant>\n <variant>Mo Sha-Dong</variant>\n <variant>Sha-Dong Mo</variant>\n <variant>Mo, Sha-Dong</variant>\n <variant>Mo, Sha Dong</variant>\n <variant>Mo SD</variant>\n <variant>Mo S D</variant>\n <variant>Mo S</variant>\n <variant>S Mo</variant>\n <variant>S. D. Mo</variant>\n <variant>Mo S. D.</variant>\n <variant>Mo S.D.</variant>\n <variant>Mo S.D</variant>\n <variant>S.D. Mo</variant>\n <variant>S.D Mo</variant>\n <variant>S-D. Mo</variant>\n <variant>S-D Mo</variant>\n <variant>M. Shadong</variant>\n <variant>Shadong M.</variant>\n <variant>M. Sha Dong</variant>\n <variant>Sha Dong M.</variant>\n <variant>M. Sha-Dong</variant>\n <variant>Sha-Dong M.</variant>\n <variant>Mo S.</variant>\n <variant>S. Mo</variant>"", ""author_institution"": """"}"
+查找NCT号为 NCT03875090 的研究，其最新的研究状态是什么？以及主要研究者是谁？,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找2022年之后启动的，关于奥希替尼耐药机制的观察性研究。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索中山大学肿瘤防治中心作为主要研究中心，研究状态为尚未开始招募的鼻咽癌相关的干预性研究。,,,,,,山大学；肿瘤；瘤防治中心,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 2, ""end"": 3, ""text"": ""中""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 6, ""text"": ""山大学""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 6, ""end"": 8, ""text"": ""肿瘤""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 7, ""end"": 12, ""text"": ""瘤防治中心""}]}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": ""山大学；肿瘤；瘤防治中心""}"
+查找由阿斯利康赞助，研究药物包含达格列净，且研究已终止的所有临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+列出研究代号为 KEYNOTE-189，并且有在中国设点的临床试验信息。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查找在欧洲进行的，关于CAR-T疗法治疗多发性骨髓瘤的三期试验，且最近一年内有更新的试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+搜索研究者李四在复旦大学附属肿瘤医院负责的，关于胰腺癌新辅助治疗的临床试验。,李四,李四,"<variant>Li Si</variant>
+ <variant>Si Li</variant>
+ <variant>Li, Si</variant>
+ <variant>Li S.</variant>
+ <variant>Li S</variant>
+ <variant>S. Li</variant>
+ <variant>S Li</variant>
+ <variant>L. Si</variant>
+ <variant>Si L.</variant>","<variant>Li Si</variant>
+ <variant>Si Li</variant>
+ <variant>Li, Si</variant>
+ <variant>Li S</variant>
+ <variant>S Li</variant>
+ <variant>S. Li</variant>
+ <variant>Li S.</variant>
+ <variant>L. Si</variant>
+ <variant>Si L.</variant>",复旦大学附属肿瘤医院,复旦大学附属肿瘤医院,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 5, ""end"": 6, ""text"": ""李""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 5, ""end"": 7, ""text"": ""李四""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 8, ""end"": 9, ""text"": ""复""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 8, ""end"": 18, ""text"": ""复旦大学附属肿瘤医院""}]}","{""author_name"": ""李四"", ""author_name英文变体"": ""<variant>Li Si</variant>\n <variant>Si Li</variant>\n <variant>Li, Si</variant>\n <variant>Li S</variant>\n <variant>S Li</variant>\n <variant>S. Li</variant>\n <variant>Li S.</variant>\n <variant>L. Si</variant>\n <variant>Si L.</variant>"", ""author_institution"": ""复旦大学附属肿瘤医院""}"
+搜索2023年1月1日后首次发布在 ClinicalTrials.gov 上的，关于肥胖症的GLP-1受体激动剂的全球多中心三期临床试验。,,,,,,,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": []}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": """"}"
+查询由北京大学人民医院牵头，且申办方不是大型跨国药企 (如辉瑞、罗氏、默沙东等)，针对淋巴瘤的研究者发起的试验。,,,,,,北京大学,"{""model_type"": ""modernbert_token_classification_span"", ""model_dir"": ""/home/chenqr/work/NLU-distillation/experiments/modernbert_span_ner/author_org"", ""raw_entities"": [{""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 4, ""text"": ""北""}, {""label"": ""INSTITUTION"", ""field"": ""author_institution"", ""start"": 3, ""end"": 7, ""text"": ""北京大学""}, {""label"": ""AUTHOR"", ""field"": ""author_name"", ""start"": 7, ""end"": 11, ""text"": ""人民医院""}]}","{""author_name"": """", ""author_name英文变体"": """", ""author_institution"": ""北京大学""}"

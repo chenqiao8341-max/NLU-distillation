@@ -1,0 +1,110 @@
+{
+  "task": "data_type",
+  "total_examples": 5000,
+  "positive_examples": 3000,
+  "negative_examples": 2000,
+  "formats": {
+    "sft": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000
+    }
+  },
+  "source_rows_scanned": 411788,
+  "available_positive_examples": 96653,
+  "available_negative_examples": 315135,
+  "selected_positive_examples": 3000,
+  "selected_negative_examples": 2000
+}
+{
+  "task": "机构和国家",
+  "total_examples": 5000,
+  "positive_examples": 3000,
+  "negative_examples": 2000,
+  "formats": {
+    "sft": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000
+    },
+    "bio": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000,
+      "label_list": [
+        "O",
+        "B-INSTITUTION",
+        "I-INSTITUTION",
+        "B-COUNTRY",
+        "I-COUNTRY"
+      ],
+      "missed_gold_spans": {
+        "机构名称": 26,
+        "国家": 0
+      }
+    }
+  },
+  "source_rows_scanned": 411788,
+  "available_positive_examples": 7851,
+  "available_negative_examples": 403937,
+  "selected_positive_examples": 3000,
+  "selected_negative_examples": 2000
+}
+{
+  "task": "时间和if值",
+  "total_examples": 5000,
+  "positive_examples": 3000,
+  "negative_examples": 2000,
+  "formats": {
+    "sft": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000
+    }
+  },
+  "source_rows_scanned": 411788,
+  "available_positive_examples": 131366,
+  "available_negative_examples": 280422,
+  "selected_positive_examples": 3000,
+  "selected_negative_examples": 2000
+}
+{
+  "task": "topic和keywords",
+  "total_examples": 5000,
+  "positive_examples": 3000,
+  "negative_examples": 2000,
+  "formats": {
+    "sft": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000
+    },
+    "bio": {
+      "test": 500,
+      "valid": 500,
+      "train": 4000,
+      "all": 5000,
+      "label_list": [
+        "O",
+        "B-TOPIC",
+        "I-TOPIC",
+        "B-KEYWORD",
+        "I-KEYWORD"
+      ],
+      "missed_gold_spans": {
+        "topics": 61,
+        "keywords": 156
+      }
+    }
+  },
+  "source_rows_scanned": 411788,
+  "available_positive_examples": 236990,
+  "available_negative_examples": 174798,
+  "selected_positive_examples": 3000,
+  "selected_negative_examples": 2000
+}

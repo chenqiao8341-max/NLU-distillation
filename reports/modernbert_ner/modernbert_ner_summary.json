@@ -1,0 +1,164 @@
+[
+  {
+    "task": "author_org",
+    "model_path": "/home/chenqr/models/BERT/ModernBERT-base",
+    "model_dir": "/home/chenqr/work/NLU-distillation/experiments/modernbert_ner/author_org",
+    "data_dir": "/home/chenqr/work/NLU-distillation/data/processed/author_org/bio",
+    "generated_at": "2026-06-08T11:08:14",
+    "train_samples": 3193,
+    "valid_samples": 399,
+    "test_samples": 399,
+    "test_metrics": {
+      "token_accuracy": 0.9939843312814773,
+      "entity_precision": 0.9333333333333333,
+      "entity_recall": 0.9050505050505051,
+      "entity_f1": 0.918974358974359,
+      "entity_true_count": 495,
+      "entity_pred_count": 480,
+      "entity_tp_count": 448,
+      "label_list": [
+        "O",
+        "B-AUTHOR",
+        "I-AUTHOR",
+        "B-INSTITUTION",
+        "I-INSTITUTION"
+      ],
+      "by_entity": {
+        "AUTHOR": {
+          "tp": 382,
+          "pred": 409,
+          "true": 413,
+          "precision": 0.9339853300733496,
+          "recall": 0.9249394673123487,
+          "f1": 0.9294403892944039
+        },
+        "INSTITUTION": {
+          "tp": 66,
+          "pred": 71,
+          "true": 82,
+          "precision": 0.9295774647887324,
+          "recall": 0.8048780487804879,
+          "f1": 0.8627450980392157
+        }
+      }
+    },
+    "trainer_test_metrics": {
+      "test_loss": 0.026309045031666756,
+      "test_token_accuracy": 0.9939843312814773,
+      "test_entity_precision": 0.9333333333333333,
+      "test_entity_recall": 0.9050505050505051,
+      "test_entity_f1": 0.918974358974359,
+      "test_runtime": 0.5715,
+      "test_samples_per_second": 698.201,
+      "test_steps_per_second": 43.747
+    }
+  },
+  {
+    "task": "org_country",
+    "model_path": "/home/chenqr/models/BERT/ModernBERT-base",
+    "model_dir": "/home/chenqr/work/NLU-distillation/experiments/modernbert_ner/org_country",
+    "data_dir": "/home/chenqr/work/NLU-distillation/data/processed/org_country/bio",
+    "generated_at": "2026-06-08T11:09:58",
+    "train_samples": 4000,
+    "valid_samples": 500,
+    "test_samples": 500,
+    "test_metrics": {
+      "token_accuracy": 0.9776804875955017,
+      "entity_precision": 0.7222222222222222,
+      "entity_recall": 0.6658536585365854,
+      "entity_f1": 0.6928934010152284,
+      "entity_true_count": 410,
+      "entity_pred_count": 378,
+      "entity_tp_count": 273,
+      "label_list": [
+        "O",
+        "B-INSTITUTION",
+        "I-INSTITUTION",
+        "B-COUNTRY",
+        "I-COUNTRY"
+      ],
+      "by_entity": {
+        "COUNTRY": {
+          "tp": 43,
+          "pred": 62,
+          "true": 65,
+          "precision": 0.6935483870967742,
+          "recall": 0.6615384615384615,
+          "f1": 0.6771653543307087
+        },
+        "INSTITUTION": {
+          "tp": 230,
+          "pred": 316,
+          "true": 345,
+          "precision": 0.7278481012658228,
+          "recall": 0.6666666666666666,
+          "f1": 0.6959152798789712
+        }
+      }
+    },
+    "trainer_test_metrics": {
+      "test_loss": 0.08643243461847305,
+      "test_token_accuracy": 0.9776804875955017,
+      "test_entity_precision": 0.7222222222222222,
+      "test_entity_recall": 0.6658536585365854,
+      "test_entity_f1": 0.6928934010152284,
+      "test_runtime": 0.7085,
+      "test_samples_per_second": 705.742,
+      "test_steps_per_second": 45.167
+    }
+  },
+  {
+    "task": "topic_keywords",
+    "model_path": "/home/chenqr/models/BERT/ModernBERT-base",
+    "model_dir": "/home/chenqr/work/NLU-distillation/experiments/modernbert_ner/topic_keywords",
+    "data_dir": "/home/chenqr/work/NLU-distillation/data/processed/topic_keywords/bio",
+    "generated_at": "2026-06-08T11:11:41",
+    "train_samples": 4000,
+    "valid_samples": 500,
+    "test_samples": 500,
+    "test_metrics": {
+      "token_accuracy": 0.9230892331327615,
+      "entity_precision": 0.3137254901960784,
+      "entity_recall": 0.30434782608695654,
+      "entity_f1": 0.30896551724137933,
+      "entity_true_count": 368,
+      "entity_pred_count": 357,
+      "entity_tp_count": 112,
+      "label_list": [
+        "O",
+        "B-TOPIC",
+        "I-TOPIC",
+        "B-KEYWORD",
+        "I-KEYWORD"
+      ],
+      "by_entity": {
+        "KEYWORD": {
+          "tp": 0,
+          "pred": 0,
+          "true": 37,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "TOPIC": {
+          "tp": 112,
+          "pred": 357,
+          "true": 331,
+          "precision": 0.3137254901960784,
+          "recall": 0.338368580060423,
+          "f1": 0.3255813953488372
+        }
+      }
+    },
+    "trainer_test_metrics": {
+      "test_loss": 0.18725481629371643,
+      "test_token_accuracy": 0.9230892331327615,
+      "test_entity_precision": 0.3137254901960784,
+      "test_entity_recall": 0.30434782608695654,
+      "test_entity_f1": 0.30896551724137933,
+      "test_runtime": 0.7316,
+      "test_samples_per_second": 683.475,
+      "test_steps_per_second": 43.742
+    }
+  }
+]

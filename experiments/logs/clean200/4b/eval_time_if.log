@@ -1,0 +1,29 @@
+$ /home/qiao/work/llm_env/bin/python /home/qiao/work/nlu-evaluator/scripts/eval_local_openai.py --base-url http://127.0.0.1:8000/v1 --model qwen35-4b-nlu-prod-time-if --dataset-dir /home/qiao/work/nlu-server/eval --tasks 时间和if值 --concurrency 1 --max-tokens 256 --timeout 180 --no-xlsx --output-prefix /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_time_if
+
+== 时间和if值 (200 samples) ==
+  时间和if值: 10/200
+  时间和if值: 20/200
+  时间和if值: 30/200
+  时间和if值: 40/200
+  时间和if值: 50/200
+  时间和if值: 60/200
+  时间和if值: 70/200
+  时间和if值: 80/200
+  时间和if值: 90/200
+  时间和if值: 100/200
+  时间和if值: 110/200
+  时间和if值: 120/200
+  时间和if值: 130/200
+  时间和if值: 140/200
+  时间和if值: 150/200
+  时间和if值: 160/200
+  时间和if值: 170/200
+  时间和if值: 180/200
+  时间和if值: 190/200
+  时间和if值: 200/200
+
+📊 进行评估...
+  抽取评估字段: filter_end_datetime, filter_end_if, filter_start_datetime, filter_start_if
+
+JSON: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_time_if.json
+Markdown: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_time_if.md

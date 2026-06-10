@@ -1,0 +1,2472 @@
+{
+  "model": "modernbert-author-org-ner",
+  "model_dir": "/home/chenqr/work/nlu-bert/outputs/modernbert-author-org-ner",
+  "dataset": "/home/chenqr/work/nlu-server/eval/作者和机构.json",
+  "generated_at": "2026-06-09T03:21:54",
+  "total_samples": 111,
+  "metrics": {
+    "author-name-EM": 0.4375,
+    "author-name-Partial": 0.6458333333333334,
+    "author-name-Precision": 0.4763888888888889,
+    "author-name-Recall": 0.5,
+    "author-name-F1": 0.48194444444444445,
+    "author-name英文变体-EM": 0.06818181818181818,
+    "author-name英文变体-Partial": 0.11363636363636363,
+    "author-name英文变体-Precision": 0.1534090909090909,
+    "author-name英文变体-Recall": 0.12386363636363637,
+    "author-name英文变体-F1": 0.13465007215007213,
+    "author-institution-EM": 0.3333333333333333,
+    "author-institution-Partial": 0.625,
+    "author-institution-Precision": 0.3958333333333333,
+    "author-institution-Recall": 0.4166666666666667,
+    "author-institution-F1": 0.40277777777777773,
+    "Average-EM": 0.27586206896551724,
+    "Average-Partial": 0.4396551724137931,
+    "Average-F1": 0.3338327859879584,
+    "Null-accuracy": 0.9517543859649122
+  },
+  "samples": [
+    {
+      "query": "龚建平教授发表的rct研究最终结论是什么",
+      "ground_truth": {
+        "author_name": "龚建平",
+        "author_name英文变体": "<variant>Gong Jianping</variant>\n <variant>Jianping Gong</variant>\n <variant>Gong Jian-Ping</variant>\n <variant>Jian-Ping Gong</variant>\n <variant>Gong Jian Ping</variant>\n <variant>Jian Ping Gong</variant>\n <variant>Gong, Jianping</variant>\n <variant>Gong, Jian-Ping</variant>\n <variant>Gong, Jian Ping</variant>\n <variant>Gong J.</variant>\n <variant>Gong J</variant>\n <variant>J. Gong</variant>\n <variant>J Gong</variant>\n <variant>Gong JP</variant>\n <variant>Gong J P</variant>\n <variant>J. P. Gong</variant>\n <variant>J.P. Gong</variant>\n <variant>J P Gong</variant>\n <variant>Gong J.-P.</variant>\n <variant>Gong J-P</variant>\n <variant>J.-P. Gong</variant>\n <variant>J-P Gong</variant>\n <variant>G. Jianping</variant>\n <variant>Jianping G.</variant>\n <variant>G. Jian Ping</variant>\n <variant>Jian Ping G.</variant>\n <variant>G. Jian-Ping</variant>\n <variant>Jian-Ping G.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "龚建平",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "龚建平",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "克利夫兰诊所科尔眼科研究所的乔治教授对视网膜断层成像在不同疾病 ME 诊断中的作用，2014 年 7 月刊 British Journal of Ophthalmology。",
+      "ground_truth": {
+        "author_name": "乔治",
+        "author_name英文变体": "<variant>Qiao Zhi</variant>\n <variant>Zhi Qiao</variant>\n <variant>Qiao-Zhi</variant>\n <variant>Zhi-Qiao</variant>\n <variant>Qiao, Zhi</variant>\n <variant>Qiao Z.</variant>\n <variant>Qiao Z</variant>\n <variant>Z. Qiao</variant>\n <variant>Z Qiao</variant>\n <variant>Q. Zhi</variant>\n <variant>Zhi Q.</variant>\n <variant>George</variant>",
+        "author_institution": "克利夫兰诊所科尔眼科研究所"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "克利夫；科；的乔治",
+            "author_name英文变体": "",
+            "author_institution": "眼"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "克利夫；科；的乔治",
+        "author_name英文变体": "",
+        "author_institution": "眼"
+      }
+    },
+    {
+      "query": "◦南京大学生命科学学院李根喜教授课题组提出赋予多肽电活性的策略，设计了一种双功能多肽—FFFGGGGRGDS。该多肽是一种同时具有分子识别和自组装能力的两亲性肽，能够与电活性物质二茂铁甲酸（FcCOOH）共组装成电活性多肽纳米探针（ePNPs）。",
+      "ground_truth": {
+        "author_name": "李根喜",
+        "author_name英文变体": "<variant>Li Genxi</variant>\n <variant>Genxi Li</variant>\n <variant>Li Gen-Xi</variant>\n <variant>Gen-Xi Li</variant>\n <variant>Li Gen Xi</variant>\n <variant>Gen Xi Li</variant>\n <variant>Li, Genxi</variant>\n <variant>Li, Gen-Xi</variant>\n <variant>Li, Gen Xi</variant>\n <variant>Li G.</variant>\n <variant>Li G</variant>\n <variant>G. Li</variant>\n <variant>G Li</variant>\n <variant>Li GX</variant>\n <variant>Li G X</variant>\n <variant>G. X. Li</variant>\n <variant>G.X. Li</variant>\n <variant>G X Li</variant>\n <variant>Li G.-X.</variant>\n <variant>Li G-X</variant>\n <variant>G.-X. Li</variant>\n <variant>G-X Li</variant>\n <variant>L. Genxi</variant>\n <variant>Genxi L.</variant>\n <variant>L. Gen Xi</variant>\n <variant>Gen Xi L.</variant>\n <variant>L. Gen-Xi</variant>\n <variant>Gen-Xi L.</variant>",
+        "author_institution": "南京大学生命科学学院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "李根喜",
+            "author_name英文变体": "",
+            "author_institution": "◦南京大学生命科学学院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "李根喜",
+        "author_name英文变体": "",
+        "author_institution": "◦南京大学生命科学学院"
+      }
+    },
+    {
+      "query": "stephen liu教授",
+      "ground_truth": {
+        "author_name": "stephen liu",
+        "author_name英文变体": "<variant>Stephen Liu</variant>\n <variant>Liu Stephen</variant>\n <variant>Liu, Stephen</variant>\n <variant>Liu S.</variant>\n <variant>Liu S</variant>\n <variant>S. Liu</variant>\n <variant>S Liu</variant>\n <variant>L. Stephen</variant>\n <variant>Stephen L.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "stephen liu",
+            "author_name英文变体": "<variant>stephen liu</variant>\n <variant>liu stephen</variant>\n <variant>liu, stephen</variant>\n <variant>liu s.</variant>\n <variant>s. liu</variant>\n <variant>liu s</variant>",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "stephen liu",
+        "author_name英文变体": "<variant>stephen liu</variant>\n <variant>liu stephen</variant>\n <variant>liu, stephen</variant>\n <variant>liu s.</variant>\n <variant>s. liu</variant>\n <variant>liu s</variant>",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "马赛大学Guy Magalon 教授团队通过长期研究发现，脂肪基质成分中的一类细胞亚群可通过促进血管生成相关的作用机制促进移植后受区组织中脂肪细胞的生存和生长。同时，还有一类细胞及细胞因子为受区组织的愈合提供抑制整体炎症因子表达的微环境，降低了组织坏死或发生排异反应的风险",
+      "ground_truth": {
+        "author_name": "Guy Magalon",
+        "author_name英文变体": "<variant>Guy Magalon</variant>\n <variant>Magalon Guy</variant>\n <variant>Magalon, Guy</variant>\n <variant>Magalon G.</variant>\n <variant>Magalon G</variant>\n <variant>G. Magalon</variant>\n <variant>G Magalon</variant>\n <variant>M. Guy</variant>\n <variant>Guy M.</variant>",
+        "author_institution": "马赛大学"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "马赛大学Guy Magalon",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "马赛大学Guy Magalon",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "柳李旺教授团队在萝卜肉质根形成机制解析研究中发现，萝卜基因组中鉴定出 48 个 RsCLE 基因，其中 RsCLE22a 在肉质根维管形成层区域高表达。",
+      "ground_truth": {
+        "author_name": "柳李旺",
+        "author_name英文变体": "<variant>Liu Liwang</variant>\n <variant>Liwang Liu</variant>\n <variant>Liu Li-Wang</variant>\n <variant>Li-Wang Liu</variant>\n <variant>Liu Li Wang</variant>\n <variant>Li Wang Liu</variant>\n <variant>Liu, Liwang</variant>\n <variant>Liu, Li-Wang</variant>\n <variant>Liu, Li Wang</variant>\n <variant>Liu L.</variant>\n <variant>Liu L</variant>\n <variant>L. Liu</variant>\n <variant>L Liu</variant>\n <variant>Liu LW</variant>\n <variant>Liu L W</variant>\n <variant>L.W. Liu</variant>\n <variant>L. W. Liu</variant>\n <variant>L W Liu</variant>\n <variant>Liu L.-W.</variant>\n <variant>Liu L-W</variant>\n <variant>L.-W. Liu</variant>\n <variant>L-W Liu</variant>\n <variant>L. Liwang</variant>\n <variant>Liwang L.</variant>\n <variant>L. Li Wang</variant>\n <variant>Li Wang L.</variant>\n <variant>L. Li-Wang</variant>\n <variant>Li-Wang L.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "柳李旺",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "柳李旺",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "◦如南京大学李根喜教授课题组提出赋予多肽电活性的策略，使得多肽同时具有靶标识别和信号转导的功能，为生物传感器的设计提供了新的理论基础。",
+      "ground_truth": {
+        "author_name": "李根喜",
+        "author_name英文变体": "<variant>Li Genxi</variant>\n <variant>Genxi Li</variant>\n <variant>Li Gen-Xi</variant>\n <variant>Gen-Xi Li</variant>\n <variant>Li Gen Xi</variant>\n <variant>Gen Xi Li</variant>\n <variant>Li, Genxi</variant>\n <variant>Li, Gen-Xi</variant>\n <variant>Li, Gen Xi</variant>\n <variant>Li G.</variant>\n <variant>Li G</variant>\n <variant>G. Li</variant>\n <variant>G Li</variant>\n <variant>Li GX</variant>\n <variant>Li G X</variant>\n <variant>G. X. Li</variant>\n <variant>G.X. Li</variant>\n <variant>G X Li</variant>\n <variant>Li G.-X.</variant>\n <variant>Li G-X</variant>\n <variant>G.-X. Li</variant>\n <variant>G-X Li</variant>\n <variant>L. Genxi</variant>\n <variant>Genxi L.</variant>\n <variant>L. Gen Xi</variant>\n <variant>Gen Xi L.</variant>\n <variant>L. Gen-Xi</variant>\n <variant>Gen-Xi L.</variant>",
+        "author_institution": "南京大学"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "李根喜",
+            "author_name英文变体": "",
+            "author_institution": "南京大学"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "李根喜",
+        "author_name英文变体": "",
+        "author_institution": "南京大学"
+      }
+    },
+    {
+      "query": "北大人民医院栗占国教授",
+      "ground_truth": {
+        "author_name": "栗占国",
+        "author_name英文变体": "<variant>Li Zhanguo</variant>\n <variant>Zhanguo Li</variant>\n <variant>Li Zhan-Guo</variant>\n <variant>Zhan-Guo Li</variant>\n <variant>Li Zhan Guo</variant>\n <variant>Zhan Guo Li</variant>\n <variant>Li, Zhanguo</variant>\n <variant>Li, Zhan-Guo</variant>\n <variant>Li, Zhan Guo</variant>\n <variant>Li Z.</variant>\n <variant>Li Z</variant>\n <variant>Z. Li</variant>\n <variant>Z Li</variant>\n <variant>Li ZG</variant>\n <variant>Li Z G</variant>\n <variant>Z.G. Li</variant>\n <variant>Z. G. Li</variant>\n <variant>Z G Li</variant>\n <variant>Li Z.-G.</variant>\n <variant>Li Z-G</variant>\n <variant>Z.-G. Li</variant>\n <variant>Z-G Li</variant>\n <variant>L. Zhanguo</variant>\n <variant>Zhanguo L.</variant>\n <variant>L. Zhan Guo</variant>\n <variant>Zhan Guo L.</variant>\n <variant>L. Zhan-Guo</variant>\n <variant>Zhan-Guo L.</variant>",
+        "author_institution": "北大人民医院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "栗占国",
+            "author_name英文变体": "<variant>Li Zhanguo</variant>\n <variant>Zhanguo Li</variant>\n <variant>Li Zhan-Guo</variant>\n <variant>Zhan-Guo Li</variant>\n <variant>Li Zhan Guo</variant>\n <variant>Zhan Guo Li</variant>\n <variant>Li, Zhanguo</variant>\n <variant>Li, Zhan-Guo</variant>\n <variant>Li, Zhan Guo</variant>\n <variant>Li Z.</variant>\n <variant>Li Z</variant>\n <variant>Z. Li</variant>\n <variant>Z Li</variant>\n <variant>Li ZG</variant>\n <variant>Li Z G</variant>\n <variant>Z.G. Li</variant>\n <variant>Z. G. Li</variant>\n <variant>Z G Li</variant>\n <variant>Li Z.-G.</variant>\n <variant>Li Z-G</variant>\n <variant>Z.-G. Li</variant>\n <variant>Z-G Li</variant>\n <variant>L. Zhanguo</variant>\n <variant>Zhanguo L.</variant>\n <variant>L. Zhan Guo</variant>\n <variant>Zhan Guo L.</variant>\n <variant>L. Zhan-Guo</variant>\n <variant>Zhan-Guo L.</variant>",
+            "author_institution": "北大人民医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "栗占国",
+        "author_name英文变体": "<variant>Li Zhanguo</variant>\n <variant>Zhanguo Li</variant>\n <variant>Li Zhan-Guo</variant>\n <variant>Zhan-Guo Li</variant>\n <variant>Li Zhan Guo</variant>\n <variant>Zhan Guo Li</variant>\n <variant>Li, Zhanguo</variant>\n <variant>Li, Zhan-Guo</variant>\n <variant>Li, Zhan Guo</variant>\n <variant>Li Z.</variant>\n <variant>Li Z</variant>\n <variant>Z. Li</variant>\n <variant>Z Li</variant>\n <variant>Li ZG</variant>\n <variant>Li Z G</variant>\n <variant>Z.G. Li</variant>\n <variant>Z. G. Li</variant>\n <variant>Z G Li</variant>\n <variant>Li Z.-G.</variant>\n <variant>Li Z-G</variant>\n <variant>Z.-G. Li</variant>\n <variant>Z-G Li</variant>\n <variant>L. Zhanguo</variant>\n <variant>Zhanguo L.</variant>\n <variant>L. Zhan Guo</variant>\n <variant>Zhan Guo L.</variant>\n <variant>L. Zhan-Guo</variant>\n <variant>Zhan-Guo L.</variant>",
+        "author_institution": "北大人民医院"
+      }
+    },
+    {
+      "query": "中山大学附属一院匡铭教授在肝癌领域的成果",
+      "ground_truth": {
+        "author_name": "匡铭",
+        "author_name英文变体": "<variant>Kuang Ming</variant>\n <variant>Ming Kuang</variant>\n <variant>Kuang, Ming</variant>\n <variant>Kuang M.</variant>\n <variant>Kuang M</variant>\n <variant>M. Kuang</variant>\n <variant>M Kuang</variant>\n <variant>K. Ming</variant>\n <variant>Ming K.</variant>",
+        "author_institution": "中山大学附属一院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "匡铭",
+            "author_name英文变体": "",
+            "author_institution": "中山大学附属一院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "匡铭",
+        "author_name英文变体": "",
+        "author_institution": "中山大学附属一院"
+      }
+    },
+    {
+      "query": "2024年SABCS 刘西禹教授：替雷利珠单抗联合司曲替尼治疗晚期三阴性乳腺癌 SPARK实验数据",
+      "ground_truth": {
+        "author_name": "刘西禹",
+        "author_name英文变体": "<variant>Liu Xiyu</variant>\n <variant>Xiyu Liu</variant>\n <variant>Liu Xi-Yu</variant>\n <variant>Xi-Yu Liu</variant>\n <variant>Liu Xi Yu</variant>\n <variant>Xi Yu Liu</variant>\n <variant>Liu, Xiyu</variant>\n <variant>Liu, Xi-Yu</variant>\n <variant>Liu, Xi Yu</variant>\n <variant>Liu X.</variant>\n <variant>Liu X</variant>\n <variant>X. Liu</variant>\n <variant>X Liu</variant>\n <variant>Liu XY</variant>\n <variant>Liu X Y</variant>\n <variant>X.Y. Liu</variant>\n <variant>X. Y. Liu</variant>\n <variant>X Y Liu</variant>\n <variant>Liu X.-Y.</variant>\n <variant>Liu X-Y</variant>\n <variant>X.-Y. Liu</variant>\n <variant>X-Y Liu</variant>\n <variant>L. Xiyu</variant>\n <variant>Xiyu L.</variant>\n <variant>L. Xi Yu</variant>\n <variant>Xi Yu L.</variant>\n <variant>L. Xi-Yu</variant>\n <variant>Xi-Yu L.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "刘西禹",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "刘西禹",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "耿海霞教授的研究方向及课题组方向",
+      "ground_truth": {
+        "author_name": "耿海霞",
+        "author_name英文变体": "<variant>Geng Haixia</variant>\n <variant>Haixia Geng</variant>\n <variant>Geng Hai-Xia</variant>\n <variant>Hai-Xia Geng</variant>\n <variant>Geng Hai Xia</variant>\n <variant>Hai Xia Geng</variant>\n <variant>Geng, Haixia</variant>\n <variant>Geng, Hai-Xia</variant>\n <variant>Geng, Hai Xia</variant>\n <variant>Geng H.</variant>\n <variant>Geng H</variant>\n <variant>H. Geng</variant>\n <variant>H Geng</variant>\n <variant>Geng HX</variant>\n <variant>Geng H X</variant>\n <variant>H.X. Geng</variant>\n <variant>H. X. Geng</variant>\n <variant>H X Geng</variant>\n <variant>Geng H.-X.</variant>\n <variant>Geng H-X</variant>\n <variant>H.-X. Geng</variant>\n <variant>H-X Geng</variant>\n <variant>G. Haixia</variant>\n <variant>Haixia G.</variant>\n <variant>G. Hai Xia</variant>\n <variant>Hai Xia G.</variant>\n <variant>G. Hai-Xia</variant>\n <variant>Hai-Xia G.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "耿海霞",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "耿海霞",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "甘肃省肿瘤医院张学良教授讲课“CAP方案在晚期微卫星稳定型 结直肠癌中的临床应用及AE管理”，作为讨论嘉宾进行讨论",
+      "ground_truth": {
+        "author_name": "张学良",
+        "author_name英文变体": "<variant>Zhang Xueliang</variant>\n <variant>Xueliang Zhang</variant>\n <variant>Zhang Xue-Liang</variant>\n <variant>Xue-Liang Zhang</variant>\n <variant>Zhang Xue Liang</variant>\n <variant>Xue Liang Zhang</variant>\n <variant>Zhang, Xueliang</variant>\n <variant>Zhang, Xue-Liang</variant>\n <variant>Zhang, Xue Liang</variant>\n <variant>Zhang X.</variant>\n <variant>Zhang X</variant>\n <variant>X. Zhang</variant>\n <variant>X Zhang</variant>\n <variant>Zhang XL</variant>\n <variant>Zhang X L</variant>\n <variant>X.L. Zhang</variant>\n <variant>X. L. Zhang</variant>\n <variant>X L Zhang</variant>\n <variant>Zhang X.-L.</variant>\n <variant>Zhang X-L</variant>\n <variant>X.-L. Zhang</variant>\n <variant>X-L Zhang</variant>\n <variant>Z. Xueliang</variant>\n <variant>Xueliang Z.</variant>\n <variant>Z. Xue Liang</variant>\n <variant>Xue Liang Z.</variant>\n <variant>Z. Xue-Liang</variant>\n <variant>Xue-Liang Z.</variant>",
+        "author_institution": "甘肃省肿瘤医院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "张学良",
+            "author_name英文变体": "",
+            "author_institution": "甘肃省肿瘤医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "张学良",
+        "author_name英文变体": "",
+        "author_institution": "甘肃省肿瘤医院"
+      }
+    },
+    {
+      "query": "能查到中山大学第五附属医院泌尿外科汤育新教授电子邮箱么？",
+      "ground_truth": {
+        "author_name": "汤育新",
+        "author_name英文变体": "<variant>Tang Yuxin</variant>\n <variant>Yuxin Tang</variant>\n <variant>Tang Yu-Xin</variant>\n <variant>Yu-Xin Tang</variant>\n <variant>Tang Yu Xin</variant>\n <variant>Yu Xin Tang</variant>\n <variant>Tang, Yuxin</variant>\n <variant>Tang, Yu-Xin</variant>\n <variant>Tang, Yu Xin</variant>\n <variant>Tang Y.</variant>\n <variant>Tang Y</variant>\n <variant>Y. Tang</variant>\n <variant>Y Tang</variant>\n <variant>Tang YX</variant>\n <variant>Tang Y X</variant>\n <variant>Y.X. Tang</variant>\n <variant>Y. X. Tang</variant>\n <variant>Y X Tang</variant>\n <variant>Tang Y.-X.</variant>\n <variant>Tang Y-X</variant>\n <variant>Y.-X. Tang</variant>\n <variant>Y-X Tang</variant>\n <variant>T. Yuxin</variant>\n <variant>Yuxin T.</variant>\n <variant>T. Yu Xin</variant>\n <variant>Yu Xin T.</variant>\n <variant>T. Yu-Xin</variant>\n <variant>Yu-Xin T.</variant>",
+        "author_institution": "中山大学第五附属医院泌尿外科"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "泌尿外科汤育新",
+            "author_name英文变体": "",
+            "author_institution": "中山大学第五附属医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "泌尿外科汤育新",
+        "author_name英文变体": "",
+        "author_institution": "中山大学第五附属医院"
+      }
+    },
+    {
+      "query": "假如你是临床肿瘤学教授，写一篇关于肺癌BRAF G466V突变治疗进展的点评",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "肿瘤学",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "肿瘤学",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "吴一龙教授的新学术论文",
+      "ground_truth": {
+        "author_name": "吴一龙",
+        "author_name英文变体": "<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "吴一龙",
+            "author_name英文变体": "<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "吴一龙",
+        "author_name英文变体": "<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "江西中医药大学付勇教授对肠易激综合征的研究贡献",
+      "ground_truth": {
+        "author_name": "付勇",
+        "author_name英文变体": "<variant>Fu Yong</variant>\n <variant>Yong Fu</variant>\n <variant>Fu, Yong</variant>\n <variant>Fu Y.</variant>\n <variant>Fu Y</variant>\n <variant>Y. Fu</variant>\n <variant>Y Fu</variant>\n <variant>F. Yong</variant>\n <variant>Yong F.</variant>",
+        "author_institution": "江西中医药大学"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "付勇",
+            "author_name英文变体": "",
+            "author_institution": "西中医药大学"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "付勇",
+        "author_name英文变体": "",
+        "author_institution": "西中医药大学"
+      }
+    },
+    {
+      "query": "马赛大学Guy.Magalon教授团队 研究脂肪基质成分一类细胞亚群促进血管生长文献",
+      "ground_truth": {
+        "author_name": "Guy.Magalon",
+        "author_name英文变体": "<variant>Guy Magalon</variant>\n <variant>Magalon Guy</variant>\n <variant>Magalon, Guy</variant>\n <variant>Magalon G.</variant>\n <variant>Magalon G</variant>\n <variant>G. Magalon</variant>\n <variant>G Magalon</variant>\n <variant>M. Guy</variant>\n <variant>Guy M.</variant>",
+        "author_institution": "马赛大学"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "马；Guy.Magalon",
+            "author_name英文变体": "<variant>Guy.Magalon</variant>",
+            "author_institution": "赛大学"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "马；Guy.Magalon",
+        "author_name英文变体": "<variant>Guy.Magalon</variant>",
+        "author_institution": "赛大学"
+      }
+    },
+    {
+      "query": "介绍一下孙英贤教授",
+      "ground_truth": {
+        "author_name": "孙英贤",
+        "author_name英文变体": "<variant>Sun Yingxian</variant>\n <variant>Yingxian Sun</variant>\n <variant>Sun Ying-Xian</variant>\n <variant>Ying-Xian Sun</variant>\n <variant>Sun Ying Xian</variant>\n <variant>Ying Xian Sun</variant>\n <variant>Sun, Yingxian</variant>\n <variant>Sun, Ying-Xian</variant>\n <variant>Sun, Ying Xian</variant>\n <variant>Sun Y.</variant>\n <variant>Sun Y</variant>\n <variant>Y. Sun</variant>\n <variant>Y Sun</variant>\n <variant>Sun YX</variant>\n <variant>Sun Y X</variant>\n <variant>Y.X. Sun</variant>\n <variant>Y. X. Sun</variant>\n <variant>Y X Sun</variant>\n <variant>Sun Y.-X.</variant>\n <variant>Sun Y-X</variant>\n <variant>Y.-X. Sun</variant>\n <variant>Y-X Sun</variant>\n <variant>S. Yingxian</variant>\n <variant>Yingxian S.</variant>\n <variant>S. Ying Xian</variant>\n <variant>Ying Xian S.</variant>\n <variant>S. Ying-Xian</variant>\n <variant>Ying-Xian S.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "孙英贤",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "孙英贤",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "请帮我查找中山大学邹小兵教授团队近几年发表的关于ASD的文章",
+      "ground_truth": {
+        "author_name": "邹小兵",
+        "author_name英文变体": "<variant>Zou Xiaobing</variant>\n <variant>Xiaobing Zou</variant>\n <variant>Zou Xiao-Bing</variant>\n <variant>Xiao-Bing Zou</variant>\n <variant>Zou Xiao Bing</variant>\n <variant>Xiao Bing Zou</variant>\n <variant>Zou, Xiaobing</variant>\n <variant>Zou, Xiao-Bing</variant>\n <variant>Zou, Xiao Bing</variant>\n <variant>Zou X.</variant>\n <variant>Zou X</variant>\n <variant>X. Zou</variant>\n <variant>X Zou</variant>\n <variant>Zou XB</variant>\n <variant>Zou X B</variant>\n <variant>X.B. Zou</variant>\n <variant>X. B. Zou</variant>\n <variant>X B Zou</variant>\n <variant>Zou X.-B.</variant>\n <variant>Zou X-B</variant>\n <variant>X.-B. Zou</variant>\n <variant>X-B Zou</variant>\n <variant>Z. Xiaobing</variant>\n <variant>Xiaobing Z.</variant>\n <variant>Z. Xiao Bing</variant>\n <variant>Xiao Bing Z.</variant>\n <variant>Z. Xiao-Bing</variant>\n <variant>Xiao-Bing Z.</variant>",
+        "author_institution": "中山大学"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "邹小兵",
+            "author_name英文变体": "",
+            "author_institution": "中山大学"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "邹小兵",
+        "author_name英文变体": "",
+        "author_institution": "中山大学"
+      }
+    },
+    {
+      "query": "王国栋教授课题组发现一组功能冗余 CLE 多肽激素 CLE1 - CLE7 调控拟南芥不定芽从头发生。",
+      "ground_truth": {
+        "author_name": "王国栋",
+        "author_name英文变体": "<variant>Wang Guodong</variant>\n <variant>Guodong Wang</variant>\n <variant>Wang Guo-Dong</variant>\n <variant>Guo-Dong Wang</variant>\n <variant>Wang Guo Dong</variant>\n <variant>Guo Dong Wang</variant>\n <variant>Wang, Guodong</variant>\n <variant>Wang, Guo-Dong</variant>\n <variant>Wang, Guo Dong</variant>\n <variant>Wang G.</variant>\n <variant>Wang G</variant>\n <variant>G. Wang</variant>\n <variant>G Wang</variant>\n <variant>Wang GD</variant>\n <variant>Wang G D</variant>\n <variant>G.D. Wang</variant>\n <variant>G. D. Wang</variant>\n <variant>G D Wang</variant>\n <variant>Wang G.-D.</variant>\n <variant>Wang G-D</variant>\n <variant>G.-D. Wang</variant>\n <variant>G-D Wang</variant>\n <variant>W. Guodong</variant>\n <variant>Guodong W.</variant>\n <variant>W. Guo Dong</variant>\n <variant>Guo Dong W.</variant>\n <variant>W. Guo-Dong</variant>\n <variant>Guo-Dong W.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "王国栋",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "王国栋",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "苏津自 教授对于血脂管理的文章或者见解",
+      "ground_truth": {
+        "author_name": "苏津自",
+        "author_name英文变体": "<variant>Su Jinzi</variant>\n <variant>Jinzi Su</variant>\n <variant>Su Jin-Zi</variant>\n <variant>Jin-Zi Su</variant>\n <variant>Su Jin Zi</variant>\n <variant>Jin Zi Su</variant>\n <variant>Su, Jinzi</variant>\n <variant>Su, Jin-Zi</variant>\n <variant>Su, Jin Zi</variant>\n <variant>Su J.</variant>\n <variant>Su J</variant>\n <variant>J. Su</variant>\n <variant>J Su</variant>\n <variant>Su JZ</variant>\n <variant>Su J Z</variant>\n <variant>J.Z. Su</variant>\n <variant>J. Z. Su</variant>\n <variant>J Z Su</variant>\n <variant>Su J.-Z.</variant>\n <variant>Su J-Z</variant>\n <variant>J.-Z. Su</variant>\n <variant>J-Z Su</variant>\n <variant>S. Jinzi</variant>\n <variant>Jinzi S.</variant>\n <variant>S. Jin Zi</variant>\n <variant>Jin Zi S.</variant>\n <variant>S. Jin-Zi</variant>\n <variant>Jin-Zi S.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "苏津",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "苏津",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "黎晓新教授眼底病报告",
+      "ground_truth": {
+        "author_name": "黎晓新",
+        "author_name英文变体": "<variant>Li Xiaoxin</variant>\n <variant>Xiaoxin Li</variant>\n <variant>Li Xiao-Xin</variant>\n <variant>Xiao-Xin Li</variant>\n <variant>Li Xiao Xin</variant>\n <variant>Xiao Xin Li</variant>\n <variant>Li, Xiaoxin</variant>\n <variant>Li, Xiao-Xin</variant>\n <variant>Li, Xiao Xin</variant>\n <variant>Li X.</variant>\n <variant>Li X</variant>\n <variant>X. Li</variant>\n <variant>X Li</variant>\n <variant>Li XX</variant>\n <variant>Li X X</variant>\n <variant>X.X. Li</variant>\n <variant>X. X. Li</variant>\n <variant>X X Li</variant>\n <variant>Li X.-X.</variant>\n <variant>Li X-X</variant>\n <variant>X.-X. Li</variant>\n <variant>X-X Li</variant>\n <variant>L. Xiaoxin</variant>\n <variant>Xiaoxin L.</variant>\n <variant>L. Xiao Xin</variant>\n <variant>Xiao Xin L.</variant>\n <variant>L. Xiao-Xin</variant>\n <variant>Xiao-Xin L.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "黎晓新",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "黎晓新",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "吴一龙教授的肺癌适应性治疗中国专家共识",
+      "ground_truth": {
+        "author_name": "吴一龙",
+        "author_name英文变体": "<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "吴一龙",
+            "author_name英文变体": "<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "吴一龙",
+        "author_name英文变体": "<variant>Wu Yilong</variant>\n <variant>Yilong Wu</variant>\n <variant>Wu Yi-Long</variant>\n <variant>Yi-Long Wu</variant>\n <variant>Wu Yi Long</variant>\n <variant>Yi Long Wu</variant>\n <variant>Wu, Yilong</variant>\n <variant>Wu, Yi-Long</variant>\n <variant>Wu, Yi Long</variant>\n <variant>Wu Y.</variant>\n <variant>Wu Y</variant>\n <variant>Y. Wu</variant>\n <variant>Y Wu</variant>\n <variant>Wu YL</variant>\n <variant>Wu Y L</variant>\n <variant>Y.L. Wu</variant>\n <variant>Y. L. Wu</variant>\n <variant>Y L Wu</variant>\n <variant>Wu Y.-L.</variant>\n <variant>Wu Y-L</variant>\n <variant>Y.-L. Wu</variant>\n <variant>Y-L Wu</variant>\n <variant>W. Yilong</variant>\n <variant>Yilong W.</variant>\n <variant>W. Yi Long</variant>\n <variant>Yi Long W.</variant>\n <variant>W. Yi-Long</variant>\n <variant>Yi-Long W.</variant>",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找北医三院王毅教授托珠单抗治疗甲状腺眼病的文献",
+      "ground_truth": {
+        "author_name": "王毅教",
+        "author_name英文变体": "<variant>Wang Yijiao</variant>\n <variant>Yijiao Wang</variant>\n <variant>Wang Yi-Jiao</variant>\n <variant>Yi-Jiao Wang</variant>\n <variant>Wang Yi Jiao</variant>\n <variant>Yi Jiao Wang</variant>\n <variant>Wang, Yijiao</variant>\n <variant>Wang, Yi-Jiao</variant>\n <variant>Wang, Yi Jiao</variant>\n <variant>Wang Y.</variant>\n <variant>Wang Y</variant>\n <variant>Y. Wang</variant>\n <variant>Y Wang</variant>\n <variant>Wang YJ</variant>\n <variant>Wang Y J</variant>\n <variant>Y.J. Wang</variant>\n <variant>Y. J. Wang</variant>\n <variant>Y J Wang</variant>\n <variant>Wang Y.-J.</variant>\n <variant>Wang Y-J</variant>\n <variant>Y.-J. Wang</variant>\n <variant>Y-J Wang</variant>\n <variant>W. Yijiao</variant>\n <variant>Yijiao W.</variant>\n <variant>W. Yi Jiao</variant>\n <variant>Yi Jiao W.</variant>\n <variant>W. Yi-Jiao</variant>\n <variant>Yi-Jiao W.</variant>",
+        "author_institution": "北医三院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "王毅",
+            "author_name英文变体": "",
+            "author_institution": "北医三院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "王毅",
+        "author_name英文变体": "",
+        "author_institution": "北医三院"
+      }
+    },
+    {
+      "query": "陆军军医大学附属第二医院或新桥医院刘政教授课题组研究特点和优势不足以及课题组科研方向分析",
+      "ground_truth": {
+        "author_name": "刘政",
+        "author_name英文变体": "<variant>Liu Zheng</variant>\n <variant>Zheng Liu</variant>\n <variant>Liu, Zheng</variant>\n <variant>Liu Z.</variant>\n <variant>Liu Z</variant>\n <variant>Z. Liu</variant>\n <variant>Z Liu</variant>\n <variant>L. Zheng</variant>\n <variant>Zheng L.</variant>",
+        "author_institution": "陆军军医大学附属第二医院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "刘政",
+            "author_name英文变体": "",
+            "author_institution": "陆军军医大学附属第二医院或新桥医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "刘政",
+        "author_name英文变体": "",
+        "author_institution": "陆军军医大学附属第二医院或新桥医院"
+      }
+    },
+    {
+      "query": "耿海霞正畸科主任的研究方向及课题组方向",
+      "ground_truth": {
+        "author_name": "耿海霞",
+        "author_name英文变体": "<variant>Geng Haixia</variant>\n <variant>Haixia Geng</variant>\n <variant>Geng Hai-Xia</variant>\n <variant>Hai-Xia Geng</variant>\n <variant>Geng Hai Xia</variant>\n <variant>Hai Xia Geng</variant>\n <variant>Geng, Haixia</variant>\n <variant>Geng, Hai-Xia</variant>\n <variant>Geng, Hai Xia</variant>\n <variant>Geng H.</variant>\n <variant>Geng H</variant>\n <variant>H. Geng</variant>\n <variant>H Geng</variant>\n <variant>Geng HX</variant>\n <variant>Geng H X</variant>\n <variant>H.X. Geng</variant>\n <variant>H. X. Geng</variant>\n <variant>H X Geng</variant>\n <variant>Geng H.-X.</variant>\n <variant>Geng H-X</variant>\n <variant>H.-X. Geng</variant>\n <variant>H-X Geng</variant>\n <variant>G. Haixia</variant>\n <variant>Haixia G.</variant>\n <variant>G. Hai Xia</variant>\n <variant>Hai Xia G.</variant>\n <variant>G. Hai-Xia</variant>\n <variant>Hai-Xia G.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "耿海霞正畸科",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "耿海霞正畸科",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "神经外科副主任医生的科普问题可以有哪些？给5个",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "神经外科副",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "神经外科副",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "我想了解下安徽省立医院尚希福主任在针对Crowe Type 4 DDH中对手术技巧的创新及其意义有哪些。",
+      "ground_truth": {
+        "author_name": "尚希福",
+        "author_name英文变体": "<variant>Shang Xifu</variant>\n <variant>Xifu Shang</variant>\n <variant>Shang Xi-Fu</variant>\n <variant>Xi-Fu Shang</variant>\n <variant>Shang Xi Fu</variant>\n <variant>Xi Fu Shang</variant>\n <variant>Shang, Xifu</variant>\n <variant>Shang, Xi-Fu</variant>\n <variant>Shang, Xi Fu</variant>\n <variant>Shang X.</variant>\n <variant>Shang X</variant>\n <variant>X. Shang</variant>\n <variant>X Shang</variant>\n <variant>Shang XF</variant>\n <variant>Shang X F</variant>\n <variant>X.F. Shang</variant>\n <variant>X. F. Shang</variant>\n <variant>X F Shang</variant>\n <variant>Shang X.-F.</variant>\n <variant>Shang X-F</variant>\n <variant>X.-F. Shang</variant>\n <variant>X-F Shang</variant>\n <variant>S. Xifu</variant>\n <variant>Xifu S.</variant>\n <variant>S. Xi Fu</variant>\n <variant>Xi Fu S.</variant>\n <variant>S. Xi-Fu</variant>\n <variant>Xi-Fu S.</variant>",
+        "author_institution": "安徽省立医院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "尚希福",
+            "author_name英文变体": "",
+            "author_institution": "安徽省立医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "尚希福",
+        "author_name英文变体": "",
+        "author_institution": "安徽省立医院"
+      }
+    },
+    {
+      "query": "帮我总结一下储浩然主任医师治疗肠易激综合征的学术思想",
+      "ground_truth": {
+        "author_name": "储浩然",
+        "author_name英文变体": "<variant>Chu Haoran</variant>\n <variant>Haoran Chu</variant>\n <variant>Chu Hao-Ran</variant>\n <variant>Hao-Ran Chu</variant>\n <variant>Chu Hao Ran</variant>\n <variant>Hao Ran Chu</variant>\n <variant>Chu, Haoran</variant>\n <variant>Chu, Hao-Ran</variant>\n <variant>Chu, Hao Ran</variant>\n <variant>Chu H.</variant>\n <variant>Chu H</variant>\n <variant>H. Chu</variant>\n <variant>H Chu</variant>\n <variant>Chu HR</variant>\n <variant>Chu H R</variant>\n <variant>H.R. Chu</variant>\n <variant>H. R. Chu</variant>\n <variant>H R Chu</variant>\n <variant>Chu H.-R.</variant>\n <variant>Chu H-R</variant>\n <variant>H.-R. Chu</variant>\n <variant>H-R Chu</variant>\n <variant>C. Haoran</variant>\n <variant>Haoran C.</variant>\n <variant>C. Hao Ran</variant>\n <variant>Hao Ran C.</variant>\n <variant>C. Hao-Ran</variant>\n <variant>Hao-Ran C.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "储浩然",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "储浩然",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "北京306生殖中心主任 朱亮的SCI文章",
+      "ground_truth": {
+        "author_name": "朱亮",
+        "author_name英文变体": "<variant>Zhu Liang</variant>\n <variant>Liang Zhu</variant>\n <variant>Zhu, Liang</variant>\n <variant>Zhu L.</variant>\n <variant>Zhu L</variant>\n <variant>L. Zhu</variant>\n <variant>L Zhu</variant>\n <variant>Z. Liang</variant>\n <variant>Liang Z.</variant>",
+        "author_institution": "北京306生殖中心"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "殖中心",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "殖中心",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "作者骆宏，情绪劳动量表",
+      "ground_truth": {
+        "author_name": "骆宏",
+        "author_name英文变体": "<variant>Luo Hong</variant>\n <variant>Hong Luo</variant>\n <variant>Luo, Hong</variant>\n <variant>Luo H.</variant>\n <variant>Luo H</variant>\n <variant>H. Luo</variant>\n <variant>H Luo</variant>\n <variant>L. Hong</variant>\n <variant>Hong L.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "找一下武汉同济医院马丁院士作为通讯作者发表的关于宫颈癌治疗的文章",
+      "ground_truth": {
+        "author_name": "马丁",
+        "author_name英文变体": "<variant>Ma Ding</variant>\n <variant>Ding Ma</variant>\n <variant>Ma, Ding</variant>\n <variant>Ma D.</variant>\n <variant>Ma D</variant>\n <variant>D. Ma</variant>\n <variant>D Ma</variant>\n <variant>M. Ding</variant>\n <variant>Ding M.</variant>\n <variant>Martin</variant>",
+        "author_institution": "武汉同济医院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "马丁院士",
+            "author_name英文变体": "",
+            "author_institution": "武汉同济医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "马丁院士",
+        "author_name英文变体": "",
+        "author_institution": "武汉同济医院"
+      }
+    },
+    {
+      "query": "请帮我找出通讯作者或者第一作者为周本智的论文",
+      "ground_truth": {
+        "author_name": "周本智",
+        "author_name英文变体": "<variant>Zhou Benzhi</variant>\n <variant>Benzhi Zhou</variant>\n <variant>Zhou Ben-Zhi</variant>\n <variant>Ben-Zhi Zhou</variant>\n <variant>Zhou Ben Zhi</variant>\n <variant>Ben Zhi Zhou</variant>\n <variant>Zhou, Benzhi</variant>\n <variant>Zhou, Ben-Zhi</variant>\n <variant>Zhou, Ben Zhi</variant>\n <variant>Zhou B.</variant>\n <variant>Zhou B</variant>\n <variant>B. Zhou</variant>\n <variant>B Zhou</variant>\n <variant>Zhou BZ</variant>\n <variant>Zhou B Z</variant>\n <variant>B.Z. Zhou</variant>\n <variant>B. Z. Zhou</variant>\n <variant>B Z Zhou</variant>\n <variant>Zhou B.-Z.</variant>\n <variant>Zhou B-Z</variant>\n <variant>B.-Z. Zhou</variant>\n <variant>B-Z Zhou</variant>\n <variant>Z. Benzhi</variant>\n <variant>Benzhi Z.</variant>\n <variant>Z. Ben Zhi</variant>\n <variant>Ben Zhi Z.</variant>\n <variant>Z. Ben-Zhi</variant>\n <variant>Ben-Zhi Z.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "周本智",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "周本智",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "以上哪一篇作者为Faherty?",
+      "ground_truth": {
+        "author_name": "Faherty",
+        "author_name英文变体": "<variant>Faherty</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "何贵清温州市中心医院作者发表几篇SCI，分别是哪些",
+      "ground_truth": {
+        "author_name": "何贵清",
+        "author_name英文变体": "<variant>He Guiqing</variant>\n <variant>Guiqing He</variant>\n <variant>He Gui-Qing</variant>\n <variant>Gui-Qing He</variant>\n <variant>He Gui Qing</variant>\n <variant>Gui Qing He</variant>\n <variant>He, Guiqing</variant>\n <variant>He, Gui-Qing</variant>\n <variant>He, Gui Qing</variant>\n <variant>He G.</variant>\n <variant>He G</variant>\n <variant>G. He</variant>\n <variant>G He</variant>\n <variant>He GQ</variant>\n <variant>He G Q</variant>\n <variant>G.Q. He</variant>\n <variant>G. Q. He</variant>\n <variant>G Q He</variant>\n <variant>He G.-Q.</variant>\n <variant>He G-Q</variant>\n <variant>G.-Q. He</variant>\n <variant>G-Q He</variant>\n <variant>H. Guiqing</variant>\n <variant>Guiqing H.</variant>\n <variant>H. Gui Qing</variant>\n <variant>Gui Qing H.</variant>\n <variant>H. Gui-Qing</variant>\n <variant>Gui-Qing H.</variant>",
+        "author_institution": "温州市中心医院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "清",
+            "author_name英文变体": "",
+            "author_institution": "何；温州市中心医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "清",
+        "author_name英文变体": "",
+        "author_institution": "何；温州市中心医院"
+      }
+    },
+    {
+      "query": "帮我找几篇有两位通讯作者的Global and Planetary Change期刊论文",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "请根据以下文献，列出所有相关的文献并写明出处，30篇以上。\n\n1. 行为经济学在慢性病管理中的应用研究 [1,2]\n 作者：刘羡\n 作者单位：313000湖州市湖州师范学院护理学院\n 通信作者：邵圣文，E-mail: shaoshw@zjhu.edu.cn",
+      "ground_truth": {
+        "author_name": "刘羡",
+        "author_name英文变体": "<variant>Liu Xian</variant>\n <variant>Xian Liu</variant>\n <variant>Liu, Xian</variant>\n <variant>Liu X.</variant>\n <variant>Liu X</variant>\n <variant>X. Liu</variant>\n <variant>X Liu</variant>\n <variant>L. Xian</variant>\n <variant>Xian L.</variant>",
+        "author_institution": "湖州市湖州师范学院护理学院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "刘羡；州；理；邵圣文；oshw",
+            "author_name英文变体": "<variant>oshw</variant>",
+            "author_institution": "院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "刘羡；州；理；邵圣文；oshw",
+        "author_name英文变体": "<variant>oshw</variant>",
+        "author_institution": "院"
+      }
+    },
+    {
+      "query": "基于大数据的精准教学干预模型及应用研究，作者王磊，博士论文",
+      "ground_truth": {
+        "author_name": "王磊",
+        "author_name英文变体": "<variant>Wang Lei</variant>\n <variant>Lei Wang</variant>\n <variant>Wang, Lei</variant>\n <variant>Wang L.</variant>\n <variant>Wang L</variant>\n <variant>L. Wang</variant>\n <variant>L Wang</variant>\n <variant>W. Lei</variant>\n <variant>Lei W.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "精准",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "精准",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "作者 Ryan Tomlinson",
+      "ground_truth": {
+        "author_name": "Ryan Tomlinson",
+        "author_name英文变体": "<variant>Ryan Tomlinson</variant>\n <variant>Tomlinson Ryan</variant>\n <variant>Tomlinson, Ryan</variant>\n <variant>Tomlinson R.</variant>\n <variant>Tomlinson R</variant>\n <variant>R. Tomlinson</variant>\n <variant>R Tomlinson</variant>\n <variant>T. Ryan</variant>\n <variant>Ryan T.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "作者骆宏，关于情绪劳动",
+      "ground_truth": {
+        "author_name": "骆宏",
+        "author_name英文变体": "<variant>Luo Hong</variant>\n <variant>Hong Luo</variant>\n <variant>Luo, Hong</variant>\n <variant>Luo H.</variant>\n <variant>Luo H</variant>\n <variant>H. Luo</variant>\n <variant>H Luo</variant>\n <variant>L. Hong</variant>\n <variant>Hong L.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "Paolo Caraceni 为通讯作者发的文章",
+      "ground_truth": {
+        "author_name": "Paolo Caraceni ",
+        "author_name英文变体": "<variant>Paolo Caraceni</variant>\n <variant>Caraceni Paolo</variant>\n <variant>Caraceni, Paolo</variant>\n <variant>Caraceni P.</variant>\n <variant>Caraceni P</variant>\n <variant>P. Caraceni</variant>\n <variant>P Caraceni</variant>\n <variant>C. Paolo</variant>\n <variant>Paolo C.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "Paolo Car",
+            "author_name英文变体": "<variant>Paolo Car</variant>\n <variant>Car Paolo</variant>\n <variant>Car, Paolo</variant>\n <variant>Car P.</variant>\n <variant>P. Car</variant>\n <variant>Car P</variant>",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "Paolo Car",
+        "author_name英文变体": "<variant>Paolo Car</variant>\n <variant>Car Paolo</variant>\n <variant>Car, Paolo</variant>\n <variant>Car P.</variant>\n <variant>P. Car</variant>\n <variant>Car P</variant>",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "作者是法国的Serratia marcenscens",
+      "ground_truth": {
+        "author_name": "Serratia marcenscens",
+        "author_name英文变体": "<variant>Serratia Marcenscens</variant>\n <variant>S. Marcenscens</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "err",
+            "author_name英文变体": "<variant>err</variant>",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "err",
+        "author_name英文变体": "<variant>err</variant>",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "王刚作者关于银屑病",
+      "ground_truth": {
+        "author_name": "王刚",
+        "author_name英文变体": "<variant>Wang Gang</variant>\n <variant>Gang Wang</variant>\n <variant>Wang, Gang</variant>\n <variant>Wang G.</variant>\n <variant>Wang G</variant>\n <variant>G. Wang</variant>\n <variant>G Wang</variant>\n <variant>W. Gang</variant>\n <variant>Gang W.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "陈文平医生怎么样",
+      "ground_truth": {
+        "author_name": "陈文平",
+        "author_name英文变体": "<variant>Chen Wenping</variant>\n <variant>Wenping Chen</variant>\n <variant>Chen Wen-Ping</variant>\n <variant>Wen-Ping Chen</variant>\n <variant>Chen Wen Ping</variant>\n <variant>Wen Ping Chen</variant>\n <variant>Chen, Wenping</variant>\n <variant>Chen, Wen-Ping</variant>\n <variant>Chen, Wen Ping</variant>\n <variant>Chen W.</variant>\n <variant>Chen W</variant>\n <variant>W. Chen</variant>\n <variant>W Chen</variant>\n <variant>Chen WP</variant>\n <variant>Chen W P</variant>\n <variant>W.P. Chen</variant>\n <variant>W. P. Chen</variant>\n <variant>W P Chen</variant>\n <variant>Chen W.-P.</variant>\n <variant>Chen W-P</variant>\n <variant>W.-P. Chen</variant>\n <variant>W-P Chen</variant>\n <variant>C. Wenping</variant>\n <variant>Wenping C.</variant>\n <variant>C. Wen Ping</variant>\n <variant>Wen Ping C.</variant>\n <variant>C. Wen-Ping</variant>\n <variant>Wen-Ping C.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "陈文平医",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "陈文平医",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "许浩游医生",
+      "ground_truth": {
+        "author_name": "许浩游",
+        "author_name英文变体": "<variant>Xu Haoyou</variant>\n <variant>Haoyou Xu</variant>\n <variant>Xu Hao-You</variant>\n <variant>Hao-You Xu</variant>\n <variant>Xu Hao You</variant>\n <variant>Hao You Xu</variant>\n <variant>Xu, Haoyou</variant>\n <variant>Xu, Hao-You</variant>\n <variant>Xu, Hao You</variant>\n <variant>Xu H.</variant>\n <variant>Xu H</variant>\n <variant>H. Xu</variant>\n <variant>H Xu</variant>\n <variant>Xu HY</variant>\n <variant>Xu H Y</variant>\n <variant>H.Y. Xu</variant>\n <variant>H. Y. Xu</variant>\n <variant>H Y Xu</variant>\n <variant>Xu H.-Y.</variant>\n <variant>Xu H-Y</variant>\n <variant>H.-Y. Xu</variant>\n <variant>H-Y Xu</variant>\n <variant>X. Haoyou</variant>\n <variant>Haoyou X.</variant>\n <variant>X. Hao You</variant>\n <variant>Hao You X.</variant>\n <variant>X. Hao-You</variant>\n <variant>Hao-You X.</variant>",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "艾恒平、艾司氯胺酮、瑞倍宁三个药物在镇痛中的临床研究数据",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "艾恒平",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "艾恒平",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "请用下方内容生成一个互动病例思维框架：姓名：王某性别：女性年龄：45岁主诉：左侧腰痛伴发热1天。现病史1天前运动后出现左侧腰部疼痛，疼痛间断发作，发作时疼痛剧烈，放射至左下腹及会阴区，伴恶心、呕吐，伴发热，体温最高38.5℃，无肉眼血尿，无尿频、尿急、尿痛等。就诊于外院急诊，行CT提示左肾多发结石、左侧肾门位置异常、左侧输尿管末端结石（约3mm）；予止痛等对症支持治疗后症状缓解。今日症状再次发作，遂就诊于我院急诊，腹部超声提示：左侧肾积水、左侧输尿管上段扩张、左侧肾周积液、左肾多发结石、左侧肾门位置异常。患者近10天食物结合运动减肥，体重下降约5kg。既往史发现左肾结石5年余，最大者大小约2cm，未予特殊处理；否认传染病史，否认心脑血管病史，否认糖尿病、精神病病史，否认手术史，否认外伤史，否认输血史，否认药物、食物过敏史。体格检查生命体征T36.5℃，P88次/分，R18次/分，BP135/85mmHg。一般查体发育正常，营养良好，神志清楚，检查合作。双肺呼吸音正常。心律齐，心脏各瓣音区未闻及病理性杂音。腹平坦，腹式呼吸存在，未见肠型及蠕动波，腹部无压痛，无反跳痛，未触及肿块，无肝脾肿大，无移动性浊音，肠鸣音正常，未闻及血管杂音。脊柱及四肢无畸形，四肢关节无红肿及功能限制。专科查体双侧肋脊角对称，局部无压痛，左肾叩击痛阳性，双侧肾脏均未扪及。沿双侧输尿管走行区无压痛，未扪及肿块。耻骨上膀胱区不充盈，无压痛。辅助检查腹部B超示：左肾上盏可见多发强回声，大者约1.6cm×0.9cm，后方可见快闪伪像，右肾盂及输尿管无扩张；左肾门偏于外上，左肾盂增宽，约1.5cm，输尿管上段宽约0.5cm，中下段显示不清。左肾周可见无回声，厚约0.4cm。提示：左肾盂及输尿管上段扩张、左肾周积液、左肾多发结石、左肾门位置异常（正常变异）。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "胃癌预后和治疗反应预测生物标志物",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "近两年头颈部肿瘤免疫治疗领域有哪些新的临床试验或应用进展值得关注？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "2024年帕金森突破性临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "ADRESU临床试验中ADRCs治疗SUI的使用方法以及作用机制",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "2024年乳腺癌腋窝豁免腋窝清扫(ALND)的临床试验研究进展",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "ASP1570临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "BI 1015550在临床试验中对预防特发性肺纤维化（IPF）患者肺功能下降的影响是什么？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "CGRP类药物临床试验中，发作性偏头痛和慢性偏头痛的患者头痛基线",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "Clinicaltrial.gov ID: NCT02326961 临床试验 ACT-OA",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": "."
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": "."
+      }
+    },
+    {
+      "query": "DESTINY-Breast06 Ⅲ期临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "ST",
+            "author_name英文变体": "<variant>ST</variant>",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "ST",
+        "author_name英文变体": "<variant>ST</variant>",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "HR+ Her2+ 乳腺癌有哪些临床试验。现在的进展和比较",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "Kras TCR-T 临床试验汇总",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "Rho激酶抑制剂的临床试验数据",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "不同SGLT2i在急性心衰患者中的临床试验比较",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "地中海贫血新药物研究临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "肝癌近三年免疫治疗临床试验最新数据",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "干细胞或再生细胞或基质细胞治疗神经损伤的临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "骨髓瘤标准治疗后的贫血治疗临床试验研究",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "红斑狼疮的肾损伤如何开展临床试验设计，如何设计试验终点，2期临床的试验规模有多大。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "结直肠癌新辅助治疗药物的临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "NCT04514497评估ATM抑制剂（BAY1895344）在晚期实体瘤中的疗效和安全性结果",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "辉瑞在类风湿性关节炎领域有哪些试验？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索在国内进行的糖尿病临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "请输出广泛期小细胞肺癌免疫治疗临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "目前多发性骨髓瘤的维持治疗主要有哪些临床试验正在进行？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "列出所有北京协和医院正在进行的临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": "北京协和医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": "北京协和医院"
+      }
+    },
+    {
+      "query": "查找2024年已经完成的乳腺癌临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索申办方为罗氏的所有进行中的试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找在上海正在招募的儿童白血病二期临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找在欧洲进行的，关于CAR-T疗法治疗多发性骨髓瘤的三期试验，且最近一年内有更新的试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "多柔比星治疗ASPS的临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找2022年之后启动的，关于奥希替尼耐药机制的观察性研究",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "乳腺癌适应症仍处于临床试验阶段（NCT04684810）",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "一在研临床试验（NCT04514497），正在评估ATM抑制剂（BAY1895344）在晚期实体瘤中的疗效和安全性。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "临床试验 NCT04568811",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "请找到NCT03071406 - 默克尔细胞皮肤癌临床试验的文章",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "met扩增的nsclc三期临床试验结果",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "请输出广泛期小细胞肺癌免疫治疗临床试验",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "目前多发性骨髓瘤的维持治疗主要有哪些临床试验正在进行？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "Advent 公司正在进行一个关于 A. muciniphila 补充剂的临床试验，旨在研究其对肥胖、糖尿病以及代谢综合症的治疗效果",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "康柏西普DME三期临床研究数据",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "达格列净的注册临床研究的数据",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找所有正在招募的肺癌临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "有哪些使用帕博利珠单抗 (Pembrolizumab) 治疗黑色素瘤的临床试验？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查询 NCT04511011 的研究详细信息。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索CA209-9LA研究",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "辉瑞在类风湿性关节炎领域有哪些试验？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "列出所有北京协和医院正在进行的临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": "北京协和医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": "北京协和医院"
+      }
+    },
+    {
+      "query": "查找阿尔茨海默病的三期临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索在国内进行的糖尿病临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "有哪些观察性研究是关于高血压管理的？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找去年已经完成的乳腺癌临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索申办方为罗氏的所有进行中的试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找在上海正在招募的儿童白血病二期临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索由默沙东发起的，关于PD-1抑制剂治疗非小细胞肺癌并且状态是已完成的试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找NCT号为 NCT03875090 的研究，其最新的研究状态是什么？以及主要研究者是谁？",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找2022年之后启动的，关于奥希替尼耐药机制的观察性研究。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索中山大学肿瘤防治中心作为主要研究中心，研究状态为尚未开始招募的鼻咽癌相关的干预性研究。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": "搜索中山大学肿瘤防治中心"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": "搜索中山大学肿瘤防治中心"
+      }
+    },
+    {
+      "query": "查找由阿斯利康赞助，研究药物包含达格列净，且研究已终止的所有临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "列出研究代号为 KEYNOTE-189，并且有在中国设点的临床试验信息。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查找在欧洲进行的，关于CAR-T疗法治疗多发性骨髓瘤的三期试验，且最近一年内有更新的试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "搜索研究者李四在复旦大学附属肿瘤医院负责的，关于胰腺癌新辅助治疗的临床试验。",
+      "ground_truth": {
+        "author_name": "李四",
+        "author_name英文变体": "<variant>Li Si</variant>\n <variant>Si Li</variant>\n <variant>Li, Si</variant>\n <variant>Li S.</variant>\n <variant>Li S</variant>\n <variant>S. Li</variant>\n <variant>S Li</variant>\n <variant>L. Si</variant>\n <variant>Si L.</variant>",
+        "author_institution": "复旦大学附属肿瘤医院"
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "负责的",
+            "author_name英文变体": "",
+            "author_institution": "索；在复旦大学附属肿瘤医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "负责的",
+        "author_name英文变体": "",
+        "author_institution": "索；在复旦大学附属肿瘤医院"
+      }
+    },
+    {
+      "query": "搜索2023年1月1日后首次发布在 ClinicalTrials.gov 上的，关于肥胖症的GLP-1受体激动剂的全球多中心三期临床试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "",
+            "author_name英文变体": "",
+            "author_institution": ""
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      }
+    },
+    {
+      "query": "查询由北京大学人民医院牵头，且申办方不是大型跨国药企 (如辉瑞、罗氏、默沙东等)，针对淋巴瘤的研究者发起的试验。",
+      "ground_truth": {
+        "author_name": "",
+        "author_name英文变体": "",
+        "author_institution": ""
+      },
+      "raw_output": {
+        "data": {
+          "result": {
+            "author_name": "牵头，",
+            "author_name英文变体": "",
+            "author_institution": "由北京大学人民医院"
+          }
+        }
+      },
+      "parsed_output": {
+        "author_name": "牵头，",
+        "author_name英文变体": "",
+        "author_institution": "由北京大学人民医院"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+
+== 作者和机构 (200 samples) ==
+  作者和机构: 10/200
+  作者和机构: 20/200
+  作者和机构: 30/200
+  作者和机构: 40/200
+  作者和机构: 50/200
+  作者和机构: 60/200
+  作者和机构: 70/200
+  作者和机构: 80/200
+  作者和机构: 90/200
+  作者和机构: 100/200
+  作者和机构: 110/200
+  作者和机构: 120/200
+  作者和机构: 130/200
+  作者和机构: 140/200
+  作者和机构: 150/200
+  作者和机构: 160/200
+  作者和机构: 170/200
+  作者和机构: 180/200
+  作者和机构: 190/200
+  作者和机构: 200/200
+
+📊 进行评估...
+  抽取评估字段: author_institution, author_name, author_name英文变体
+
+JSON: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_author_org.json
+Markdown: /home/qiao/work/NLU-distillation/reports/clean200/merged/qwen35_4b_nlu_prod_author_org.md

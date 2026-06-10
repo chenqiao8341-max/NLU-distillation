@@ -1,0 +1,20 @@
+
+== 作者和机构 (111 samples) ==
+  作者和机构: 10/111
+  作者和机构: 20/111
+  作者和机构: 30/111
+  作者和机构: 40/111
+  作者和机构: 50/111
+  作者和机构: 60/111
+  作者和机构: 70/111
+  作者和机构: 80/111
+  作者和机构: 90/111
+  作者和机构: 100/111
+  作者和机构: 110/111
+  作者和机构: 111/111
+
+📊 进行评估...
+  抽取评估字段: author_institution, author_name, author_name英文变体
+
+JSON: /home/qiao/work/NLU-distillation/reports/merged/qwen35_4b_nlu_prod_author_org.json
+Markdown: /home/qiao/work/NLU-distillation/reports/merged/qwen35_4b_nlu_prod_author_org.md
