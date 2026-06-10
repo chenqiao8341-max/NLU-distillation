@@ -35,8 +35,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--llamafactory-cli", required=True)
     parser.add_argument("--gpu", default="0")
     parser.add_argument("--port", type=int, default=8000)
+    parser.add_argument("--config-variant", default="prod", help="Config/model variant token, e.g. prod or longprompt.")
     parser.add_argument("--train-config-suffix", default="")
     parser.add_argument("--report-subdir", default="clean200")
+    parser.add_argument(
+        "--eval-script",
+        help="Evaluation script path. Defaults to nlu-evaluator/scripts/eval_local_openai.py.",
+    )
     parser.add_argument("--skip-train", action="store_true")
     parser.add_argument("--skip-merge", action="store_true")
     parser.add_argument("--skip-eval", action="store_true")
@@ -107,20 +112,20 @@ def terminate_process(proc: subprocess.Popen | None, log_path: Path) -> None:
         log.write(f"\n[server stopped rc={proc.returncode}]\n")
 
 
-def train_config_name(size: str, task_slug: str, suffix: str) -> str:
+def train_config_name(size: str, task_slug: str, variant: str, suffix: str) -> str:
     if size == "0.8b":
         size_part = "0.8b"
     else:
         size_part = "4b"
-    base = f"qwen3.5_{size_part}_lora_sft_nlu_{task_slug}_prod"
+    base = f"qwen3.5_{size_part}_lora_sft_nlu_{task_slug}_{variant}"
     if suffix:
         base += suffix
     return base + ".yaml"
 
 
-def merge_config_name(size: str, task_slug: str) -> str:
+def merge_config_name(size: str, task_slug: str, variant: str) -> str:
     size_part = "0.8b" if size == "0.8b" else "4b"
-    return f"qwen3.5_{size_part}_lora_sft_nlu_{task_slug}_prod_merge.yaml"
+    return f"qwen3.5_{size_part}_lora_sft_nlu_{task_slug}_{variant}_merge.yaml"
 
 
 def model_dir_size_part(size: str) -> str:
@@ -139,6 +144,7 @@ def main() -> None:
     server_root = Path(args.nlu_server_root)
     logs_root = project_root / "experiments/logs" / args.report_subdir / args.model_size
     reports_root = project_root / "reports" / args.report_subdir / "merged"
+    eval_script = Path(args.eval_script) if args.eval_script else evaluator_root / "scripts/eval_local_openai.py"
     status_path = logs_root / "pipeline_status.json"
     logs_root.mkdir(parents=True, exist_ok=True)
     reports_root.mkdir(parents=True, exist_ok=True)
@@ -166,7 +172,12 @@ def main() -> None:
         status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
 
         if not args.skip_train:
-            cfg = "my_configs/" + train_config_name(args.model_size, config_task_slug, args.train_config_suffix)
+            cfg = "my_configs/" + train_config_name(
+                args.model_size,
+                config_task_slug,
+                args.config_variant,
+                args.train_config_suffix,
+            )
             run_command(
                 [args.llamafactory_cli, "train", cfg],
                 logs_root / f"train_{report_slug}.log",
@@ -179,7 +190,7 @@ def main() -> None:
             task_status["trained_at"] = int(time.time())
 
         if not args.skip_merge:
-            cfg = "my_configs/" + merge_config_name(args.model_size, config_task_slug)
+            cfg = "my_configs/" + merge_config_name(args.model_size, config_task_slug, args.config_variant)
             run_command(
                 [args.llamafactory_cli, "export", cfg],
                 logs_root / f"merge_{report_slug}.log",
@@ -192,8 +203,8 @@ def main() -> None:
             task_status["merged_at"] = int(time.time())
 
         if not args.skip_eval:
-            served_name = f"qwen35-{args.model_size}-nlu-prod-{model_task_slug}"
-            merged_path = lf_root / "saves" / model_dir_size_part(args.model_size) / "merged" / f"nlu-prod-{model_task_slug}"
+            served_name = f"qwen35-{args.model_size}-nlu-{args.config_variant}-{model_task_slug}"
+            merged_path = lf_root / "saves" / model_dir_size_part(args.model_size) / "merged" / f"nlu-{args.config_variant}-{model_task_slug}"
             serve_log = logs_root / f"serve_{report_slug}.log"
             serve_cmd = [
                 args.train_python,
@@ -222,7 +233,7 @@ def main() -> None:
                 wait_for_server(f"http://127.0.0.1:{args.port}/v1", served_name)
                 eval_cmd = [
                     args.eval_python,
-                    str(evaluator_root / "scripts/eval_local_openai.py"),
+                    str(eval_script),
                     "--base-url",
                     f"http://127.0.0.1:{args.port}/v1",
                     "--model",
@@ -239,12 +250,12 @@ def main() -> None:
                     "180",
                     "--no-xlsx",
                     "--output-prefix",
-                    str(reports_root / f"qwen35_{args.model_size.replace('.', '_')}_nlu_prod_{report_slug}"),
+                    str(reports_root / f"qwen35_{args.model_size.replace('.', '_')}_nlu_{args.config_variant}_{report_slug}"),
                 ]
                 run_command(
                     eval_cmd,
                     logs_root / f"eval_{report_slug}.log",
-                    evaluator_root,
+                    eval_script.parent.parent if eval_script.name.startswith("eval_local_openai_") else evaluator_root,
                     env,
                     status,
                     status_path,

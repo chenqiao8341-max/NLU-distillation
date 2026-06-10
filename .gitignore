@@ -15,6 +15,7 @@ env/
 # Large/raw source dumps
 nlu-data/knows_nlu_20260101_20260603.jsonl
 data/raw/
+data/processed_longprompt/
 
 # Model artifacts and training outputs
 *.safetensors
@@ -25,7 +26,12 @@ data/raw/
 *.onnx
 *.gguf
 models/**/checkpoints/
+experiments/modernbert_ner/
+experiments/modernbert_globalpointer/
+experiments/modernbert_globalpointer_smoke/
+experiments/modernbert_single_slot/
 experiments/runs/
+experiments/logs/longprompt/
 experiments/tensorboard/
 experiments/wandb/
 

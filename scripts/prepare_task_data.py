@@ -14,7 +14,7 @@ from typing import Any, Iterable
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_EVAL_DIR = Path("/home/qiao/work/nlu-server/eval")
 DEFAULT_PRODUCTION_JSONL = PROJECT_ROOT / "nlu-data" / "knows_nlu_20260101_20260603.jsonl"
-DEFAULT_PROMPT_FILE = DEFAULT_EVAL_DIR / "prompt.md"
+DEFAULT_PROMPT_FILE = DEFAULT_EVAL_DIR / "prompt-new.md"
 
 TASK_FILES = {
     "作者和机构": "作者和机构.json",
@@ -115,7 +115,9 @@ def prompt_section(prompt_file: Path, section_title: str) -> str:
         return ""
     next_match = re.search(r"^##\s+", text[match.end():], flags=re.M)
     end = match.end() + next_match.start() if next_match else len(text)
-    return text[match.end():end].strip().replace("{current_time}", date.today().isoformat())
+    section = text[match.end():end].strip()
+    current_year = str(date.today().year)
+    return section.replace("{current_time}=2026", current_year).replace("{current_time}", current_year)
 
 
 def sft_output_contract(task: str) -> str:
@@ -150,7 +152,10 @@ def sft_output_contract(task: str) -> str:
 
 
 def sft_instruction(task: str, prompt_file: Path) -> str:
-    return SFT_INSTRUCTIONS[task]
+    section_name = PROMPT_SECTION_NAMES[task]
+    detailed_prompt = prompt_section(prompt_file, section_name)
+    base_prompt = detailed_prompt or SFT_INSTRUCTIONS[task]
+    return base_prompt.strip() + sft_output_contract(task)
 
 
 def clean_answer_key(key: str) -> str:
