@@ -1,0 +1,802 @@
+[
+  {
+    "question": "检索关于“门静脉广泛癌栓”患者的鉴别诊断流程，要求证据为“近10年血管外科或肝胆外科临床指南”中关于“血管”病变（癌栓）的“红旗征象”或“排除标准”，或“近3年发表于IF≥5期刊、关于其诊断策略与结局的真实世界研究或系统评价”。",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "请输出2023年发表的特应性皮炎的病例报告",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "肝癌的高危因素有哪些？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "国内外老年人跌倒评估的护理指南中，智能预警技术是如何被推荐和应用的？研究类型：Review。发布时间：2021年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "EGFR用于nsclc 靶向辅助治疗的临床研究证据是什么",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "在急性颈髓病变中，如何通过MRI影像学特征（如病灶形态、信号强度、增强模式、DWI表现）区分急性硬膜外血肿、脊髓内血肿、脊髓梗死与脊髓脓肿？近3年的外部验证研究或诊断试验荟萃分析是否提供了这些特征的诊断准确性（敏感度、特异度、似然比）？",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "2023年欧洲感染性心内膜炎诊治指南有哪些更新",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "法布雷病筛查策略和高危人群识别的最新指南和建议？研究类型：Review。发布时间：近5年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "不适合移植的套细胞淋巴瘤患者有哪些一线治疗选择?",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "减重手术 效率指标 结局指标 相关性分析 回归模型 应用 近5年 综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "混合痔现有治疗方案在特定亚组患者中的空白、新型微创技术和药物治疗的最新进展、长期随访数据、真实世界研究及术后并发症个体化预防策略的专家观点或综述 近3年",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "PARP抑制剂继发MDS病例分析",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "请问从肿瘤微环境申报课题有哪些方向？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "司美格鲁肽在减重上的疗效以及安全性。麻烦筛选RCT研究",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "是否有卡铂和紫杉醇治疗转移性结直肠癌肉瘤的病例报告？",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "神经外科2000以后的国内外指南共识",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "CDK4/6 Inhibitor Resistance in Hormone Receptor-Positive Metastatic Breast Cancer: Translational Research, Clinical Trials, and Future Directions这篇综述讲了什么",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "什么是胃食管返流病",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "如何确诊sma合并dmd病例？",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "针对基层患者和家属，血液疾病健康教育的具体内容和形式有哪些？基层医院开展血液疾病早期筛查的实用工具和方法有哪些？研究类型：Review。发布时间：近5年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "非小细胞肺癌alk突变患者服用阿来替尼耐药之后怎么治疗？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "CACA指南中对于乳腺癌保乳手术的切缘有什么规定",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "膝关节骨性关节炎基础研究前沿热点有哪些",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "孟德尔分析在临床指南中的证据",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "危重症护理中，抗生素与常用静脉输液（如营养液、电解质、镇静剂）的常见配伍禁忌案例、发生机制及护士在临床实践中的预防与应急处理流程？研究类型：Review。发布时间：近5年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "澳门大学在脑科学和脑机接口领域近期（近2年）是否有举办或参与重要的学术会议或合作项目？研究类型：Review。发布时间：2022年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "肥胖脂肪肝进展为NASH、肝硬化及肝癌的分子机制和病理生理学研究研究类型：Basic_Research。发布时间：2020年-至今。影响因子(IF)值:IF >= 5。",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "法瑞西单抗研究中治疗/对照组的疗效和安全性数据综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "picc管能抽血吗",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "不同类型降血脂机制对肝癌预防效果机制研究现状",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "allergic rhinitis近三年的流行病学研究结果",
+    "data_type标准答案": "观察性研究"
+  },
+  {
+    "question": "恶性肠梗阻中国专家共识有啥推荐",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "设计一个心衰药物的临床试验，要考虑哪些疗效指标？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "甘露醇在脑出血中的用法用量",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "胰肠吻合方式 综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "esmo结直肠癌最新指南中 针对低位直肠癌的分层治疗策略是什么",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "最近十年内 随机对照试验、自身对照研究、队列研究 的资源需求分析综述，需包含人力、设备、预算等画像。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "请帮我查找并显示特应性皮炎的病例内容",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "检索关于“药物（奥沙利铂/卡培他滨）诱导的混合型免疫反应性肾损伤”在“肿瘤患者急进性肾功能衰竭”背景下的诊断标准，要求证据为“近10年肿瘤肾脏病学临床指南或专家共识”中关于药物性肾损伤的诊断路径的部分，或“近3年发表于IF≥5期刊、关于奥沙利铂/卡培他滨相关肾损伤的病理机制或诊断生物标志物的系统评价或病例系列研究”。",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "二甲双胍、口服避孕药、抗炎药物、肠道菌群调节剂对PCOS合并MAFLD的疗效、机制的RCT或系统评价 近5年",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "罗列结直肠癌综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "目前ctDNA在胰腺癌中的应用有哪些？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "托伐普坦治疗肝硬化难治性腹水，看到指南提到使用托伐普坦一般不超过30天，为什么是30天",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "有没有办公室丢失笔的队列研究",
+    "data_type标准答案": "观察性研究"
+  },
+  {
+    "question": "关于周期性长时程意识模糊的病因鉴别，近3年内是否有前瞻性队列研究或系统评价，比较癫痫网络性表现与代谢/内分泌驱动的功能性失衡在临床特征、EEG模式、影像学改变及生物标志物上的区分度与诊断阈值？",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "未来克雅病（CJD）护理领域有哪些研究热点、技术发展趋势（如基因治疗、新型生物标志物应用）以及护理人员所面临的挑战和机遇？研究类型：Review。发布时间：近3年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "运动神经元病治疗领域有哪些最新的临床试验结果或研究进展？研究类型：Review。发布时间：2022年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "针对SCN1A、SCN8A、SCN2A、KCNQ2、PCDH19、PRRT2、TBC1D24、CLN6、GABRB3、CSNK2B、KCTD7、GRIN2A、STXBP1、BRAF、SLC35A2、MTOR、SLC2A1、KCNB1等基因突变相关疾病，临床诊断流程和鉴别诊断要点有哪些？研究类型：Review。发布时间：2021年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "微创手术（如输尿管软镜、经皮肾镜）在泌尿系结石治疗中的适应症、技术要点和并发症管理？研究类型：Review,Observational_Study。发布时间：2019年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述；观察性研究"
+  },
+  {
+    "question": "同2009年欧洲感染性心内膜炎诊治指南来比，2023年欧洲感染性心内膜炎诊治指南有哪些更新",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "恩格列净扩了适应症，获批了治疗慢性肾病的适应症，您觉得对临床研究会有什么影响？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "个体化吸气末暂停 ARDS 脑损伤 机械通气 疗效 安全性 评估指标 RCT 近5年",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "是否有反复肝功能异常为表现的Danon病例报告？",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "CD11c流式细胞术用的什么抗体",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "A systematic review supporting the Society for Vascular Surgery, the American Venous Forum, and the American Vein and Lymphatic Society guidelines on the management of varicose veins",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "关于胃瘫相关指南和共识",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "肥胖最新全球流行病高质量文献",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "请提供休克诊治相关的高质量临床研究原文中的关键图表或插图，并注明文献来源。研究类型：Review, RCT, Observational_Study。发布时间：2019年-至今。影响因子(IF)值:3-无限制。",
+    "data_type标准答案": "RCT；观察性研究；综述"
+  },
+  {
+    "question": "帮我查找文献关于干细胞治疗COPD的文献,要\n 求涉及动物模型,同时IF大于10",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "乳腺癌LuminalA淋巴结一枚转移，指南治疗建议",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "体育运动在大鼠中对结直肠癌细胞耐药性的影响",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "维生素A指南更新要点",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "2023年ESMO年会有哪些值得关注的研究？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "目前有哪些临床试验正在研究新辅助免疫治疗在胃癌患者中的应用？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "指南对乳腺癌筛查的建议是什么？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "局部复发直肠癌 综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "糖尿病足 中医治疗的病例报告",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "国家医保谈判药品在医疗机构和零售药店可及性较低的具体原因分析，例如医院药占比、药事管理、药品配备目录、医生处方习惯等因素如何影响谈判药品的落地和患者可及性？研究类型：Review,Observational_Study。发布时间：2021年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "观察性研究"
+  },
+  {
+    "question": "低位前切综合症未来研究方向",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "在急性呼吸衰竭患儿的长期随访和康复管理中，儿科专科护士如何有效整合社区医疗资源，并为患儿家庭提供持续的居家护理指导和心理支持，以改善患儿的长期生活质量？研究类型：Review。发布时间：近5年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "请问KIDGO新出的一版狼疮肾炎指南，与前面的指南相比，更新点在哪里？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "最新国际会议中，人血白蛋白在肝硬化并发症临床应用中的方案探讨内容有哪些？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "关于NSAIDs能否预防异位骨化的基础研究有哪些",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "ARDS中一氧化氮合酶（NOS）亚型、非酶性一氧化氮生成、过氧亚硝基阴离子在炎症级联反应中的作用机制综述 近5年",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "奥沙利铂说明书对于老年患者的用法用量是怎么说的",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "WCLC中公布了哪些靶向治疗研究结果",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "局部复发直肠癌 放化疗 综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "结直肠癌盆腔淋巴结清扫10分以上文章",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "个性化白内障手术方案 定制化策略 临床研究/综述 近5年",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "MASLD/MASH基层诊疗中，基层医疗机构面临的资源限制、专业能力挑战以及患者依从性障碍有哪些？研究类型：Review。发布时间：2020年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "免疫治疗和化疗在治疗PIK3CA突变型转移性结直肠癌患者方面的严重不良事件发生率如何？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "多系统萎缩的非药物治疗方法，如康复训练和支持性护理，有哪些循证医学证据支持？研究类型：Review。发布时间：2018年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "What is the current status of sphincter-spa ring surgery in the treatment of low rectal cancer?",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "原发性干燥综合征（SjS）中I型和II型干扰素通路在疾病进展中的具体作用和机制是什么？研究类型：Basic_Research,Review。发布时间：2019年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "糖尿病近几年的主流治疗方法",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "胃癌患者在术后或治疗期间的饮食和生活方式建议有哪些？研究类型：Review。发布时间：无限制。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "2024ASCO GI公布了哪些早期乳腺癌治疗进展",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "分析弥漫性大B细胞淋巴瘤（Diffuse Large B-Cell Lymphoma, DLBCL）出现结外受累患者的临床预后。信息源请考虑近3年发表在英文期刊的综述，输出现有治疗的局限性和挑战，例如无法改善患者生存预后。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "房颤的药物治疗指南和前沿展望",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "最近五年内 HPV整合检测标准化与重复性、AI模型过拟合风险、多中心数据异质性及临床转化障碍的综述。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "总结一下Miracle试验的最新结果",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "当前国际上医疗质量安全管理的前沿理念和最佳实践是什么？研究类型：Review。发布时间：2021年-至今。影响因子(IF)值:IF >= 5。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "恩格列净的适应症是什么？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "高脂血症动物造模的研究",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "以“高原环境下血栓形成机制研究进展”为题写一篇综述",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "正在进行临床试验的新型抗生素有哪些",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "以一个外科医生的观点讨论2023版csco结直肠癌诊疗指南中转移性结直肠癌的解读",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "婴儿 粪便菌群测序 16S rRNA 宏基因组 生物信息学分析 流程 综述/方法学研究 近5年",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "由儿童肿瘤基金会赞助的国际神经纤维瘤病和施旺细胞瘤病专家小组发布的最新共识或指南的主要内容是什么？研究类型：Review。发布时间：2020年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "法布雷病 心脏超声 指南",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "请详细描述鼻肠管盲插法的具体操作流程，包括置管前准备、置入过程、初步位置确认方法以及操作要点。研究类型：Review。发布时间：2019年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "关于胃癌手术的最新RCT研究有哪些",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "特应性皮炎是否应该进行过敏原免疫治疗？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "Hans Clevers近期研究成果",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "请告诉我AJCC的结肠癌TNM分期表",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "在注射与给药安全模拟实训中，如何运用SOAP模式（主诉、客观、评估、计划）构建教学案例，并融入教学引导和互动提问策略？研究类型：Review。发布时间：2022年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "请问caca指南对于直肠癌局部复发的建议？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "目前国内侧方淋巴结清扫的指南或专家共识有哪几个",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "2023年以前发表的特应性皮炎的病例报告",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "儿童 丁卡因凝胶 疼痛评分 局部皮肤反应 剂量 作用时间 RCT 近5年",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "tatme手术适应症和禁忌症",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "根据CACA指南 解释结肠癌TNM分期",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "介绍一下近五年发表的关于结直肠癌的RCT研究",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "利非司特 新型干眼药物 头对头比较 临床研究 近5年 综述",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "请帮我找一篇有meta亚组分析的文献",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "脂肪肝或血脂异常进展到肝癌的机制研究现状",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "中西医结合诊疗风咳、亚急性咳嗽、慢性咳嗽及咳嗽变异性哮喘的典型病例分析，特别是针对基层医生操作性强的临床路径和决策流程？研究类型：Case_Series/Case_Report。发布时间：近5年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "the evidence of the adjuvant treatment of furmoertinib for non-small cell lung cancer",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "除了抗磷脂综合征，系统性红斑狼疮、系统性硬化症等其他结缔组织病在诊断相关复发性流产时，有哪些特异性诊断标准和考量，包括其特有的自身抗体谱和疾病活动度评估？研究类型：Review, Observational_Study。发布时间：2022年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "观察性研究"
+  },
+  {
+    "question": "请告诉我指南对于结肠癌TNM分期的阐述",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "不同类型新附件材料（如耳穴贴、耳穴压豆）在耳针疗法中应用的生物相容性及作用机制研究？研究类型：Basic_Research。发布时间：2020年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "什么是病例对照研究？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "2023年圣安东尼奥会议早期乳腺癌治疗进展",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "是否有荟萃分析，说明黑色素瘤脑转移的主流治疗方式是靶向联合免疫治疗？",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "深臀综合征的西医诊断思路、体格检查方法、影像学评估及鉴别诊断的临床指南或专家共识有哪些？研究类型：Review。发布时间：2019年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "重症胰腺炎感染的抗菌药物治疗中，针对儿童、老年人、孕妇、哺乳期妇女和免疫功能低下患者等特殊人群，有哪些特殊的用药考量和注意事项？研究类型：Review。发布时间：近5年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "血清和血浆的区别",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "周期性麻痹特异性的细胞内代谢异常（如能量代谢、氧化应激等）以及生物节律紊乱（如睡眠-觉醒周期、激素水平波动）如何影响离子通道功能和疾病发作的病理生理机制？研究类型：Review,Basic_Research。发布时间：2021年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "指南如何建议II期结直肠癌术后的化疗",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "目前主流的关节镜下ATFL直接修复技术（如改良Brostrom术）有哪些？其手术原理和操作要点是什么？研究类型：Review, RCT, Observational_Study。发布时间：2021年-至今。影响因子(IF)值:5-无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "呋喹替尼在国内获批用于crc几线治疗",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "对于已短期使用糖皮质激素的系统性炎症患者，在鉴别诊断未明（感染/免疫/淋巴增殖）的情况下，近3年的随机对照试验与系统评价如何评估立即加强或延长免疫抑制对潜在感染风险与免疫介导性损害控制的利弊？",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "肠镜切除息肉出现肠穿孔后多久可以手术？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "请输出近3年发表的与戈谢病诊断相关的病例报告",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "Staphylococcus aureus clones causing osteomyelitis: a literature review (2000-2020).全文",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "长寿医学服务在不同医疗机构或健康管理中心中的具体实施流程、技术支持和成功案例有哪些？研究类型：Review。发布时间：2021年-至今。影响因子(IF)值:无限制。",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "最近5年直肠癌哪些方面研究是热门",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "近一个年精神疾病领域的综述有哪些",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "eatwell饮食指南推荐",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "CSCO尿路上皮癌诊疗指南",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "根据已知的IGG4病例，如果不做任何治疗，会有什么风险",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "ICG在外科手术应用的最新进展有哪些",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "近五年内 针对肥胖多模式治疗反应AI预测模型的单中心前瞻性研究设计、数据收集与验证策略的综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "美国儿童低级别胶质瘤粗发病例数据是多少",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "Nature上胆管癌新抗原疫苗的文章",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "指南建议哪些II期结肠癌患者采用辅助化疗?",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "糖尿病最新指南",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "PARP抑制剂病例分析",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "对于神经内分泌肿瘤braf突变患者，有没有达拉菲尼和曲美替尼联合治疗的数据。",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "乳腺癌保乳手术在nccn，esmo和caca指南中的切缘规定有没有不同",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "子宫肌瘤 子宫腺肌症 微波消融 GnRH-a RCT设计 样本量 随访 伦理 指南 共识 近5年",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "基因治疗目前的应用",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "水凝胶在单髁置换术和全髋关节置换术中作为软骨修复、关节面涂层或骨整合材料的临床前或临床研究进展 综述或RCT 近5年",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "基于个体化治疗的长效重组人生长激素（Human growth hormone）剂量调整策略，如根据IGF-1水平或生长速度调整，有哪些研究进展？研究类型：Observational_Study。发布时间：2019年-至今。影响因子(IF)值:3-无限制。",
+    "data_type标准答案": "观察性研究"
+  },
+  {
+    "question": "患者病史2018年7月30日外院体检发现右上肺尖段磨玻璃结节影，约9.9mm大小，左下肺外基底段近胸膜0.3cm大小实性结节。2019年4月3日复查胸部CT提示右肺上叶尖段见磨玻璃密度结节(img82-99)，形态稍欠规则，其内见细小血管影穿行，结节RECIST直径11.2mm，最大正交直径8.6mm，体积0.551ml，碘浓度1.3mg/ml/32.2%，右肺上叶后段(mg99) 及左肺下叶外基底段(img203)见磨玻璃结节影，增强扫描末见确切显示，其余双肺未见明显异常，各叶段支气管开口通畅，纵隔内未见明显肿大淋巴结，纵隔内大血管未见异常改变。既往史:子宫及附近及不典型增生及附件切除木后5年。 依照指南和文献，给出诊疗意见",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "Postpartum dry eye epidemiology risk factors diagnosis treatment efficacy safety review meta-analysis last 5 years",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "Kisqali的中国指南推荐",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "帮我归纳k药的keynote139研究",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "总结一下Miracle临床研究的最新结果",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "什么样的胰腺癌患者可以接受FOLFIRINOX作为一线治疗?",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "肛管鳞癌指南 初始放化疗 化疗时间",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "运用第一性原理分析急重症多器官功能障碍综合征（MODS）的病理生理机制及干预策略。研究类型：Basic_Research。发布时间：近5年。影响因子(IF)值:无限制。",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "请帮我找一篇外科学方向的包含亚组分析的meta分析",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "ADC药物的主要不良反应以及应对方式有哪些",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "肝内胆管癌患者血脂异常比例和普通人血脂异常比例如何",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "esmo指南对于老年癌症患者的化疗剂量有何建议",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "精神科物理治疗哪些科研领域比较前沿",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "氘丁苯那嗪说明书",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "多柔比星治疗ASPS的临床试验或病例报告的文献",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "中医药治疗特应性皮炎的机制研究",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "帮我找一下The Dawning of Translational Breast Cancer: From Bench to Bedside这篇文章",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "CKD-MBD 综述",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "环境健康领域文献综述循证研究",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "ESMO指南直肠癌分层治疗",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "中国有gbm疫苗的临床试验开展吗？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "根据csco指南 请回答结肠癌的TNM分期",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "请分享MARIPOSA最新的临床数据",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "日本胃癌最新版指南与上版指南区别？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "双相情感障碍指南",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "AI辅助学术写作自我效能感量表（SE‑AI‑L2AWS）及相关AI自我效能感评估工具的中文版量表及其信效度研究",
+    "data_type标准答案": "观察性研究"
+  },
+  {
+    "question": "龚建平教授发表的rct研究最终结论是什么",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "GPIIb-IIIa 拮抗剂 Zalunfiban 与 P2Y12拮抗剂 Selatogrel 的机制对比",
+    "data_type标准答案": "基础研究"
+  },
+  {
+    "question": "2023年发表的低剂量他莫昔芬预防乳腺导管内增生性病变复发的研究有哪些？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "五十岁男性，体检发现低位直肠癌伴单发额叶脑转移，无脑外转移，在影响因子大于5的文献中使用的治疗方案是什么？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "ESMO大会发表了哪些尿路上皮癌研究？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "ANSWER研究中，人血白蛋白长期应用于失代偿期肝硬化，死亡风险降低多少？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "胃癌手术时脾门淋巴结清扫的适应症是什么？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "肿瘤患者多病共存干预研究",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "你好，请帮忙查询10篇关于皮肤护理的病例报道",
+    "data_type标准答案": "病例系列/病例报告"
+  },
+  {
+    "question": "Faricimab Ozurdex 难治性DME 真实世界 疗效 安全性 系统评价/Meta分析 近5年",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "c-kit 9突变的胃间质瘤术后辅助治疗是否需要加大伊马替尼剂量?",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "tatme在临床的普及率是多少？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "托伐普坦治疗肝硬化难治性腹水，看到指南提到使用托伐普坦一般不超过几天",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "艾司奥美拉唑镁在使用中应注意什么？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "DW-MRS的高质量综述文章(IF >= 3.0)",
+    "data_type标准答案": "综述"
+  },
+  {
+    "question": "CACA指南对于结直肠癌肝转移的治疗方案如何推荐？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "在慢性疼痛与失眠并存的患者中，早期并行认知行为疗法（CBT-I）与疼痛康复治疗的联合干预，对改善疼痛强度、睡眠质量及整体生活质量的长期有效性，近5年的随机对照试验（RCT）与系统评价/荟萃分析有何证据？",
+    "data_type标准答案": "Meta分析/系统性综述"
+  },
+  {
+    "question": "IgG4-RD是什么？",
+    "data_type标准答案": ""
+  },
+  {
+    "question": "阿可替尼在复发难治MCL的III期和II期研究",
+    "data_type标准答案": "RCT"
+  },
+  {
+    "question": "肌少症队列研究中，观察多长时间可出现肌少结局",
+    "data_type标准答案": "观察性研究"
+  }
+]

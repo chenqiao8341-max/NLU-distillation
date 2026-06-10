@@ -1,0 +1,1402 @@
+[
+  {
+    "question": "在神经科学领域，近年来有哪些值得关注的进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "阿戈美拉汀的8分以上的研究进展",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "8",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "什么是胃食管返流病",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请提供关于精准营养的明确定义、与个性化营养的区别，以及如何通过多组学数据（如基因组学、微生物组学、代谢组学）指导干预方案的综述或研究。研究类型：Review。发布时间：近5年。影响因子(IF)值:无限制。",
+    "filter_start_datetime-标准答案": "2021-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "血清和血浆的区别",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "心血管疾病的预防策略有哪些进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "托伐普坦治疗肝硬化难治性腹水，看到指南提到使用托伐普坦一般不超过几天",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "神经重症 多模式镇痛 区域麻醉 精准医疗 基因组学 生物标志物 应用 综述 近3年",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "指南对乳腺癌筛查的建议是什么？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "对于重症急性胰腺炎合并CR-Kp感染的患者，近5年的随机对照试验或系统评价如何评估头孢他啶-阿维巴坦联合局部给药（如脓腔冲洗）与单纯全身用药在提高局部药物浓度、清除感染和改善临床结局方面的有效性与安全性？",
+    "filter_start_datetime-标准答案": "2021-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前有哪些医学研究正在探索个性化医疗的可能性？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "总结一下Miracle临床研究的最新结果",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肝内胆管癌患者血脂异常比例和普通人血脂异常比例如何",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "esmo结直肠癌最新指南中 针对低位直肠癌的分层治疗策略是什么",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "神经外科2000以后的国内外指南共识",
+    "filter_start_datetime-标准答案": "2000-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "是否有卡铂和紫杉醇治疗转移性结直肠癌肉瘤的病例报告？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2023年ESMO年会有哪些值得关注的研究？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "2023-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "呋喹替尼在国内获批用于crc几线治疗",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肥胖最新全球流行病高质量文献",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "3",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前ctDNA在胰腺癌中的应用有哪些?",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请告诉我AJCC的结肠癌TNM分期表",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "下肢动脉闭塞症腔内手术中debulking技术的优点和缺点",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "糖尿病最新指南",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请告诉我指南对于结肠癌TNM分期的阐述",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近年来，有哪些医学研究在儿童健康领域取得了显著进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "当前医学界在哪些领域取得了突破性的研究进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "kamikawa手术相关新进展",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "不同类型降血脂机制对肝癌预防效果机制研究现状",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "法布雷病 心脏超声 指南",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请分享MARIPOSA最新的临床数据",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "精神科物理治疗哪些科研领域比较前沿",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "你好，请帮忙查询10篇关于皮肤护理的病例报道",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请问从肿瘤微环境申报课题有哪些方向？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "局部复发直肠癌 综述",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "脂肪肝或血脂异常进展到肝癌的机制研究现状",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "AFHD和学习障碍的共患率是多少",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近五年内 药物对眼表参数影响的临床研究中，如何设计最小可行性验证单元和量化成功判据的综述",
+    "filter_start_datetime-标准答案": "2021-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2024ASCO GI公布了哪些早期乳腺癌治疗进展",
+    "filter_start_datetime-标准答案": "2024-01-01",
+    "filter_end_datetime-标准答案": "2024-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "介绍一下近五年发表的关于结直肠癌的RCT研究",
+    "filter_start_datetime-标准答案": "2021-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "领域进展中，哪些新型药物的研发有望改变现有的治疗模式？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前有哪些临床试验正在研究新辅助免疫治疗在胃癌患者中的应用？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肿瘤患者多病共存干预研究",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "关于胃瘫相关指南和共识",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最新国际会议中，人血白蛋白在肝硬化并发症临床应用中的方案探讨内容有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请输出近3年发表的与戈谢病诊断相关的病例报告",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "研究现状显示，哪些生活方式的改变可以显著降低慢性疾病的风险？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近哪些医学研究揭示了新的疾病预防策略？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "在免疫抑制和真菌血症背景下，近3年的系统评价或多中心前瞻性研究是否评估了新型生物标志物（如循环肿瘤DNA、特异性真菌抗原）或影像学技术（如PET/CT、高分辨率超声心动图）在诊断隐匿性感染性心内膜炎中的增量诊断价值、敏感度、特异度及似然比？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近些年，医学影像技术有哪些前沿的进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请问KIDGO新出的一版狼疮肾炎指南，与前面的指南相比，更新点在哪里？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "维生素A指南更新要点",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "糖尿病管理的新技术有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "Hans Clevers近期研究成果",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "帮我找一下The Dawning of Translational Breast Cancer: From Bench to Bedside这篇文章",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "五十岁男性，体检发现低位直肠癌伴单发额叶脑转移，无脑外转移，在影响因子大于5的文献中使用的治疗方案是什么？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "5",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "根据CACA指南 解释结肠癌TNM分期",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "免疫治疗和化疗在治疗PIK3CA突变型转移性结直肠癌患者方面的严重不良事件发生率如何？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近些年，医学界对罕见病的诊断和治疗有哪些显著进步？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "创新药研发的前沿方向有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "双相情感障碍指南",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "以“高原环境下血栓形成机制研究进展”为题写一篇综述",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "乳腺癌保乳手术在nccn，esmo和caca指南中的切缘规定有没有不同",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "中国有gbm疫苗的临床试验开展吗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请帮我查找并显示特应性皮炎的病例内容",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "指南如何建议II期结直肠癌术后的化疗",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前ctDNA在胰腺癌中的应用有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近5年直肠癌哪些方面研究是热门",
+    "filter_start_datetime-标准答案": "2021-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "当前全球公共卫生面临的最大挑战是什么？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "是否有荟萃分析，说明黑色素瘤脑转移的主流治疗方式是靶向联合免疫治疗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近些年，哪些医学技术的发展对提高手术成功率产生了重大影响？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "磷酸二酯酶5 抑制剂是否可用于改善心力衰竭患者的运动能力？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "esmo指南对于老年癌症患者的化疗剂量有何建议",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2023年发表的低剂量他莫昔芬预防乳腺导管内增生性病变复发的研究有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "2023-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近有哪些糖尿病治疗的新突破？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "氘丁苯那嗪说明书",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "罗列结直肠癌综述",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "What is the current status of sphincter-spa ring surgery in the treatment of low rectal cancer?",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "c-kit 9突变的胃间质瘤术后辅助治疗是否需要加大伊马替尼剂量?",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2024年度心衰高分文献",
+    "filter_start_datetime-标准答案": "2024-01-01",
+    "filter_end_datetime-标准答案": "2024-12-31",
+    "filter_start_if-标准答案": "3",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "DW-MRS的高质量综述文章(IF >= 3.0)",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "3",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "孟德尔分析在临床指南中的证据",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "医学研究在儿童白血病治疗方面有哪些新发展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "ADC药物的主要不良反应以及应对方式有哪些",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "当前哪些医学研究正在探索如何更有效地管理疼痛？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "设计一个心衰药物的临床试验，要考虑哪些疗效指标？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "哪些新发现改变了我们对某些疾病的认识？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "ESMO大会发表了哪些尿路上皮癌研究？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "同2009年欧洲感染性心内膜炎诊治指南来比，2023年欧洲感染性心内膜炎诊治指南有哪些更新",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "前列腺癌放射性核素治疗的相关配体有哪些？（例如psma）",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "人工智能在医学诊断领域的应用有哪些最新进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "CSCO尿路上皮癌诊疗指南",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "关于胃癌手术的最新RCT研究有哪些",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "ESMO指南直肠癌分层治疗",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近几年精神领域疾病的发展趋势",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肝癌的高危因素有哪些？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "WCLC中公布了哪些靶向治疗研究结果",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "CRISPR和lambda red系统有在大肠杆菌中共同应用的案例吗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近年来，免疫疗法在治疗哪些疾病方面取得了突破？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最新成果显示，哪些因素可能影响人类的心理健康？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "指南建议哪些II期结肠癌患者采用辅助化疗?",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "基因编辑技术在医学研究中的最新应用是什么？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "以一个外科医生的观点讨论2023版csco结直肠癌诊疗指南中转移性结直肠癌的解读",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "Nature上胆管癌新抗原疫苗的文章",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "关于NSAIDs能否预防异位骨化的基础研究有哪些",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "恩格列净扩了适应症，获批了治疗慢性肾病的适应症，您觉得对临床研究会有什么影响？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肺结核的疫苗研究有哪些新突破？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "非小细胞肺癌的辅助治疗有哪些方法？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "对于神经内分泌肿瘤braf突变患者，有没有达拉菲尼和曲美替尼联合治疗的数据。",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "Survodutide (BI 456906) 有哪些关键研究结果？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "5",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "糖尿病的个性化医疗研究进展如何？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肛管鳞癌指南 初始放化疗 化疗时间",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肢端肥大症患者gh和igf-1结果不一致具体要如何治疗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前有哪些针对泛耐药的肺炎克雷伯菌治疗的最新研究？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近年来，心血管疾病的研究现状如何？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前国内侧方淋巴结清扫的指南或专家共识有哪几个",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "结直肠癌盆腔淋巴结清扫10分以上文章",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "10",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近有哪些关于心脏病的新发现？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "什么是病例对照研究？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "Obesity, type 2 diabetes, and nonalcoholic steatohepatitis prevalence association, literature review 2021-2024",
+    "filter_start_datetime-标准答案": "2021-01-01",
+    "filter_end_datetime-标准答案": "2024-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "能介绍一下超低位直肠癌的ISR手术吗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "分析弥漫性大B细胞淋巴瘤（Diffuse Large B-Cell Lymphoma, DLBCL）出现结外受累患者的临床预后。信息源请考虑近3年发表在英文期刊的综述，输出现有治疗的局限性和挑战，例如无法改善患者生存预后。",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "中医药治疗特应性皮炎的机制研究",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "恶性肠梗阻中国专家共识有啥推荐",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "糖尿病近几年的主流治疗方法",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "在过去几年中，哪些医学技术的发展对提高手术成功率产生了重大影响？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "在精神健康领域，最新的研究进展有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "艾司奥美拉唑镁在使用中应注意什么？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "帮我查找文献关于干细胞治疗COPD的文献,要\n求涉及动物模型,同时IF大于10",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "10",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "新辅助免疫治疗在血管癌中的疗效如何",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "抗生素耐药性问题的研究现状",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "IgG4-RD是什么？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "有哪些医学研究的新发现可能改变我们对某些疾病的认识？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "低位前切综合症未来研究方向",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "allergic rhinitis近三年的流行病学研究结果",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "Staphylococcus aureus clones causing osteomyelitis: a literature review (2000-2020).全文",
+    "filter_start_datetime-标准答案": "2000-01-01",
+    "filter_end_datetime-标准答案": "2020-01-01",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "癌症免疫疗法的研究进展如何？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "A systematic review supporting the Society for Vascular Surgery, the American Venous Forum, and the American Vein and Lymphatic Society guidelines on the management of varicose veins",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "基因治疗目前的应用",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "腹腔镜右半结肠切除术腔内吻合的方法有哪些？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "CACA指南中对于乳腺癌保乳手术的切缘有什么规定",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近一个年精神疾病领域的综述有哪些",
+    "filter_start_datetime-标准答案": "2025-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "恩格列净的适应症是什么？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "晚期乳腺癌近三年的研究进展",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "什么样的胰腺癌患者可以接受FOLFIRINOX作为一线治疗?",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "胃癌手术时脾门淋巴结清扫的适应症是什么？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "乳腺癌前哨淋巴结2枚阳性的手术策略",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "美国儿童低级别胶质瘤粗发病例数据是多少",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "总结一下Miracle试验的最新结果",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "恶性综合征与五羟色胺综合征的鉴别",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "接受结直肠癌手术的病人，哪些是术后艰难梭菌感染的高危人群？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "近些年在癌症治疗领域有哪些显著的进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "肠镜切除息肉出现肠穿孔后多久可以手术？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "当前医学研究的前沿领域有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近有哪些医学研究揭示了新的疾病预防策略？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请问caca指南对于直肠癌局部复发的建议？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2024ASCO肠癌治疗进展",
+    "filter_start_datetime-标准答案": "2024-01-01",
+    "filter_end_datetime-标准答案": "2024-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "CACA指南对于结直肠癌肝转移的治疗方案如何推荐？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "托伐普坦治疗肝硬化难治性腹水，看到指南提到使用托伐普坦一般不超过30天，为什么是30天",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "Kisqali的中国指南推荐",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "EGFR用于nsclc 靶向辅助治疗的临床研究证据是什么",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "患者病史2018年7月30日外院体检发现右上肺尖段磨玻璃结节影，约9.9mm大小，左下肺外基底段近胸膜0.3cm大小实性结节。2019年4月3日复查胸部CT提示右肺上叶尖段见磨玻璃密度结节(img82-99)，形态稍欠规则，其内见细小血管影穿行，结节RECIST直径11.2mm，最大正交直径8.6mm，体积0.551ml，碘浓度1.3mg/ml/32.2%，右肺上叶后段(mg99) 及左肺下叶外基底段(img203)见磨玻璃结节影，增强扫描末见确切显示，其余双肺未见明显异常，各叶段支气管开口通畅，纵隔内未见明显肿大淋巴结，纵隔内大血管未见异常改变。既往史:子宫及附近及不典型增生及附件切除木后5年。 依照指南和文献，给出诊疗意见",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "医学界在糖尿病治疗方面的最新成果有哪些？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "日本胃癌最新版指南与上版指南区别？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "局部复发直肠癌 放化疗 综述",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "甘露醇在脑出血中的用法用量",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "乳腺癌LuminalA淋巴结一枚转移，指南治疗建议",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "CD11c流式细胞术用的什么抗体",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "有没有办公室丢失笔的队列研究",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "膝关节骨性关节炎基础研究前沿热点有哪些",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "ICG在外科手术应用的最新进展有哪些",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "非小细胞肺癌alk突变患者服用阿来替尼耐药之后怎么治疗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前，全球公共卫生面临的最大挑战是什么？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2023年欧洲感染性心内膜炎诊治指南有哪些更新",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "2023-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "eatwell饮食指南推荐",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "CDK4/6 Inhibitor Resistance in Hormone Receptor-Positive Metastatic Breast Cancer: Translational Research, Clinical Trials, and Future Directions这篇综述讲了什么",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "和奥司他韦相比，玛巴洛沙韦治疗甲型流感的改善发热效果如何",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "tatme手术适应症和禁忌症",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "根据csco指南 请回答结肠癌的TNM分期",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "奥沙利铂说明书对于老年患者的用法用量是怎么说的",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "目前在糖尿病治疗领域有哪些研究进展？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "房颤的药物治疗指南和前沿展望",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "糖尿病最近有什么最新方案",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "帮我归纳k药的keynote139研究",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "tatme在临床的普及率是多少？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "正在进行临床试验的新型抗生素有哪些",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "特应性皮炎是否应该进行过敏原免疫治疗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "picc管能抽血吗",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "多柔比星治疗ASPS的临床试验或病例报告的文献",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2023年圣安东尼奥会议早期乳腺癌治疗进展",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "2023-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "最近有哪些关于炎症性肠病的新疗法？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "不适合移植的套细胞淋巴瘤患者有哪些一线治疗选择?",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "the evidence of the adjuvant treatment of furmoertinib for non-small cell lung cancer",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "请帮忙罗列dural puncture epidural 相关文献",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "体育运动在大鼠中对结直肠癌细胞耐药性的影响",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "三代EGFR-TKI在肺癌中的现状",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "手术室洗手护士的配合程度对手术成功率和患者预后的影响大吗？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "2024年，最新的治疗方法在心脏病领域有哪些突破？",
+    "filter_start_datetime-标准答案": "2024-01-01",
+    "filter_end_datetime-标准答案": "2024-12-31",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "ANSWER研究中，人血白蛋白长期应用于失代偿期肝硬化，死亡风险降低多少？",
+    "filter_start_datetime-标准答案": "",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "阿戈美拉汀的近期高质量研究",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "3",
+    "filter_end_if-标准答案": ""
+  },
+  {
+    "question": "心血管疾病的基因治疗研究现状如何？",
+    "filter_start_datetime-标准答案": "2023-01-01",
+    "filter_end_datetime-标准答案": "",
+    "filter_start_if-标准答案": "",
+    "filter_end_if-标准答案": ""
+  }
+]
